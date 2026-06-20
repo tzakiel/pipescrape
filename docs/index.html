@@ -320,7 +320,7 @@
   }
 
   function showRecent() {
-    renderTable(RECENT_PRODUCTS, `${RECENT_PRODUCTS.length} tins listed in last scrape`);
+    renderTable(RECENT_PRODUCTS, `${RECENT_PRODUCTS.length} tins currently listed across all sources`);
   }
 
   /* ── dropdown ── */
@@ -381,18 +381,35 @@
   qEl.addEventListener("blur", () => setTimeout(closeDropdown, 150));
 
   /* ── load ── */
+  // Each source writes its own file; add new sources here.
+  const SOURCE_FILES = ["products.json", "products_tinbids.json"];
+
   async function loadData() {
-    try {
-      const r = await fetch("products.json");
-      const data = await r.json();
-      ALL_PRODUCTS = data.products || [];
-      RECENT_PRODUCTS = data.latest_scrape || [];
-      const scraped = data.last_scraped ? fmt(data.last_scraped) : "never";
-      metaEl.textContent = `${ALL_PRODUCTS.length} products in catalog · last updated ${scraped}`;
-      showRecent();
-    } catch (e) {
-      statusEl.textContent = "Could not load catalog. Please try refreshing.";
+    const datasets = await Promise.all(SOURCE_FILES.map(f =>
+      fetch(f).then(r => r.ok ? r.json() : null).catch(() => null)
+    ));
+
+    let products = [], recent = [];
+    const scrapeDates = [];
+    for (const data of datasets) {
+      if (!data) continue;
+      products = products.concat(data.products || []);
+      recent = recent.concat(data.latest_scrape || []);
+      if (data.last_scraped) scrapeDates.push(data.last_scraped);
     }
+
+    const byNewest = (a, b) => (b.last_seen || "").localeCompare(a.last_seen || "");
+    ALL_PRODUCTS = products.sort(byNewest);
+    RECENT_PRODUCTS = recent.sort(byNewest);
+
+    if (!ALL_PRODUCTS.length) {
+      statusEl.textContent = "Could not load catalog. Please try refreshing.";
+      return;
+    }
+
+    const newest = scrapeDates.sort().reverse()[0];
+    metaEl.textContent = `${ALL_PRODUCTS.length} products across ${scrapeDates.length} source${scrapeDates.length === 1 ? "" : "s"} · last updated ${newest ? fmt(newest) : "never"}`;
+    showRecent();
   }
 
   loadData();
