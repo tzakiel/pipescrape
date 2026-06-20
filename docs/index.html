@@ -82,6 +82,61 @@
     tbody td a { color: #7a4a1a; }
     .date { font-size: .8rem; color: #8a6a4a; white-space: nowrap; }
 
+    .price-cell { white-space: nowrap; }
+    .history-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0 0 0 .4rem;
+      vertical-align: middle;
+      opacity: .45;
+      color: #7a4a1a;
+      line-height: 1;
+    }
+    .history-btn:hover { opacity: 1; }
+    .history-btn svg { width: 13px; height: 13px; display: inline-block; }
+
+    /* modal */
+    #modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    #modal-overlay.open { display: flex; }
+    #modal {
+      background: #fffdf8;
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      max-width: 480px;
+      width: 90%;
+      box-shadow: 0 8px 32px rgba(0,0,0,.25);
+      position: relative;
+    }
+    #modal h3 {
+      font-size: 1rem;
+      color: #3b2408;
+      margin-bottom: 1rem;
+      padding-right: 1.5rem;
+      line-height: 1.4;
+    }
+    #modal table { box-shadow: none; border-radius: 0; }
+    #modal thead { background: #5c3510; }
+    #modal-close {
+      position: absolute;
+      top: .75rem; right: .9rem;
+      background: none;
+      border: none;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: #8a6a4a;
+      line-height: 1;
+    }
+    #modal-close:hover { color: #3b2408; }
+
     #meta { color: #8a6a4a; font-size: .8rem; margin-bottom: 1.2rem; font-style: italic; }
 
     footer {
@@ -110,6 +165,14 @@
   <div id="results"></div>
 </main>
 
+<div id="modal-overlay">
+  <div id="modal">
+    <button id="modal-close" title="Close">✕</button>
+    <h3 id="modal-title"></h3>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
 <footer>
   Prices collected every Saturday · as listed at time of capture
 </footer>
@@ -119,16 +182,55 @@
   let RECENT_PRODUCTS = [];
   let activeIdx = -1;
 
-  const qEl       = document.getElementById("q");
-  const dropEl    = document.getElementById("dropdown");
-  const statusEl  = document.getElementById("status");
-  const resultsEl = document.getElementById("results");
-  const metaEl    = document.getElementById("meta");
+  const qEl        = document.getElementById("q");
+  const dropEl     = document.getElementById("dropdown");
+  const statusEl   = document.getElementById("status");
+  const resultsEl  = document.getElementById("results");
+  const metaEl     = document.getElementById("meta");
+  const overlayEl  = document.getElementById("modal-overlay");
+  const modalTitle = document.getElementById("modal-title");
+  const modalBody  = document.getElementById("modal-body");
+
+  document.getElementById("modal-close").addEventListener("click", closeModal);
+  overlayEl.addEventListener("click", e => { if (e.target === overlayEl) closeModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
   function fmt(iso) {
     if (!iso) return "—";
     return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
   }
+
+  // clock SVG icon
+  const clockIcon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="8" cy="8" r="6.5"/>
+    <polyline points="8,4.5 8,8 10.5,10"/>
+  </svg>`;
+
+  function historyBtn(p) {
+    const hist = p.price_history || [];
+    if (hist.length <= 1) return "";
+    return `<button class="history-btn" title="Price history" onclick='showHistory(${JSON.stringify(p.name)})'>${clockIcon}</button>`;
+  }
+
+  function showHistory(name) {
+    const p = ALL_PRODUCTS.find(x => x.name === name);
+    if (!p) return;
+    const hist = (p.price_history || []).slice().reverse();
+    modalTitle.textContent = p.name;
+    modalBody.innerHTML = `
+      <table>
+        <thead><tr><th>Date</th><th>Price</th></tr></thead>
+        <tbody>${hist.map(h => `<tr><td class="date">${fmt(h.date)}</td><td>${h.price}</td></tr>`).join("")}</tbody>
+      </table>`;
+    overlayEl.classList.add("open");
+  }
+
+  function closeModal() {
+    overlayEl.classList.remove("open");
+  }
+
+  // expose to inline onclick
+  window.showHistory = showHistory;
 
   function renderTable(products, label) {
     if (!products.length) {
@@ -140,7 +242,7 @@
     const rows = products.map(p => `
       <tr>
         <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
-        <td>${p.price || "—"}</td>
+        <td class="price-cell">${p.price || "—"}${historyBtn(p)}</td>
         <td class="date">${fmt(p.last_seen)}</td>
         <td class="date">${p.source || "—"}</td>
       </tr>
@@ -164,12 +266,8 @@
       `<div class="dd-item" data-i="${i}">${p.name}<span>${p.price || ""}</span></div>`
     ).join("");
     dropEl.className = "open";
-
     dropEl.querySelectorAll(".dd-item").forEach((el, i) => {
-      el.addEventListener("mousedown", e => {
-        e.preventDefault();
-        selectProduct(matches[i]);
-      });
+      el.addEventListener("mousedown", e => { e.preventDefault(); selectProduct(matches[i]); });
     });
   }
 
