@@ -96,6 +96,13 @@
       table, thead, tbody, tr, td { display: block; }
       thead { display: none; }
 
+      /* the table itself is just a layout container on mobile — only the cards show */
+      table {
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
       tbody tr {
         background: #fffdf8;
         border-radius: 8px;
@@ -116,7 +123,7 @@
         white-space: normal;
         overflow: hidden;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         text-overflow: ellipsis;
         max-width: none;
