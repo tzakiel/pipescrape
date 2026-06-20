@@ -44,7 +44,13 @@ def scrape():
             link_el = item.select_one("a.woocommerce-LoopProduct-link")
 
             name = name_el.get_text(strip=True) if name_el else ""
-            price = price_el.get_text(strip=True) if price_el else ""
+            if price_el:
+                # On sale: use the current/sale price (ins tag), else use regular price
+                sale_el = price_el.select_one("ins .woocommerce-Price-amount, ins bdi")
+                regular_el = price_el.select_one(".woocommerce-Price-amount, bdi")
+                price = (sale_el or regular_el).get_text(strip=True) if (sale_el or regular_el) else price_el.get_text(strip=True)
+            else:
+                price = ""
             url_p = link_el["href"] if link_el else ""
 
             if name:
@@ -59,10 +65,17 @@ def scrape():
 
     for p in found:
         if p["name"] in existing:
-            existing[p["name"]]["price"] = p["price"]
-            existing[p["name"]]["url"] = p["url"]
-            existing[p["name"]]["source"] = p["source"]
-            existing[p["name"]]["last_seen"] = now
+            ex = existing[p["name"]]
+            # Initialize history from old data if not present
+            if "price_history" not in ex:
+                ex["price_history"] = [{"price": ex["price"], "date": ex.get("first_seen", now)}]
+            # Record price change
+            if ex["price"] != p["price"]:
+                ex["price_history"].append({"price": p["price"], "date": now})
+            ex["price"] = p["price"]
+            ex["url"] = p["url"]
+            ex["source"] = p["source"]
+            ex["last_seen"] = now
         else:
             existing[p["name"]] = {
                 "name": p["name"],
@@ -71,6 +84,7 @@ def scrape():
                 "source": p["source"],
                 "first_seen": now,
                 "last_seen": now,
+                "price_history": [{"price": p["price"], "date": now}],
             }
 
     data["products"] = sorted(existing.values(), key=lambda x: x["last_seen"], reverse=True)
