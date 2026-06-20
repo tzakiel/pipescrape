@@ -398,9 +398,9 @@
       if (data.last_scraped) scrapeDates.push(data.last_scraped);
     }
 
-    const byNewest = (a, b) => (b.last_seen || "").localeCompare(a.last_seen || "");
-    ALL_PRODUCTS = products.sort(byNewest);
-    RECENT_PRODUCTS = recent.sort(byNewest);
+    const byName = (a, b) => (a.name || "").localeCompare(b.name || "", "en", { sensitivity: "base" });
+    ALL_PRODUCTS = products.sort(byName);
+    RECENT_PRODUCTS = recent.sort(byName);
 
     if (!ALL_PRODUCTS.length) {
       statusEl.textContent = "Could not load catalog. Please try refreshing.";
