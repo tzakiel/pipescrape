@@ -116,6 +116,7 @@
 
 <script>
   let ALL_PRODUCTS = [];
+  let RECENT_PRODUCTS = [];
   let activeIdx = -1;
 
   const qEl       = document.getElementById("q");
@@ -152,8 +153,8 @@
     `;
   }
 
-  function showAll() {
-    renderTable(ALL_PRODUCTS, `Showing all ${ALL_PRODUCTS.length} tins from last scrape`);
+  function showRecent() {
+    renderTable(RECENT_PRODUCTS, `${RECENT_PRODUCTS.length} tins listed in last scrape`);
   }
 
   function openDropdown(matches) {
@@ -187,7 +188,7 @@
 
   qEl.addEventListener("input", () => {
     const q = qEl.value.trim().toLowerCase();
-    if (!q) { closeDropdown(); showAll(); return; }
+    if (!q) { closeDropdown(); showRecent(); return; }
     const matches = ALL_PRODUCTS.filter(p => p.name.toLowerCase().includes(q));
     openDropdown(matches);
     renderTable(matches, matches.length
@@ -226,9 +227,11 @@
       const r = await fetch("products.json");
       const data = await r.json();
       ALL_PRODUCTS = data.products || [];
+      const nameSet = new Set(data.last_scrape_names || []);
+      RECENT_PRODUCTS = ALL_PRODUCTS.filter(p => nameSet.has(p.name));
       const scraped = data.last_scraped ? fmt(data.last_scraped) : "never";
       metaEl.textContent = `${ALL_PRODUCTS.length} products in catalog · last updated ${scraped}`;
-      showAll();
+      showRecent();
     } catch (e) {
       statusEl.textContent = "Could not load catalog. Please try refreshing.";
     }
