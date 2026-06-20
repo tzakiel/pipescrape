@@ -355,11 +355,9 @@
   // query, otherwise the recent list — always filtered by the active sources.
   function render() {
     const q = qEl.value.trim().toLowerCase();
-    const allOn = ACTIVE_SOURCES.size === [...new Set(ALL_PRODUCTS.map(p => p.source))].length;
 
     if (!q) {
-      const list = bySource(RECENT_PRODUCTS);
-      renderTable(list, `${list.length} tins currently listed${allOn ? " across all sources" : ""}`);
+      renderTable(bySource(RECENT_PRODUCTS), "");
       return;
     }
     const list = bySource(ALL_PRODUCTS).filter(p => p.name.toLowerCase().includes(q));
@@ -451,12 +449,10 @@
     ));
 
     let products = [], recent = [];
-    const scrapeDates = [];
     for (const data of datasets) {
       if (!data) continue;
       products = products.concat(data.products || []);
       recent = recent.concat(data.latest_scrape || []);
-      if (data.last_scraped) scrapeDates.push(data.last_scraped);
     }
 
     const byName = (a, b) => (a.name || "").localeCompare(b.name || "", "en", { sensitivity: "base" });
@@ -468,8 +464,7 @@
       return;
     }
 
-    const newest = scrapeDates.sort().reverse()[0];
-    metaEl.textContent = `${ALL_PRODUCTS.length} products across ${scrapeDates.length} source${scrapeDates.length === 1 ? "" : "s"} · last updated ${newest ? fmt(newest) : "never"}`;
+    metaEl.textContent = "Price history for resale tobacco tins.";
     buildSourceFilters();
     render();
   }
