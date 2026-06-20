@@ -325,8 +325,7 @@
       const r = await fetch("products.json");
       const data = await r.json();
       ALL_PRODUCTS = data.products || [];
-      const lastScraped = data.last_scraped || "";
-      RECENT_PRODUCTS = ALL_PRODUCTS.filter(p => p.last_seen === lastScraped);
+      RECENT_PRODUCTS = data.latest_scrape || [];
       const scraped = data.last_scraped ? fmt(data.last_scraped) : "never";
       metaEl.textContent = `${ALL_PRODUCTS.length} products in catalog · last updated ${scraped}`;
       showRecent();
