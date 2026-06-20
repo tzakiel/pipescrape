@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pipe Stud Tin Tracker</title>
+  <title>Tin Tracker</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -81,7 +81,7 @@
 <body>
 
 <header>
-  <h1>Pipe Stud Tin Tracker</h1>
+  <h1>Tin Tracker</h1>
   <p>Every Saturday at 1 pm ET we capture what's listed at pipestud.com — search the full history below.</p>
 </header>
 
@@ -148,13 +148,12 @@
         <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
         <td>${p.price || "—"}</td>
         <td class="date">${fmt(p.last_seen)}</td>
-        <td class="date">${fmt(p.first_seen)}</td>
       </tr>
     `).join("");
 
     resultsEl.innerHTML = `
       <table>
-        <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th><th>First Seen</th></tr></thead>
+        <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     `;
