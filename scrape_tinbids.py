@@ -1,20 +1,18 @@
-"""Tinbids source — tobacco listings from tinbids.com (one file, two sources).
+"""Tinbids source — records actual SALES from tinbids.com (sold prices only).
 
-TinBids items come in two shapes: auction-only, and auctions that also carry a
-Buy-It-Now price. We classify each into one of two sources in a single file:
+We never record asking prices or in-progress listings — only what actually sold:
 
-  • "Tinbids BIN"     — any live listing that has a Buy-It-Now price. It stays
-                        BIN for as long as it's live, even once it's taking bids.
-  • "Tinbids Auction" — a listing's FINAL price, recorded only once it has ended
-                        AND it sold via bidding (>0 bids). An item that ends via
-                        Buy-It-Now or expires unsold stays BIN.
+  • "Tinbids BIN"     — sold via Buy-It-Now (ended with a price and 0 bids).
+  • "Tinbids Auction" — sold via bidding with the reserve met (ended with a
+                        price and >0 bids).
 
-The final price only exists once an auction ends, and ended auctions drop off
-the browse page — so we keep a watchlist of every listing's URL + end date and
-revisit each page after it ends to read "Sold for: $X [N Bids]". An item that
-ends as an auction flips its source from BIN to Auction.
+Unsold listings, in-progress listings, and bid-but-reserve-not-met auctions are
+never recorded. A sale only becomes visible once a listing ends, and ended
+listings drop off the browse page — so each run keeps a watchlist of every live
+listing's URL + end date, then revisits each page after it ends and reads the
+"Sold for: $X [N Bids]" line (the one display that means a completed sale).
 
-Runs daily. Shared logic lives in scrape_core.py.
+Runs twice daily. Shared logic lives in scrape_core.py.
 """
 import os
 import re
@@ -30,8 +28,8 @@ import scrape_core
 # Scrape the FULL category (not the buy-it-now filter, which hides auction-only
 # listings). "ending-soon" returns every tobacco listing, ~624 vs ~360.
 BASE_URL = "https://tinbids.com/browse/?category=tobaccos&sort=ending-soon"
-BIN_SOURCE = "Tinbids BIN"
-AUCTION_SOURCE = "Tinbids Auction"
+BIN_SOURCE = "Tinbids BIN (Sold)"
+AUCTION_SOURCE = "Tinbids Auction (Sold)"
 DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "products_tinbids.json")
 
 MAX_ATTEMPTS = 4            # whole-scrape retries (used only on a total block)
@@ -150,18 +148,22 @@ def fetch_listings_with_retry():
 
 
 def _parse_ended_sale(html):
-    """From an ended auction page, read the sale. Returns (closed?, price_or_None).
+    """From an ended auction page, read the outcome. Returns (closed?, price, bids).
 
-    "Sold for: $X [N Bids]" — only a sale with at least one bid counts as an
-    auction result; "Sold for: $ [0 Bids]" means it ended without selling.
+    A real sale always renders "Sold for: $<number> [N Bids]":
+      • N == 0  → sold via Buy-It-Now            → Tinbids BIN
+      • N  > 0  → sold via bidding (reserve met) → Tinbids Auction
+    Everything that did NOT sell renders differently and yields price=None:
+      • unsold            → "Sold for: $ [0 Bids]"   (no number)
+      • reserve not met   → "Highest Bid: $X [N Bids]" (says "Highest Bid", not "Sold for")
     """
     closed = ("wpa-auction-closed" in html) or ("Auction closed" in html)
     if not closed:
-        return False, None
+        return False, None, 0
     m = re.search(r"Sold for:\s*\$([\d,]+\.\d{2})\s*(?:<[^>]*>)*\s*\[(\d+)\s*Bids?\]", html)
-    if m and int(m.group(2)) > 0:
-        return True, f"${m.group(1)}"
-    return True, None
+    if m:
+        return True, f"${m.group(1)}", int(m.group(2))
+    return True, None, 0
 
 
 def main():
@@ -178,17 +180,8 @@ def main():
 
     data = scrape_core.load_existing(DATA_FILE)
 
-    # ── BIN side: any live listing that has a Buy-It-Now price stays "BIN"
-    #    while it's live — even once it's taking bids. ──────────────────────────
-    def has_bin(x):
-        return x["bin_price"] not in (None, "", "0", "0.00")
-
-    bin_found = [
-        {"name": x["name"], "price": f"${x['bin_price']}", "url": x["url"], "source": BIN_SOURCE}
-        for x in listings if has_bin(x)
-    ]
-
     # ── Watchlist: track EVERY live listing so we can revisit it after it ends.
+    #    Nothing is recorded while a listing is live — we only capture SALES.
     pending = {p["url"]: p for p in data.get("pending", []) if p.get("url")}
     for x in listings:
         if x["url"]:
@@ -200,12 +193,13 @@ def main():
         except (TypeError, ValueError):
             return False
 
-    # ── Revisit ended listings. A listing only becomes a "Tinbids Auction"
-    #    record if it ended WITH bids (sold via bidding). If it ended via
-    #    Buy-It-Now / expired (0 bids), we leave it as-is — a BIN item stays BIN.
+    # ── Revisit ended listings and record ONLY confirmed sales:
+    #      sold with 0 bids  → Buy-It-Now sale   → Tinbids BIN
+    #      sold with >0 bids → auction sale      → Tinbids Auction
+    #    In-progress, unsold, and reserve-not-met listings are never recorded.
     due = sorted((p for p in pending.values() if is_due(p)),
                  key=lambda p: p["date_end"] or "")[:MAX_REVISITS_PER_RUN]
-    auction_found = []
+    sold_found = []
     if due and session is None:
         session = cloudscraper.create_scraper()
     for p in due:
@@ -214,33 +208,28 @@ def main():
         except Exception as e:
             print(f"[Tinbids] revisit error {p['url']}: {e}")
             continue
-        closed, sold_price = _parse_ended_sale(html)
+        closed, sold_price, bids = _parse_ended_sale(html)
         if not closed:
             continue  # not actually ended yet (e.g. timezone slack) — keep watching
-        if sold_price:  # ended as an auction → switch this item to the auction source
-            auction_found.append({
-                "name": p["name"], "price": sold_price, "url": p["url"], "source": AUCTION_SOURCE,
+        if sold_price:
+            sold_found.append({
+                "name": p["name"], "price": sold_price, "url": p["url"],
+                "source": AUCTION_SOURCE if bids > 0 else BIN_SOURCE,
             })
-        pending.pop(p["url"], None)  # ended (auction sale, BIN sale, or unsold) — stop watching
+        pending.pop(p["url"], None)  # ended (sold or not) — stop watching
         time.sleep(0.4)
 
-    # Merge BIN listings, then auction results. Merging auctions second lets an
-    # item that ended as an auction flip its source from BIN to Auction.
-    scrape_core.merge_products(data, bin_found, now)
-    scrape_core.merge_products(data, auction_found, now)
-
-    # Homepage snapshot: currently-live BIN listings + every auction result.
-    bin_live = {x["name"] for x in bin_found}
-    data["latest_scrape"] = [
-        p for p in data["products"]
-        if p["source"] == AUCTION_SOURCE or (p["source"] == BIN_SOURCE and p["name"] in bin_live)
-    ]
+    scrape_core.merge_products(data, sold_found, now)
+    # The catalog is entirely sales, so the homepage snapshot is all of them.
+    data["latest_scrape"] = list(data["products"])
     data["pending"] = list(pending.values())
     scrape_core.save(data, DATA_FILE)
 
     n_auction = sum(1 for p in data["products"] if p["source"] == AUCTION_SOURCE)
-    print(f"[Tinbids] {len(bin_found)} live BIN listings, +{len(auction_found)} auction sales this run. "
-          f"Catalog: {len(data['products'])} ({n_auction} auction). Watching: {len(pending)}.")
+    n_bin = sum(1 for p in data["products"] if p["source"] == BIN_SOURCE)
+    print(f"[Tinbids] +{len(sold_found)} sales this run. "
+          f"Catalog: {len(data['products'])} sales ({n_bin} BIN, {n_auction} auction). "
+          f"Watching: {len(pending)}.")
 
 
 if __name__ == "__main__":
