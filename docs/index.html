@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pipe Stud Tin Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, serif;
+      background: #f5f0e8;
+      color: #2c2015;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #3b2408;
+      color: #f5e8c8;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; letter-spacing: .04em; }
+    header p  { margin-top: .4rem; font-size: .9rem; color: #c9a96e; }
+
+    main { max-width: 900px; margin: 2.5rem auto; padding: 0 1rem; }
+
+    .search-box {
+      display: flex;
+      gap: .5rem;
+      margin-bottom: 1.8rem;
+    }
+    .search-box input {
+      flex: 1;
+      padding: .7rem 1rem;
+      font-size: 1rem;
+      border: 2px solid #b89060;
+      border-radius: 6px;
+      background: #fffdf8;
+      color: #2c2015;
+      outline: none;
+    }
+    .search-box input:focus { border-color: #7a4a1a; }
+    .search-box button {
+      padding: .7rem 1.4rem;
+      background: #7a4a1a;
+      color: #f5e8c8;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .search-box button:hover { background: #5c3510; }
+
+    #status { color: #7a4a1a; font-style: italic; margin-bottom: 1rem; min-height: 1.4em; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fffdf8;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,.12);
+    }
+    thead { background: #3b2408; color: #f5e8c8; }
+    thead th { padding: .75rem 1rem; text-align: left; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; }
+    tbody tr:nth-child(even) { background: #f0e8d8; }
+    tbody td { padding: .7rem 1rem; font-size: .95rem; vertical-align: top; }
+    tbody td a { color: #7a4a1a; }
+    .date { font-size: .8rem; color: #8a6a4a; white-space: nowrap; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8a6a4a;
+      font-size: .8rem;
+    }
+    #meta { color: #8a6a4a; font-size: .8rem; margin-bottom: 1.2rem; font-style: italic; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pipe Stud Tin Tracker</h1>
+  <p>Every Saturday at 1 pm ET we capture what's listed at pipestud.com — search the full history below.</p>
+</header>
+
+<main>
+  <div class="search-box">
+    <input id="q" type="text" placeholder="Search by product name…" autocomplete="off" />
+    <button onclick="doSearch()">Search</button>
+  </div>
+
+  <div id="meta"></div>
+  <div id="status">Loading catalog…</div>
+  <div id="results"></div>
+</main>
+
+<footer>
+  Data collected from <a href="https://www.pipestud.com/products/tobacco-tins/" target="_blank">pipestud.com</a>
+  every Saturday · prices are as listed at time of capture
+</footer>
+
+<script>
+  let ALL_PRODUCTS = [];
+
+  const qEl      = document.getElementById("q");
+  const statusEl = document.getElementById("status");
+  const resultsEl= document.getElementById("results");
+  const metaEl   = document.getElementById("meta");
+
+  qEl.addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
+
+  function fmt(iso) {
+    if (!iso) return "—";
+    return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  }
+
+  async function loadData() {
+    try {
+      const r = await fetch("products.json");
+      const data = await r.json();
+      ALL_PRODUCTS = data.products || [];
+      const scraped = data.last_scraped ? fmt(data.last_scraped) : "never";
+      metaEl.textContent = `${ALL_PRODUCTS.length} products in catalog · last updated ${scraped}`;
+      statusEl.textContent = "Enter a name above to search the catalog.";
+    } catch (e) {
+      statusEl.textContent = "Could not load catalog. Please try refreshing.";
+    }
+  }
+
+  function doSearch() {
+    const q = qEl.value.trim().toLowerCase();
+    if (!q) { statusEl.textContent = "Enter a name above to search the catalog."; resultsEl.innerHTML = ""; return; }
+
+    const matches = ALL_PRODUCTS.filter(p => p.name.toLowerCase().includes(q));
+
+    if (!matches.length) {
+      statusEl.textContent = `No results for "${qEl.value.trim()}".`;
+      resultsEl.innerHTML = "";
+      return;
+    }
+
+    statusEl.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} for "${qEl.value.trim()}"`;
+
+    const rows = matches.map(p => `
+      <tr>
+        <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
+        <td>${p.price || "—"}</td>
+        <td class="date">${fmt(p.last_seen)}</td>
+        <td class="date">${fmt(p.first_seen)}</td>
+      </tr>
+    `).join("");
+
+    resultsEl.innerHTML = `
+      <table>
+        <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th><th>First Seen</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  loadData();
+</script>
+
+</body>
+</html>
