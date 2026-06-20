@@ -1,0 +1,37 @@
+name: Daily Scrape (Treasured Smokes)
+
+on:
+  schedule:
+    # Once per day, with a second attempt an hour later in case the first is
+    # blocked. The guard in scrape_core.py keeps a blocked run from wiping data.
+    - cron: "30 17 * * *"  # 1:30pm ET
+    - cron: "30 18 * * *"  # 2:30pm ET
+  workflow_dispatch:       # allows manual run from GitHub website
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install cloudscraper beautifulsoup4 lxml requests
+
+      - name: Run scraper
+        run: python scrape_treasuredsmokes.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/products_treasuredsmokes.json
+          git diff --cached --quiet || git commit -m "Daily Treasured Smokes scrape $(date -u '+%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push
