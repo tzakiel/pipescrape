@@ -14,24 +14,25 @@
       min-height: 100vh;
     }
 
+    /* ── header ── */
     header {
       background: #3b2408;
       color: #f5e8c8;
-      padding: 1.5rem 2rem;
+      padding: 1.25rem 1.5rem;
       text-align: center;
     }
-    header h1 { font-size: 1.8rem; letter-spacing: .04em; }
-    header p  { margin-top: .4rem; font-size: .9rem; color: #c9a96e; }
+    header h1 { font-size: 1.6rem; letter-spacing: .04em; }
+    header p  { margin-top: .35rem; font-size: .85rem; color: #c9a96e; }
 
-    main { max-width: 900px; margin: 2.5rem auto; padding: 0 1rem; }
+    /* ── layout ── */
+    #main-view, #detail-view { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    #detail-view { display: none; }
 
-    .search-wrap {
-      position: relative;
-      margin-bottom: 1.8rem;
-    }
+    /* ── search ── */
+    .search-wrap { position: relative; margin-bottom: 1.5rem; }
     .search-wrap input {
       width: 100%;
-      padding: .75rem 1rem;
+      padding: .7rem 1rem;
       font-size: 1rem;
       border: 2px solid #b89060;
       border-radius: 6px;
@@ -50,23 +51,20 @@
       border: 2px solid #b89060;
       border-radius: 6px;
       box-shadow: 0 4px 12px rgba(0,0,0,.15);
-      max-height: 280px;
+      max-height: 260px;
       overflow-y: auto;
       z-index: 100;
     }
     #dropdown.open { display: block; }
-    .dd-item {
-      padding: .6rem 1rem;
-      cursor: pointer;
-      font-size: .95rem;
-      border-bottom: 1px solid #e8dcc8;
-    }
+    .dd-item { padding: .55rem 1rem; cursor: pointer; font-size: .9rem; border-bottom: 1px solid #e8dcc8; }
     .dd-item:last-child { border-bottom: none; }
     .dd-item:hover, .dd-item.active { background: #f0e8d8; }
-    .dd-item span { font-size: .8rem; color: #8a6a4a; margin-left: .5rem; }
+    .dd-item span { font-size: .78rem; color: #8a6a4a; margin-left: .5rem; }
 
-    #status { color: #7a4a1a; font-style: italic; margin-bottom: 1rem; min-height: 1.4em; }
+    #status { color: #7a4a1a; font-style: italic; margin-bottom: .9rem; min-height: 1.4em; font-size: .9rem; }
+    #meta   { color: #8a6a4a; font-size: .78rem; margin-bottom: 1rem; font-style: italic; }
 
+    /* ── desktop table ── */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -76,75 +74,121 @@
       box-shadow: 0 2px 8px rgba(0,0,0,.12);
     }
     thead { background: #3b2408; color: #f5e8c8; }
-    thead th { padding: .75rem 1rem; text-align: left; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; }
+    thead th { padding: .7rem 1rem; text-align: left; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+    tbody tr { cursor: pointer; }
     tbody tr:nth-child(even) { background: #f0e8d8; }
-    tbody td { padding: .7rem 1rem; font-size: .95rem; vertical-align: top; }
-    tbody td a { color: #7a4a1a; }
-    .date { font-size: .8rem; color: #8a6a4a; white-space: nowrap; }
+    tbody tr:hover { background: #e8d8c0; }
+    tbody td { padding: .65rem 1rem; font-size: .9rem; vertical-align: middle; }
+    .col-name {
+      max-width: 340px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #7a4a1a;
+    }
+    .col-price { white-space: nowrap; }
+    .col-meta  { font-size: .78rem; color: #8a6a4a; white-space: nowrap; }
 
-    .price-cell { white-space: nowrap; }
-    .history-btn {
+    /* ── mobile cards ── */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; }
+
+      table, thead, tbody, tr, td { display: block; }
+      thead { display: none; }
+
+      tbody tr {
+        background: #fffdf8;
+        border-radius: 8px;
+        margin-bottom: .75rem;
+        padding: .75rem 1rem;
+        box-shadow: 0 1px 5px rgba(0,0,0,.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: .75rem;
+        cursor: pointer;
+      }
+      tbody tr:nth-child(even) { background: #fffdf8; }
+      tbody tr:hover { background: #f0e8d8; }
+
+      .col-name {
+        flex: 1;
+        white-space: normal;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        max-width: none;
+        font-size: .9rem;
+        color: #7a4a1a;
+      }
+      .col-price {
+        font-size: .9rem;
+        font-weight: bold;
+        flex-shrink: 0;
+        text-align: right;
+      }
+      .col-meta { display: none; }
+    }
+
+    /* ── detail page ── */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
       background: none;
       border: none;
-      cursor: pointer;
-      padding: 0 0 0 .4rem;
-      vertical-align: middle;
-      opacity: .45;
       color: #7a4a1a;
-      line-height: 1;
+      font: inherit;
+      font-size: .9rem;
+      cursor: pointer;
+      padding: 0;
+      margin-bottom: 1.5rem;
     }
-    .history-btn:hover { opacity: 1; }
-    .history-btn svg { width: 13px; height: 13px; display: inline-block; }
+    .back-btn:hover { color: #3b2408; }
+    .back-btn svg { width: 14px; height: 14px; }
 
-    /* modal */
-    #modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,.45);
-      z-index: 200;
-      align-items: center;
-      justify-content: center;
-    }
-    #modal-overlay.open { display: flex; }
-    #modal {
+    .detail-card {
       background: #fffdf8;
       border-radius: 10px;
-      padding: 1.5rem 2rem;
-      max-width: 480px;
-      width: 90%;
-      box-shadow: 0 8px 32px rgba(0,0,0,.25);
-      position: relative;
+      padding: 1.5rem 1.75rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,.12);
     }
-    #modal h3 {
-      font-size: 1rem;
+    .detail-name {
+      font-size: 1.2rem;
       color: #3b2408;
-      margin-bottom: 1rem;
-      padding-right: 1.5rem;
       line-height: 1.4;
+      margin-bottom: 1.25rem;
     }
-    #modal table { box-shadow: none; border-radius: 0; }
-    #modal thead { background: #5c3510; }
-    #modal-close {
-      position: absolute;
-      top: .75rem; right: .9rem;
-      background: none;
-      border: none;
-      font-size: 1.3rem;
-      cursor: pointer;
-      color: #8a6a4a;
-      line-height: 1;
+    .detail-meta {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: .4rem 1.25rem;
+      font-size: .9rem;
+      margin-bottom: 1.5rem;
+      align-items: baseline;
     }
-    #modal-close:hover { color: #3b2408; }
+    .detail-meta .lbl { color: #8a6a4a; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+    .detail-meta .val { color: #2c2015; }
+    .detail-meta a { color: #7a4a1a; }
+    .detail-price { font-size: 1.4rem; font-weight: bold; color: #2c2015; }
 
-    #meta { color: #8a6a4a; font-size: .8rem; margin-bottom: 1.2rem; font-style: italic; }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
+    .detail-section-title {
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .07em;
       color: #8a6a4a;
-      font-size: .8rem;
+      margin: 1.5rem 0 .6rem;
+      border-top: 1px solid #e8dcc8;
+      padding-top: 1rem;
     }
+    .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; }
+    .history-table thead { background: #5c3510; }
+    .history-table td, .history-table th { padding: .5rem .85rem; font-size: .85rem; }
+
+    /* ── footer ── */
+    footer { text-align: center; padding: 2rem 1rem; color: #8a6a4a; font-size: .78rem; }
   </style>
 </head>
 <body>
@@ -154,111 +198,125 @@
   <p>Tracking tobacco tin prices across the web — search the full catalog below.</p>
 </header>
 
-<main>
+<!-- Main list view -->
+<div id="main-view">
   <div class="search-wrap">
     <input id="q" type="text" placeholder="Search by product name…" autocomplete="off" />
     <div id="dropdown"></div>
   </div>
-
   <div id="meta"></div>
   <div id="status">Loading catalog…</div>
   <div id="results"></div>
-</main>
-
-<div id="modal-overlay">
-  <div id="modal">
-    <button id="modal-close" title="Close">✕</button>
-    <h3 id="modal-title"></h3>
-    <div id="modal-body"></div>
-  </div>
 </div>
 
-<footer>
-  Prices collected every Saturday · as listed at time of capture
-</footer>
+<!-- Detail view -->
+<div id="detail-view">
+  <button class="back-btn" id="back-btn">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="10,3 5,8 10,13"/>
+    </svg>
+    Back
+  </button>
+  <div id="detail-content"></div>
+</div>
+
+<footer>Prices collected every Saturday · as listed at time of capture</footer>
 
 <script>
   let ALL_PRODUCTS = [];
   let RECENT_PRODUCTS = [];
   let activeIdx = -1;
+  let lastListState = null; // remembers what was showing before detail
 
-  const qEl        = document.getElementById("q");
-  const dropEl     = document.getElementById("dropdown");
-  const statusEl   = document.getElementById("status");
-  const resultsEl  = document.getElementById("results");
-  const metaEl     = document.getElementById("meta");
-  const overlayEl  = document.getElementById("modal-overlay");
-  const modalTitle = document.getElementById("modal-title");
-  const modalBody  = document.getElementById("modal-body");
+  const qEl       = document.getElementById("q");
+  const dropEl    = document.getElementById("dropdown");
+  const statusEl  = document.getElementById("status");
+  const resultsEl = document.getElementById("results");
+  const metaEl    = document.getElementById("meta");
+  const mainView  = document.getElementById("main-view");
+  const detailView= document.getElementById("detail-view");
+  const detailContent = document.getElementById("detail-content");
 
-  document.getElementById("modal-close").addEventListener("click", closeModal);
-  overlayEl.addEventListener("click", e => { if (e.target === overlayEl) closeModal(); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+  document.getElementById("back-btn").addEventListener("click", showMain);
+  window.addEventListener("popstate", () => { if (detailView.style.display !== "none") showMain(false); });
 
+  /* ── formatting ── */
   function fmt(iso) {
     if (!iso) return "—";
     return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
   }
 
-  // clock SVG icon
-  const clockIcon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="8" cy="8" r="6.5"/>
-    <polyline points="8,4.5 8,8 10.5,10"/>
-  </svg>`;
+  /* ── detail page ── */
+  function showDetail(p) {
+    history.pushState({ detail: p.name }, "", "");
 
-  function historyBtn(p) {
-    const hist = p.price_history || [];
-    if (hist.length <= 1) return "";
-    return `<button class="history-btn" title="Price history" onclick='showHistory(${JSON.stringify(p.name)})'>${clockIcon}</button>`;
-  }
-
-  function showHistory(name) {
-    const p = ALL_PRODUCTS.find(x => x.name === name);
-    if (!p) return;
     const hist = (p.price_history || []).slice().reverse();
-    modalTitle.textContent = p.name;
-    modalBody.innerHTML = `
-      <table>
+    const histSection = hist.length > 1 ? `
+      <div class="detail-section-title">Price History</div>
+      <table class="history-table">
         <thead><tr><th>Date</th><th>Price</th></tr></thead>
-        <tbody>${hist.map(h => `<tr><td class="date">${fmt(h.date)}</td><td>${h.price}</td></tr>`).join("")}</tbody>
-      </table>`;
-    overlayEl.classList.add("open");
+        <tbody>${hist.map(h => `<tr><td>${fmt(h.date)}</td><td>${h.price}</td></tr>`).join("")}</tbody>
+      </table>` : "";
+
+    detailContent.innerHTML = `
+      <div class="detail-card">
+        <div class="detail-name">${p.name}</div>
+        <div class="detail-meta">
+          <span class="lbl">Price</span>
+          <span class="val detail-price">${p.price || "—"}</span>
+          <span class="lbl">Last seen</span>
+          <span class="val">${fmt(p.last_seen)}</span>
+          <span class="lbl">Source</span>
+          <span class="val">${p.url
+            ? `<a href="${p.url}" target="_blank" rel="noopener">${p.source || p.url}</a>`
+            : (p.source || "—")}</span>
+        </div>
+        ${histSection}
+      </div>`;
+
+    mainView.style.display = "none";
+    detailView.style.display = "block";
+    window.scrollTo(0, 0);
   }
 
-  function closeModal() {
-    overlayEl.classList.remove("open");
+  function showMain(pushState = true) {
+    if (pushState) history.back();
+    mainView.style.display = "";
+    detailView.style.display = "none";
+    window.scrollTo(0, 0);
   }
 
-  // expose to inline onclick
-  window.showHistory = showHistory;
-
+  /* ── table / cards ── */
   function renderTable(products, label) {
+    statusEl.textContent = label || "";
     if (!products.length) {
-      statusEl.textContent = label || "No results.";
       resultsEl.innerHTML = "";
       return;
     }
-    statusEl.textContent = label || "";
-    const rows = products.map(p => `
-      <tr>
-        <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
-        <td class="price-cell">${p.price || "—"}${historyBtn(p)}</td>
-        <td class="date">${fmt(p.last_seen)}</td>
-        <td class="date">${p.source || "—"}</td>
-      </tr>
-    `).join("");
+    const rows = products.map((p, i) => `
+      <tr data-i="${i}" data-ctx="${encodeURIComponent(JSON.stringify(p))}">
+        <td class="col-name">${p.name}</td>
+        <td class="col-price">${p.price || "—"}</td>
+        <td class="col-meta">${fmt(p.last_seen)}</td>
+        <td class="col-meta">${p.source || "—"}</td>
+      </tr>`).join("");
+
     resultsEl.innerHTML = `
       <table>
         <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th><th>Source</th></tr></thead>
         <tbody>${rows}</tbody>
-      </table>
-    `;
+      </table>`;
+
+    resultsEl.querySelectorAll("tbody tr").forEach((tr, i) => {
+      tr.addEventListener("click", () => showDetail(products[i]));
+    });
   }
 
   function showRecent() {
     renderTable(RECENT_PRODUCTS, `${RECENT_PRODUCTS.length} tins listed in last scrape`);
   }
 
+  /* ── dropdown ── */
   function openDropdown(matches) {
     activeIdx = -1;
     if (!matches.length) { dropEl.className = ""; dropEl.innerHTML = ""; return; }
@@ -271,17 +329,12 @@
     });
   }
 
-  function closeDropdown() {
-    dropEl.className = "";
-    dropEl.innerHTML = "";
-    activeIdx = -1;
-  }
+  function closeDropdown() { dropEl.className = ""; dropEl.innerHTML = ""; activeIdx = -1; }
 
   function selectProduct(p) {
     qEl.value = p.name;
     closeDropdown();
     renderTable([p], "");
-    statusEl.textContent = "";
   }
 
   qEl.addEventListener("input", () => {
@@ -320,6 +373,7 @@
 
   qEl.addEventListener("blur", () => setTimeout(closeDropdown, 150));
 
+  /* ── load ── */
   async function loadData() {
     try {
       const r = await fetch("products.json");
