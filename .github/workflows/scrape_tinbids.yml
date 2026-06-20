@@ -1,12 +1,12 @@
-name: Daily Scrape (Tinbids)
+name: Twice-Daily Scrape (Tinbids)
 
 on:
   schedule:
-    # Once per day, with a second attempt an hour later in case the first is
-    # blocked. The guard in scrape_core.py keeps a blocked run from wiping data.
-    # Minutes are off :00 to dodge GitHub's top-of-hour runner congestion.
+    # Twice a day, ~12h apart, so short-lived auctions get seen live before they
+    # end. The scraper retries internally if blocked, and the guard keeps a
+    # blocked run from wiping data. Minutes off :00 to dodge GitHub congestion.
     - cron: "23 17 * * *"  # ~1pm ET
-    - cron: "23 18 * * *"  # ~2pm ET
+    - cron: "23 5 * * *"   # ~1am ET
   workflow_dispatch:       # allows manual run from GitHub website
 
 jobs:
