@@ -5,9 +5,10 @@ on:
     # Saturday afternoon ET — a few attempts an hour apart in case Cloudflare
     # blocks an individual run. The first success updates the data; the guard
     # in scraper.py keeps a blocked run from wiping anything.
-    - cron: "0 18 * * 6"  # 1pm ET
-    - cron: "0 19 * * 6"  # 2pm ET
-    - cron: "0 20 * * 6"  # 3pm ET
+    # Minutes are off :00 to dodge GitHub's top-of-hour runner congestion.
+    - cron: "17 18 * * 6"  # ~1pm ET
+    - cron: "17 19 * * 6"  # ~2pm ET
+    - cron: "17 20 * * 6"  # ~3pm ET
   workflow_dispatch:       # allows manual run from GitHub website
 
 jobs:

@@ -4,8 +4,9 @@ on:
   schedule:
     # Once per day, with a second attempt an hour later in case the first is
     # blocked. The guard in scrape_core.py keeps a blocked run from wiping data.
-    - cron: "0 17 * * *"  # 1pm ET
-    - cron: "0 18 * * *"  # 2pm ET
+    # Minutes are off :00 to dodge GitHub's top-of-hour runner congestion.
+    - cron: "23 17 * * *"  # ~1pm ET
+    - cron: "23 18 * * *"  # ~2pm ET
   workflow_dispatch:       # allows manual run from GitHub website
 
 jobs:
