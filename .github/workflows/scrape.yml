@@ -2,14 +2,9 @@ name: Weekly Scrape
 
 on:
   schedule:
-    # Saturday afternoon ET — a few attempts an hour apart in case Cloudflare
-    # blocks an individual run. The first success updates the data; the guard
-    # in scraper.py keeps a blocked run from wiping anything.
-    # Minutes are off :00 to dodge GitHub's top-of-hour runner congestion.
-    - cron: "17 18 * * 6"  # ~1pm ET
-    - cron: "17 19 * * 6"  # ~2pm ET
-    - cron: "17 20 * * 6"  # ~3pm ET
-    - cron: "48 21 * * *"   # one-off: 21:48 UTC today — DELETE after it runs
+    # TEMPORARY: every ~22 min to prove scheduled scraping works.
+    # REVERT to "17 18/19/20 * * 6" (Saturday only) when done testing.
+    - cron: "*/22 * * * *"
   workflow_dispatch:       # allows manual run from GitHub website
 
 jobs:

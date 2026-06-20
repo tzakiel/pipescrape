@@ -2,11 +2,9 @@ name: Daily Scrape (Treasured Smokes)
 
 on:
   schedule:
-    # Once per day, with a second attempt an hour later in case the first is
-    # blocked. The guard in scrape_core.py keeps a blocked run from wiping data.
-    # Minutes are off :00 to dodge GitHub's top-of-hour runner congestion.
-    - cron: "43 17 * * *"  # ~1pm ET
-    - cron: "43 18 * * *"  # ~2pm ET
+    # TEMPORARY: every ~22 min to prove scheduled scraping works.
+    # REVERT to "43 17 * * *" + "43 18 * * *" (twice daily) when done testing.
+    - cron: "*/22 * * * *"
   workflow_dispatch:       # allows manual run from GitHub website
 
 jobs:
