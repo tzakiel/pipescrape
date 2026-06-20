@@ -25,14 +25,13 @@
 
     main { max-width: 900px; margin: 2.5rem auto; padding: 0 1rem; }
 
-    .search-box {
-      display: flex;
-      gap: .5rem;
+    .search-wrap {
+      position: relative;
       margin-bottom: 1.8rem;
     }
-    .search-box input {
-      flex: 1;
-      padding: .7rem 1rem;
+    .search-wrap input {
+      width: 100%;
+      padding: .75rem 1rem;
       font-size: 1rem;
       border: 2px solid #b89060;
       border-radius: 6px;
@@ -40,17 +39,31 @@
       color: #2c2015;
       outline: none;
     }
-    .search-box input:focus { border-color: #7a4a1a; }
-    .search-box button {
-      padding: .7rem 1.4rem;
-      background: #7a4a1a;
-      color: #f5e8c8;
-      border: none;
+    .search-wrap input:focus { border-color: #7a4a1a; }
+
+    #dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0; right: 0;
+      background: #fffdf8;
+      border: 2px solid #b89060;
       border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,.15);
+      max-height: 280px;
+      overflow-y: auto;
+      z-index: 100;
     }
-    .search-box button:hover { background: #5c3510; }
+    #dropdown.open { display: block; }
+    .dd-item {
+      padding: .6rem 1rem;
+      cursor: pointer;
+      font-size: .95rem;
+      border-bottom: 1px solid #e8dcc8;
+    }
+    .dd-item:last-child { border-bottom: none; }
+    .dd-item:hover, .dd-item.active { background: #f0e8d8; }
+    .dd-item span { font-size: .8rem; color: #8a6a4a; margin-left: .5rem; }
 
     #status { color: #7a4a1a; font-style: italic; margin-bottom: 1rem; min-height: 1.4em; }
 
@@ -69,13 +82,14 @@
     tbody td a { color: #7a4a1a; }
     .date { font-size: .8rem; color: #8a6a4a; white-space: nowrap; }
 
+    #meta { color: #8a6a4a; font-size: .8rem; margin-bottom: 1.2rem; font-style: italic; }
+
     footer {
       text-align: center;
       padding: 2rem;
       color: #8a6a4a;
       font-size: .8rem;
     }
-    #meta { color: #8a6a4a; font-size: .8rem; margin-bottom: 1.2rem; font-style: italic; }
   </style>
 </head>
 <body>
@@ -86,9 +100,9 @@
 </header>
 
 <main>
-  <div class="search-box">
+  <div class="search-wrap">
     <input id="q" type="text" placeholder="Search by product name…" autocomplete="off" />
-    <button onclick="doSearch()">Search</button>
+    <div id="dropdown"></div>
   </div>
 
   <div id="meta"></div>
@@ -102,18 +116,110 @@
 
 <script>
   let ALL_PRODUCTS = [];
+  let activeIdx = -1;
 
-  const qEl      = document.getElementById("q");
-  const statusEl = document.getElementById("status");
-  const resultsEl= document.getElementById("results");
-  const metaEl   = document.getElementById("meta");
-
-  qEl.addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
+  const qEl       = document.getElementById("q");
+  const dropEl    = document.getElementById("dropdown");
+  const statusEl  = document.getElementById("status");
+  const resultsEl = document.getElementById("results");
+  const metaEl    = document.getElementById("meta");
 
   function fmt(iso) {
     if (!iso) return "—";
     return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
   }
+
+  function renderTable(products, label) {
+    if (!products.length) {
+      statusEl.textContent = label || "No results.";
+      resultsEl.innerHTML = "";
+      return;
+    }
+    statusEl.textContent = label || "";
+    const rows = products.map(p => `
+      <tr>
+        <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
+        <td>${p.price || "—"}</td>
+        <td class="date">${fmt(p.last_seen)}</td>
+        <td class="date">${p.source || "—"}</td>
+      </tr>
+    `).join("");
+    resultsEl.innerHTML = `
+      <table>
+        <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th><th>Source</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  function showAll() {
+    renderTable(ALL_PRODUCTS, `Showing all ${ALL_PRODUCTS.length} tins from last scrape`);
+  }
+
+  function openDropdown(matches) {
+    activeIdx = -1;
+    if (!matches.length) { dropEl.className = ""; dropEl.innerHTML = ""; return; }
+    dropEl.innerHTML = matches.slice(0, 20).map((p, i) =>
+      `<div class="dd-item" data-i="${i}">${p.name}<span>${p.price || ""}</span></div>`
+    ).join("");
+    dropEl.className = "open";
+
+    dropEl.querySelectorAll(".dd-item").forEach((el, i) => {
+      el.addEventListener("mousedown", e => {
+        e.preventDefault();
+        selectProduct(matches[i]);
+      });
+    });
+  }
+
+  function closeDropdown() {
+    dropEl.className = "";
+    dropEl.innerHTML = "";
+    activeIdx = -1;
+  }
+
+  function selectProduct(p) {
+    qEl.value = p.name;
+    closeDropdown();
+    renderTable([p], "");
+    statusEl.textContent = "";
+  }
+
+  qEl.addEventListener("input", () => {
+    const q = qEl.value.trim().toLowerCase();
+    if (!q) { closeDropdown(); showAll(); return; }
+    const matches = ALL_PRODUCTS.filter(p => p.name.toLowerCase().includes(q));
+    openDropdown(matches);
+    renderTable(matches, matches.length
+      ? `${matches.length} result${matches.length === 1 ? "" : "s"} for "${qEl.value.trim()}"`
+      : `No results for "${qEl.value.trim()}".`
+    );
+  });
+
+  qEl.addEventListener("keydown", e => {
+    const items = dropEl.querySelectorAll(".dd-item");
+    if (!items.length) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      items[activeIdx]?.classList.remove("active");
+      activeIdx = Math.min(activeIdx + 1, items.length - 1);
+      items[activeIdx].classList.add("active");
+      items[activeIdx].scrollIntoView({ block: "nearest" });
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      items[activeIdx]?.classList.remove("active");
+      activeIdx = Math.max(activeIdx - 1, 0);
+      items[activeIdx].classList.add("active");
+      items[activeIdx].scrollIntoView({ block: "nearest" });
+    } else if (e.key === "Enter" && activeIdx >= 0) {
+      e.preventDefault();
+      items[activeIdx].dispatchEvent(new MouseEvent("mousedown"));
+    } else if (e.key === "Escape") {
+      closeDropdown();
+    }
+  });
+
+  qEl.addEventListener("blur", () => setTimeout(closeDropdown, 150));
 
   async function loadData() {
     try {
@@ -122,41 +228,10 @@
       ALL_PRODUCTS = data.products || [];
       const scraped = data.last_scraped ? fmt(data.last_scraped) : "never";
       metaEl.textContent = `${ALL_PRODUCTS.length} products in catalog · last updated ${scraped}`;
-      statusEl.textContent = "Enter a name above to search the catalog.";
+      showAll();
     } catch (e) {
       statusEl.textContent = "Could not load catalog. Please try refreshing.";
     }
-  }
-
-  function doSearch() {
-    const q = qEl.value.trim().toLowerCase();
-    if (!q) { statusEl.textContent = "Enter a name above to search the catalog."; resultsEl.innerHTML = ""; return; }
-
-    const matches = ALL_PRODUCTS.filter(p => p.name.toLowerCase().includes(q));
-
-    if (!matches.length) {
-      statusEl.textContent = `No results for "${qEl.value.trim()}".`;
-      resultsEl.innerHTML = "";
-      return;
-    }
-
-    statusEl.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} for "${qEl.value.trim()}"`;
-
-    const rows = matches.map(p => `
-      <tr>
-        <td>${p.url ? `<a href="${p.url}" target="_blank">${p.name}</a>` : p.name}</td>
-        <td>${p.price || "—"}</td>
-        <td class="date">${fmt(p.last_seen)}</td>
-        <td class="date">${p.source || "—"}</td>
-      </tr>
-    `).join("");
-
-    resultsEl.innerHTML = `
-      <table>
-        <thead><tr><th>Product</th><th>Price</th><th>Last Seen</th><th>Source</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    `;
   }
 
   loadData();
