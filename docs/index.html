@@ -291,7 +291,6 @@
 
 <script>
   let ALL_PRODUCTS = [];
-  let RECENT_PRODUCTS = [];
   let ACTIVE_SOURCES = new Set();   // sources currently shown (empty = none)
   let activeIdx = -1;
   let lastListState = null; // remembers what was showing before detail
@@ -399,7 +398,9 @@
     const q = qEl.value.trim().toLowerCase();
 
     if (!q) {
-      renderTable(bySource(RECENT_PRODUCTS), "");
+      const byLastSeen = bySource(ALL_PRODUCTS).slice().sort((a, b) =>
+        (b.last_seen || "").localeCompare(a.last_seen || ""));
+      renderTable(byLastSeen, "");
       return;
     }
     const list = bySource(ALL_PRODUCTS).filter(p => p.name.toLowerCase().includes(q));
@@ -490,16 +491,14 @@
       fetch(f).then(r => r.ok ? r.json() : null).catch(() => null)
     ));
 
-    let products = [], recent = [];
+    let products = [];
     for (const data of datasets) {
       if (!data) continue;
       products = products.concat(data.products || []);
-      recent = recent.concat(data.latest_scrape || []);
     }
 
     const byName = (a, b) => (a.name || "").localeCompare(b.name || "", "en", { sensitivity: "base" });
     ALL_PRODUCTS = products.sort(byName);
-    RECENT_PRODUCTS = recent.sort(byName);
 
     if (!ALL_PRODUCTS.length) {
       statusEl.textContent = "Could not load catalog. Please try refreshing.";
