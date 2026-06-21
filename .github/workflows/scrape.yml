@@ -1,4 +1,4 @@
-name: Weekly Scrape
+name: Scrape (Pipestud)
 
 on:
   workflow_dispatch:       # triggered by cron-job.org via API

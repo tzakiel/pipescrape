@@ -1,4 +1,4 @@
-name: Twice-Daily Scrape (Tinbids)
+name: Scrape (Tinbids)
 
 on:
   workflow_dispatch:       # triggered by cron-job.org via API
