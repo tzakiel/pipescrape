@@ -17,7 +17,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install cloudscraper beautifulsoup4 lxml requests
+        run: |
+          pip install playwright beautifulsoup4 lxml requests
+          playwright install --with-deps chromium
 
       - name: Run scraper
         run: python scraper.py
