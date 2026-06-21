@@ -156,16 +156,17 @@
         padding: .85rem 1.1rem;
         box-shadow: 0 2px 8px rgba(90,58,36,.1);
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: .75rem;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: .35rem .75rem;
         cursor: pointer;
       }
       tbody tr:nth-child(even) { background: #fffdf8; }
       tbody tr:hover { background: #f7e3d8; }
 
       .col-name {
-        flex: 1;
+        order: 1;
+        flex: 1 1 60%;
         white-space: normal;
         overflow: hidden;
         display: -webkit-box;
@@ -177,12 +178,24 @@
         color: #7a4a1a;
       }
       .col-price {
+        order: 2;
         font-size: .9rem;
         font-weight: bold;
+        margin-left: auto;
         flex-shrink: 0;
         text-align: right;
       }
-      .col-meta { display: none; }
+      /* second line: source · last seen */
+      .col-meta {
+        display: block;
+        flex: 0 0 auto;
+        font-size: .78rem;
+        color: #8a6a4a;
+        white-space: nowrap;
+      }
+      .col-source { order: 3; }
+      .col-date   { order: 4; }
+      .col-date::before { content: "·"; margin-right: .55rem; color: #c4a987; }
     }
 
     /* ── detail page ── */
@@ -373,8 +386,8 @@
       <tr data-i="${i}" data-ctx="${encodeURIComponent(JSON.stringify(p))}">
         <td class="col-name">${p.name}</td>
         <td class="col-price">${p.price || "—"}</td>
-        <td class="col-meta">${fmt(p.last_seen)}</td>
-        <td class="col-meta">${p.source || "—"}</td>
+        <td class="col-meta col-date">${fmt(p.last_seen)}</td>
+        <td class="col-meta col-source">${p.source || "—"}</td>
       </tr>`).join("");
 
     resultsEl.innerHTML = `
