@@ -1,6 +1,48 @@
 {
   "products": [
     {
+      "name": "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin",
+      "price": "$75.00",
+      "url": "https://tinbids.com/auction/196244/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$75.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
+    {
+      "name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
+      "price": "$100.00",
+      "url": "https://tinbids.com/auction/196247/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$100.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Captains Earl’s Ten Russians (Early Hermit 50g Tin)",
+      "price": "$80.00",
+      "url": "https://tinbids.com/auction/196253/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$80.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
+    {
       "name": "2013 Samuel Gawith St James Flake 8 oz-3day auction",
       "price": "$305.00",
       "url": "https://tinbids.com/auction/196229/",
@@ -183,8 +225,50 @@
       ]
     }
   ],
-  "last_scraped": "2026-06-21T01:30:58.718853+00:00",
+  "last_scraped": "2026-06-21T04:00:27.781739+00:00",
   "latest_scrape": [
+    {
+      "name": "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin",
+      "price": "$75.00",
+      "url": "https://tinbids.com/auction/196244/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$75.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
+    {
+      "name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
+      "price": "$100.00",
+      "url": "https://tinbids.com/auction/196247/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$100.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Captains Earl’s Ten Russians (Early Hermit 50g Tin)",
+      "price": "$80.00",
+      "url": "https://tinbids.com/auction/196253/",
+      "source": "Tinbids Auction (Sold)",
+      "first_seen": "2026-06-21T04:00:27.781739+00:00",
+      "last_seen": "2026-06-21T04:00:27.781739+00:00",
+      "price_history": [
+        {
+          "price": "$80.00",
+          "date": "2026-06-21T04:00:27.781739+00:00"
+        }
+      ]
+    },
     {
       "name": "2013 Samuel Gawith St James Flake 8 oz-3day auction",
       "price": "$305.00",
@@ -369,26 +453,6 @@
     }
   ],
   "pending": [
-    {
-      "url": "https://tinbids.com/auction/196244/",
-      "name": "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin",
-      "date_end": "2026-06-21 02:58:46"
-    },
-    {
-      "url": "https://tinbids.com/auction/196247/",
-      "name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
-      "date_end": "2026-06-21 03:01:08"
-    },
-    {
-      "url": "https://tinbids.com/auction/196250/",
-      "name": "2003 Davidoff Royalty (Painted Tin) English Blend",
-      "date_end": "2026-06-21 03:02:09"
-    },
-    {
-      "url": "https://tinbids.com/auction/196253/",
-      "name": "Captains Earl’s Ten Russians (Early Hermit 50g Tin)",
-      "date_end": "2026-06-21 03:55:32"
-    },
     {
       "url": "https://tinbids.com/auction/195530/",
       "name": "Esoterica And so to bed  8oz Bag  2oz Tin",
@@ -3463,6 +3527,31 @@
       "url": "https://tinbids.com/auction/197209/",
       "name": "4 Father’s Day Special, ESCUDO,EDGEWORTH,RED RIBBON,CAPSTAN.",
       "date_end": "2026-06-22 01:17:02"
+    },
+    {
+      "url": "https://tinbids.com/auction/197213/",
+      "name": "Davidoff Royalty -Painted Tin- 90’s/Early 2000’s",
+      "date_end": "2026-06-24 03:34:28"
+    },
+    {
+      "url": "https://tinbids.com/auction/197214/",
+      "name": "C&D 2025 Maestro Lot of 3",
+      "date_end": "2026-06-24 03:35:29"
+    },
+    {
+      "url": "https://tinbids.com/auction/197212/",
+      "name": "Esoterica Dunbar - 01/2016- 4 oz- BIN $160",
+      "date_end": "2026-06-28 02:06:04"
+    },
+    {
+      "url": "https://tinbids.com/auction/197215/",
+      "name": "Esoterica Stonehaven 8oz Beige Bag Sealed 2011",
+      "date_end": "2026-07-01 03:38:05"
+    },
+    {
+      "url": "https://tinbids.com/auction/197220/",
+      "name": "PPCA “Dulcet Two” by McClelland 50 gram 30 Year Old Sealed Tin",
+      "date_end": "2026-07-01 03:53:49"
     }
   ]
 }
