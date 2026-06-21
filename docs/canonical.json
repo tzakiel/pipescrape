@@ -1,12 +1,99 @@
 {
-  "generated": "2026-06-21T05:10:57.301857+00:00",
+  "generated": "2026-06-21T05:39:41.920999+00:00",
   "stats": {
-    "total_listings": 370,
-    "total_tins": 348,
+    "total_listings": 385,
+    "total_tins": 363,
     "multi_member_tins": 9,
     "listings_in_groups": 28
   },
   "tins": [
+    {
+      "id": "tinbidsauctionsold|solo|1998mcclellandiwanriesanniversaryblendgourmetenglish50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
+      "members": [
+        {
+          "name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196247/",
+          "listing_price": "$100.00",
+          "pack_count": 1,
+          "price": "$100.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "1998",
+          "price_history": [
+            {
+              "price": "$100.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1998"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2013samuelgawithstjamesflake8oz3dayauction",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2013 Samuel Gawith St James Flake 8 oz-3day auction",
+      "members": [
+        {
+          "name": "2013 Samuel Gawith St James Flake 8 oz-3day auction",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196229/",
+          "listing_price": "$305.00",
+          "pack_count": 1,
+          "price": "$305.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$305.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2020macbarenvanillarollcake35oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "3.5oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin",
+      "members": [
+        {
+          "name": "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196244/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
     {
       "id": "4nogginscom|solo|acpetersonpremiercruc",
       "brand": "",
@@ -955,6 +1042,33 @@
       "years": [
         "1999"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|captainsearlstenrussiansearlyhermit50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Captains Earl’s Ten Russians (Early Hermit 50g Tin)",
+      "members": [
+        {
+          "name": "Captains Earl’s Ten Russians (Early Hermit 50g Tin)",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196253/",
+          "listing_price": "$80.00",
+          "pack_count": 1,
+          "price": "$80.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$80.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "4nogginscom|solo|charatansmakelondonenglandexecutivexl1965",
@@ -3108,6 +3222,35 @@
       "years": []
     },
     {
+      "id": "tinbidsauctionsold|solo|excellentsealed2018dunhillnightcap50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Excellent Sealed 2018 Dunhill Nightcap 50g. Tin",
+      "members": [
+        {
+          "name": "Excellent Sealed 2018 Dunhill Nightcap 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195465/",
+          "listing_price": "$32.00",
+          "pack_count": 1,
+          "price": "$32.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$32.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
       "id": "pipestudcom|fribourg|treyerblackjack|50g",
       "brand": "Fribourg",
       "blend": "& Treyer Blackjack",
@@ -3273,6 +3416,35 @@
             {
               "price": "$35.00",
               "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|frogmortonsealedtinfrom2017",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Frog Morton Sealed Tin from 2017",
+      "members": [
+        {
+          "name": "Frog Morton Sealed Tin from 2017",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196206/",
+          "listing_price": "$110.21",
+          "pack_count": 1,
+          "price": "$110.21",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$110.21",
+              "date": "2026-06-21T05:37:17.147469+00:00"
             }
           ]
         }
@@ -5293,6 +5465,122 @@
         }
       ],
       "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof2excellent20192020cornelldiehlkingsstridewarpedseriesuntiltheend2oztins",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 2 Excellent 2019 & 2020 Cornell & Diehl Kings Stride Warped Series Until the End 2oz. Tins",
+      "members": [
+        {
+          "name": "Lot of 2 Excellent 2019 & 2020 Cornell & Diehl Kings Stride Warped Series Until the End 2oz. Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195444/",
+          "listing_price": "$20.49",
+          "pack_count": 2,
+          "price": "$10.24",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2019",
+          "price_history": [
+            {
+              "price": "$10.24",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2019"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof2excellentsealed2020ashtonartisansblend50gtins",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 2 Excellent Sealed 2020 Ashton Artisan's Blend 50g. Tins",
+      "members": [
+        {
+          "name": "Lot of 2 Excellent Sealed 2020 Ashton Artisan's Blend 50g. Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195461/",
+          "listing_price": "$43.00",
+          "pack_count": 2,
+          "price": "$21.50",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$21.50",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof2excellentsealed2020originalnavycutcapstan50gtins",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 2 Excellent Sealed 2020 Original Navy Cut Capstan 50g. Tins",
+      "members": [
+        {
+          "name": "Lot of 2 Excellent Sealed 2020 Original Navy Cut Capstan 50g. Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195472/",
+          "listing_price": "$52.00",
+          "pack_count": 2,
+          "price": "$26.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$26.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof2excellentsealed2021rattraysblackmallory100gtobaccotins",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 2 Excellent Sealed 2021 Rattray's Black Mallory 100g. Tobacco Tins",
+      "members": [
+        {
+          "name": "Lot of 2 Excellent Sealed 2021 Rattray's Black Mallory 100g. Tobacco Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195452/",
+          "listing_price": "$41.00",
+          "pack_count": 2,
+          "price": "$20.50",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2021",
+          "price_history": [
+            {
+              "price": "$20.50",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ]
     },
     {
       "id": "pipestudcom|mac|barendarktwistrollcake|100g",
@@ -9726,6 +10014,33 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|sutliffpipeforceepisodev",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sutliff Pipe Force Episode V",
+      "members": [
+        {
+          "name": "Sutliff Pipe Force Episode V",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195493/",
+          "listing_price": "$39.99",
+          "pack_count": 1,
+          "price": "$39.99",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$39.99",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "4nogginscom|solo|sutliffsweated12oz2025c",
       "brand": "",
       "blend": "",
@@ -9878,6 +10193,122 @@
       "years": [
         "1970",
         "1980"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynice2021glpeasequietnights2oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "2021g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice 2021 G. L. Pease Quiet Nights 2oz. Tin",
+      "members": [
+        {
+          "name": "Very Nice 2021 G. L. Pease Quiet Nights 2oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195457/",
+          "listing_price": "$19.99",
+          "pack_count": 1,
+          "price": "$19.99",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2021",
+          "price_history": [
+            {
+              "price": "$19.99",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixture96550gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2018 Dunhill My Mixture 965 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2018 Dunhill My Mixture 965 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195449/",
+          "listing_price": "$29.00",
+          "pack_count": 1,
+          "price": "$29.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$29.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixturebb193850gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2018 Dunhill My Mixture BB1938 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2018 Dunhill My Mixture BB1938 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195475/",
+          "listing_price": "$21.99",
+          "pack_count": 1,
+          "price": "$21.99",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$21.99",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2018mcclellands40thanniversary100gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195478/",
+          "listing_price": "$182.00",
+          "pack_count": 1,
+          "price": "$182.00",
+          "last_seen": "2026-06-21T05:37:17.147469+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$182.00",
+              "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
       ]
     },
     {
@@ -10488,6 +10919,21 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "pipestudcom|mac|barendarktwistrollcake|100g",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "pipestudcom|van|rossemsschipperstabak|312oz",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+    "Lot of 2 Excellent 2019 & 2020 Cornell & Diehl Kings Stride Warped Series Until the End 2oz. Tins": "tinbidsauctionsold|solo|lotof2excellent20192020cornelldiehlkingsstridewarpedseriesuntiltheend2oztins",
+    "Very Nice Sealed 2018 Dunhill My Mixture 965 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixture96550gtin",
+    "Lot of 2 Excellent Sealed 2021 Rattray's Black Mallory 100g. Tobacco Tins": "tinbidsauctionsold|solo|lotof2excellentsealed2021rattraysblackmallory100gtobaccotins",
+    "Very Nice 2021 G. L. Pease Quiet Nights 2oz. Tin": "tinbidsauctionsold|solo|verynice2021glpeasequietnights2oztin",
+    "Lot of 2 Excellent Sealed 2020 Ashton Artisan's Blend 50g. Tins": "tinbidsauctionsold|solo|lotof2excellentsealed2020ashtonartisansblend50gtins",
+    "Excellent Sealed 2018 Dunhill Nightcap 50g. Tin": "tinbidsauctionsold|solo|excellentsealed2018dunhillnightcap50gtin",
+    "Lot of 2 Excellent Sealed 2020 Original Navy Cut Capstan 50g. Tins": "tinbidsauctionsold|solo|lotof2excellentsealed2020originalnavycutcapstan50gtins",
+    "Very Nice Sealed 2018 Dunhill My Mixture BB1938 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixturebb193850gtin",
+    "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin": "tinbidsauctionsold|solo|verynicesealed2018mcclellands40thanniversary100gtin",
+    "Frog Morton Sealed Tin from 2017": "tinbidsauctionsold|solo|frogmortonsealedtinfrom2017",
+    "Sutliff Pipe Force Episode V": "tinbidsauctionsold|solo|sutliffpipeforceepisodev",
+    "2013 Samuel Gawith St James Flake 8 oz-3day auction": "tinbidsauctionsold|solo|2013samuelgawithstjamesflake8oz3dayauction",
+    "2020 Mac Baren Vanilla Roll Cake 3.5oz Tin": "tinbidsauctionsold|solo|2020macbarenvanillarollcake35oztin",
+    "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin": "tinbidsauctionsold|solo|1998mcclellandiwanriesanniversaryblendgourmetenglish50gtin",
+    "Captains Earl’s Ten Russians (Early Hermit 50g Tin)": "tinbidsauctionsold|solo|captainsearlstenrussiansearlyhermit50gtin",
     "Half and Half 14oz. Tin": "tinbidsauctionsold|solo|halfandhalf14oztin",
     "Dunhill Flake - 2012": "treasuredsmokes|dunhillflake|2012|",
     "Balkan Luxury Blend 957": "treasuredsmokes|solo|balkanluxuryblend957",
