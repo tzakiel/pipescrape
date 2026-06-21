@@ -4,6 +4,7 @@ Uses the public Shopify collection JSON API — no browser or Cloudflare bypass 
 Runs daily. Writes docs/products_4noggins.json. Shared logic in scrape_core.py.
 """
 import os
+import re
 
 import cloudscraper
 
@@ -33,8 +34,14 @@ def fetch():
             price = f"${raw_price}" if raw_price else ""
             handle = p.get("handle", "")
             url = f"https://www.4noggins.com/products/{handle}" if handle else ""
+            # tin size can live in the variant title ("2 oz") or the body copy;
+            # capture both so consolidate.py can recover weight when the name omits it.
+            variant_titles = " ".join(v.get("title", "") for v in variants if v.get("title"))
+            body = re.sub(r"<[^>]+>", " ", p.get("body_html") or "")
+            desc = re.sub(r"\s+", " ", f"{variant_titles} {body}").strip()[:400]
             if name:
-                found.append({"name": name, "price": price, "url": url, "source": SOURCE})
+                found.append({"name": name, "price": price, "url": url,
+                              "source": SOURCE, "description": desc})
 
         if len(products) < 250:
             break

@@ -9,6 +9,7 @@ straight from the Wix Stores GraphQL API instead of parsing HTML:
 Runs daily. Writes docs/products_treasuredsmokes.json. Core logic in scrape_core.py.
 """
 import os
+import re
 
 import cloudscraper
 
@@ -30,7 +31,7 @@ query getProducts($collectionId: String!, $offset: Int, $limit: Int) {
     category(categoryId: $collectionId) {
       productsWithMetaData(limit: $limit, offset: $offset) {
         totalCount
-        list { name formattedPrice urlPart }
+        list { name formattedPrice urlPart description }
       }
     }
   }
@@ -64,11 +65,16 @@ def fetch():
             if not name:
                 continue
             slug = p.get("urlPart") or ""
+            # description often states the tin weight when the name doesn't
+            # (consolidate.py reads it as a fallback for the tin size).
+            desc = re.sub(r"<[^>]+>", " ", p.get("description") or "")
+            desc = re.sub(r"\s+", " ", desc).strip()[:400]
             found.append({
                 "name": name,
                 "price": (p.get("formattedPrice") or "").strip(),
                 "url": PRODUCT_URL.format(slug=slug) if slug else PAGE_URL,
                 "source": SOURCE,
+                "description": desc,
             })
 
         offset += limit

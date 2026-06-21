@@ -77,6 +77,10 @@ def merge_products(data, found, now, latest=None):
     """
     existing = {p["name"]: p for p in data.get("products", [])}
 
+    # Optional fields a source may supply (e.g. description/weight for tin-size
+    # recovery). Carried through verbatim so consolidate.py can read them.
+    EXTRA_FIELDS = ("description", "weight")
+
     for p in found:
         if p["name"] in existing:
             ex = existing[p["name"]]
@@ -88,8 +92,11 @@ def merge_products(data, found, now, latest=None):
             ex["url"] = p["url"]
             ex["source"] = p["source"]
             ex["last_seen"] = now
+            for f in EXTRA_FIELDS:
+                if p.get(f):
+                    ex[f] = p[f]
         else:
-            existing[p["name"]] = {
+            rec = {
                 "name": p["name"],
                 "price": p["price"],
                 "url": p["url"],
@@ -98,6 +105,10 @@ def merge_products(data, found, now, latest=None):
                 "last_seen": now,
                 "price_history": [{"price": p["price"], "date": now}],
             }
+            for f in EXTRA_FIELDS:
+                if p.get(f):
+                    rec[f] = p[f]
+            existing[p["name"]] = rec
 
     data["products"] = sorted(existing.values(), key=lambda x: x["last_seen"], reverse=True)
     data["last_scraped"] = now

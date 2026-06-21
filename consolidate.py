@@ -33,7 +33,9 @@ SOURCE_FILES = {
 # ("Blend 500 in a 50g" vs "Blend 500 50g" must land in the same bucket).
 KEY_STOP = {"in", "a", "of", "the", "an"}
 
-QTY_RE = re.compile(r"(\d+\s*g\b|\d+(?:[\-/]\d+)?\s*oz\b|\d+/\d+\s*oz\b|\d+\s*ounce\b)", re.I)
+# tin weight, in a name OR a free-text description: "50g", "100 grams", "2oz",
+# "2 ounce", "1-3/4 oz", "1.76oz". (NOT pack counts — that's PACK_RE.)
+QTY_RE = re.compile(r"(\d+\s*(?:g|grams?)\b|\d[\d.\-/]*\s*(?:oz|ounces?)\b)", re.I)
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 # pack/lot count → number of tins in one listing. Handles:
 #   "Lot of 2 …", "3-Pack", "5 Pack of …", "5 x CAO", "15x Peterson …"
@@ -88,8 +90,10 @@ def _qty(s):
     m = QTY_RE.search(s or "")
     if not m:
         return ""
-    q = re.sub(r"\s+", "", m.group(1)).lower().replace("ounce", "oz")
-    return q
+    raw = m.group(1)
+    num = re.match(r"[\d.\-/]+", raw.replace(" ", "")).group(0)
+    unit = "oz" if re.search(r"oz|ounce", raw, re.I) else "g"
+    return f"{num}{unit}".lower()
 
 
 def _year(s):
@@ -193,6 +197,14 @@ def main():
             pc = _pack_count(name)
             pack = pc if pc else 1          # None (variety) or 1 → don't divide; N → divide
             listing_price = p.get("price", "")
+
+            # Tin weight: prefer the name; fall back to a scraper-provided weight
+            # or the page description (Treasured/Tinbids often omit size from the
+            # name but state it in the description, e.g. "… 50g tin").
+            weight = ((parsed or {}).get("quantity") or _qty(name)
+                      or p.get("weight", "") or _qty(p.get("description", "")))
+            if parsed:
+                parsed["quantity"] = weight
             member = {
                 "name": name, "source": source, "url": p.get("url", ""),
                 "listing_price": listing_price, "pack_count": pack,
@@ -224,7 +236,7 @@ def main():
                 groups[key] = {
                     "id": key, "brand": (parsed or {}).get("brand", ""),
                     "blend": (parsed or {}).get("blend", ""),
-                    "quantity": (parsed or {}).get("quantity", ""),
+                    "quantity": weight,
                     "source": source, "display_name": name, "members": [member],
                 }
                 name_to_id[name] = key
