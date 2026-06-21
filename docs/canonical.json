@@ -1,0 +1,4332 @@
+{
+  "generated": "2026-06-21T04:01:54.040414+00:00",
+  "stats": {
+    "total_listings": 153,
+    "total_tins": 133,
+    "multi_member_tins": 9,
+    "listings_in_groups": 29
+  },
+  "tins": [
+    {
+      "id": "treasuredsmokes|anomalous|birdsfeather|",
+      "brand": "Anomalous",
+      "blend": "Birds of a Feather",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Anomalous Birds of a Feather",
+      "members": [
+        {
+          "name": "Anomalous - Birds of a Feather",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/anomalous-birds-of-a-feather",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "treasuredsmokes|ashton|celebratedsovereign|",
+      "brand": "Ashton",
+      "blend": "Celebrated Sovereign",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Ashton Celebrated Sovereign",
+      "members": [
+        {
+          "name": "Ashton - Celebrated Sovereign - 1998",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/ashton-celebrated-sovereign-1998",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "1998",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1998"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|ashtonolddog|2000|",
+      "brand": "Ashton Old Dog",
+      "blend": "2000",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Ashton Old Dog 2000",
+      "members": [
+        {
+          "name": "Ashton Old Dog - 2000",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/ashton-old-dog-2000",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2000",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2000"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|ashtonolddog|2004|",
+      "brand": "Ashton Old Dog",
+      "blend": "2004",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Ashton Old Dog 2004",
+      "members": [
+        {
+          "name": "Ashton Old Dog - 2004",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/old-dog-2004",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2004",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2004"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|solo|balkanluxuryblend957",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Balkan Luxury Blend 957",
+      "members": [
+        {
+          "name": "Balkan Luxury Blend 957",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/balkan-luxury-blend-957",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|bell|originalwdhowillsscotlandmadethreenuns|100g",
+      "brand": "Bell",
+      "blend": "Original W.D & H.O. Wills Scotland Made Three Nuns –",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Bell Original W.D & H.O. Wills Scotland Made Three Nuns – 100g",
+      "members": [
+        {
+          "name": "Bell’s Original W.D & H.O. Wills Scotland Made Three Nuns – 100g tin – 1980’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/bells-original-w-d-h-o-wills-scotland-made-three-nuns-100g-tin-1980s-era/",
+          "listing_price": "$895.00",
+          "pack_count": 1,
+          "price": "$895.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$895.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|briarworks|countrylawyer|",
+      "brand": "BriarWorks",
+      "blend": "Country Lawyer",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "BriarWorks Country Lawyer",
+      "members": [
+        {
+          "name": "BriarWorks - Country Lawyer - 2018",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/briarworks-country-lawyer-2018",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|briarworks|unsweettea|",
+      "brand": "BriarWorks",
+      "blend": "Unsweet Tea",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "BriarWorks Unsweet Tea",
+      "members": [
+        {
+          "name": "BriarWorks - Unsweet Tea - 2018",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/briarworks-unsweet-tea-2018",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|brigadierblack|alamo|",
+      "brand": "Brigadier Black",
+      "blend": "Alamo",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Brigadier Black Alamo",
+      "members": [
+        {
+          "name": "Brigadier Black - Alamo - 2013!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/brigadier-black-alamo-2013",
+          "listing_price": "$72.00",
+          "pack_count": 1,
+          "price": "$72.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$72.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|brigadierblack|bullrun|",
+      "brand": "Brigadier Black",
+      "blend": "Bull Run",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Brigadier Black Bull Run",
+      "members": [
+        {
+          "name": "Brigadier Black - Bull Run - 2013!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/copy-of-brigadier-black-bull-run-2013",
+          "listing_price": "$72.00",
+          "pack_count": 1,
+          "price": "$72.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$72.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|brigadierblack|gettysburg|",
+      "brand": "Brigadier Black",
+      "blend": "Gettysburg",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Brigadier Black Gettysburg",
+      "members": [
+        {
+          "name": "Brigadier Black - Gettysburg - 2013!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/brigadier-black-gettysburg-2013",
+          "listing_price": "$72.00",
+          "pack_count": 1,
+          "price": "$72.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$72.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|brigadierblack|shermansmarch|",
+      "brand": "Brigadier Black",
+      "blend": "Sherman's March",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Brigadier Black Sherman's March",
+      "members": [
+        {
+          "name": "Brigadier Black - Sherman's March - 2013!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/brigadier-black-sherman-s-march-2013",
+          "listing_price": "$72.00",
+          "pack_count": 1,
+          "price": "$72.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$72.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "pipestudcom|brindley|englishmixture1|34oz",
+      "brand": "Brindley",
+      "blend": "English Mixture 1-",
+      "quantity": "3/4oz",
+      "source": "pipestud.com",
+      "display_name": "Brindley English Mixture 1- 3/4oz",
+      "members": [
+        {
+          "name": "Brindley’s English Mixture 1-3/4 oz tins – 1970’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/brindleys-english-mixture-1-3-4-oz-tins-1970s-era/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|solo|brownsugarflake",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Brown Sugar Flake!",
+      "members": [
+        {
+          "name": "Brown Sugar Flake!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/brown-sugar-flake",
+          "listing_price": "$51.00",
+          "pack_count": 1,
+          "price": "$51.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$51.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|solo|charatansoriginallightaromatic1970seramadebydunhill",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "pipestud.com",
+      "display_name": "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill",
+      "members": [
+        {
+          "name": "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/charatans-original-light-aromatic-1970s-era-made-by-dunhill-2/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|cornelldiehl|billybudd|",
+      "brand": "Cornell & Diehl",
+      "blend": "Billy Budd",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Cornell & Diehl Billy Budd",
+      "members": [
+        {
+          "name": "Cornell & Diehl - Billy Budd - 2017",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cornell-diehl-billy-budd-2017",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|cornelldiehl|exhaustedrooster|",
+      "brand": "Cornell & Diehl",
+      "blend": "Exhausted Rooster",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Cornell & Diehl Exhausted Rooster",
+      "members": [
+        {
+          "name": "Cornell & Diehl - Exhausted Rooster - 2009-10!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cornell-diehl-exhausted-rooster-2010",
+          "listing_price": "$79.00",
+          "pack_count": 1,
+          "price": "$79.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$74.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            },
+            {
+              "price": "$79.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "Cornell & Diehl - Exhausted Rooster - 2009!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cornell-diehl-exhausted-rooster-2009",
+          "listing_price": "$42.00",
+          "pack_count": 1,
+          "price": "$42.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$42.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "Cornell & Diehl - Exhausted Rooster - 2011!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cornell-diehl-exhausted-rooster-2011",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|cornelldiehl|openingnight|",
+      "brand": "Cornell & Diehl",
+      "blend": "Opening Night",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Cornell & Diehl Opening Night",
+      "members": [
+        {
+          "name": "Cornell & Diehl - Opening Night - 2011!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cornell-diehl-opening-night-2011",
+          "listing_price": "$41.00",
+          "pack_count": 1,
+          "price": "$41.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$41.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|solo|cringleflake2020",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Cringle Flake 2020",
+      "members": [
+        {
+          "name": "Cringle Flake 2020",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cringle-flake-2020",
+          "listing_price": "$44.00",
+          "pack_count": 1,
+          "price": "$44.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$44.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|solo|cultconspiracy",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Cult Conspiracy",
+      "members": [
+        {
+          "name": "Cult Conspiracy",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/cult-conspiracy",
+          "listing_price": "$35.00",
+          "pack_count": 1,
+          "price": "$35.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|dannemann|blend500|50g",
+      "brand": "Dannemann",
+      "blend": "Blend 500",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dannemann Blend 500 50g",
+      "members": [
+        {
+          "name": "Dannemann’s Blend 500 in a 50g tin – 1970’s era & Made by Germain",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dannemanns-blend-500-in-a-50g-tin-1970s-era-made-by-germain/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "Dannemann’s Blend 500 in a 50g tin – 1970’s era & Made by Germain (Lot #2)",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dannemanns-blend-500-in-a-50g-tin-1970s-era-made-by-germain-lot-2/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "pipestudcom|dannemann|blend600|50g",
+      "brand": "Dannemann",
+      "blend": "Blend 600",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dannemann Blend 600 50g",
+      "members": [
+        {
+          "name": "Dannemann’s Blend 600 in 50g tins – 1970’s era & Made by Germain (One Tin Per Customer)",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dannemanns-blend-600-in-50g-tins-1970s-era-made-by-germain-one-tin-per-customer/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "pipestudcom|dannemann|blend700|50g",
+      "brand": "Dannemann",
+      "blend": "Blend 700",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dannemann Blend 700 50g",
+      "members": [
+        {
+          "name": "Dannemann’s Blend 700 in 50g tins – 1970’s era & Made by Germain (One Tin Per Customer)",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dannemanns-blend-700-in-50g-tins-1970s-era-made-by-germain-one-tin-per-customer/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "Dannemann’s Blend 700 in a 50g tin – 1970’s era & Made by Germain (Lot #2)",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dannemanns-blend-700-in-a-50g-tin-1970s-era-made-by-germain-lot-2/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "pipestudcom|davidoff|royalty|50g",
+      "brand": "Davidoff",
+      "blend": "Royalty",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Davidoff Royalty 50g",
+      "members": [
+        {
+          "name": "Davidoff Royalty 50g tins – 1990’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/davidoff-royalty-50g-tins-1990s-era/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1990",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1990"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|drewestate|harvestonhudson|",
+      "brand": "Drew Estate",
+      "blend": "Harvest on Hudson",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Drew Estate Harvest on Hudson",
+      "members": [
+        {
+          "name": "Drew Estate - Harvest on Hudson - 2011!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/drew-estate-harvest-on-hudson-2011",
+          "listing_price": "$44.00",
+          "pack_count": 1,
+          "price": "$44.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$44.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "pipestudcom|dunhill|babysbottom|50g",
+      "brand": "Dunhill",
+      "blend": "Baby’s Bottom",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Baby’s Bottom 50g",
+      "members": [
+        {
+          "name": "Dunhill Baby’s Bottom 50g tin – First Year 2015 Reintroduction",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-babys-bottom-50g-tin-first-year-2015-reintroduction/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "pipestudcom|dunhill|elizabethanmixture|50g",
+      "brand": "Dunhill",
+      "blend": "Elizabethan Mixture",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Elizabethan Mixture 50g",
+      "members": [
+        {
+          "name": "Dunhill Elizabethan Mixture 50g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-elizabethan-mixture-50g-tin-year-2014/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|dunhillflake|2012|",
+      "brand": "Dunhill Flake",
+      "blend": "2012",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Dunhill Flake 2012",
+      "members": [
+        {
+          "name": "Dunhill Flake - 2012",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/dunhill-flake-2012",
+          "listing_price": "$60.00",
+          "pack_count": 1,
+          "price": "$60.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$60.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|dunhill|murrayseradurbar|50g",
+      "brand": "Dunhill",
+      "blend": "Murray’s era Durbar",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Murray’s era Durbar 50g",
+      "members": [
+        {
+          "name": "Dunhill Murray’s era Durbar 50g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-murrays-era-durbar-50g-tin-year-2014/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "pipestudcom|dunhill|mymixture965|50g",
+      "brand": "Dunhill",
+      "blend": "My Mixture 965",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dunhill My Mixture 965 50g",
+      "members": [
+        {
+          "name": "Dunhill My Mixture 965 in a 50g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-my-mixture-965-in-a-50g-tin-year-2014/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "pipestudcom|dunhill|nightcap|50g",
+      "brand": "Dunhill",
+      "blend": "Nightcap",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Nightcap 50g",
+      "members": [
+        {
+          "name": "Dunhill Nightcap 50g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-nightcap-50g-tin-year-2014/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "pipestudcom|solo|dunhillvariety3packof50gtinsyears20112014",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Variety 3-Pack of 50g tins – Years 2011 & 2014",
+      "members": [
+        {
+          "name": "Dunhill Variety 3-Pack of 50g tins – Years 2011 & 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-variety-3-pack-of-50g-tins-years-2011-2014/",
+          "listing_price": "$130.00",
+          "pack_count": 1,
+          "price": "$130.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$130.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "pipestudcom|solo|dunhillvariety5packof50gtinsvariousyears",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "pipestud.com",
+      "display_name": "Dunhill Variety 5-Pack of 50g tins – Various Years",
+      "members": [
+        {
+          "name": "Dunhill Variety 5-Pack of 50g tins – Various Years",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/dunhill-variety-5-pack-of-50g-tins-various-years-2/",
+          "listing_price": "$165.00",
+          "pack_count": 1,
+          "price": "$165.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$165.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|elephant|castlenewworld|50g",
+      "brand": "Elephant",
+      "blend": "& Castle New World",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Elephant & Castle New World 50g",
+      "members": [
+        {
+          "name": "Elephant & Castle New World 50g tin – 1980’s era and Made by McConnell’s in England",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/elephant-castle-new-world-50g-tin-1980s-era-and-made-by-mcconnells-in-england/",
+          "listing_price": "$425.00",
+          "pack_count": 1,
+          "price": "$425.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$425.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|escudo|navydeluxe|50g",
+      "brand": "Escudo",
+      "blend": "Navy De Luxe",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Escudo Navy De Luxe 50g",
+      "members": [
+        {
+          "name": "Escudo Navy De Luxe 50g tin – First Year 2008 Orlik era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/escudo-navy-de-luxe-50g-tin-first-year-2008-orlik-era/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2008",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2008"
+      ]
+    },
+    {
+      "id": "pipestudcom|fribourg|treyerblackjack|50g",
+      "brand": "Fribourg",
+      "blend": "& Treyer Blackjack",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Fribourg & Treyer Blackjack 50g",
+      "members": [
+        {
+          "name": "Fribourg & Treyer Blackjack 50g tins – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/fribourg-treyer-blackjack-50g-tins-year-2014/",
+          "listing_price": "$65.00",
+          "pack_count": 1,
+          "price": "$65.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$65.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|friburgtreyer|cutblendedplug|",
+      "brand": "Friburg & Treyer",
+      "blend": "Cut Blended Plug",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Friburg & Treyer Cut Blended Plug",
+      "members": [
+        {
+          "name": "Friburg & Treyer - Cut Blended Plug - 2017",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/friburg-treyer-cut-blended-plug-2017",
+          "listing_price": "$35.00",
+          "pack_count": 1,
+          "price": "$35.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|g|smithsonsvirginia|50g",
+      "brand": "G.",
+      "blend": "Smith & Sons Virginia",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "G. Smith & Sons Virginia 50g",
+      "members": [
+        {
+          "name": "G. Smith & Sons Virginia 50g tin – 1970’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/g-smith-sons-virginia-50g-tin-1970s-era/",
+          "listing_price": "$150.00",
+          "pack_count": 1,
+          "price": "$150.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$150.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "pipestudcom|gl|peaseclassiccollectioncharingcross|2oz",
+      "brand": "G.L.",
+      "blend": "Pease Classic Collection Charing Cross",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "G.L. Pease Classic Collection Charing Cross 2oz",
+      "members": [
+        {
+          "name": "G.L. Pease Classic Collection Charing Cross 2oz tin – First Year 2003 Production",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/g-l-pease-classic-collection-charing-cross-2oz-tin-first-year-2003-production/",
+          "listing_price": "$60.00",
+          "pack_count": 1,
+          "price": "$60.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2003",
+          "price_history": [
+            {
+              "price": "$60.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2003"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|glpease|fillmore|",
+      "brand": "G.L. Pease",
+      "blend": "Fillmore",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "G.L. Pease Fillmore",
+      "members": [
+        {
+          "name": "G.L. Pease - Fillmore - 2008!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-fillmore-2008",
+          "listing_price": "$53.00",
+          "pack_count": 1,
+          "price": "$53.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2008",
+          "price_history": [
+            {
+              "price": "$53.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "G.L. Pease - Fillmore - 2009!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-fillmore-2009",
+          "listing_price": "$52.00",
+          "pack_count": 1,
+          "price": "$52.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$52.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "G.L. Pease - Fillmore - 2010!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-fillmore-2010",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2008",
+        "2009",
+        "2010"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|glpease|fillmore|8oz",
+      "brand": "G.L. Pease",
+      "blend": "Fillmore",
+      "quantity": "8oz",
+      "source": "Treasured Smokes",
+      "display_name": "G.L. Pease Fillmore 8oz",
+      "members": [
+        {
+          "name": "G.L. Pease - Fillmore - 2008! 8 Ounce Big Can",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-fillmore-2008-8-ounce-big-can",
+          "listing_price": "$98.00",
+          "pack_count": 1,
+          "price": "$98.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2008",
+          "price_history": [
+            {
+              "price": "$98.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2008"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|glpease|haddosdelight|",
+      "brand": "G.L. Pease",
+      "blend": "Haddo's Delight",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "G.L. Pease Haddo's Delight",
+      "members": [
+        {
+          "name": "G.L. Pease - Haddo's Delight - 2009!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-haddo-s-delight-2009",
+          "listing_price": "$53.00",
+          "pack_count": 1,
+          "price": "$53.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$215.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            },
+            {
+              "price": "$53.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "G.L. Pease - Haddo's Delight - 2010!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-haddo-s-delight-2010",
+          "listing_price": "$51.00",
+          "pack_count": 1,
+          "price": "$51.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$51.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009",
+        "2010"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|glpease|jackknifeplug|",
+      "brand": "G.L. Pease",
+      "blend": "JackKnife Plug",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "G.L. Pease JackKnife Plug",
+      "members": [
+        {
+          "name": "G.L. Pease - Jack Knife Plug - 2010!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-jack-knife-plug-2010",
+          "listing_price": "$51.00",
+          "pack_count": 1,
+          "price": "$51.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$51.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        },
+        {
+          "name": "G.L. Pease - JackKnife Plug - 2011!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/g-l-pease-jackknife-plug-2011",
+          "listing_price": "$48.00",
+          "pack_count": 1,
+          "price": "$48.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$48.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2010",
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|gawithhoggarth|balkanmixture|",
+      "brand": "Gawith Hoggarth",
+      "blend": "Balkan Mixture",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Gawith Hoggarth Balkan Mixture",
+      "members": [
+        {
+          "name": "Gawith Hoggarth - Balkan Mixture",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-balkan-mixture-2018",
+          "listing_price": "$28.00",
+          "pack_count": 1,
+          "price": "$28.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$28.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "treasuredsmokes|gawithhoggarth|rumflake|",
+      "brand": "Gawith Hoggarth",
+      "blend": "Rum Flake",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Gawith Hoggarth Rum Flake",
+      "members": [
+        {
+          "name": "Gawith Hoggarth - Rum Flake - 2021",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-rum-flake-2021",
+          "listing_price": "$22.00",
+          "pack_count": 1,
+          "price": "$22.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2021",
+          "price_history": [
+            {
+              "price": "$22.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ]
+    },
+    {
+      "id": "pipestudcom|golden|oldiealertskandinavikregular|6oz",
+      "brand": "Golden",
+      "blend": "Oldie Alert! Skandinavik Regular",
+      "quantity": "6oz",
+      "source": "pipestud.com",
+      "display_name": "Golden Oldie Alert! Skandinavik Regular 6oz",
+      "members": [
+        {
+          "name": "Golden Oldie Alert! Skandinavik Regular 6oz tin – 1980s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/golden-oldie-alert-skandinavik-regular-6oz-tin-1980s-era/",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "treasuredsmokes|goldentriangle|belmont|",
+      "brand": "Golden Triangle",
+      "blend": "Belmont",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Golden Triangle Belmont",
+      "members": [
+        {
+          "name": "Golden Triangle - Belmont - 2011",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/golden-triangle-belmont-2011",
+          "listing_price": "$58.00",
+          "pack_count": 1,
+          "price": "$58.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$58.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|goldentriangle|grandpoint|",
+      "brand": "Golden Triangle",
+      "blend": "Grand Point",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Golden Triangle Grand Point",
+      "members": [
+        {
+          "name": "Golden Triangle - Grand Point - 2011",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/golden-triangle-grand-point-2011",
+          "listing_price": "$58.00",
+          "pack_count": 1,
+          "price": "$58.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$58.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|goldentriangle|paulina|",
+      "brand": "Golden Triangle",
+      "blend": "Paulina",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Golden Triangle Paulina",
+      "members": [
+        {
+          "name": "Golden Triangle - Paulina - 2011",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/golden-triangle-paulina-2011",
+          "listing_price": "$58.00",
+          "pack_count": 1,
+          "price": "$58.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$58.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|goldentriangle|southvacherie|",
+      "brand": "Golden Triangle",
+      "blend": "South Vacherie",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Golden Triangle South Vacherie",
+      "members": [
+        {
+          "name": "Golden Triangle - South Vacherie - 2011",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/golden-triangle-south-vacherie-2011",
+          "listing_price": "$58.00",
+          "pack_count": 1,
+          "price": "$58.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$58.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|goldentriangle|stjamesperique|",
+      "brand": "Golden Triangle",
+      "blend": "St. James Perique",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Golden Triangle St. James Perique",
+      "members": [
+        {
+          "name": "Golden Triangle - St. James Perique - 2011",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/golden-triangle-st-james-perique-2011",
+          "listing_price": "$58.00",
+          "pack_count": 1,
+          "price": "$58.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$58.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|halfhalf|burleybright|",
+      "brand": "Half & Half",
+      "blend": "Burley & Bright",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Half & Half Burley & Bright",
+      "members": [
+        {
+          "name": "Half & Half - Burley & Bright - 2012!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/half-half-burley-bright-2012",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|halfandhalf14oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Half and Half 14oz. Tin",
+      "members": [
+        {
+          "name": "Half and Half 14oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/194872/",
+          "listing_price": "$41.00",
+          "pack_count": 1,
+          "price": "$41.00",
+          "last_seen": "2026-06-20T22:04:55.127665+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$41.00",
+              "date": "2026-06-20T22:04:55.127665+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "treasuredsmokes|hearthandhome|classicburleykake|8oz",
+      "brand": "Hearth and Home",
+      "blend": "Classic Burley Kake",
+      "quantity": "8oz",
+      "source": "Treasured Smokes",
+      "display_name": "Hearth and Home Classic Burley Kake 8oz",
+      "members": [
+        {
+          "name": "Hearth and Home - Classic Burley Kake - 2012 - 8 Ounce Can!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/hearth-and-home-classic-burley-kake-2012-8-ounce-can",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|house|cravenoriginalcravenmixture|50g",
+      "brand": "House",
+      "blend": "of Craven Original Craven Mixture",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "House of Craven Original Craven Mixture 50g",
+      "members": [
+        {
+          "name": "House of Craven Original Craven Mixture 50g tins – 1970’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/house-of-craven-original-craven-mixture-50g-tins-1970s-era/",
+          "listing_price": "$150.00",
+          "pack_count": 1,
+          "price": "$150.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$150.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ]
+    },
+    {
+      "id": "pipestudcom|jbr|quintessencecurlycut|50g",
+      "brand": "JBR",
+      "blend": "Quintessence Curly Cut",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "JBR Quintessence Curly Cut 50g",
+      "members": [
+        {
+          "name": "JBR’s Quintessence Curly Cut 50g tin – 1990’s era & Made by Mac Baren’s",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/jbrs-quintessence-curly-cut-50g-tin-1990s-era-made-by-mac-barens/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1990",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1990"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|johncottons|doublepressedvirginia|",
+      "brand": "John Cotton's",
+      "blend": "Double Pressed Virginia",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "John Cotton's Double Pressed Virginia",
+      "members": [
+        {
+          "name": "John Cotton's - Double Pressed Virginia - 2020",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/john-cotton-s-double-pressed-virginia-2020",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
+    {
+      "id": "pipestudcom|lane|limitedsoriginalcrownachievement|2oz",
+      "brand": "Lane",
+      "blend": "Limited’s Original Crown Achievement",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "Lane Limited’s Original Crown Achievement 2oz",
+      "members": [
+        {
+          "name": "Lane Limited’s Original Crown Achievement 2oz tins – 1980’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/lane-limiteds-original-crown-achievement-2oz-tins-1980s-era/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|limitedrun|cobblestoneplumrum|",
+      "brand": "Limited Run",
+      "blend": "Cobblestone Plum Rum",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Limited Run Cobblestone Plum Rum",
+      "members": [
+        {
+          "name": "Limited Run - Cobblestone Plum Rum",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/limited-run-cobblestone-plum-rum",
+          "listing_price": "$28.00",
+          "pack_count": 1,
+          "price": "$28.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$28.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|mac|barendarktwistrollcake|100g",
+      "brand": "Mac",
+      "blend": "Baren Dark Twist Roll Cake",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Mac Baren Dark Twist Roll Cake 100g",
+      "members": [
+        {
+          "name": "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mac-baren-dark-twist-roll-cake-100g-tins-year-2009/",
+          "listing_price": "$165.00",
+          "pack_count": 1,
+          "price": "$165.00",
+          "last_seen": "2026-06-20T18:16:30.592036+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$165.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009"
+      ]
+    },
+    {
+      "id": "pipestudcom|solo|macbarendarktwistrollcakeonepoundtinsyear2009",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "pipestud.com",
+      "display_name": "Mac Baren Dark Twist Roll Cake One Pound tins – Year 2009",
+      "members": [
+        {
+          "name": "Mac Baren Dark Twist Roll Cake One Pound tins – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mac-baren-dark-twist-roll-cake-100g-tins-year-2009/",
+          "listing_price": "$165.00",
+          "pack_count": 1,
+          "price": "$165.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$165.00",
+              "date": "2026-06-21T03:15:02.754777+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009"
+      ]
+    },
+    {
+      "id": "pipestudcom|mac|barenlatakiablendrollcake|100g",
+      "brand": "Mac",
+      "blend": "Baren Latakia Blend Roll Cake",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Mac Baren Latakia Blend Roll Cake 100g",
+      "members": [
+        {
+          "name": "Mac Baren Latakia Blend Roll Cake 100g tin – Year 2004",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mac-baren-latakia-blend-roll-cake-100g-tin-year-2004/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2004",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2004"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|ashtonrevivalseriesbrindleflake|50g",
+      "brand": "McClelland",
+      "blend": "Ashton Revival Series Brindle Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Ashton Revival Series Brindle Flake 50g",
+      "members": [
+        {
+          "name": "McClelland’s Ashton Revival Series Brindle Flake 50g tin – Year 2010",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-ashton-revival-series-brindle-flake-50g-tin-year-2010/",
+          "listing_price": "$65.00",
+          "pack_count": 1,
+          "price": "$65.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$65.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2010"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|bestshow|50g",
+      "brand": "McClelland",
+      "blend": "Best of Show",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Best of Show 50g",
+      "members": [
+        {
+          "name": "McClelland’s Best of Show 50g tins – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-best-of-show-50g-tins-year-2015-2/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|buterasroyalvintagegoldencake|50g",
+      "brand": "McClelland",
+      "blend": "Butera’s Royal Vintage Golden Cake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Butera’s Royal Vintage Golden Cake 50g",
+      "members": [
+        {
+          "name": "McClelland’s Butera’s Royal Vintage Golden Cake 50g tin – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-buteras-royal-vintage-golden-cake-50g-tin-year-2012/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|christmascheer|100g",
+      "brand": "McClelland",
+      "blend": "Christmas Cheer",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Christmas Cheer 100g",
+      "members": [
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2008",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2008/",
+          "listing_price": "$135.00",
+          "pack_count": 1,
+          "price": "$135.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2008",
+          "price_history": [
+            {
+              "price": "$135.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2009-2/",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tins – Year 2010",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tins-year-2010/",
+          "listing_price": "$135.00",
+          "pack_count": 1,
+          "price": "$135.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$135.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tins – Year 2011",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tins-year-2011/",
+          "listing_price": "$130.00",
+          "pack_count": 1,
+          "price": "$130.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$130.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2012/",
+          "listing_price": "$130.00",
+          "pack_count": 1,
+          "price": "$130.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$130.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2013",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2013-2/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2014/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tins – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tins-year-2015/",
+          "listing_price": "$120.00",
+          "pack_count": 1,
+          "price": "$120.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$120.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2016",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2016/",
+          "listing_price": "$115.00",
+          "pack_count": 1,
+          "price": "$115.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$115.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tin – Year 2017",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tin-year-2017-2/",
+          "listing_price": "$110.00",
+          "pack_count": 1,
+          "price": "$110.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$110.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Christmas Cheer 100g tins – Year 2017",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-christmas-cheer-100g-tins-year-2017/",
+          "listing_price": "$110.00",
+          "pack_count": 1,
+          "price": "$110.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$110.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|frogmortoncellar|100g",
+      "brand": "McClelland",
+      "blend": "Frog Morton Cellar",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Frog Morton Cellar 100g",
+      "members": [
+        {
+          "name": "McClelland’s Frog Morton Cellar 100g tins – Second Year 2013 Production",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-frog-morton-cellar-100g-tins-second-year-2013-production/",
+          "listing_price": "$135.00",
+          "pack_count": 1,
+          "price": "$135.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$135.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|frogmortononbayou|50g",
+      "brand": "McClelland",
+      "blend": "Frog Morton On the Bayou",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Frog Morton On the Bayou 50g",
+      "members": [
+        {
+          "name": "McClelland’s Frog Morton On the Bayou 50g tins – First Year 2003 Production",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-frog-morton-on-the-bayou-50g-tins-first-year-2003-production/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2003",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2003"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|solo|mcclellandfullbalkanreserve",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "McClelland Full Balkan Reserve",
+      "members": [
+        {
+          "name": "McClelland Full Balkan Reserve",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/mcclelland-corps-full-balkan-reserve-2-tins",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|mcclelland|grandorientalseriesdramareserve|50g",
+      "brand": "McClelland",
+      "blend": "Grand Oriental Series Drama Reserve",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Grand Oriental Series Drama Reserve 50g",
+      "members": [
+        {
+          "name": "McClelland’s Grand Oriental Series Drama Reserve 50g tins – Year 2017",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-grand-oriental-series-drama-reserve-50g-tins-year-2017/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|holidayspirit|50g",
+      "brand": "McClelland",
+      "blend": "Holiday Spirit",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Holiday Spirit 50g",
+      "members": [
+        {
+          "name": "McClelland’s Holiday Spirit 50g tins – Year 2016",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-holiday-spirit-50g-tins-year-2016/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "McClelland’s Holiday Spirit 50g tins – Year 2017",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-holiday-spirit-50g-tins-year-2017/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016",
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|limitededitionuncleedsscottishmixture|50g",
+      "brand": "McClelland",
+      "blend": "Limited Edition Uncle Ed’s Scottish Mixture",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Limited Edition Uncle Ed’s Scottish Mixture 50g",
+      "members": [
+        {
+          "name": "McClelland’s Limited Edition Uncle Ed’s Scottish Mixture 50g tin – Year 1997",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-limited-edition-uncle-eds-scottish-mixture-50g-tin-year-1997/",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1997",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1997"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|personalreserveseriesblackwoodsflake|50g",
+      "brand": "McClelland",
+      "blend": "Personal Reserve Series Blackwoods Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland Personal Reserve Series Blackwoods Flake 50g",
+      "members": [
+        {
+          "name": "McClelland’s Personal Reserve Series Blackwoods Flake 50g tin – Year 2016",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-personal-reserve-series-blackwoods-flake-50g-tin-year-2016/",
+          "listing_price": "$65.00",
+          "pack_count": 1,
+          "price": "$65.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$65.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "pipestudcom|mcclelland|mindmeldchocolatenut|50g",
+      "brand": "McClelland",
+      "blend": "The Mind Meld Chocolate Nut",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "McClelland The Mind Meld Chocolate Nut 50g",
+      "members": [
+        {
+          "name": "McClelland’s The Mind Meld Chocolate Nut 50g tins – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mcclellands-the-mind-meld-chocolate-nut-50g-tins-year-2015/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|mcclellands|blendinglatakia|",
+      "brand": "McClelland's",
+      "blend": "Blending Latakia",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "McClelland's Blending Latakia",
+      "members": [
+        {
+          "name": "McClelland's - Blending Latakia - 2001!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/mcclelland-s-blending-latakia-2001",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2001",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2001"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|mccranies|somerled|",
+      "brand": "McCranie's",
+      "blend": "Somerled",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "McCranie's Somerled",
+      "members": [
+        {
+          "name": "McCranie's - Somerled - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/mccranie-s-somerled-2017",
+          "listing_price": "$100.00",
+          "pack_count": 1,
+          "price": "$100.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$100.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|mtmarcy|8ouncecan|8oz",
+      "brand": "Mt. Marcy",
+      "blend": "8 Ounce Can",
+      "quantity": "8oz",
+      "source": "Treasured Smokes",
+      "display_name": "Mt. Marcy 8 Ounce Can 8oz",
+      "members": [
+        {
+          "name": "Mt. Marcy - 8 Ounce Can",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/mt-marcy-8-ounce-can",
+          "listing_price": "$90.00",
+          "pack_count": 1,
+          "price": "$90.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$90.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|mullingar|moyhallorientalblend|2oz",
+      "brand": "Mullingar",
+      "blend": "Moyhall Oriental Blend",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "Mullingar Moyhall Oriental Blend 2oz",
+      "members": [
+        {
+          "name": "Mullingar’s Moyhall Oriental Blend 2oz tins – 1980’s or Early 1990’s Production",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mullingars-moyhall-oriental-blend-2oz-tins-1980s-or-early-1990s-production/",
+          "listing_price": "$95.00",
+          "pack_count": 1,
+          "price": "$95.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$95.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|mullingar|syrlatakiakenmare|2oz",
+      "brand": "Mullingar",
+      "blend": "Syr. Latakia Kenmare",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "Mullingar Syr. Latakia Kenmare 2oz",
+      "members": [
+        {
+          "name": "Mullingar’s Syr. Latakia Kenmare 2oz tin – 1980’s or 1990’s Production",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/mullingars-syr-latakia-kenmare-2oz-tin-1980s-or-1990s-production-2/",
+          "listing_price": "$125.00",
+          "pack_count": 1,
+          "price": "$125.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$125.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|orlik|darkstrongkentucky|50g",
+      "brand": "Orlik",
+      "blend": "Dark Strong Kentucky",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Orlik Dark Strong Kentucky 50g",
+      "members": [
+        {
+          "name": "Orlik Dark Strong Kentucky 50g tin – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/orlik-dark-strong-kentucky-50g-tin-year-2015/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|orlik|mellowmixture|",
+      "brand": "Orlik",
+      "blend": "Mellow Mixture",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Orlik Mellow Mixture",
+      "members": [
+        {
+          "name": "Orlik - Mellow Mixture - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/orlik-mellow-mixture-2017",
+          "listing_price": "$20.00",
+          "pack_count": 1,
+          "price": "$20.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$20.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|paradoxical|birdsfeather|",
+      "brand": "Paradoxical",
+      "blend": "Birds of a Feather",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Paradoxical Birds of a Feather",
+      "members": [
+        {
+          "name": "Paradoxical - Birds of a Feather",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/paradoxical-birds-of-a-feather",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|pcca|newmillennium|50g",
+      "brand": "PCCA",
+      "blend": "New Millennium",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "PCCA New Millennium 50g",
+      "members": [
+        {
+          "name": "PCCA New  Millennium 50g tin – Year 2000 and Made by McClelland’s",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/pcca-new-millennium-50g-tin-year-2000-and-made-by-mcclellands-2/",
+          "listing_price": "$95.00",
+          "pack_count": 1,
+          "price": "$95.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2000",
+          "price_history": [
+            {
+              "price": "$95.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2000"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|perique|blending|",
+      "brand": "Perique",
+      "blend": "Blending",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Perique Blending",
+      "members": [
+        {
+          "name": "Perique - Blending",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/perique-blending",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|peterson|irishflake|50g",
+      "brand": "Peterson",
+      "blend": "Irish Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Peterson Irish Flake 50g",
+      "members": [
+        {
+          "name": "Peterson’s Irish Flake 50g tins – Year 2010",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/petersons-irish-flake-50g-tins-year-2010/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2010"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|peterson|universityflake|",
+      "brand": "Peterson",
+      "blend": "University Flake",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Peterson University Flake",
+      "members": [
+        {
+          "name": "Peterson - University Flake - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/peterson-university-flake-2017",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|rattray|3noggins|100g",
+      "brand": "Rattray",
+      "blend": "3 Noggins",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Rattray 3 Noggins 100g",
+      "members": [
+        {
+          "name": "Rattray’s 3 Noggins 100g tin – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/rattrays-3-noggins-100g-tin-year-2009/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009"
+      ]
+    },
+    {
+      "id": "pipestudcom|rattray|brownclunee|100g",
+      "brand": "Rattray",
+      "blend": "Brown Clunee",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Rattray Brown Clunee 100g",
+      "members": [
+        {
+          "name": "Rattray’s Brown Clunee 100g tin – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/rattrays-brown-clunee-100g-tin-year-2015/",
+          "listing_price": "$65.00",
+          "pack_count": 1,
+          "price": "$65.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$65.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "pipestudcom|rattray|marlinflake|100g",
+      "brand": "Rattray",
+      "blend": "Marlin Flake",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Rattray Marlin Flake 100g",
+      "members": [
+        {
+          "name": "Rattray’s Marlin Flake 100g tin – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/rattrays-marlin-flake-100g-tin-year-2009/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009"
+      ]
+    },
+    {
+      "id": "pipestudcom|rattray|oldgowrie|100g",
+      "brand": "Rattray",
+      "blend": "Old Gowrie",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "Rattray Old Gowrie 100g",
+      "members": [
+        {
+          "name": "Rattray’s Old Gowrie 100g tin – Year 2009",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/rattrays-old-gowrie-100g-tin-year-2009/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2009",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2009"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|rattrays|bagpipersdream|",
+      "brand": "Rattray's",
+      "blend": "Bagpiper's Dream",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Rattray's Bagpiper's Dream",
+      "members": [
+        {
+          "name": "Rattray's - Bagpiper's Dream - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/rattray-s-bagpiper-s-dream-2018",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|rattrays|halothywynd|",
+      "brand": "Rattray's",
+      "blend": "Hal O' Thy Wynd",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Rattray's Hal O' Thy Wynd",
+      "members": [
+        {
+          "name": "Rattray's - Hal O' Thy Wynd - 2011!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/rattray-s-hal-o-thy-wynd-2011",
+          "listing_price": "$54.00",
+          "pack_count": 1,
+          "price": "$54.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$54.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|rattrays|jocksmixture|",
+      "brand": "Rattray's",
+      "blend": "Jock's Mixture",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Rattray's Jock's Mixture",
+      "members": [
+        {
+          "name": "Rattray's - Jock's Mixture - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/rattray-s-jock-s-mixture-2018",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|redribbon|2017|",
+      "brand": "Red Ribbon",
+      "blend": "2017!",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Red Ribbon 2017!",
+      "members": [
+        {
+          "name": "Red Ribbon - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/red-ribbon-2011",
+          "listing_price": "$110.00",
+          "pack_count": 1,
+          "price": "$110.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$110.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|robertlewis|orcillamixture|",
+      "brand": "Robert Lewis",
+      "blend": "Orcilla Mixture",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Robert Lewis Orcilla Mixture",
+      "members": [
+        {
+          "name": "Robert Lewis - Orcilla Mixture - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/robert-lewis-orcilla-mixture-2017",
+          "listing_price": "$36.00",
+          "pack_count": 1,
+          "price": "$36.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$36.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|robert|lewistreemixture|50g",
+      "brand": "Robert",
+      "blend": "Lewis Tree Mixture",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Robert Lewis Tree Mixture 50g",
+      "members": [
+        {
+          "name": "Robert Lewis Tree Mixture 50g tins – Year 2005",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/robert-lewis-tree-mixture-50g-tins-year-2005/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2005",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|robertmcconnell|scottishblend|",
+      "brand": "Robert McConnell",
+      "blend": "Scottish Blend",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Robert McConnell Scottish Blend",
+      "members": [
+        {
+          "name": "Robert McConnell - Scottish Blend - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/robert-mcconnell-scottish-blend-2017",
+          "listing_price": "$35.00",
+          "pack_count": 1,
+          "price": "$35.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|robert|mcconnells100puresyrlatakia|50g",
+      "brand": "Robert",
+      "blend": "McConnell’s 100% Pure Syr. Latakia",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Robert McConnell’s 100% Pure Syr. Latakia 50g",
+      "members": [
+        {
+          "name": "Robert McConnell’s 100% Pure Syr. Latakia 50g tin – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/robert-mcconnells-100-pure-syr-latakia-50g-tin-year-2012/",
+          "listing_price": "$150.00",
+          "pack_count": 1,
+          "price": "$150.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$150.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|robert|mcconnellsoriginaloriental|50g",
+      "brand": "Robert",
+      "blend": "McConnell’s Original Oriental",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Robert McConnell’s Original Oriental 50g",
+      "members": [
+        {
+          "name": "Robert McConnell’s Original Oriental 50g tins – Year 1992",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/robert-mcconnells-original-oriental-50g-tins-year-1992/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1992",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1992"
+      ]
+    },
+    {
+      "id": "pipestudcom|robert|mcconnellsoriginalredvirginia|50g",
+      "brand": "Robert",
+      "blend": "McConnell’s Original Red Virginia",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Robert McConnell’s Original Red Virginia 50g",
+      "members": [
+        {
+          "name": "Robert McConnell’s Original Red Virginia 50g tin – Year 1998",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/robert-mcconnells-original-red-virginia-50g-tin-year-1998/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1998",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1998"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|1792flake|",
+      "brand": "Samuel Gawith",
+      "blend": "1792 Flake",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith 1792 Flake",
+      "members": [
+        {
+          "name": "Samuel Gawith - 1792 Flake - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-1792-flake-2018",
+          "listing_price": "$35.00",
+          "pack_count": 1,
+          "price": "$35.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "pipestudcom|samuel|gawith1792flake|50g",
+      "brand": "Samuel",
+      "blend": "Gawith 1792 Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Samuel Gawith 1792 Flake 50g",
+      "members": [
+        {
+          "name": "Samuel Gawith 1792 Flake 50g tins – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-1792-flake-50g-tins-year-2012/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|balkanflake|",
+      "brand": "Samuel Gawith",
+      "blend": "Balkan Flake",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith Balkan Flake",
+      "members": [
+        {
+          "name": "Samuel Gawith - Balkan Flake - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-balkan-flake-2018",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "pipestudcom|samuel|gawithcommonwealth|50g",
+      "brand": "Samuel",
+      "blend": "Gawith Commonwealth",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Samuel Gawith Commonwealth 50g",
+      "members": [
+        {
+          "name": "Samuel Gawith Commonwealth 50g tins – Year 2013",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-commonwealth-50g-tins-year-2013/",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "pipestudcom|samuel|gawithfullvirginiaflake|50g",
+      "brand": "Samuel",
+      "blend": "Gawith Full Virginia Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Samuel Gawith Full Virginia Flake 50g",
+      "members": [
+        {
+          "name": "Samuel Gawith Full Virginia Flake 4-Pack of 50g tins – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-full-virginia-flake-4-pack-of-50g-tins-year-2012/",
+          "listing_price": "$245.00",
+          "pack_count": 4,
+          "price": "$61.25",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$61.25",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|grousemoor|",
+      "brand": "Samuel Gawith",
+      "blend": "Grousemoor",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith Grousemoor",
+      "members": [
+        {
+          "name": "Samuel Gawith - Grousemoor - 2016!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-bothy-flake-2016",
+          "listing_price": "$29.00",
+          "pack_count": 1,
+          "price": "$29.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$29.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "pipestudcom|samuel|gawithlakelanddark|50g",
+      "brand": "Samuel",
+      "blend": "Gawith Lakeland Dark",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Samuel Gawith Lakeland Dark 50g",
+      "members": [
+        {
+          "name": "Samuel Gawith Lakeland Dark 50g tin – Year 2017",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-lakeland-dark-50g-tin-year-2017/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|perfection|",
+      "brand": "Samuel Gawith",
+      "blend": "Perfection",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith Perfection",
+      "members": [
+        {
+          "name": "Samuel Gawith - Perfection - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-perfection-2018",
+          "listing_price": "$30.00",
+          "pack_count": 1,
+          "price": "$30.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$30.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|samsflake|",
+      "brand": "Samuel Gawith",
+      "blend": "Sam's Flake",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith Sam's Flake",
+      "members": [
+        {
+          "name": "Samuel Gawith - Sam's Flake - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-sam-s-flake-2017",
+          "listing_price": "$28.00",
+          "pack_count": 1,
+          "price": "$28.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$28.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|samuelgawith|squadronleader|",
+      "brand": "Samuel Gawith",
+      "blend": "Squadron Leader",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Samuel Gawith Squadron Leader",
+      "members": [
+        {
+          "name": "Samuel Gawith - Squadron Leader - 2017!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/samuel-gawith-squadron-leader-2017",
+          "listing_price": "$39.00",
+          "pack_count": 1,
+          "price": "$39.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2017",
+          "price_history": [
+            {
+              "price": "$39.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ]
+    },
+    {
+      "id": "pipestudcom|samuel|gawithstjamesflake|50g",
+      "brand": "Samuel",
+      "blend": "Gawith St. James Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Samuel Gawith St. James Flake 50g",
+      "members": [
+        {
+          "name": "Samuel Gawith St. James Flake 50g tin – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-st-james-flake-50g-tin-year-2012/",
+          "listing_price": "$55.00",
+          "pack_count": 1,
+          "price": "$55.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$55.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|sasieni|balkan|",
+      "brand": "Sasieni",
+      "blend": "Balkan",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Sasieni Balkan",
+      "members": [
+        {
+          "name": "Sasieni - Balkan - 2018!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/sasieni-balkan-2018",
+          "listing_price": "$22.00",
+          "pack_count": 1,
+          "price": "$22.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$22.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "pipestudcom|savinelli|englishmixture|50g",
+      "brand": "Savinelli",
+      "blend": "English Mixture",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Savinelli English Mixture 50g",
+      "members": [
+        {
+          "name": "Savinelli English Mixture 50g tins – 1980’s era and Made by Mac Baren",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/savinelli-english-mixture-50g-tins-1980s-era-and-made-by-mac-baren/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|savinelli|mrgblackcavendish|50g",
+      "brand": "Savinelli",
+      "blend": "Mr. G Black Cavendish",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Savinelli Mr. G Black Cavendish 50g",
+      "members": [
+        {
+          "name": "Savinelli Mr. G Black Cavendish 50g tins – 1980’s era and Made by Mac Baren",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/savinelli-mr-g-black-cavendish-50g-tins-1980s-era-and-made-by-mac-baren/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|savinelli|puntoorocavendish|50g",
+      "brand": "Savinelli",
+      "blend": "Punto Oro Cavendish",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Savinelli Punto Oro Cavendish 50g",
+      "members": [
+        {
+          "name": "Savinelli Punto Oro Cavendish 50g tins – 1980’s era and Made by Mac Baren",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/savinelli-punto-oro-cavendish-50g-tins-1980s-era-and-made-by-mac-baren/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|savinelli|special|50g",
+      "brand": "Savinelli",
+      "blend": "Special",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Savinelli Special 50g",
+      "members": [
+        {
+          "name": "Savinelli Special 50g tins – 1980’s era and Made by Mac Baren",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/savinelli-special-50g-tins-1980s-era-and-made-by-mac-baren/",
+          "listing_price": "$75.00",
+          "pack_count": 1,
+          "price": "$75.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|sillem|copenhagenblend|50g",
+      "brand": "Sillem",
+      "blend": "Copenhagen Blend",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Sillem Copenhagen Blend 50g",
+      "members": [
+        {
+          "name": "Sillem’s Copenhagen Blend 50g tin – Year 2014",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/sillems-copenhagen-blend-50g-tin-year-2014/",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|stanwell|melange|",
+      "brand": "Stanwell",
+      "blend": "Melange",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Stanwell Melange",
+      "members": [
+        {
+          "name": "Stanwell - Melange - 2015!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/stanwell-melange-2015",
+          "listing_price": "$22.00",
+          "pack_count": 1,
+          "price": "$22.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$22.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "pipestudcom|solo|sutliffvariety4packcrumblekake50gtinsyears20212022",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "pipestud.com",
+      "display_name": "Sutliff  Variety 4-Pack Crumble Kake 50g tins – Years 2021 & 2022",
+      "members": [
+        {
+          "name": "Sutliff  Variety 4-Pack Crumble Kake 50g tins – Years 2021 & 2022",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/sutliff-variety-4-pack-crumble-kake-50g-tins-years-2021-2022/",
+          "listing_price": "$65.00",
+          "pack_count": 1,
+          "price": "$65.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2021",
+          "price_history": [
+            {
+              "price": "$65.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ]
+    },
+    {
+      "id": "pipestudcom|sutliff|cringleflakeholidayedition|2oz",
+      "brand": "Sutliff",
+      "blend": "Cringle Flake Holiday Edition",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "Sutliff Cringle Flake Holiday Edition 2oz",
+      "members": [
+        {
+          "name": "Sutliff Cringle Flake Holiday Edition 3-Pack of 2oz tins – Year 2024 W/ McClelland’s Tobacco",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/sutliff-cringle-flake-holiday-edition-3-pack-of-2oz-tins-year-2024-w-mcclellands-tobacco/",
+          "listing_price": "$95.00",
+          "pack_count": 3,
+          "price": "$31.67",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2024",
+          "price_history": [
+            {
+              "price": "$31.67",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "id": "pipestudcom|sutliff|crumblekake4|50g",
+      "brand": "Sutliff",
+      "blend": "Crumble Kake #4",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Sutliff Crumble Kake #4 50g",
+      "members": [
+        {
+          "name": "Sutliff 3-Pack of Crumble Kake #4 in 50g tins – Year 2022",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/sutliff-3-pack-of-crumble-kake-4-in-50g-tins-year-2022/",
+          "listing_price": "$45.00",
+          "pack_count": 3,
+          "price": "$15.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2022",
+          "price_history": [
+            {
+              "price": "$15.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2022"
+      ]
+    },
+    {
+      "id": "pipestudcom|sutliff|crumblekakeengllish1|50g",
+      "brand": "Sutliff",
+      "blend": "Crumble Kake Engllish #1",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Sutliff Crumble Kake Engllish #1 50g",
+      "members": [
+        {
+          "name": "Sutliff Crumble Kake  Engllish #1 in a 5-Pack of 50g tins – Year 2022",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/sutliff-crumble-kake-engllish-1-in-a-5-pack-of-50g-tins-year-2022/",
+          "listing_price": "$75.00",
+          "pack_count": 5,
+          "price": "$15.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2022",
+          "price_history": [
+            {
+              "price": "$15.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2022"
+      ]
+    },
+    {
+      "id": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+      "brand": "Theodorus",
+      "blend": "Niemeyer Flying Dutchman",
+      "quantity": "2oz",
+      "source": "pipestud.com",
+      "display_name": "Theodorus Niemeyer Flying Dutchman 2oz",
+      "members": [
+        {
+          "name": "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/theodorus-niemeyer-flying-dutchman-2oz-tins-1960s-1970s-era/",
+          "listing_price": "$250.00",
+          "pack_count": 1,
+          "price": "$250.00",
+          "last_seen": "2026-06-20T17:02:55.876005+00:00",
+          "year": "1960",
+          "price_history": []
+        }
+      ],
+      "years": [
+        "1960"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|uno|birdsfeather|",
+      "brand": "Uno",
+      "blend": "Birds of a Feather",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Uno Birds of a Feather",
+      "members": [
+        {
+          "name": "Uno - Birds of a Feather",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/uno-birds-of-a-feather",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "pipestudcom|van|rossemsschipperstabak3|12oz",
+      "brand": "Van",
+      "blend": "Rossem’s Schippers Tabak 3-",
+      "quantity": "1/2oz",
+      "source": "pipestud.com",
+      "display_name": "Van Rossem’s Schippers Tabak 3- 1/2oz",
+      "members": [
+        {
+          "name": "Van Rossem’s Schippers Tabak 3-1/2oz Dented tin – 1970’s – 1980’s era (Lot #2)",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/van-rossems-schippers-tabak-3-1-2oz-dented-tin-1970s-1980s-era-lot-2/",
+          "listing_price": "$200.00",
+          "pack_count": 1,
+          "price": "$200.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1970",
+          "price_history": [
+            {
+              "price": "$200.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        },
+        {
+          "name": "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/van-rossems-schippers-tabak-3-1-2oz-tins-1070s-1980s-era/",
+          "listing_price": "$250.00",
+          "pack_count": 1,
+          "price": "$250.00",
+          "last_seen": "2026-06-20T17:38:57.047825+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$250.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1970",
+        "1980"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|villiger|midday|",
+      "brand": "Villiger",
+      "blend": "Mid-Day",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Villiger Mid-Day",
+      "members": [
+        {
+          "name": "Villiger - Mid-Day - 2013!",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/villiger-mid-day-2013",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "pipestudcom|wo|larsenno28englishmixture|100g",
+      "brand": "W.O.",
+      "blend": "Larsen No. 28 English Mixture",
+      "quantity": "100g",
+      "source": "pipestud.com",
+      "display_name": "W.O. Larsen No. 28 English Mixture 100g",
+      "members": [
+        {
+          "name": "W.O. Larsen No. 28 English Mixture 100g tin – 1980’s era and Made by Orlik",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/w-o-larsen-no-28-english-mixture-100g-tin-1980s-era-and-made-by-orlik/",
+          "listing_price": "$85.00",
+          "pack_count": 1,
+          "price": "$85.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "1980",
+          "price_history": [
+            {
+              "price": "$85.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1980"
+      ]
+    },
+    {
+      "id": "pipestudcom|wellauer|100syrlatakia3|12oz",
+      "brand": "Wellauer",
+      "blend": "100% Syr. Latakia 3-",
+      "quantity": "1/2oz",
+      "source": "pipestud.com",
+      "display_name": "Wellauer 100% Syr. Latakia 3- 1/2oz",
+      "members": [
+        {
+          "name": "Wellauer’s 100% Syr. Latakia 3-1/2oz tins – Year 2015",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/wellauers-100-syr-latakia-3-1-2oz-tins-year-2015-2/",
+          "listing_price": "$145.00",
+          "pack_count": 1,
+          "price": "$145.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$145.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "pipestudcom|wessex|brownvirginiaflake|50g",
+      "brand": "Wessex",
+      "blend": "Brown Virginia Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Wessex Brown Virginia Flake 50g",
+      "members": [
+        {
+          "name": "Wessex Brown Virginia Flake 50g tins – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/wessex-brown-virginia-flake-50g-tins-year-2012/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|wessex|curleycutvirginiaperique|50g",
+      "brand": "Wessex",
+      "blend": "Curley Cut Virginia & Perique",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Wessex Curley Cut Virginia & Perique 50g",
+      "members": [
+        {
+          "name": "Wessex Curley Cut Virginia & Perique 50g tin – Years 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/wessex-curley-cut-virginia-perique-50g-tin-years-2012/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|wessex|darkflake|50g",
+      "brand": "Wessex",
+      "blend": "Dark Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Wessex Dark Flake 50g",
+      "members": [
+        {
+          "name": "Wessex Dark Flake 50g tins – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/wessex-dark-flake-50g-tins-year-2012/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "pipestudcom|wessex|darkredvirginiaflake|50g",
+      "brand": "Wessex",
+      "blend": "Dark Red Virginia Flake",
+      "quantity": "50g",
+      "source": "pipestud.com",
+      "display_name": "Wessex Dark Red Virginia Flake 50g",
+      "members": [
+        {
+          "name": "Wessex Dark Red Virginia Flake 50g tins – Year 2012",
+          "source": "pipestud.com",
+          "url": "https://www.pipestud.com/product/tobacco-tins/wessex-dark-red-virginia-flake-50g-tins-year-2012/",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-21T03:15:02.754777+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T16:28:47.877864+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "treasuredsmokes|whimsical|birdsfeather|",
+      "brand": "Whimsical",
+      "blend": "Birds of a Feather",
+      "quantity": "",
+      "source": "Treasured Smokes",
+      "display_name": "Whimsical Birds of a Feather",
+      "members": [
+        {
+          "name": "Whimsical - Birds of a Feather",
+          "source": "Treasured Smokes",
+          "url": "https://www.treasuredsmokes.com/product-page/whimsical-birds-of-a-feather",
+          "listing_price": "$45.00",
+          "pack_count": 1,
+          "price": "$45.00",
+          "last_seen": "2026-06-20T18:32:06.142896+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$45.00",
+              "date": "2026-06-20T18:32:06.142896+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    }
+  ],
+  "name_to_id": {
+    "McClelland’s Personal Reserve Series Blackwoods Flake 50g tin – Year 2016": "pipestudcom|mcclelland|personalreserveseriesblackwoodsflake|50g",
+    "Mullingar’s Moyhall Oriental Blend 2oz tins – 1980’s or Early 1990’s Production": "pipestudcom|mullingar|moyhallorientalblend|2oz",
+    "Dannemann’s Blend 600 in 50g tins – 1970’s era & Made by Germain (One Tin Per Customer)": "pipestudcom|dannemann|blend600|50g",
+    "Mullingar’s Syr. Latakia Kenmare 2oz tin – 1980’s or 1990’s Production": "pipestudcom|mullingar|syrlatakiakenmare|2oz",
+    "Dannemann’s Blend 500 in a 50g tin – 1970’s era & Made by Germain": "pipestudcom|dannemann|blend500|50g",
+    "Dannemann’s Blend 700 in 50g tins – 1970’s era & Made by Germain (One Tin Per Customer)": "pipestudcom|dannemann|blend700|50g",
+    "House of Craven Original Craven Mixture 50g tins – 1970’s era": "pipestudcom|house|cravenoriginalcravenmixture|50g",
+    "Robert McConnell’s Original Red Virginia 50g tin – Year 1998": "pipestudcom|robert|mcconnellsoriginalredvirginia|50g",
+    "JBR’s Quintessence Curly Cut 50g tin – 1990’s era & Made by Mac Baren’s": "pipestudcom|jbr|quintessencecurlycut|50g",
+    "Brindley’s English Mixture 1-3/4 oz tins – 1970’s era": "pipestudcom|brindley|englishmixture1|34oz",
+    "Elephant & Castle New World 50g tin – 1980’s era and Made by McConnell’s in England": "pipestudcom|elephant|castlenewworld|50g",
+    "G. Smith & Sons Virginia 50g tin – 1970’s era": "pipestudcom|g|smithsonsvirginia|50g",
+    "W.O. Larsen No. 28 English Mixture 100g tin – 1980’s era and Made by Orlik": "pipestudcom|wo|larsenno28englishmixture|100g",
+    "Savinelli Punto Oro Cavendish 50g tins – 1980’s era and Made by Mac Baren": "pipestudcom|savinelli|puntoorocavendish|50g",
+    "Savinelli Mr. G Black Cavendish 50g tins – 1980’s era and Made by Mac Baren": "pipestudcom|savinelli|mrgblackcavendish|50g",
+    "Savinelli Special 50g tins – 1980’s era and Made by Mac Baren": "pipestudcom|savinelli|special|50g",
+    "Savinelli English Mixture 50g tins – 1980’s era and Made by Mac Baren": "pipestudcom|savinelli|englishmixture|50g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2017": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tins – Year 2015": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2016": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2014": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2013": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tins – Year 2011": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2012": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tins – Year 2010": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2009": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Christmas Cheer 100g tin – Year 2008": "pipestudcom|mcclelland|christmascheer|100g",
+    "Dunhill Elizabethan Mixture 50g tin – Year 2014": "pipestudcom|dunhill|elizabethanmixture|50g",
+    "Dunhill Murray’s era Durbar 50g tin – Year 2014": "pipestudcom|dunhill|murrayseradurbar|50g",
+    "Dunhill My Mixture 965 in a 50g tin – Year 2014": "pipestudcom|dunhill|mymixture965|50g",
+    "Dunhill Nightcap 50g tin – Year 2014": "pipestudcom|dunhill|nightcap|50g",
+    "Dunhill Baby’s Bottom 50g tin – First Year 2015 Reintroduction": "pipestudcom|dunhill|babysbottom|50g",
+    "Dunhill Variety 5-Pack of 50g tins – Various Years": "pipestudcom|solo|dunhillvariety5packof50gtinsvariousyears",
+    "Dunhill Variety 3-Pack of 50g tins – Years 2011 & 2014": "pipestudcom|solo|dunhillvariety3packof50gtinsyears20112014",
+    "Sutliff  Variety 4-Pack Crumble Kake 50g tins – Years 2021 & 2022": "pipestudcom|solo|sutliffvariety4packcrumblekake50gtinsyears20212022",
+    "Golden Oldie Alert! Skandinavik Regular 6oz tin – 1980s era": "pipestudcom|golden|oldiealertskandinavikregular|6oz",
+    "Sutliff 3-Pack of Crumble Kake #4 in 50g tins – Year 2022": "pipestudcom|sutliff|crumblekake4|50g",
+    "Sutliff Cringle Flake Holiday Edition 3-Pack of 2oz tins – Year 2024 W/ McClelland’s Tobacco": "pipestudcom|sutliff|cringleflakeholidayedition|2oz",
+    "Sutliff Crumble Kake  Engllish #1 in a 5-Pack of 50g tins – Year 2022": "pipestudcom|sutliff|crumblekakeengllish1|50g",
+    "McClelland’s Holiday Spirit 50g tins – Year 2016": "pipestudcom|mcclelland|holidayspirit|50g",
+    "McClelland’s Holiday Spirit 50g tins – Year 2017": "pipestudcom|mcclelland|holidayspirit|50g",
+    "McClelland’s Christmas Cheer 100g tins – Year 2017": "pipestudcom|mcclelland|christmascheer|100g",
+    "McClelland’s Best of Show 50g tins – Year 2015": "pipestudcom|mcclelland|bestshow|50g",
+    "McClelland’s The Mind Meld Chocolate Nut 50g tins – Year 2015": "pipestudcom|mcclelland|mindmeldchocolatenut|50g",
+    "McClelland’s Grand Oriental Series Drama Reserve 50g tins – Year 2017": "pipestudcom|mcclelland|grandorientalseriesdramareserve|50g",
+    "Samuel Gawith Full Virginia Flake 4-Pack of 50g tins – Year 2012": "pipestudcom|samuel|gawithfullvirginiaflake|50g",
+    "McClelland’s Frog Morton Cellar 100g tins – Second Year 2013 Production": "pipestudcom|mcclelland|frogmortoncellar|100g",
+    "Samuel Gawith St. James Flake 50g tin – Year 2012": "pipestudcom|samuel|gawithstjamesflake|50g",
+    "Samuel Gawith 1792 Flake 50g tins – Year 2012": "pipestudcom|samuel|gawith1792flake|50g",
+    "Fribourg & Treyer Blackjack 50g tins – Year 2014": "pipestudcom|fribourg|treyerblackjack|50g",
+    "Sillem’s Copenhagen Blend 50g tin – Year 2014": "pipestudcom|sillem|copenhagenblend|50g",
+    "G.L. Pease Classic Collection Charing Cross 2oz tin – First Year 2003 Production": "pipestudcom|gl|peaseclassiccollectioncharingcross|2oz",
+    "McClelland’s Ashton Revival Series Brindle Flake 50g tin – Year 2010": "pipestudcom|mcclelland|ashtonrevivalseriesbrindleflake|50g",
+    "McClelland’s Frog Morton On the Bayou 50g tins – First Year 2003 Production": "pipestudcom|mcclelland|frogmortononbayou|50g",
+    "PCCA New  Millennium 50g tin – Year 2000 and Made by McClelland’s": "pipestudcom|pcca|newmillennium|50g",
+    "McClelland’s Butera’s Royal Vintage Golden Cake 50g tin – Year 2012": "pipestudcom|mcclelland|buterasroyalvintagegoldencake|50g",
+    "Orlik Dark Strong Kentucky 50g tin – Year 2015": "pipestudcom|orlik|darkstrongkentucky|50g",
+    "Escudo Navy De Luxe 50g tin – First Year 2008 Orlik era": "pipestudcom|escudo|navydeluxe|50g",
+    "Peterson’s Irish Flake 50g tins – Year 2010": "pipestudcom|peterson|irishflake|50g",
+    "Mac Baren Latakia Blend Roll Cake 100g tin – Year 2004": "pipestudcom|mac|barenlatakiablendrollcake|100g",
+    "Rattray’s Brown Clunee 100g tin – Year 2015": "pipestudcom|rattray|brownclunee|100g",
+    "Samuel Gawith Lakeland Dark 50g tin – Year 2017": "pipestudcom|samuel|gawithlakelanddark|50g",
+    "Rattray’s Marlin Flake 100g tin – Year 2009": "pipestudcom|rattray|marlinflake|100g",
+    "Rattray’s Old Gowrie 100g tin – Year 2009": "pipestudcom|rattray|oldgowrie|100g",
+    "Rattray’s 3 Noggins 100g tin – Year 2009": "pipestudcom|rattray|3noggins|100g",
+    "Wellauer’s 100% Syr. Latakia 3-1/2oz tins – Year 2015": "pipestudcom|wellauer|100syrlatakia3|12oz",
+    "Wessex Dark Flake 50g tins – Year 2012": "pipestudcom|wessex|darkflake|50g",
+    "Wessex Dark Red Virginia Flake 50g tins – Year 2012": "pipestudcom|wessex|darkredvirginiaflake|50g",
+    "Wessex Brown Virginia Flake 50g tins – Year 2012": "pipestudcom|wessex|brownvirginiaflake|50g",
+    "Wessex Curley Cut Virginia & Perique 50g tin – Years 2012": "pipestudcom|wessex|curleycutvirginiaperique|50g",
+    "Davidoff Royalty 50g tins – 1990’s era": "pipestudcom|davidoff|royalty|50g",
+    "Dannemann’s Blend 500 in a 50g tin – 1970’s era & Made by Germain (Lot #2)": "pipestudcom|dannemann|blend500|50g",
+    "Dannemann’s Blend 700 in a 50g tin – 1970’s era & Made by Germain (Lot #2)": "pipestudcom|dannemann|blend700|50g",
+    "Robert McConnell’s 100% Pure Syr. Latakia 50g tin – Year 2012": "pipestudcom|robert|mcconnells100puresyrlatakia|50g",
+    "Van Rossem’s Schippers Tabak 3-1/2oz Dented tin – 1970’s – 1980’s era (Lot #2)": "pipestudcom|van|rossemsschipperstabak3|12oz",
+    "Bell’s Original W.D & H.O. Wills Scotland Made Three Nuns – 100g tin – 1980’s era": "pipestudcom|bell|originalwdhowillsscotlandmadethreenuns|100g",
+    "McClelland’s Limited Edition Uncle Ed’s Scottish Mixture 50g tin – Year 1997": "pipestudcom|mcclelland|limitededitionuncleedsscottishmixture|50g",
+    "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill": "pipestudcom|solo|charatansoriginallightaromatic1970seramadebydunhill",
+    "Robert McConnell’s Original Oriental 50g tins – Year 1992": "pipestudcom|robert|mcconnellsoriginaloriental|50g",
+    "Lane Limited’s Original Crown Achievement 2oz tins – 1980’s era": "pipestudcom|lane|limitedsoriginalcrownachievement|2oz",
+    "Samuel Gawith Commonwealth 50g tins – Year 2013": "pipestudcom|samuel|gawithcommonwealth|50g",
+    "Robert Lewis Tree Mixture 50g tins – Year 2005": "pipestudcom|robert|lewistreemixture|50g",
+    "Mac Baren Dark Twist Roll Cake One Pound tins – Year 2009": "pipestudcom|solo|macbarendarktwistrollcakeonepoundtinsyear2009",
+    "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "pipestudcom|mac|barendarktwistrollcake|100g",
+    "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "pipestudcom|van|rossemsschipperstabak3|12oz",
+    "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+    "Half and Half 14oz. Tin": "tinbidsauctionsold|solo|halfandhalf14oztin",
+    "Dunhill Flake - 2012": "treasuredsmokes|dunhillflake|2012|",
+    "Balkan Luxury Blend 957": "treasuredsmokes|solo|balkanluxuryblend957",
+    "Limited Run - Cobblestone Plum Rum": "treasuredsmokes|limitedrun|cobblestoneplumrum|",
+    "Mt. Marcy - 8 Ounce Can": "treasuredsmokes|mtmarcy|8ouncecan|8oz",
+    "Brigadier Black - Bull Run - 2013!": "treasuredsmokes|brigadierblack|bullrun|",
+    "Brigadier Black - Gettysburg - 2013!": "treasuredsmokes|brigadierblack|gettysburg|",
+    "Brigadier Black - Alamo - 2013!": "treasuredsmokes|brigadierblack|alamo|",
+    "Brigadier Black - Sherman's March - 2013!": "treasuredsmokes|brigadierblack|shermansmarch|",
+    "Rattray's - Hal O' Thy Wynd - 2011!": "treasuredsmokes|rattrays|halothywynd|",
+    "Drew Estate - Harvest on Hudson - 2011!": "treasuredsmokes|drewestate|harvestonhudson|",
+    "Cornell & Diehl - Opening Night - 2011!": "treasuredsmokes|cornelldiehl|openingnight|",
+    "Golden Triangle - Paulina - 2011": "treasuredsmokes|goldentriangle|paulina|",
+    "Golden Triangle - Belmont - 2011": "treasuredsmokes|goldentriangle|belmont|",
+    "Golden Triangle - St. James Perique - 2011": "treasuredsmokes|goldentriangle|stjamesperique|",
+    "Golden Triangle - South Vacherie - 2011": "treasuredsmokes|goldentriangle|southvacherie|",
+    "Golden Triangle - Grand Point - 2011": "treasuredsmokes|goldentriangle|grandpoint|",
+    "Cornell & Diehl - Exhausted Rooster - 2009-10!": "treasuredsmokes|cornelldiehl|exhaustedrooster|",
+    "Cornell & Diehl - Exhausted Rooster - 2011!": "treasuredsmokes|cornelldiehl|exhaustedrooster|",
+    "Cornell & Diehl - Exhausted Rooster - 2009!": "treasuredsmokes|cornelldiehl|exhaustedrooster|",
+    "G.L. Pease - Haddo's Delight - 2009!": "treasuredsmokes|glpease|haddosdelight|",
+    "G.L. Pease - Haddo's Delight - 2010!": "treasuredsmokes|glpease|haddosdelight|",
+    "G.L. Pease - JackKnife Plug - 2011!": "treasuredsmokes|glpease|jackknifeplug|",
+    "G.L. Pease - Jack Knife Plug - 2010!": "treasuredsmokes|glpease|jackknifeplug|",
+    "G.L. Pease - Fillmore - 2010!": "treasuredsmokes|glpease|fillmore|",
+    "G.L. Pease - Fillmore - 2009!": "treasuredsmokes|glpease|fillmore|",
+    "G.L. Pease - Fillmore - 2008! 8 Ounce Big Can": "treasuredsmokes|glpease|fillmore|8oz",
+    "G.L. Pease - Fillmore - 2008!": "treasuredsmokes|glpease|fillmore|",
+    "Cringle Flake 2020": "treasuredsmokes|solo|cringleflake2020",
+    "Cult Conspiracy": "treasuredsmokes|solo|cultconspiracy",
+    "John Cotton's - Double Pressed Virginia - 2020": "treasuredsmokes|johncottons|doublepressedvirginia|",
+    "Perique - Blending": "treasuredsmokes|perique|blending|",
+    "Brown Sugar Flake!": "treasuredsmokes|solo|brownsugarflake",
+    "Red Ribbon - 2017!": "treasuredsmokes|redribbon|2017|",
+    "Whimsical - Birds of a Feather": "treasuredsmokes|whimsical|birdsfeather|",
+    "Anomalous - Birds of a Feather": "treasuredsmokes|anomalous|birdsfeather|",
+    "Uno - Birds of a Feather": "treasuredsmokes|uno|birdsfeather|",
+    "Paradoxical - Birds of a Feather": "treasuredsmokes|paradoxical|birdsfeather|",
+    "McClelland Full Balkan Reserve": "treasuredsmokes|solo|mcclellandfullbalkanreserve",
+    "Villiger - Mid-Day - 2013!": "treasuredsmokes|villiger|midday|",
+    "Stanwell - Melange - 2015!": "treasuredsmokes|stanwell|melange|",
+    "Sasieni - Balkan - 2018!": "treasuredsmokes|sasieni|balkan|",
+    "Samuel Gawith - Sam's Flake - 2017!": "treasuredsmokes|samuelgawith|samsflake|",
+    "Samuel Gawith - Squadron Leader - 2017!": "treasuredsmokes|samuelgawith|squadronleader|",
+    "Samuel Gawith - 1792 Flake - 2018!": "treasuredsmokes|samuelgawith|1792flake|",
+    "Samuel Gawith - Balkan Flake - 2018!": "treasuredsmokes|samuelgawith|balkanflake|",
+    "Samuel Gawith - Grousemoor - 2016!": "treasuredsmokes|samuelgawith|grousemoor|",
+    "Samuel Gawith - Perfection - 2018!": "treasuredsmokes|samuelgawith|perfection|",
+    "Robert McConnell - Scottish Blend - 2017!": "treasuredsmokes|robertmcconnell|scottishblend|",
+    "Robert Lewis - Orcilla Mixture - 2017!": "treasuredsmokes|robertlewis|orcillamixture|",
+    "Rattray's - Bagpiper's Dream - 2018!": "treasuredsmokes|rattrays|bagpipersdream|",
+    "Rattray's - Jock's Mixture - 2018!": "treasuredsmokes|rattrays|jocksmixture|",
+    "Peterson - University Flake - 2017!": "treasuredsmokes|peterson|universityflake|",
+    "Orlik - Mellow Mixture - 2017!": "treasuredsmokes|orlik|mellowmixture|",
+    "McCranie's - Somerled - 2017!": "treasuredsmokes|mccranies|somerled|",
+    "McClelland's - Blending Latakia - 2001!": "treasuredsmokes|mcclellands|blendinglatakia|",
+    "Hearth and Home - Classic Burley Kake - 2012 - 8 Ounce Can!": "treasuredsmokes|hearthandhome|classicburleykake|8oz",
+    "Half & Half - Burley & Bright - 2012!": "treasuredsmokes|halfhalf|burleybright|",
+    "Gawith Hoggarth - Balkan Mixture": "treasuredsmokes|gawithhoggarth|balkanmixture|",
+    "Gawith Hoggarth - Rum Flake - 2021": "treasuredsmokes|gawithhoggarth|rumflake|",
+    "Friburg & Treyer - Cut Blended Plug - 2017": "treasuredsmokes|friburgtreyer|cutblendedplug|",
+    "Cornell & Diehl - Billy Budd - 2017": "treasuredsmokes|cornelldiehl|billybudd|",
+    "BriarWorks - Country Lawyer - 2018": "treasuredsmokes|briarworks|countrylawyer|",
+    "BriarWorks - Unsweet Tea - 2018": "treasuredsmokes|briarworks|unsweettea|",
+    "Ashton Old Dog - 2000": "treasuredsmokes|ashtonolddog|2000|",
+    "Ashton - Celebrated Sovereign - 1998": "treasuredsmokes|ashton|celebratedsovereign|",
+    "Ashton Old Dog - 2004": "treasuredsmokes|ashtonolddog|2004|"
+  }
+}
