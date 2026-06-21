@@ -10,6 +10,13 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    html {
+      /* stop iOS Safari from auto-inflating long text blocks (the coffee line
+         was rendering larger than the tagline on iPhone because of this) */
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
     body {
       font-family: "Work Sans", Helvetica, Arial, sans-serif;
       /* cozy café "tablecloth" — soft dot grid on warm cream */
@@ -36,7 +43,7 @@
     }
     header h1 { font-size: 1.7rem; letter-spacing: .03em; }
     header p  { margin-top: .35rem; font-size: .85rem; color: #e6c79c; text-wrap: balance; }
-    header p.coffee { margin-top: .6rem; font-size: .8rem; color: #e6c79c; }
+    header p.coffee { margin-top: .6rem; font-size: .85rem; color: #e6c79c; }
     header p.coffee a { color: #ffe9c2; text-decoration: underline; text-underline-offset: 2px; }
     header p.coffee a:hover { color: #fff; }
     header p.coffee a svg { width: 1.05em; height: 1.05em; vertical-align: -.2em; margin-left: .3em; }
