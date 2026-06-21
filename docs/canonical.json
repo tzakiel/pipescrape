@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T15:14:17.012116+00:00",
+  "generated": "2026-06-21T16:02:38.313985+00:00",
   "stats": {
-    "total_listings": 385,
-    "total_tins": 363,
+    "total_listings": 389,
+    "total_tins": 367,
     "multi_member_tins": 9,
     "listings_in_groups": 28
   },
@@ -92,6 +92,35 @@
       ],
       "years": [
         "2020"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2024robertmcconnelloriental1tinnrbin30",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2024 Robert McConnell Oriental  - 1 Tin NR BIN $30",
+      "members": [
+        {
+          "name": "2024 Robert McConnell Oriental  - 1 Tin NR BIN $30",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196990/",
+          "listing_price": "$29.00",
+          "pack_count": 1,
+          "price": "$29.00",
+          "last_seen": "2026-06-21T16:00:28.045790+00:00",
+          "year": "2024",
+          "price_history": [
+            {
+              "price": "$29.00",
+              "date": "2026-06-21T16:00:28.045790+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2024"
       ]
     },
     {
@@ -3460,6 +3489,33 @@
       "years": [
         "2017"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|fuenteandmontecristobundle",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Fuente and Montecristo Bundle",
+      "members": [
+        {
+          "name": "Fuente and Montecristo Bundle",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195543/",
+          "listing_price": "$35.00",
+          "pack_count": 1,
+          "price": "$35.00",
+          "last_seen": "2026-06-21T16:00:28.045790+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-21T16:00:28.045790+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "4nogginscom|solo|glpeasearagorn2004c",
@@ -8315,6 +8371,33 @@
       "years": []
     },
     {
+      "id": "tinbidsauctionsold|solo|peterheinrichsgoldenslicedbidorbuynow",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Peter Heinrichs Golden Sliced Bid or Buy Now",
+      "members": [
+        {
+          "name": "Peter Heinrichs Golden Sliced Bid or Buy Now",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195561/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-21T16:00:28.045790+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-21T16:00:28.045790+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "pipestudcom|peterson|irishflake|50g",
       "brand": "Peterson",
       "blend": "Irish Flake",
@@ -9935,6 +10018,33 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|sutliffcountrycork",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sutliff Country Cork",
+      "members": [
+        {
+          "name": "Sutliff Country Cork",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195552/",
+          "listing_price": "$25.00",
+          "pack_count": 1,
+          "price": "$25.00",
+          "last_seen": "2026-06-21T16:00:28.045790+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$25.00",
+              "date": "2026-06-21T16:00:28.045790+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "pipestudcom|sutliff|cringleflakeholidayedition|2oz",
       "brand": "Sutliff",
       "blend": "Cringle Flake Holiday Edition",
@@ -10927,6 +11037,10 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "pipestudcom|mac|barendarktwistrollcake|100g",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "pipestudcom|van|rossemsschipperstabak|312oz",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+    "Fuente and Montecristo Bundle": "tinbidsauctionsold|solo|fuenteandmontecristobundle",
+    "Sutliff Country Cork": "tinbidsauctionsold|solo|sutliffcountrycork",
+    "Peter Heinrichs Golden Sliced Bid or Buy Now": "tinbidsauctionsold|solo|peterheinrichsgoldenslicedbidorbuynow",
+    "2024 Robert McConnell Oriental  - 1 Tin NR BIN $30": "tinbidsauctionsold|solo|2024robertmcconnelloriental1tinnrbin30",
     "Lot of 2 Excellent 2019 & 2020 Cornell & Diehl Kings Stride Warped Series Until the End 2oz. Tins": "tinbidsauctionsold|solo|lotof2excellent20192020cornelldiehlkingsstridewarpedseriesuntiltheend2oztins",
     "Very Nice Sealed 2018 Dunhill My Mixture 965 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixture96550gtin",
     "Lot of 2 Excellent Sealed 2021 Rattray's Black Mallory 100g. Tobacco Tins": "tinbidsauctionsold|solo|lotof2excellentsealed2021rattraysblackmallory100gtobaccotins",
