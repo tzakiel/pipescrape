@@ -398,9 +398,7 @@
     const q = qEl.value.trim().toLowerCase();
 
     if (!q) {
-      const byLastSeen = bySource(ALL_PRODUCTS).slice().sort((a, b) =>
-        (b.last_seen || "").localeCompare(a.last_seen || ""));
-      renderTable(byLastSeen, "");
+      renderTable(bySource(ALL_PRODUCTS), "");
       return;
     }
     const list = bySource(ALL_PRODUCTS).filter(p => p.name.toLowerCase().includes(q));
