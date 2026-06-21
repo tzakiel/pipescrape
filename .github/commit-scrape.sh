@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# Commit a freshly scraped source file, then regenerate the DERIVED consolidation
+# files (canonical.json, unmatched.log) AFTER merging remote changes.
+#
+# Why this order: canonical.json is generated from every source. If two scrape
+# workflows run close together and both commit canonical.json, the rebase hits a
+# merge conflict on it. The fix is to never put derived files in the rebased
+# commit — regenerate them post-merge, when there is nothing left to conflict on.
+#
+# Inputs (env): SRC = path to this source's JSON, MSG = commit message prefix.
+set -euo pipefail
+
+git config user.name "github-actions[bot]"
+git config user.email "github-actions[bot]@users.noreply.github.com"
+
+# 1) Stage ONLY the scraped source file. If it didn't change, there's nothing
+#    to do — another source's workflow will refresh canonical.json when needed.
+git add "$SRC"
+if git diff --cached --quiet; then
+  echo "No changes to $SRC — nothing to commit."
+  exit 0
+fi
+git commit -m "$MSG $(date -u '+%Y-%m-%d')"
+
+# 2) Discard any working-tree changes to the derived files so the rebase/autostash
+#    has nothing to conflict on. They get rebuilt fresh below.
+git checkout -- docs/canonical.json docs/unmatched.log 2>/dev/null || true
+
+# 3) Integrate remote, regenerate derived files, push. Retry to survive another
+#    workflow pushing in the window between our pull and our push.
+for attempt in 1 2 3 4 5; do
+  if ! git pull --rebase --autostash origin main; then
+    git rebase --abort 2>/dev/null || true
+    echo "Rebase failed (attempt $attempt) — retrying."
+    sleep 5
+    continue
+  fi
+
+  python consolidate.py
+  git add docs/canonical.json docs/unmatched.log
+  git commit -m "Reconsolidate tins" || true   # may be a no-op if unchanged
+
+  if git push; then
+    echo "Pushed on attempt $attempt."
+    exit 0
+  fi
+
+  echo "Push rejected (attempt $attempt) — someone pushed first; retrying."
+  # Undo our consolidation commit and reset the derived files so the next
+  # pull starts from a clean tree.
+  git reset --soft HEAD~1 2>/dev/null || true
+  git restore --staged docs/canonical.json docs/unmatched.log 2>/dev/null || true
+  git checkout -- docs/canonical.json docs/unmatched.log 2>/dev/null || true
+  sleep 5
+done
+
+echo "Failed to push after retries." >&2
+exit 1
