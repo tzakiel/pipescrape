@@ -1,12 +1,153 @@
 {
-  "generated": "2026-06-22T04:02:43.407956+00:00",
+  "generated": "2026-06-22T13:59:12.422248+00:00",
   "stats": {
-    "total_listings": 389,
-    "total_tins": 367,
+    "total_listings": 444,
+    "total_tins": 422,
     "multi_member_tins": 9,
     "listings_in_groups": 28
   },
   "tins": [
+    {
+      "id": "tinbidsauctionsold|solo|2xseattlepipeclubsutliffmississippiriverrumbarrelaged",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "(2x) Seattle Pipe Club (Sutliff) - Mississippi River Rum Barrel Aged",
+      "members": [
+        {
+          "name": "(2x) Seattle Pipe Club (Sutliff) - Mississippi River Rum Barrel Aged",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195963/",
+          "listing_price": "$70.00",
+          "pack_count": 2,
+          "price": "$35.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$35.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|3sutliffcringleflake2020",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "(3) Sutliff Cringle Flake  2020",
+      "members": [
+        {
+          "name": "(3) Sutliff Cringle Flake  2020",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195966/",
+          "listing_price": "$102.01",
+          "pack_count": 1,
+          "price": "$102.01",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2020",
+          "price_history": [
+            {
+              "price": "$102.01",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|3sutliffcringleflake2021",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "(3) Sutliff Cringle Flake  2021",
+      "members": [
+        {
+          "name": "(3) Sutliff Cringle Flake  2021",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195965/",
+          "listing_price": "$107.01",
+          "pack_count": 1,
+          "price": "$107.01",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2021",
+          "price_history": [
+            {
+              "price": "$107.01",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2004mickmcquaidplug50gtraditionalirishplugtobacco",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "* 2004 * Mick McQuaid Plug 50g.  Traditional Irish plug Tobacco.",
+      "members": [
+        {
+          "name": "* 2004 * Mick McQuaid Plug 50g.  Traditional Irish plug Tobacco.",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195167/",
+          "listing_price": "$42.00",
+          "pack_count": 1,
+          "price": "$42.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2004",
+          "price_history": [
+            {
+              "price": "$42.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2004"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|vintage25yearsoldbellsthreenuns50gnonenicerrare",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "- Vintage -25 Years Old - BELLS THREE NUNS 50g. None Nicer! Rare!",
+      "members": [
+        {
+          "name": "- Vintage -25 Years Old - BELLS THREE NUNS 50g. None Nicer! Rare!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195162/",
+          "listing_price": "$224.00",
+          "pack_count": 1,
+          "price": "$224.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$224.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
     {
       "id": "tinbidsauctionsold|solo|1998mcclellandiwanriesanniversaryblendgourmetenglish50gtin",
       "brand": "",
@@ -37,6 +178,35 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|2013jfgermainrichdarkflake27oz",
+      "brand": "",
+      "blend": "",
+      "quantity": "2.7oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2013 JF Germain Rich Dark Flake 2.7 oz",
+      "members": [
+        {
+          "name": "2013 JF Germain Rich Dark Flake 2.7 oz",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195926/",
+          "listing_price": "$282.00",
+          "pack_count": 1,
+          "price": "$282.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$282.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
       "id": "tinbidsauctionsold|solo|2013samuelgawithstjamesflake8oz3dayauction",
       "brand": "",
       "blend": "",
@@ -63,6 +233,93 @@
       ],
       "years": [
         "2013"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2015samuelgawithseasonsspringsummerwinter",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2015 Samuel Gawith Seasons- Spring, Summer, Winter",
+      "members": [
+        {
+          "name": "2015 Samuel Gawith Seasons- Spring, Summer, Winter",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195930/",
+          "listing_price": "$150.00",
+          "pack_count": 1,
+          "price": "$150.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$150.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2018smokershaveninbtweenmixture",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2018 Smoker’s Haven In-B-Tween Mixture",
+      "members": [
+        {
+          "name": "2018 Smoker’s Haven In-B-Tween Mixture",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195936/",
+          "listing_price": "$95.00",
+          "pack_count": 1,
+          "price": "$95.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$95.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2019macbarenhholddarkfiredplugcut",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2019 MAC BAREN HH OLD DARK FIRED PLUG CUT",
+      "members": [
+        {
+          "name": "2019 MAC BAREN HH OLD DARK FIRED PLUG CUT",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195088/",
+          "listing_price": "$92.00",
+          "pack_count": 1,
+          "price": "$92.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2019",
+          "price_history": [
+            {
+              "price": "$92.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2019"
       ]
     },
     {
@@ -121,6 +378,292 @@
       ],
       "years": [
         "2024"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2xsutliffmoltodolcesealed15oztins",
+      "brand": "",
+      "blend": "",
+      "quantity": "1.5oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2x Sutliff Molto Dolce Sealed 1.5oz Tins",
+      "members": [
+        {
+          "name": "2x Sutliff Molto Dolce Sealed 1.5oz Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195175/",
+          "listing_price": "$84.00",
+          "pack_count": 2,
+          "price": "$42.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$42.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|5packerinmoreflake50g2014factorysealed",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "5 pack Erinmore Flake (50g) 2014-Factory Sealed",
+      "members": [
+        {
+          "name": "5 pack Erinmore Flake (50g) 2014-Factory Sealed",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195623/",
+          "listing_price": "$127.00",
+          "pack_count": 5,
+          "price": "$25.40",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$25.40",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|50gbengalslicesasutlifftobaccoblendfrom2016",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "50g Bengal Slices- A Sutliff Tobacco Blend From 2016!",
+      "members": [
+        {
+          "name": "50g Bengal Slices- A Sutliff Tobacco Blend From 2016!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195059/",
+          "listing_price": "$41.00",
+          "pack_count": 1,
+          "price": "$41.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$41.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|50ghearthhomeashcroftestatefrom2016",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "50g Hearth & Home Ashcroft Estate From 2016!",
+      "members": [
+        {
+          "name": "50g Hearth & Home Ashcroft Estate From 2016!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195069/",
+          "listing_price": "$12.00",
+          "pack_count": 1,
+          "price": "$12.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$12.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|50ghearthhomevirginiamemoryfrom2016",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "50g Hearth & Home Virginia Memory From 2016!",
+      "members": [
+        {
+          "name": "50g Hearth & Home Virginia Memory From 2016!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195072/",
+          "listing_price": "$28.95",
+          "pack_count": 1,
+          "price": "$28.95",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$28.95",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|50gtinofcdbuffalosoldierfrom2014",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "50g Tin Of C&D Buffalo Soldier From 2014!",
+      "members": [
+        {
+          "name": "50g Tin Of C&D Buffalo Soldier From 2014!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195065/",
+          "listing_price": "$10.00",
+          "pack_count": 1,
+          "price": "$10.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$10.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|50gwarhorsereadycutfrom2016",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "50g War Horse Ready Cut From 2016!",
+      "members": [
+        {
+          "name": "50g War Horse Ready Cut From 2016!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195062/",
+          "listing_price": "$33.00",
+          "pack_count": 1,
+          "price": "$33.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$33.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|77oz218gofsutliffhearthhomelarrysblendfrom2010",
+      "brand": "",
+      "blend": "",
+      "quantity": "7.7oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "7.7oz/218g of Sutliff/Hearth & Home Larry's Blend From 2010!",
+      "members": [
+        {
+          "name": "7.7oz/218g of Sutliff/Hearth & Home Larry's Blend From 2010!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196724/",
+          "listing_price": "$46.00",
+          "pack_count": 1,
+          "price": "$46.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2010",
+          "price_history": [
+            {
+              "price": "$46.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2010"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|72hourauction3bagsofesotericaand15tinsplus2tinsofgermainsbalkansobranie",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "72 hour auction!  3 bags of Esoterica and 15 tins!  Plus 2 tins of Germain's Balkan Sobranie!",
+      "members": [
+        {
+          "name": "72 hour auction!  3 bags of Esoterica and 15 tins!  Plus 2 tins of Germain's Balkan Sobranie!",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196728/",
+          "listing_price": "$3710.00",
+          "pack_count": 1,
+          "price": "$3710.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$3710.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|aculttriothree50gtinsfrom20142015",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "A Cult Trio!  Three 50g Tins - From 2014/2015.",
+      "members": [
+        {
+          "name": "A Cult Trio!  Three 50g Tins - From 2014/2015.",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195075/",
+          "listing_price": "$52.00",
+          "pack_count": 1,
+          "price": "$52.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$52.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
       ]
     },
     {
@@ -378,6 +921,35 @@
       ],
       "years": [
         "1998"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|august1945johnmiddletondeluxepipetobaccoblendingchestcomplete7jarsetfeaturedonpipeappeal",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal",
+      "members": [
+        {
+          "name": "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195193/",
+          "listing_price": "$379.00",
+          "pack_count": 1,
+          "price": "$379.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "1945",
+          "price_history": [
+            {
+              "price": "$379.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "1945"
       ]
     },
     {
@@ -841,6 +1413,35 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|buterapelicansmokingmixture2ozssealedpipetobaccotin2003",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003",
+      "members": [
+        {
+          "name": "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195191/",
+          "listing_price": "$203.00",
+          "pack_count": 1,
+          "price": "$203.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2003",
+          "price_history": [
+            {
+              "price": "$203.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2003"
+      ]
+    },
+    {
       "id": "4nogginscom|solo|buterablendedflake1997c",
       "brand": "",
       "blend": "",
@@ -984,6 +1585,60 @@
       "years": [
         "2014"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|cdsteamworks262tinsbin60",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "C&D: Steamworks (26) 2 Tins: BIN 60",
+      "members": [
+        {
+          "name": "C&D: Steamworks (26) 2 Tins: BIN 60",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196727/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|caoflavours1cherrybombstanwell1vanilla",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla",
+      "members": [
+        {
+          "name": "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196701/",
+          "listing_price": "$24.00",
+          "pack_count": 1,
+          "price": "$24.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$24.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "4nogginscom|solo|caomoontrance50g2011c",
@@ -1185,6 +1840,33 @@
       "years": [
         "2017"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|cornelldiehleightstateburley5tinsnrbin150",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Cornell & Diehl Eight State Burley - 5 Tins NR BIN $150",
+      "members": [
+        {
+          "name": "Cornell & Diehl Eight State Burley - 5 Tins NR BIN $150",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/197039/",
+          "listing_price": "$150.00",
+          "pack_count": 1,
+          "price": "$150.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$150.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "treasuredsmokes|cornelldiehl|exhaustedrooster|2oz",
@@ -2724,6 +3406,33 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|esotericatobaccianabuterasmargate8ozsealedpipetobaccogermainsonuk",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK",
+      "members": [
+        {
+          "name": "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195192/",
+          "listing_price": "$640.00",
+          "pack_count": 1,
+          "price": "$640.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$640.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "4nogginscom|solo|esotericaandsotobed2ozc",
       "brand": "",
       "blend": "",
@@ -3265,6 +3974,122 @@
         }
       ],
       "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|excellent2016reiner71lgf100grams",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Excellent 2016 Reiner 71 (LGF) 100 grams",
+      "members": [
+        {
+          "name": "Excellent 2016 Reiner 71 (LGF) 100 grams",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195943/",
+          "listing_price": "$175.00",
+          "pack_count": 1,
+          "price": "$175.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$175.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|excellentsealed2005captainearlespressedtenrussians2oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Excellent Sealed 2005 Captain Earle's Pressed Ten Russians 2oz. Tin",
+      "members": [
+        {
+          "name": "Excellent Sealed 2005 Captain Earle's Pressed Ten Russians 2oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195850/",
+          "listing_price": "$71.00",
+          "pack_count": 1,
+          "price": "$71.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2005",
+          "price_history": [
+            {
+              "price": "$71.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|excellentsealed2005esotericapenzance8ozpack",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Excellent Sealed 2005 Esoterica Penzance 8oz. Pack",
+      "members": [
+        {
+          "name": "Excellent Sealed 2005 Esoterica Penzance 8oz. Pack",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195851/",
+          "listing_price": "$1250.00",
+          "pack_count": 1,
+          "price": "$1250.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2005",
+          "price_history": [
+            {
+              "price": "$1250.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|excellentsealed2011samuelgawithfullvirginiaflake50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Excellent Sealed 2011 Samuel Gawith Full Virginia Flake 50g. Tin",
+      "members": [
+        {
+          "name": "Excellent Sealed 2011 Samuel Gawith Full Virginia Flake 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195853/",
+          "listing_price": "$62.00",
+          "pack_count": 1,
+          "price": "$62.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2011",
+          "price_history": [
+            {
+              "price": "$62.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ]
     },
     {
       "id": "tinbidsauctionsold|solo|excellentsealed2018dunhillnightcap50gtin",
@@ -5348,6 +6173,35 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|johnaylesburyluxuryflake2015",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "John Aylesbury Luxury Flake-2015",
+      "members": [
+        {
+          "name": "John Aylesbury Luxury Flake-2015",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195688/",
+          "listing_price": "$40.00",
+          "pack_count": 1,
+          "price": "$40.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$40.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ]
+    },
+    {
       "id": "treasuredsmokes|johncottons|doublepressedvirginia|",
       "brand": "John Cotton's",
       "blend": "Double Pressed Virginia",
@@ -5661,6 +6515,60 @@
       "years": [
         "2021"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof2verynicesealedcascadiadownwind176oztins",
+      "brand": "",
+      "blend": "",
+      "quantity": "1.76oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 2 Very Nice Sealed Cascadia Downwind 1.76oz. Tins",
+      "members": [
+        {
+          "name": "Lot of 2 Very Nice Sealed Cascadia Downwind 1.76oz. Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195680/",
+          "listing_price": "$29.00",
+          "pack_count": 2,
+          "price": "$14.50",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$14.50",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|lotof4verynicesealedcascadia176oztins",
+      "brand": "",
+      "blend": "",
+      "quantity": "1.76oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Lot of 4 Very Nice Sealed Cascadia 1.76oz. Tins",
+      "members": [
+        {
+          "name": "Lot of 4 Very Nice Sealed Cascadia 1.76oz. Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195630/",
+          "listing_price": "$44.00",
+          "pack_count": 4,
+          "price": "$11.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$11.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "pipestudcom|mac|barendarktwistrollcake|100g",
@@ -6002,6 +6910,33 @@
             {
               "price": "$165.00",
               "date": "2026-06-21T02:45:17.226279+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|mcclelland40thanniversarynrbin225",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "McClelland 40th Anniversary - NR BIN $225",
+      "members": [
+        {
+          "name": "McClelland 40th Anniversary - NR BIN $225",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/197041/",
+          "listing_price": "$225.00",
+          "pack_count": 1,
+          "price": "$225.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$225.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
             }
           ]
         }
@@ -6539,6 +7474,33 @@
       "years": [
         "1997"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|mcclellandno24virginiasealed100gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "McClelland No. 24 VIRGINIA - Sealed 100g Tin",
+      "members": [
+        {
+          "name": "McClelland No. 24 VIRGINIA - Sealed 100g Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/194247/",
+          "listing_price": "$210.00",
+          "pack_count": 1,
+          "price": "$210.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$210.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "pipestudcom|mcclelland|personalreserveseriesblackwoodsflake|50g",
@@ -8161,6 +9123,35 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|nice2006cornelldiehlstaroftheeast0668oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Nice 2006 Cornell & Diehl Star of the East 066 8oz. Tin",
+      "members": [
+        {
+          "name": "Nice 2006 Cornell & Diehl Star of the East 066 8oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195676/",
+          "listing_price": "$101.00",
+          "pack_count": 1,
+          "price": "$101.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2006",
+          "price_history": [
+            {
+              "price": "$101.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2006"
+      ]
+    },
+    {
       "id": "4nogginscom|solo|nordinghunterblendbeagle175ozc",
       "brand": "",
       "blend": "",
@@ -9110,6 +10101,35 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|samuelgawitharomatic3pack20142015",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Samuel Gawith Aromatic 3-Pack (2014 & 2015)",
+      "members": [
+        {
+          "name": "Samuel Gawith Aromatic 3-Pack (2014 & 2015)",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195695/",
+          "listing_price": "$50.00",
+          "pack_count": 3,
+          "price": "$16.67",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$16.67",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ]
+    },
+    {
       "id": "treasuredsmokes|samuelgawith|balkanflake|50g",
       "brand": "Samuel Gawith",
       "blend": "Balkan Flake",
@@ -9165,6 +10185,35 @@
       ],
       "years": [
         "2013"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|samuelgawithflakeassortment5pack2014",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Samuel Gawith Flake Assortment 5 pack (2014)",
+      "members": [
+        {
+          "name": "Samuel Gawith Flake Assortment 5 pack (2014)",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195698/",
+          "listing_price": "$192.00",
+          "pack_count": 1,
+          "price": "$192.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$192.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
       ]
     },
     {
@@ -9744,6 +10793,89 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|sealed2024samuelgawithbalkanflakeburntends8ozbox",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sealed 2024 Samuel Gawith Balkan Flake Burnt Ends 8oz. Box",
+      "members": [
+        {
+          "name": "Sealed 2024 Samuel Gawith Balkan Flake Burnt Ends 8oz. Box",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195675/",
+          "listing_price": "$68.00",
+          "pack_count": 1,
+          "price": "$68.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2024",
+          "price_history": [
+            {
+              "price": "$68.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|sealedinjaresotericamargatepipetobacco",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sealed in Jar Esoterica Margate Pipe Tobacco",
+      "members": [
+        {
+          "name": "Sealed in Jar Esoterica Margate Pipe Tobacco",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195674/",
+          "listing_price": "$181.00",
+          "pack_count": 1,
+          "price": "$181.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$181.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|sealedinmasonjarmacbarensscottishmixturepipetobacco",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sealed in Mason Jar Mac Baren's Scottish Mixture Pipe Tobacco",
+      "members": [
+        {
+          "name": "Sealed in Mason Jar Mac Baren's Scottish Mixture Pipe Tobacco",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195669/",
+          "listing_price": "$20.49",
+          "pack_count": 1,
+          "price": "$20.49",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$20.49",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "pipestudcom|sillem|copenhagenblend|50g",
       "brand": "Sillem",
       "blend": "Copenhagen Blend",
@@ -10032,6 +11164,33 @@
       "years": [
         "2021"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|sutliffalexanderbridgelotof2",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sutliff Alexander Bridge - lot of 2",
+      "members": [
+        {
+          "name": "Sutliff Alexander Bridge - lot of 2",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195081/",
+          "listing_price": "$41.00",
+          "pack_count": 2,
+          "price": "$20.50",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$20.50",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "tinbidsauctionsold|solo|sutliffcountrycork",
@@ -10359,6 +11518,180 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|verynice2022drucquersonscasbahbalkancrumbleplug100gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice 2022 Drucquer & Sons Casbah Balkan Crumble Plug 100g. Tin",
+      "members": [
+        {
+          "name": "Very Nice 2022 Drucquer & Sons Casbah Balkan Crumble Plug 100g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195659/",
+          "listing_price": "$20.49",
+          "pack_count": 1,
+          "price": "$20.49",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2022",
+          "price_history": [
+            {
+              "price": "$20.49",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2022"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynice2022glpeaseunionsquare2oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "2022g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice 2022 G. L. Pease Union Square 2oz. Tin",
+      "members": [
+        {
+          "name": "Very Nice 2022 G. L. Pease Union Square 2oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195652/",
+          "listing_price": "$19.99",
+          "pack_count": 1,
+          "price": "$19.99",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2022",
+          "price_history": [
+            {
+              "price": "$19.99",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2022"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2012hearthhomeinternationalpipesmokingday201250gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2012 Hearth & Home International Pipe Smoking Day 2012 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2012 Hearth & Home International Pipe Smoking Day 2012 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195854/",
+          "listing_price": "$19.99",
+          "pack_count": 1,
+          "price": "$19.99",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$19.99",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2012mccraniesredflakeprime2008redvirginia50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2012 McCranie's Red Flake Prime 2008 Red Virginia 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2012 McCranie's Red Flake Prime 2008 Red Virginia 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195852/",
+          "listing_price": "$111.75",
+          "pack_count": 1,
+          "price": "$111.75",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2012",
+          "price_history": [
+            {
+              "price": "$111.75",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2013buterapelicanenglishoriental2oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2013 Butera Pelican English-Oriental 2oz. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2013 Butera Pelican English-Oriental 2oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195859/",
+          "listing_price": "$185.00",
+          "pack_count": 1,
+          "price": "$185.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$185.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealed2018dunhilldeluxenavyrolls50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed 2018 Dunhill De Luxe Navy Rolls 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed 2018 Dunhill De Luxe Navy Rolls 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195855/",
+          "listing_price": "$50.00",
+          "pack_count": 1,
+          "price": "$50.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$50.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
       "id": "tinbidsauctionsold|solo|verynicesealed2018dunhillmymixture96550gtin",
       "brand": "",
       "blend": "",
@@ -10446,6 +11779,141 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|verynicesealedbengalslice175oztin",
+      "brand": "",
+      "blend": "",
+      "quantity": "1.75oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed Bengal Slice 1.75oz. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed Bengal Slice 1.75oz. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195645/",
+          "listing_price": "$31.99",
+          "pack_count": 1,
+          "price": "$31.99",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$31.99",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealeddunhilldurbarmixture50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed Dunhill Durbar Mixture 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed Dunhill Durbar Mixture 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195656/",
+          "listing_price": "$41.00",
+          "pack_count": 1,
+          "price": "$41.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$41.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealeddunhillstandardmixturemellow50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed Dunhill Standard Mixture Mellow 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed Dunhill Standard Mixture Mellow 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195638/",
+          "listing_price": "$37.00",
+          "pack_count": 1,
+          "price": "$37.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$37.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealeddunhillyeoldesigne50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed Dunhill Ye Olde Signe 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed Dunhill Ye Olde Signe 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195649/",
+          "listing_price": "$56.00",
+          "pack_count": 1,
+          "price": "$56.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$56.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|verynicesealedgermainskingcharles50gtin",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Very Nice Sealed Germain's King Charles 50g. Tin",
+      "members": [
+        {
+          "name": "Very Nice Sealed Germain's King Charles 50g. Tin",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195633/",
+          "listing_price": "$47.49",
+          "pack_count": 1,
+          "price": "$47.49",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$47.49",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "treasuredsmokes|villiger|midday|",
       "brand": "Villiger",
       "blend": "Mid-Day",
@@ -10472,6 +11940,35 @@
       ],
       "years": [
         "2013"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|vintagearomaticpetersonspecialreserve2008100grams",
+      "brand": "",
+      "blend": "",
+      "quantity": "100g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Vintage  aromatic !  Peterson Special Reserve 2008 100grams.",
+      "members": [
+        {
+          "name": "Vintage  aromatic !  Peterson Special Reserve 2008 100grams.",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195153/",
+          "listing_price": "$19.00",
+          "pack_count": 1,
+          "price": "$19.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "2008",
+          "price_history": [
+            {
+              "price": "$19.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2008"
       ]
     },
     {
@@ -10618,6 +12115,33 @@
       "years": [
         "2012"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|warhorsegreen",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "War Horse Green",
+      "members": [
+        {
+          "name": "War Horse Green",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195893/",
+          "listing_price": "$80.00",
+          "pack_count": 1,
+          "price": "$80.00",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$80.00",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "pipestudcom|wellauer|100syrlatakia|312oz",
@@ -10964,6 +12488,33 @@
       "years": [
         "1985"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|ziplocksealedmysticmoor16ozbagoftobacco",
+      "brand": "",
+      "blend": "",
+      "quantity": "16oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Ziplock Sealed Mystic Moor 16oz. Bag of Tobacco",
+      "members": [
+        {
+          "name": "Ziplock Sealed Mystic Moor 16oz. Bag of Tobacco",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195677/",
+          "listing_price": "$19.99",
+          "pack_count": 1,
+          "price": "$19.99",
+          "last_seen": "2026-06-22T13:53:20.063064+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$19.99",
+              "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     }
   ],
   "name_to_id": {
@@ -11053,6 +12604,61 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "pipestudcom|mac|barendarktwistrollcake|100g",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "pipestudcom|van|rossemsschipperstabak|312oz",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+    "Cornell & Diehl Eight State Burley - 5 Tins NR BIN $150": "tinbidsauctionsold|solo|cornelldiehleightstateburley5tinsnrbin150",
+    "McClelland 40th Anniversary - NR BIN $225": "tinbidsauctionsold|solo|mcclelland40thanniversarynrbin225",
+    "5 pack Erinmore Flake (50g) 2014-Factory Sealed": "tinbidsauctionsold|solo|5packerinmoreflake50g2014factorysealed",
+    "Lot of 4 Very Nice Sealed Cascadia 1.76oz. Tins": "tinbidsauctionsold|solo|lotof4verynicesealedcascadia176oztins",
+    "Very Nice Sealed Germain's King Charles 50g. Tin": "tinbidsauctionsold|solo|verynicesealedgermainskingcharles50gtin",
+    "Very Nice Sealed Dunhill Standard Mixture Mellow 50g. Tin": "tinbidsauctionsold|solo|verynicesealeddunhillstandardmixturemellow50gtin",
+    "Very Nice Sealed Bengal Slice 1.75oz. Tin": "tinbidsauctionsold|solo|verynicesealedbengalslice175oztin",
+    "Very Nice Sealed Dunhill Ye Olde Signe 50g. Tin": "tinbidsauctionsold|solo|verynicesealeddunhillyeoldesigne50gtin",
+    "Very Nice 2022 G. L. Pease Union Square 2oz. Tin": "tinbidsauctionsold|solo|verynice2022glpeaseunionsquare2oztin",
+    "Very Nice Sealed Dunhill Durbar Mixture 50g. Tin": "tinbidsauctionsold|solo|verynicesealeddunhilldurbarmixture50gtin",
+    "Very Nice 2022 Drucquer & Sons Casbah Balkan Crumble Plug 100g. Tin": "tinbidsauctionsold|solo|verynice2022drucquersonscasbahbalkancrumbleplug100gtin",
+    "Sealed in Mason Jar Mac Baren's Scottish Mixture Pipe Tobacco": "tinbidsauctionsold|solo|sealedinmasonjarmacbarensscottishmixturepipetobacco",
+    "Sealed in Jar Esoterica Margate Pipe Tobacco": "tinbidsauctionsold|solo|sealedinjaresotericamargatepipetobacco",
+    "Sealed 2024 Samuel Gawith Balkan Flake Burnt Ends 8oz. Box": "tinbidsauctionsold|solo|sealed2024samuelgawithbalkanflakeburntends8ozbox",
+    "Nice 2006 Cornell & Diehl Star of the East 066 8oz. Tin": "tinbidsauctionsold|solo|nice2006cornelldiehlstaroftheeast0668oztin",
+    "Ziplock Sealed Mystic Moor 16oz. Bag of Tobacco": "tinbidsauctionsold|solo|ziplocksealedmysticmoor16ozbagoftobacco",
+    "Lot of 2 Very Nice Sealed Cascadia Downwind 1.76oz. Tins": "tinbidsauctionsold|solo|lotof2verynicesealedcascadiadownwind176oztins",
+    "John Aylesbury Luxury Flake-2015": "tinbidsauctionsold|solo|johnaylesburyluxuryflake2015",
+    "Samuel Gawith Aromatic 3-Pack (2014 & 2015)": "tinbidsauctionsold|solo|samuelgawitharomatic3pack20142015",
+    "Samuel Gawith Flake Assortment 5 pack (2014)": "tinbidsauctionsold|solo|samuelgawithflakeassortment5pack2014",
+    "50g Bengal Slices- A Sutliff Tobacco Blend From 2016!": "tinbidsauctionsold|solo|50gbengalslicesasutlifftobaccoblendfrom2016",
+    "50g War Horse Ready Cut From 2016!": "tinbidsauctionsold|solo|50gwarhorsereadycutfrom2016",
+    "50g Tin Of C&D Buffalo Soldier From 2014!": "tinbidsauctionsold|solo|50gtinofcdbuffalosoldierfrom2014",
+    "50g Hearth & Home Ashcroft Estate From 2016!": "tinbidsauctionsold|solo|50ghearthhomeashcroftestatefrom2016",
+    "50g Hearth & Home Virginia Memory From 2016!": "tinbidsauctionsold|solo|50ghearthhomevirginiamemoryfrom2016",
+    "A Cult Trio!  Three 50g Tins - From 2014/2015.": "tinbidsauctionsold|solo|aculttriothree50gtinsfrom20142015",
+    "McClelland No. 24 VIRGINIA - Sealed 100g Tin": "tinbidsauctionsold|solo|mcclellandno24virginiasealed100gtin",
+    "Sutliff Alexander Bridge - lot of 2": "tinbidsauctionsold|solo|sutliffalexanderbridgelotof2",
+    "2019 MAC BAREN HH OLD DARK FIRED PLUG CUT": "tinbidsauctionsold|solo|2019macbarenhholddarkfiredplugcut",
+    "Excellent Sealed 2005 Captain Earle's Pressed Ten Russians 2oz. Tin": "tinbidsauctionsold|solo|excellentsealed2005captainearlespressedtenrussians2oztin",
+    "Excellent Sealed 2005 Esoterica Penzance 8oz. Pack": "tinbidsauctionsold|solo|excellentsealed2005esotericapenzance8ozpack",
+    "Very Nice Sealed 2012 McCranie's Red Flake Prime 2008 Red Virginia 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2012mccraniesredflakeprime2008redvirginia50gtin",
+    "Excellent Sealed 2011 Samuel Gawith Full Virginia Flake 50g. Tin": "tinbidsauctionsold|solo|excellentsealed2011samuelgawithfullvirginiaflake50gtin",
+    "Very Nice Sealed 2012 Hearth & Home International Pipe Smoking Day 2012 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2012hearthhomeinternationalpipesmokingday201250gtin",
+    "Very Nice Sealed 2018 Dunhill De Luxe Navy Rolls 50g. Tin": "tinbidsauctionsold|solo|verynicesealed2018dunhilldeluxenavyrolls50gtin",
+    "Very Nice Sealed 2013 Butera Pelican English-Oriental 2oz. Tin": "tinbidsauctionsold|solo|verynicesealed2013buterapelicanenglishoriental2oztin",
+    "Vintage  aromatic !  Peterson Special Reserve 2008 100grams.": "tinbidsauctionsold|solo|vintagearomaticpetersonspecialreserve2008100grams",
+    "War Horse Green": "tinbidsauctionsold|solo|warhorsegreen",
+    "- Vintage -25 Years Old - BELLS THREE NUNS 50g. None Nicer! Rare!": "tinbidsauctionsold|solo|vintage25yearsoldbellsthreenuns50gnonenicerrare",
+    "* 2004 * Mick McQuaid Plug 50g.  Traditional Irish plug Tobacco.": "tinbidsauctionsold|solo|2004mickmcquaidplug50gtraditionalirishplugtobacco",
+    "2x Sutliff Molto Dolce Sealed 1.5oz Tins": "tinbidsauctionsold|solo|2xsutliffmoltodolcesealed15oztins",
+    "2013 JF Germain Rich Dark Flake 2.7 oz": "tinbidsauctionsold|solo|2013jfgermainrichdarkflake27oz",
+    "2015 Samuel Gawith Seasons- Spring, Summer, Winter": "tinbidsauctionsold|solo|2015samuelgawithseasonsspringsummerwinter",
+    "2018 Smoker’s Haven In-B-Tween Mixture": "tinbidsauctionsold|solo|2018smokershaveninbtweenmixture",
+    "Excellent 2016 Reiner 71 (LGF) 100 grams": "tinbidsauctionsold|solo|excellent2016reiner71lgf100grams",
+    "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla": "tinbidsauctionsold|solo|caoflavours1cherrybombstanwell1vanilla",
+    "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003": "tinbidsauctionsold|solo|buterapelicansmokingmixture2ozssealedpipetobaccotin2003",
+    "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK": "tinbidsauctionsold|solo|esotericatobaccianabuterasmargate8ozsealedpipetobaccogermainsonuk",
+    "7.7oz/218g of Sutliff/Hearth & Home Larry's Blend From 2010!": "tinbidsauctionsold|solo|77oz218gofsutliffhearthhomelarrysblendfrom2010",
+    "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal": "tinbidsauctionsold|solo|august1945johnmiddletondeluxepipetobaccoblendingchestcomplete7jarsetfeaturedonpipeappeal",
+    "(2x) Seattle Pipe Club (Sutliff) - Mississippi River Rum Barrel Aged": "tinbidsauctionsold|solo|2xseattlepipeclubsutliffmississippiriverrumbarrelaged",
+    "C&D: Steamworks (26) 2 Tins: BIN 60": "tinbidsauctionsold|solo|cdsteamworks262tinsbin60",
+    "72 hour auction!  3 bags of Esoterica and 15 tins!  Plus 2 tins of Germain's Balkan Sobranie!": "tinbidsauctionsold|solo|72hourauction3bagsofesotericaand15tinsplus2tinsofgermainsbalkansobranie",
+    "(3) Sutliff Cringle Flake  2021": "tinbidsauctionsold|solo|3sutliffcringleflake2021",
+    "(3) Sutliff Cringle Flake  2020": "tinbidsauctionsold|solo|3sutliffcringleflake2020",
     "Fuente and Montecristo Bundle": "tinbidsauctionsold|solo|fuenteandmontecristobundle",
     "Sutliff Country Cork": "tinbidsauctionsold|solo|sutliffcountrycork",
     "Peter Heinrichs Golden Sliced Bid or Buy Now": "tinbidsauctionsold|solo|peterheinrichsgoldenslicedbidorbuynow",
