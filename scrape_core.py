@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 
 MAX_ATTEMPTS = 6
 RETRY_WAIT_SECONDS = 20
+HISTORY_LIMIT = 1000  # scrape-history entries kept per source (~1.4 yrs twice-daily)
 
 
 def load_existing(data_file):
@@ -81,6 +82,9 @@ def merge_products(data, found, now, latest=None):
     # recovery). Carried through verbatim so consolidate.py can read them.
     EXTRA_FIELDS = ("description", "weight")
 
+    added = 0          # new records created this run
+    price_changed = 0  # existing records whose price moved this run
+
     for p in found:
         if p["name"] in existing:
             ex = existing[p["name"]]
@@ -88,6 +92,7 @@ def merge_products(data, found, now, latest=None):
                 ex["price_history"] = [{"price": ex["price"], "date": ex.get("first_seen", now)}]
             if ex["price"] != p["price"]:
                 ex["price_history"].append({"price": p["price"], "date": now})
+                price_changed += 1
             ex["price"] = p["price"]
             ex["url"] = p["url"]
             ex["source"] = p["source"]
@@ -109,10 +114,25 @@ def merge_products(data, found, now, latest=None):
                 if p.get(f):
                     rec[f] = p[f]
             existing[p["name"]] = rec
+            added += 1
 
     data["products"] = sorted(existing.values(), key=lambda x: x["last_seen"], reverse=True)
     data["last_scraped"] = now
     if latest is None:
         latest = found
     data["latest_scrape"] = [existing[p["name"]] for p in latest if p["name"] in existing]
+
+    # Persistent run-by-run scrape log — one entry per successful merge (including
+    # zero-add runs), so the admin dashboard can show real scrape cadence rather
+    # than only runs that happened to add a listing. Capped to bound file growth.
+    entry = {
+        "date": now,
+        "found": len(found),
+        "added": added,
+        "price_changed": price_changed,
+        "total": len(data["products"]),
+    }
+    history = data.get("scrape_history", [])
+    history.append(entry)
+    data["scrape_history"] = history[-HISTORY_LIMIT:]
     return data
