@@ -38,6 +38,9 @@ PAGE_DELAY = 1.2            # politeness between pages — avoids 503 rate-limit
 PAGE_RETRIES = 4           # per-page retries on transient 503/timeout
 MAX_REVISITS_PER_RUN = 300  # bound runtime; comfortably above the ~140/day peak
                             # of endings, so a day's auctions all harvest same-run
+STALE_PENDING_DAYS = 14     # give up on a watched listing whose end date is this
+                            # far past but has never reported "closed" (relisted,
+                            # removed, or page changed) — else zombies accumulate
 
 
 def _page_url(n):
@@ -187,18 +190,41 @@ def main():
         if x["url"]:
             pending[x["url"]] = {"url": x["url"], "name": x["name"], "date_end": x["date_end"]}
 
-    def is_due(p):
+    def _end_dt(p):
         try:
-            return datetime.strptime(p["date_end"], "%Y-%m-%d %H:%M:%S") < now_naive
+            return datetime.strptime(p["date_end"], "%Y-%m-%d %H:%M:%S")
         except (TypeError, ValueError):
-            return False
+            return None
+
+    def is_due(p):
+        dt = _end_dt(p)
+        return dt is not None and dt < now_naive
+
+    # ── Evict zombies: listings whose end date is long past but that never
+    #    reported "closed" (relisted/removed/page changed). Left in place they
+    #    sort to the front of the due list and re-fetch every run, eventually
+    #    crowding out real endings under the per-run cap.
+    stale = [u for u, p in pending.items()
+             if (dt := _end_dt(p)) is not None
+             and (now_naive - dt).days > STALE_PENDING_DAYS]
+    for u in stale:
+        pending.pop(u, None)
+    if stale:
+        print(f"[Tinbids] evicted {len(stale)} stale watchlist entries "
+              f"(>{STALE_PENDING_DAYS}d past end, never closed).")
 
     # ── Revisit ended listings and record ONLY confirmed sales:
     #      sold with 0 bids  → Buy-It-Now sale   → Tinbids BIN
     #      sold with >0 bids → auction sale      → Tinbids Auction
     #    In-progress, unsold, and reserve-not-met listings are never recorded.
-    due = sorted((p for p in pending.values() if is_due(p)),
-                 key=lambda p: p["date_end"] or "")[:MAX_REVISITS_PER_RUN]
+    #    Oldest-first: those pages are likeliest to change/disappear soonest.
+    due_all = sorted((p for p in pending.values() if is_due(p)),
+                     key=lambda p: p["date_end"] or "")
+    due = due_all[:MAX_REVISITS_PER_RUN]
+    if len(due_all) > MAX_REVISITS_PER_RUN:
+        print(f"[Tinbids] {len(due_all)} due but capped at {MAX_REVISITS_PER_RUN} "
+              f"this run; {len(due_all) - MAX_REVISITS_PER_RUN} deferred to next run.",
+              file=sys.stderr)
     sold_found = []
     if due and session is None:
         session = cloudscraper.create_scraper()
