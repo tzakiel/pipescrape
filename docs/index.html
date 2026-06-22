@@ -150,8 +150,13 @@
     tbody tr:nth-child(even) { background: #f6eedd; }
     tbody tr:hover { background: #f7e3d8; }   /* warm rose tint on hover */
     tbody td { padding: .65rem 1rem; font-size: .9rem; vertical-align: middle; }
+    /* The product name is the flexible column: it greedily takes leftover width
+       (width:100%) but max-width:0 stops its text from forcing the table wider,
+       so on narrower desktops it shrinks and ellipsizes instead of overflowing.
+       The meta/price columns are nowrap, so they hug their content. */
     .col-name {
-      max-width: 760px;
+      width: 100%;
+      max-width: 0;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -159,6 +164,9 @@
     }
     .col-price { white-space: nowrap; }
     .col-meta  { font-size: .78rem; color: #8a6a4a; white-space: nowrap; }
+    /* Safety net: if even the shrunk name + content columns can't fit a very
+       narrow desktop window, scroll the table rather than breaking the page. */
+    #results { overflow-x: auto; }
 
     /* ── mobile cards ── */
     @media (max-width: 600px) {
