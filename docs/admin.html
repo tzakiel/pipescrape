@@ -98,10 +98,23 @@
     .hist-scroll { max-height: 220px; overflow-y: auto; margin-top: .55rem; }
     .hist-row { display: flex; justify-content: space-between; gap: .8rem; font-size: .8rem; padding: .26rem 0; border-bottom: 1px solid #f2e8d6; }
     .hist-row:last-child { border-bottom: none; }
+    .hist-row { cursor: pointer; align-items: center; }
+    .hist-row:hover { background: #faf4e8; }
+    .hist-row:focus-visible { outline: 2px solid #cf8a73; outline-offset: 1px; border-radius: 4px; }
     .hist-row .when { color: #5a3a24; }
+    .hist-row .chev { color: #cf8a73; font-size: .68rem; display: inline-block; transition: transform .12s; }
+    .hist-row.open .chev { transform: rotate(90deg); }
     .hist-row .hist-meta { color: #b89a78; font-size: .72rem; }
     .hist-row .cnt { color: #3f6b2e; font-weight: 600; white-space: nowrap; }
     .hist-row .cnt.zeroadd { color: #b89a78; }
+
+    /* expanded list of products added in a given scrape */
+    .hist-detail { margin: .1rem 0 .55rem 1rem; padding-left: .8rem; border-left: 2px solid #efe4d0; }
+    .hist-prod { display: flex; justify-content: space-between; gap: .7rem; font-size: .78rem; padding: .16rem 0; }
+    .hist-prod a { color: #5a3a24; text-decoration: none; }
+    .hist-prod a:hover { text-decoration: underline; }
+    .hist-prod .pp { color: #3f6b2e; white-space: nowrap; }
+    .hist-prod-empty { font-size: .76rem; color: #b89a78; font-style: italic; padding: .2rem 0; }
     .hist-empty { font-size: .8rem; color: #b89a78; font-style: italic; margin-top: .5rem; }
     .hist-note { font-size: .68rem; color: #b89a78; margin-top: .55rem; font-style: italic; }
   </style>
@@ -134,6 +147,8 @@
     ];
 
     const fmtInt = n => n.toLocaleString();
+    const escapeHtml = s => String(s ?? "").replace(/[&<>"']/g, c =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
     function fmtDateTime(iso) {
       if (!iso) return "—";
@@ -213,9 +228,24 @@
         if (h.total != null) meta.push(`${fmtInt(h.total)} total`);
         const metaStr = meta.length ? ` <span class="hist-meta">· ${meta.join(" · ")}</span>` : "";
         const addCls = h.added > 0 ? "" : " zeroadd";
-        return `<div class="hist-row">
-            <span class="when">${fmtDateTime(h.date)}${metaStr}</span>
-            <span class="cnt${addCls}">+${fmtInt(h.added)}</span>
+
+        // Products added in this run = those whose first_seen matches the row's
+        // timestamp (merge stamps first_seen and the run from the same clock).
+        const items = (data.products || []).filter(p => p.first_seen === h.date);
+        const detail = items.length
+          ? `<div class="hist-prods">${items.map(p => `<div class="hist-prod">
+                ${p.url ? `<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>`
+                        : `<span>${escapeHtml(p.name)}</span>`}
+                <span class="pp">${escapeHtml(p.price || "")}</span>
+              </div>`).join("")}</div>`
+          : `<div class="hist-prod-empty">No products to list for this run${h.added ? ` (logged +${fmtInt(h.added)})` : ""}.</div>`;
+
+        return `<div class="hist-item">
+            <div class="hist-row" role="button" tabindex="0">
+              <span class="when"><span class="chev">▸</span> ${fmtDateTime(h.date)}${metaStr}</span>
+              <span class="cnt${addCls}">+${fmtInt(h.added)}</span>
+            </div>
+            <div class="hist-detail" hidden>${detail}</div>
           </div>`;
       }).join("");
       return `<details class="history">
@@ -298,6 +328,28 @@
     }
 
     document.getElementById("refresh").addEventListener("click", load);
+
+    // Expand/collapse a scrape's product list. Delegated on the grid, which
+    // persists across re-renders. Clicks on the product links inside a detail
+    // panel don't match .hist-row (the panel is a sibling), so they open freely.
+    function toggleRow(row) {
+      const detail = row.parentElement.querySelector(".hist-detail");
+      if (!detail) return;
+      const opening = detail.hasAttribute("hidden");
+      detail.toggleAttribute("hidden", !opening);
+      row.classList.toggle("open", opening);
+    }
+    const grid = document.getElementById("grid");
+    grid.addEventListener("click", e => {
+      const row = e.target.closest(".hist-row");
+      if (row) toggleRow(row);
+    });
+    grid.addEventListener("keydown", e => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const row = e.target.closest(".hist-row");
+      if (row) { e.preventDefault(); toggleRow(row); }
+    });
+
     load();
   </script>
 </body>

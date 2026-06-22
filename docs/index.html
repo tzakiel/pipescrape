@@ -219,12 +219,14 @@
         color: #8a6a4a;
         white-space: nowrap;
       }
-      .col-size   { order: 3; }
-      .col-year   { order: 4; }
-      .col-source { order: 5; }
-      .col-date   { order: 6; }
+      .col-size      { order: 3; }
+      .col-year      { order: 4; }
+      .col-source    { order: 5; }
+      .col-firstseen { order: 6; }
+      .col-date      { order: 7; }
       .col-year::before,
       .col-source::before,
+      .col-firstseen::before,
       .col-date::before { content: "·"; margin-right: .55rem; color: #c4a987; }
       #mobile-sort { display: block; }
     }
@@ -419,6 +421,8 @@
             ? `<span class="lbl">Tin size</span><span class="val">${ENRICH[p.name].weight}</span>` : ""}
           ${ENRICH[p.name] && ENRICH[p.name].year
             ? `<span class="lbl">Year</span><span class="val">${ENRICH[p.name].year}</span>` : ""}
+          <span class="lbl">First seen</span>
+          <span class="val">${fmtDateTime(p.first_seen)}</span>
           <span class="lbl">Last seen</span>
           <span class="val">${fmtDateTime(p.last_seen)}</span>
           <span class="lbl">Source</span>
@@ -489,6 +493,8 @@
         sortVal: p => parseInt(ENRICH[p.name] && ENRICH[p.name].year) || 0 },
       { key: "price",  label: "Price",     cls: "col-price",
         cell: p => p.price || "—", sortVal: p => { const n = parseMoney(p.price); return n == null ? -1 : n; } },
+      { key: "first",  label: "First Seen", cls: "col-meta col-firstseen",
+        cell: p => fmt(p.first_seen), sortVal: p => p.first_seen || "" },
       { key: "date",   label: "Last Seen", cls: "col-meta col-date",
         cell: p => fmt(p.last_seen), sortVal: p => p.last_seen || "" },
       { key: "source", label: "Source",    cls: "col-meta col-source",
