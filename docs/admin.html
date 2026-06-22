@@ -218,7 +218,7 @@
             <span class="cnt${addCls}">+${fmtInt(h.added)}</span>
           </div>`;
       }).join("");
-      return `<details class="history" open>
+      return `<details class="history">
         <summary>Scrape history (${hist.length} runs)</summary>
         <div class="hist-scroll">${rows}</div>
         <div class="hist-note">Newest first. Per-run counts logged from now on; earlier rows reconstructed from when listings first appeared.</div>
