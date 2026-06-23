@@ -627,9 +627,13 @@
   }
 
   /* ── grouped (consolidated tins) ── */
-  // Price for a tin: single value or a min–max range across its listings.
+  function activeMembers(t) {
+    return t.members.filter(m => ACTIVE_SOURCES.has(m.source));
+  }
+
+  // Price for a tin: single value or a min–max range across its active listings.
   function tinPrice(t) {
-    const nums = t.members.map(m => parseMoney(m.price)).filter(n => n != null);
+    const nums = activeMembers(t).map(m => parseMoney(m.price)).filter(n => n != null);
     if (!nums.length) return null;
     return { lo: Math.min(...nums), hi: Math.max(...nums) };
   }
@@ -643,7 +647,7 @@
   // Set when the group's first listing appears, and bumped each time a new
   // listing joins the group (its first_seen is more recent).
   function tinLastUpdated(t) {
-    return t.members.map(m => m.first_seen).filter(Boolean).sort().slice(-1)[0] || "";
+    return activeMembers(t).map(m => m.first_seen).filter(Boolean).sort().slice(-1)[0] || "";
   }
   // A tin is shown if any of its listings is from an active source.
   function tinActive(t) {
@@ -662,14 +666,14 @@
       { key: "size",  label: "Weight",        cls: "col-meta col-size",
         cell: t => t.quantity || "—", sortVal: t => weightGrams(t.quantity) },
       { key: "year",  label: "Year",          cls: "col-meta col-year",
-        cell: t => t.members.length > 1 ? "Multiple" : (t.members[0] && t.members[0].year) || "—",
-        sortVal: t => Math.max(0, ...t.members.map(m => parseInt(m.year) || 0)) },
+        cell: t => { const am = activeMembers(t); return am.length > 1 ? "Multiple" : (am[0] && am[0].year) || "—"; },
+        sortVal: t => Math.max(0, ...activeMembers(t).map(m => parseInt(m.year) || 0)) },
       { key: "updated", label: "Last Updated", cls: "col-meta col-updated",
         cell: t => fmt(tinLastUpdated(t)),
         sortVal: t => tinLastUpdated(t) },
       { key: "source", label: "Source",       cls: "col-meta col-source",
-        cell: t => (t.sources || []).length > 1 ? "Multiple" : ((t.sources || [])[0] || "—"),
-        sortVal: t => (t.sources || []).length > 1 ? "Multiple" : ((t.sources || [])[0] || "").toLowerCase() },
+        cell: t => { const as = (t.sources || []).filter(s => ACTIVE_SOURCES.has(s)); return as.length > 1 ? "Multiple" : (as[0] || "—"); },
+        sortVal: t => { const as = (t.sources || []).filter(s => ACTIVE_SOURCES.has(s)); return as.length > 1 ? "Multiple" : (as[0] || "").toLowerCase(); } },
     ];
   }
 
