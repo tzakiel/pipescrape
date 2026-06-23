@@ -350,7 +350,7 @@
 
 <header>
   <div class="brand">
-    <h1><a href="#" onclick="qEl.value='';render();return false;" style="color:inherit;text-decoration:none;">Tin Tracker</a></h1>
+    <h1><a href="#" onclick="goHome();return false;" style="color:inherit;text-decoration:none;">Tin Tracker</a></h1>
     <svg class="brand-tin" viewBox="6 22 94 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round">
       <!-- body, rounded corners (3/4 view) -->
       <path d="M15.52 39.76 L30.48 30.24 Q34 28 43.6 28.96 L84.4 33.04 Q94 34 94 36.88 L94 49.12 Q94 52 90.48 54.24 L75.52 63.76 Q72 66 62.4 65.04 L21.6 60.96 Q12 60 12 57.12 L12 44.88 Q12 42 15.52 39.76 Z" fill="currentColor" fill-opacity=".10" stroke-width="2.2"/>
@@ -523,6 +523,22 @@
     mainView.style.display = "";
     detailView.style.display = "none";
     window.scrollTo(0, 0);
+  }
+
+  // Clicking the header title always returns to the default home list, from
+  // anywhere — including detail pages (where the list is hidden) and search.
+  function goHome() {
+    qEl.value = "";
+    closeDropdown();
+    const onDetail = detailView.style.display !== "none";
+    // If a detail page is open, hide it and return to the main list.
+    mainView.style.display = "";
+    detailView.style.display = "none";
+    render();
+    window.scrollTo(0, 0);
+    // A detail is always opened with a pushState, so popping it keeps the
+    // browser Back button in sync (the popstate handler is a no-op once hidden).
+    if (onDetail) history.back();
   }
 
   /* ── generic sortable table (drives both views) ── */
