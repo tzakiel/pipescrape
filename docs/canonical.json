@@ -1,9 +1,9 @@
 {
-  "generated": "2026-06-23T19:37:56.131642+00:00",
+  "generated": "2026-06-23T20:13:08.352716+00:00",
   "stats": {
     "total_listings": 513,
-    "excluded_multipacks": 29,
-    "total_tins": 406,
+    "excluded_multipacks": 37,
+    "total_tins": 398,
     "multi_member_tins": 50,
     "listings_in_groups": 128,
     "cross_source_tins": 28
@@ -36,68 +36,6 @@
         }
       ],
       "years": [],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|2015samuelgawithseasonsspringsummerwinter",
-      "brand": "",
-      "blend": "",
-      "quantity": "",
-      "display_name": "2015 Samuel Gawith Seasons- Spring, Summer, Winter",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "2015 Samuel Gawith Seasons- Spring, Summer, Winter",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195930/",
-          "price": "$150.00",
-          "last_seen": "2026-06-22T13:53:20.063064+00:00",
-          "first_seen": "2026-06-22T13:53:20.063064+00:00",
-          "year": "2015",
-          "price_history": [
-            {
-              "price": "$150.00",
-              "date": "2026-06-22T13:53:20.063064+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [
-        "2015"
-      ],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|aculttriothree50gtinsfrom20142015",
-      "brand": "",
-      "blend": "",
-      "quantity": "50g",
-      "display_name": "A Cult Trio!  Three 50g Tins - From 2014/2015.",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "A Cult Trio!  Three 50g Tins - From 2014/2015.",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195075/",
-          "price": "$52.00",
-          "last_seen": "2026-06-22T13:53:20.063064+00:00",
-          "first_seen": "2026-06-22T13:53:20.063064+00:00",
-          "year": "2014",
-          "price_history": [
-            {
-              "price": "$52.00",
-              "date": "2026-06-22T13:53:20.063064+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [
-        "2014"
-      ],
       "source": "Tinbids Auction (Sold)"
     },
     {
@@ -407,37 +345,6 @@
         "1985"
       ],
       "source": "4noggins.com"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|august1945johnmiddletondeluxepipetobaccoblendingchestcomplete7jarsetfeaturedonpipeappeal",
-      "brand": "",
-      "blend": "",
-      "quantity": "",
-      "display_name": "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195193/",
-          "price": "$379.00",
-          "last_seen": "2026-06-22T13:53:20.063064+00:00",
-          "first_seen": "2026-06-22T13:53:20.063064+00:00",
-          "year": "1945",
-          "price_history": [
-            {
-              "price": "$379.00",
-              "date": "2026-06-22T13:53:20.063064+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [
-        "1945"
-      ],
-      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "solo|treasuredsmokes|balkanluxuryblend957",
@@ -1249,35 +1156,6 @@
             {
               "price": "$29.00",
               "date": "2026-06-23T16:00:46.765633+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|caoflavours1cherrybombstanwell1vanilla",
-      "brand": "",
-      "blend": "",
-      "quantity": "",
-      "display_name": "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/196701/",
-          "price": "$24.00",
-          "last_seen": "2026-06-22T13:53:20.063064+00:00",
-          "first_seen": "2026-06-22T13:53:20.063064+00:00",
-          "year": "",
-          "price_history": [
-            {
-              "price": "$24.00",
-              "date": "2026-06-22T13:53:20.063064+00:00"
             }
           ]
         }
@@ -4373,35 +4251,6 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
-      "id": "solo|tinbidsauctionsold|esotericatilbury8ozbagand2oztin",
-      "brand": "Esoterica",
-      "blend": "Tilbury",
-      "quantity": "8oz",
-      "display_name": "Esoterica Tilbury  8oz bag and 2oz Tin",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "Esoterica Tilbury  8oz bag and 2oz Tin",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195531/",
-          "price": "$405.00",
-          "last_seen": "2026-06-23T16:00:46.765633+00:00",
-          "first_seen": "2026-06-23T16:00:46.765633+00:00",
-          "year": "",
-          "price_history": [
-            {
-              "price": "$405.00",
-              "date": "2026-06-23T16:00:46.765633+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
       "id": "esoterica|tilbury|2oz",
       "brand": "Esoterica",
       "blend": "Tilbury",
@@ -4535,66 +4384,6 @@
       ],
       "years": [],
       "source": "4noggins.com"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|esotericiabagandtinsbidorbuynow",
-      "brand": "Esoterica",
-      "blend": "",
-      "quantity": "",
-      "display_name": "Esotericia Bag and Tins Bid or Buy Now",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "Esotericia Bag and Tins Bid or Buy Now",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195434/",
-          "price": "$525.00",
-          "last_seen": "2026-06-23T04:00:28.453249+00:00",
-          "first_seen": "2026-06-23T04:00:28.453249+00:00",
-          "year": "",
-          "price_history": [
-            {
-              "price": "$525.00",
-              "date": "2026-06-23T04:00:28.453249+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|four50gtinsofpremiumpipetobaccotwobalkansobranieonebalkansasieniandonesolaniwhiteblackfrom2018",
-      "brand": "",
-      "blend": "",
-      "quantity": "50g",
-      "display_name": "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195379/",
-          "price": "$241.00",
-          "last_seen": "2026-06-23T04:00:28.453249+00:00",
-          "first_seen": "2026-06-23T04:00:28.453249+00:00",
-          "year": "2018",
-          "price_history": [
-            {
-              "price": "$241.00",
-              "date": "2026-06-23T04:00:28.453249+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [
-        "2018"
-      ],
-      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "fribourgtreyer|blackjack|50g",
@@ -4767,35 +4556,6 @@
         "2004"
       ],
       "source": "4noggins.com"
-    },
-    {
-      "id": "solo|tinbidsauctionsold|fuenteandmontecristobundle",
-      "brand": "",
-      "blend": "",
-      "quantity": "",
-      "display_name": "Fuente and Montecristo Bundle",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "members": [
-        {
-          "name": "Fuente and Montecristo Bundle",
-          "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/195543/",
-          "price": "$35.00",
-          "last_seen": "2026-06-21T16:00:28.045790+00:00",
-          "first_seen": "2026-06-21T16:00:28.045790+00:00",
-          "year": "",
-          "price_history": [
-            {
-              "price": "$35.00",
-              "date": "2026-06-21T16:00:28.045790+00:00"
-            }
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "gsmithsons|virginia|50g",
@@ -13929,7 +13689,6 @@
     "Dunhill My Mixture No. 965, c. 1954–1958 Sealed 4oz Knife-Lid Tin, Pressure-Bulging Late King George VI Era Survivor": "dunhill|mymixture965|4oz",
     "John Cotton’s Number 1 2016 NR": "johncottons|number1|",
     "John Cotton’s Numbers 1 & 2 2016 NR": "johncottons|numbers12|",
-    "Esoterica Tilbury  8oz bag and 2oz Tin": "solo|tinbidsauctionsold|esotericatilbury8ozbagand2oztin",
     "Rattray's Marlin Flake": "rattrays|marlinflake|",
     "Vintage - Brigadier Black - Antietam - 8oz": "brigadierblack|antietam|8oz",
     "Rattray's Black Virginia": "rattrays|blackvirginia|",
@@ -13939,12 +13698,10 @@
     "Collectible Tobacco Sealed Tin Cornell & Diehl Fires on the Levee Mixture 2 oz’s from 2025": "cornelldiehl|firesonthelevee|2oz",
     "Tobacco Tin Sutliff Crindle Flake 2023 2 Oz. Sealed Pipe Tobacco Tin by Sutliff": "sutliff|cringleflake|2oz",
     "Tobacco Tin Sutliff Crindle Flake 2024 2 Oz. Sealed Pipe Tobacco Tin by Sutliff": "sutliff|cringleflake|2oz",
-    "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018": "solo|tinbidsauctionsold|four50gtinsofpremiumpipetobaccotwobalkansobranieonebalkansasieniandonesolaniwhiteblackfrom2018",
     "Mac Baren HH Acadian Perique": "macbaren|hhacadianperique|",
     "2025 Esoterica Tillbury": "esoterica|tilbury|",
     "Esoterica Penzance 8oz Sealed Bag - October 2019 - Climate Controlled Cellar Aged": "esoterica|penzance|8oz",
     "Vintage RED RIBBON from McCranie’s 50g 3 Sealed Tins": "mccranies|redribbon|50g",
-    "Esotericia Bag and Tins Bid or Buy Now": "solo|tinbidsauctionsold|esotericiabagandtinsbidorbuynow",
     "Esoterica Tobacciana Prembroke 2 oz": "esoterica|pembroke|2oz",
     "Esoterica Pembroke (2 oz)": "esoterica|pembroke|2oz",
     "Esoterica Tilbury (2 oz)": "esoterica|tilbury|2oz",
@@ -13985,7 +13742,6 @@
     "50g Tin Of C&D Buffalo Soldier From 2014!": "cornelldiehl|buffalosoldier|50g",
     "50g Hearth & Home Ashcroft Estate From 2016!": "hearthhome|ashcroftestate|50g",
     "50g Hearth & Home Virginia Memory From 2016!": "hearthhome|virginiamemory|50g",
-    "A Cult Trio!  Three 50g Tins - From 2014/2015.": "solo|tinbidsauctionsold|aculttriothree50gtinsfrom20142015",
     "McClelland No. 24 VIRGINIA - Sealed 100g Tin": "mcclelland|no24virginia|100g",
     "2019 MAC BAREN HH OLD DARK FIRED PLUG CUT": "macbaren|hholddarkfiredplugcut|",
     "Excellent Sealed 2005 Captain Earle's Pressed Ten Russians 2oz. Tin": "captainearles|tenrussians|2oz",
@@ -14000,17 +13756,13 @@
     "- Vintage -25 Years Old - BELLS THREE NUNS 50g. None Nicer! Rare!": "solo|tinbidsauctionsold|vintage25yearsoldbellsthreenuns50gnonenicerrare",
     "* 2004 * Mick McQuaid Plug 50g.  Traditional Irish plug Tobacco.": "mickmcquaid|plug|50g",
     "2013 JF Germain Rich Dark Flake 2.7 oz": "jfgermain|richdarkflake|27oz",
-    "2015 Samuel Gawith Seasons- Spring, Summer, Winter": "solo|tinbidsauctionsold|2015samuelgawithseasonsspringsummerwinter",
     "2018 Smoker’s Haven In-B-Tween Mixture": "smokershaven|inbtweenmixture|",
     "Excellent 2016 Reiner 71 (LGF) 100 grams": "reiner|longgoldenflake|100g",
-    "CAO Flavours 1-Cherrybomb | Stanwell 1-Vanilla": "solo|tinbidsauctionsold|caoflavours1cherrybombstanwell1vanilla",
     "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003": "butera|pelican|2oz",
     "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK": "esoterica|margate|8oz",
     "7.7oz/218g of Sutliff/Hearth & Home Larry's Blend From 2010!": "hearthhome|larrysblend|77oz",
-    "August 1945 John Middleton De Luxe Pipe Tobacco Blending Chest, Complete 7-Jar Set, Featured on Pipe Appeal": "solo|tinbidsauctionsold|august1945johnmiddletondeluxepipetobaccoblendingchestcomplete7jarsetfeaturedonpipeappeal",
     "(3) Sutliff Cringle Flake  2021": "sutliff|cringleflake|",
     "(3) Sutliff Cringle Flake  2020": "sutliff|cringleflake|",
-    "Fuente and Montecristo Bundle": "solo|tinbidsauctionsold|fuenteandmontecristobundle",
     "Sutliff Country Cork": "sutliff|countrycork|",
     "Peter Heinrichs Golden Sliced Bid or Buy Now": "peterheinrichs|goldensliced|",
     "2024 Robert McConnell Oriental  - 1 Tin NR BIN $30": "robertmcconnell|oriental|",
