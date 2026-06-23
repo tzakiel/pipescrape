@@ -641,6 +641,9 @@
       { key: "updated", label: "Last Updated", cls: "col-meta col-updated",
         cell: t => fmt(tinLastUpdated(t)),
         sortVal: t => tinLastUpdated(t) },
+      { key: "source", label: "Source",       cls: "col-meta col-source",
+        cell: t => (t.sources || []).length > 1 ? "Multiple" : ((t.sources || [])[0] || "—"),
+        sortVal: t => (t.sources || []).length > 1 ? "Multiple" : ((t.sources || [])[0] || "").toLowerCase() },
     ];
   }
 
