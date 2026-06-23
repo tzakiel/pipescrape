@@ -195,9 +195,15 @@
         padding: .9rem 1.1rem;
         box-shadow: 0 2px 8px rgba(90,58,36,.1);
         cursor: pointer;
+        display: flex;
+        flex-direction: column;
       }
       tbody tr:nth-child(even) { background: #fffdf8; }
       tbody tr:hover { background: #f7e3d8; }
+
+      /* card field order: name title, then price, then the rest */
+      .col-name  { order: -2; }
+      .col-price { order: -1; }
 
       /* product name = card title */
       .col-name {
