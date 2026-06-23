@@ -278,6 +278,11 @@
       white-space: nowrap; font-weight: 600;
     }
     .history-table td.price { font-weight: 700; color: #3b2408; }
+    /* full original scraped listing title, tucked under its source link */
+    .history-table .listing-name {
+      display: block; margin-top: .2rem; font-size: .7rem; font-weight: 400;
+      color: #9b7b5a; line-height: 1.3; white-space: normal; max-width: 40ch;
+    }
 
     /* ── detail page ── */
     .back-btn {
@@ -370,9 +375,9 @@
     <input id="q" type="text" placeholder="Search by product name…" autocomplete="off" />
     <div id="dropdown"></div>
   </div>
-  <div id="view-toggle">
-    <button id="view-all" class="on">All listings</button>
-    <button id="view-grouped">Grouped tins</button>
+  <div id="view-toggle" style="display:none">
+    <button id="view-all">All listings</button>
+    <button id="view-grouped" class="on">Grouped tins</button>
   </div>
   <div id="source-filters"></div>
   <select id="mobile-sort" aria-label="Sort by">
@@ -417,7 +422,7 @@
   let TINS = [];                    // consolidated tins — used only to build ENRICH
   let ENRICH = {};                  // raw name -> { weight, year } from canonical
   let SORT = { key: "name", dir: "asc" };  // default: alphabetical by name
-  let VIEW_MODE = "all";            // "all" = every listing · "grouped" = consolidated tins
+  let VIEW_MODE = "grouped";        // public default; "all" is legacy (admin only, ?view=all)
   let ACTIVE_SOURCES = new Set();   // sources currently shown (empty = none)
   let activeIdx = -1;
   let lastListState = null; // remembers what was showing before detail
@@ -459,6 +464,12 @@
     return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
   }
 
+  // Escape raw scraped text before injecting it into the DOM.
+  function esc(s) {
+    return String(s ?? "").replace(/[&<>"]/g, c =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
   // date + time of capture, in the viewer's local timezone (detail page only)
   function fmtDateTime(iso) {
     if (!iso) return "—";
@@ -487,7 +498,7 @@
           <span class="lbl">Price</span>
           <span class="val detail-price">${p.price || "—"}</span>
           ${ENRICH[p.name] && ENRICH[p.name].weight
-            ? `<span class="lbl">Tin size</span><span class="val">${ENRICH[p.name].weight}</span>` : ""}
+            ? `<span class="lbl">Weight</span><span class="val">${ENRICH[p.name].weight}</span>` : ""}
           ${ENRICH[p.name] && ENRICH[p.name].year
             ? `<span class="lbl">Year</span><span class="val">${ENRICH[p.name].year}</span>` : ""}
           <span class="lbl">First seen</span>
@@ -627,8 +638,8 @@
       return `<tr>
         <td>${m.year || "—"}</td>
         <td class="price">${m.price || "—"}</td>
-        <td>${src}</td>
-        <td>${fmt(m.last_seen)}</td>
+        <td>${src}${m.name ? `<span class="listing-name">${esc(m.name)}</span>` : ""}</td>
+        <td>${fmt(m.first_seen)}</td>
       </tr>`;
     }).join("");
 
@@ -636,14 +647,14 @@
       <div class="detail-card">
         <div class="detail-name">${t.display_name}</div>
         <div class="detail-meta">
-          ${t.quantity ? `<span class="lbl">Tin size</span><span class="val">${t.quantity}</span>` : ""}
+          ${t.quantity ? `<span class="lbl">Weight</span><span class="val">${t.quantity}</span>` : ""}
           <span class="lbl">Price</span><span class="val detail-price">${tinPriceLabel(t)}</span>
           <span class="lbl">Listings</span><span class="val">${t.members.length}${t.years.length ? " · " + t.years.join(", ") : ""}</span>
           <span class="lbl">Sources</span><span class="val">${(t.sources || []).join(", ") || "—"}</span>
         </div>
         <div class="detail-section-title">Listings &amp; Prices</div>
         <table class="history-table">
-          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>Last Seen</th></tr></thead>
+          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>First Seen</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>`;
@@ -822,12 +833,23 @@
       return;
     }
 
-    // Hide the Grouped toggle entirely if there's no consolidation data.
-    if (!TINS.length) document.getElementById("view-toggle").style.display = "none";
-
     metaEl.textContent = "";
     buildSourceFilters();
-    render();
+
+    // The public site is grouped-only. The raw "All listings" view is legacy and
+    // reachable only via index.html?view=all (linked from the admin page).
+    const legacy = new URLSearchParams(location.search).get("view") === "all";
+    const toggle = document.getElementById("view-toggle");
+    if (!TINS.length) {
+      toggle.style.display = "none";   // no consolidation data → fall back to listings
+      setView("all");
+    } else if (legacy) {
+      toggle.style.display = "";        // admin: allow switching between both views
+      setView("all");
+    } else {
+      toggle.style.display = "none";    // public: grouped only
+      setView("grouped");
+    }
   }
 
   /* ── mobile sort (table headers are hidden on phones) ── */
