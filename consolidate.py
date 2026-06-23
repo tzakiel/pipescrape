@@ -44,31 +44,62 @@ SOURCE_FILES = [
 QTY_RE = re.compile(r"(\d+\s*(?:g|grams?)\b|\d[\d.\-/]*\s*(?:oz|ounces?)\b)", re.I)
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 
-# A listing that is NOT a single tin: multi-packs, lots, variety/sampler packs,
-# or any multi-tin quantity. We drop these entirely — only single tins are
-# tracked. Note "8oz. Pack" (a single large pack) is fine: the digit there is a
-# weight, not a count, so it doesn't match.
-_NUM_WORD = r"(?:two|three|four|five|six|seven|eight|nine|ten)"
+# Deterministic backstop for "this is not a single tin". The LLM's is_tin flag
+# is the primary gate (see main()); this catches obvious multi-tin listings even
+# on a fresh scrape, before any extraction has run. Note "8oz. Pack" (a single
+# large pack) and "My Mixture 965 50g Tin" (a blend number) are fine — neither a
+# weight nor a blend number reads as a count here.
+_QTY = r"(?:\d+|two|three|four|five|six|seven|eight|nine|ten)"  # count: digit or word
+_WORD_NUM = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+             "seven": 7, "eight": 8, "nine": 9, "ten": 10}
+
 MULTI_RE = re.compile(
     r"""
       \b\d+\s*[-\s]?packs?\b                                   # 3-pack, 4 pack, 5 packs
     | \b\d+\s*[-\s]?pk\b                                       # 3pk
-    | \bpack\s+of\s+\d+\b                                      # pack of 3
-    | \b\d+\s*x\b                                              # 4x, 2 x 50g
-    | \b(?:lot|box|set|bundle|case)\s+of\s+\d+\b               # lot of 2, box of 3
-    | \b\d+\s+(?:tins|jars|bags|pouches|tubs|boxes|cans)\b     # 2 tins, 3 bags, 15 tins
-    | \b""" + _NUM_WORD + r"""\s+(?:tins|jars|bags|pouches|tubs|boxes|cans|packs?)\b  # two tins
+    | \b(?:lot|box|set|bundle|case|pack|selection)\s+of\s+\d+\b  # lot of 2, pack of 3
+    | \b\d+\s*x\b                                              # 4x, 5 x 1.5oz, 2 x 50g
+    | \b(?:variety|sampler|assort\w*|trio|duo|quartet|quintet|sextet)\b  # variety / trio …
+    | \bblending\s+chest\b                                     # blending chest set
     | \b(?:several|multiple)\b                                 # several tins, multiple
-    | \b(?:variety|sampler|assort\w*)\b                        # variety / sampler / assortment
+    | \b(?:bag|jar|tin|pouch|can|tub)s?\s+and\s+(?:bag|jar|tin|pouch|can|tub)s?\b  # bag and tins
     """,
     re.I | re.X,
 )
 
+# A count (>1) then an optional tin weight, then a PLURAL container: "2 tins",
+# "Four 50g Tins", "15 tins", "3 bags". The mandatory space after the count is
+# load-bearing: it stops a weight like "50g" (digit flush against its unit) from
+# reading as a count — pipestud writes "50g tins" generically for SINGLE tins.
+# Plural also guards against a lone "… 50g Tin".
+COUNT_PLURAL_RE = re.compile(
+    r"\b(" + _QTY + r")\s+"
+    r"(?:\d[\d.\-/]*\s*(?:g|grams?|oz|ounces?)\s+)?"
+    r"(?:tins|jars|bags|pouches|cans|tubs)\b",
+    re.I,
+)
+
+# A hyphenated count + container, where the hyphen disambiguates a real count
+# from a blend number: "7-Jar Set", "3-Tin lot". (Plural not required here.)
+COUNT_HYPHEN_RE = re.compile(
+    r"\b(" + _QTY + r")\s*-\s*(?:tin|jar|bag|pouch|can|tub)s?\b",
+    re.I,
+)
+
+
+def _count_gt_one(m):
+    tok = m.group(1).lower()
+    return _WORD_NUM.get(tok, int(tok) if tok.isdigit() else 1) > 1
+
 
 def _is_multi(s):
-    """True if the listing is a multi-pack / lot / variety pack — anything that
-    isn't a single tin and so gets dropped from the catalog."""
-    return bool(MULTI_RE.search(s or ""))
+    """True if the listing is a multi-pack / lot / variety pack / multi-tin set —
+    anything that isn't a single tin and so gets dropped from the catalog."""
+    s = s or ""
+    if MULTI_RE.search(s):
+        return True
+    return (any(_count_gt_one(m) for m in COUNT_PLURAL_RE.finditer(s))
+            or any(_count_gt_one(m) for m in COUNT_HYPHEN_RE.finditer(s)))
 
 
 def _norm(s):
@@ -123,16 +154,19 @@ def main():
             name = (p.get("name") or "").strip()
             source = p.get("source", fname)
 
-            # Multi-packs, lots, and variety packs are not single tins — drop them.
-            if _is_multi(name):
-                counts["excluded"] += 1
-                excluded.append(f"[{source}] {name}")
-                continue
-
             id_rec = ident.get(name, {})
             brand = (id_rec.get("brand") or "").strip()
             blend = (id_rec.get("blend") or "").strip()
             is_tin = id_rec.get("is_tin", True)
+
+            # Drop anything that isn't a single tin. Two gates: the LLM's is_tin
+            # flag (catches multi-blend sets, bundles, cigars — things regex can't
+            # read), and a deterministic regex backstop for obvious multi-tin
+            # quantities on titles not yet extracted.
+            if not is_tin or _is_multi(name):
+                counts["excluded"] += 1
+                excluded.append(f"[{source}] {name}")
+                continue
 
             quantity = (_qty(name) or p.get("weight", "") or _qty(p.get("description", "")))
 
@@ -150,7 +184,7 @@ def main():
 
             # Group cross-source on (brand, blend, size) — but only when we have a
             # clean single-blend identity. Otherwise it's a standalone tin.
-            if is_tin and brand and blend:
+            if brand and blend:
                 key = f"{_norm(brand)}|{_norm(blend)}|{_norm(quantity)}"
                 g = groups.get(key)
                 if not g:
@@ -172,8 +206,7 @@ def main():
                     "quantity": quantity, "display_name": name,
                     "sources": [source], "members": [member],
                 }
-                if not (brand and blend) or not is_tin:
-                    unmatched.append(f"[{source}] {name}")
+                unmatched.append(f"[{source}] {name}")
             name_to_id[name] = key
 
     tins = []
