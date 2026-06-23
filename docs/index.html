@@ -784,10 +784,13 @@
   const SOURCE_FILES = ["products.json", "products_tinbids.json", "products_treasuredsmokes.json", "products_4noggins.json"];
 
   async function loadData() {
+    // no-cache → always revalidate; otherwise a stale cached canonical.json can
+    // lag behind a freshly deployed one and the grouped view comes up empty.
+    const opt = { cache: "no-cache" };
     const datasets = await Promise.all(SOURCE_FILES.map(f =>
-      fetch(f).then(r => r.ok ? r.json() : null).catch(() => null)
+      fetch(f, opt).then(r => r.ok ? r.json() : null).catch(() => null)
     ));
-    const canonical = await fetch("canonical.json")
+    const canonical = await fetch("canonical.json", opt)
       .then(r => r.ok ? r.json() : null).catch(() => null);
 
     let products = [];
@@ -800,6 +803,8 @@
     ALL_PRODUCTS = products.sort(byName);
     TINS = (canonical && canonical.tins ? canonical.tins : []).slice()
       .sort((a, b) => byName({ name: a.display_name }, { name: b.display_name }));
+    // Tolerate an older canonical.json that only had a singular `source`.
+    TINS.forEach(t => { if (!t.sources) t.sources = t.source ? [t.source] : []; });
 
     // name -> { weight, year } lookup so the raw "All listings" view can show
     // tin size and year (those live on the canonical tins, not the raw records).
