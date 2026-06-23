@@ -277,9 +277,7 @@
       font-size: .72rem; color: #b06a50; margin-left: .5rem;
       white-space: nowrap; font-weight: 600;
     }
-    .price-note { font-size: .78rem; color: #8a6a4a; font-style: italic; margin: .2rem 0 .9rem; }
-    .history-table td.pertin { font-weight: 700; color: #3b2408; }
-    .history-table td.struck { color: #a98c6a; }
+    .history-table td.price { font-weight: 700; color: #3b2408; }
 
     /* ── detail page ── */
     .back-btn {
@@ -574,7 +572,7 @@
   }
 
   /* ── grouped (consolidated tins) ── */
-  // Per-tin price for a tin: single value or a min–max range across its listings.
+  // Price for a tin: single value or a min–max range across its listings.
   function tinPrice(t) {
     const nums = t.members.map(m => parseMoney(m.price)).filter(n => n != null);
     if (!nums.length) return null;
@@ -600,7 +598,7 @@
         cell: t => `${t.display_name}${t.members.length > 1
           ? `<span class="tin-badge">${t.members.length} listings${t.years.length ? " · " + t.years.join(", ") : ""}</span>` : ""}`,
         sortVal: t => (t.display_name || "").toLowerCase() },
-      { key: "price", label: "Per-tin price", cls: "col-price",
+      { key: "price", label: "Price", cls: "col-price",
         cell: t => tinPriceLabel(t),
         sortVal: t => { const p = tinPrice(t); return p ? p.lo : -1; } },
       { key: "size",  label: "Size",          cls: "col-meta col-size",
@@ -614,40 +612,31 @@
 
   function showGroupDetail(t) {
     history.pushState({ detail: t.id }, "", "");
-    const hasPack = t.members.some(m => m.pack_count > 1);
     const members = t.members.slice().sort((a, b) => (a.year || "").localeCompare(b.year || ""));
     const rows = members.map(m => {
-      const isPack = m.pack_count > 1;
       const src = m.url
         ? `<a href="${m.url}" target="_blank" rel="noopener">${m.source || "link"}</a>`
         : (m.source || "—");
       return `<tr>
         <td>${m.year || "—"}</td>
-        <td class="${isPack ? "struck" : ""}">${m.listing_price || "—"}</td>
-        <td>${isPack ? m.pack_count + "×" : "1×"}</td>
-        <td class="pertin">${m.price || "—"}</td>
+        <td class="price">${m.price || "—"}</td>
         <td>${src}</td>
         <td>${fmt(m.last_seen)}</td>
       </tr>`;
     }).join("");
-
-    const note = hasPack
-      ? `<div class="price-note">Per-tin price = listing price ÷ pack size, so multi-tin lots compare like-for-like.</div>`
-      : "";
 
     detailContent.innerHTML = `
       <div class="detail-card">
         <div class="detail-name">${t.display_name}</div>
         <div class="detail-meta">
           ${t.quantity ? `<span class="lbl">Tin size</span><span class="val">${t.quantity}</span>` : ""}
-          <span class="lbl">Per-tin price</span><span class="val detail-price">${tinPriceLabel(t)}</span>
+          <span class="lbl">Price</span><span class="val detail-price">${tinPriceLabel(t)}</span>
           <span class="lbl">Listings</span><span class="val">${t.members.length}${t.years.length ? " · " + t.years.join(", ") : ""}</span>
           <span class="lbl">Sources</span><span class="val">${(t.sources || []).join(", ") || "—"}</span>
         </div>
-        <div class="detail-section-title">Listings &amp; Per-Tin Prices</div>
-        ${note}
+        <div class="detail-section-title">Listings &amp; Prices</div>
         <table class="history-table">
-          <thead><tr><th>Year</th><th>Listing</th><th>Pack</th><th>Per Tin</th><th>Source</th><th>Last Seen</th></tr></thead>
+          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>Last Seen</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>`;
