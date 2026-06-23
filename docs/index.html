@@ -253,6 +253,34 @@
       #mobile-sort { display: block; }
     }
 
+    /* ── view toggle (All listings / Grouped tins) ── */
+    #view-toggle {
+      display: inline-flex;
+      margin-bottom: 1.1rem;
+      border: 2px solid #5a3a24;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    #view-toggle button {
+      font: inherit;
+      font-size: .82rem;
+      padding: .38rem 1rem;
+      background: #fffdf8;
+      color: #5a3a24;
+      border: none;
+      cursor: pointer;
+      transition: background .12s, color .12s;
+    }
+    #view-toggle button.on { background: #5a3a24; color: #f5e8c8; }
+
+    .tin-badge {
+      font-size: .72rem; color: #b06a50; margin-left: .5rem;
+      white-space: nowrap; font-weight: 600;
+    }
+    .price-note { font-size: .78rem; color: #8a6a4a; font-style: italic; margin: .2rem 0 .9rem; }
+    .history-table td.pertin { font-weight: 700; color: #3b2408; }
+    .history-table td.struck { color: #a98c6a; }
+
     /* ── detail page ── */
     .back-btn {
       display: inline-flex;
@@ -344,6 +372,10 @@
     <input id="q" type="text" placeholder="Search by product name…" autocomplete="off" />
     <div id="dropdown"></div>
   </div>
+  <div id="view-toggle">
+    <button id="view-all" class="on">All listings</button>
+    <button id="view-grouped">Grouped tins</button>
+  </div>
   <div id="source-filters"></div>
   <select id="mobile-sort" aria-label="Sort by">
     <option value="name:asc">Sort: Name (A–Z)</option>
@@ -385,6 +417,7 @@
   let TINS = [];                    // consolidated tins — used only to build ENRICH
   let ENRICH = {};                  // raw name -> { weight, year } from canonical
   let SORT = { key: "name", dir: "asc" };  // default: alphabetical by name
+  let VIEW_MODE = "all";            // "all" = every listing · "grouped" = consolidated tins
   let ACTIVE_SOURCES = new Set();   // sources currently shown (empty = none)
   let activeIdx = -1;
   let lastListState = null; // remembers what was showing before detail
@@ -540,10 +573,105 @@
     return list.filter(p => ACTIVE_SOURCES.has(p.source));
   }
 
+  /* ── grouped (consolidated tins) ── */
+  // Per-tin price for a tin: single value or a min–max range across its listings.
+  function tinPrice(t) {
+    const nums = t.members.map(m => parseMoney(m.price)).filter(n => n != null);
+    if (!nums.length) return null;
+    return { lo: Math.min(...nums), hi: Math.max(...nums) };
+  }
+  function tinPriceLabel(t) {
+    const p = tinPrice(t);
+    if (!p) return "—";
+    const f = n => "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return p.lo === p.hi ? f(p.lo) : `${f(p.lo)}–${f(p.hi)}`;
+  }
+  function tinLastSeen(t) {
+    return t.members.map(m => m.last_seen).filter(Boolean).sort().slice(-1)[0] || "";
+  }
+  // A tin is shown if any of its listings is from an active source.
+  function tinActive(t) {
+    return (t.sources || []).some(s => ACTIVE_SOURCES.has(s));
+  }
+
+  function tinColumns() {
+    return [
+      { key: "name",  label: "Tin",          cls: "col-name",
+        cell: t => `${t.display_name}${t.members.length > 1
+          ? `<span class="tin-badge">${t.members.length} listings${t.years.length ? " · " + t.years.join(", ") : ""}</span>` : ""}`,
+        sortVal: t => (t.display_name || "").toLowerCase() },
+      { key: "price", label: "Per-tin price", cls: "col-price",
+        cell: t => tinPriceLabel(t),
+        sortVal: t => { const p = tinPrice(t); return p ? p.lo : -1; } },
+      { key: "size",  label: "Size",          cls: "col-meta col-size",
+        cell: t => t.quantity || "—", sortVal: t => weightGrams(t.quantity) },
+      { key: "listings", label: "Listings",   cls: "col-meta col-listings",
+        cell: t => String(t.members.length), sortVal: t => t.members.length },
+      { key: "source", label: "Sources",      cls: "col-meta col-source",
+        cell: t => (t.sources || []).join(", ") || "—", sortVal: t => -(t.sources || []).length },
+    ];
+  }
+
+  function showGroupDetail(t) {
+    history.pushState({ detail: t.id }, "", "");
+    const hasPack = t.members.some(m => m.pack_count > 1);
+    const members = t.members.slice().sort((a, b) => (a.year || "").localeCompare(b.year || ""));
+    const rows = members.map(m => {
+      const isPack = m.pack_count > 1;
+      const src = m.url
+        ? `<a href="${m.url}" target="_blank" rel="noopener">${m.source || "link"}</a>`
+        : (m.source || "—");
+      return `<tr>
+        <td>${m.year || "—"}</td>
+        <td class="${isPack ? "struck" : ""}">${m.listing_price || "—"}</td>
+        <td>${isPack ? m.pack_count + "×" : "1×"}</td>
+        <td class="pertin">${m.price || "—"}</td>
+        <td>${src}</td>
+        <td>${fmt(m.last_seen)}</td>
+      </tr>`;
+    }).join("");
+
+    const note = hasPack
+      ? `<div class="price-note">Per-tin price = listing price ÷ pack size, so multi-tin lots compare like-for-like.</div>`
+      : "";
+
+    detailContent.innerHTML = `
+      <div class="detail-card">
+        <div class="detail-name">${t.display_name}</div>
+        <div class="detail-meta">
+          ${t.quantity ? `<span class="lbl">Tin size</span><span class="val">${t.quantity}</span>` : ""}
+          <span class="lbl">Per-tin price</span><span class="val detail-price">${tinPriceLabel(t)}</span>
+          <span class="lbl">Listings</span><span class="val">${t.members.length}${t.years.length ? " · " + t.years.join(", ") : ""}</span>
+          <span class="lbl">Sources</span><span class="val">${(t.sources || []).join(", ") || "—"}</span>
+        </div>
+        <div class="detail-section-title">Listings &amp; Per-Tin Prices</div>
+        ${note}
+        <table class="history-table">
+          <thead><tr><th>Year</th><th>Listing</th><th>Pack</th><th>Per Tin</th><th>Source</th><th>Last Seen</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+
+    mainView.style.display = "none";
+    detailView.style.display = "block";
+    window.scrollTo(0, 0);
+  }
+
   // Render search results if there's a query, otherwise the full list —
-  // always filtered by the active sources.
+  // always filtered by the active sources, in the current view mode.
   function render() {
     const q = qEl.value.trim().toLowerCase();
+
+    if (VIEW_MODE === "grouped") {
+      let list = TINS.filter(tinActive);
+      if (q) list = list.filter(t =>
+        t.display_name.toLowerCase().includes(q) ||
+        t.members.some(m => (m.name || "").toLowerCase().includes(q)));
+      renderSortableTable(list, tinColumns(), showGroupDetail, q
+        ? `${list.length} tin${list.length === 1 ? "" : "s"} for "${qEl.value.trim()}"`
+        : "");
+      return;
+    }
 
     if (!q) {
       renderSortableTable(bySource(ALL_PRODUCTS), listingColumns(), showDetail, "");
@@ -555,6 +683,19 @@
       : `No results for "${qEl.value.trim()}".`
     );
   }
+
+  /* ── view toggle wiring ── */
+  const viewAllBtn = document.getElementById("view-all");
+  const viewGroupedBtn = document.getElementById("view-grouped");
+  function setView(mode) {
+    VIEW_MODE = mode;
+    viewAllBtn.classList.toggle("on", mode === "all");
+    viewGroupedBtn.classList.toggle("on", mode === "grouped");
+    closeDropdown();
+    render();
+  }
+  viewAllBtn.addEventListener("click", () => setView("all"));
+  viewGroupedBtn.addEventListener("click", () => setView("grouped"));
 
   // Sources on by default, in display order (others follow, alphabetical, off).
   const DEFAULT_ON = ["pipestud.com", "Tinbids BIN (Sold)", "Tinbids Auction (Sold)"];
@@ -606,6 +747,8 @@
 
   qEl.addEventListener("input", () => {
     const q = qEl.value.trim().toLowerCase();
+    // Grouped view filters inline; no autocomplete dropdown there.
+    if (VIEW_MODE === "grouped") { closeDropdown(); render(); return; }
     if (!q) { closeDropdown(); render(); return; }
     openDropdown(bySource(ALL_PRODUCTS).filter(p => p.name.toLowerCase().includes(q)));
     render();
@@ -669,6 +812,9 @@
       statusEl.textContent = "Could not load catalog. Please try refreshing.";
       return;
     }
+
+    // Hide the Grouped toggle entirely if there's no consolidation data.
+    if (!TINS.length) document.getElementById("view-toggle").style.display = "none";
 
     metaEl.textContent = "";
     buildSourceFilters();
