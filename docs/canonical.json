@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-22T19:16:22.512019+00:00",
+  "generated": "2026-06-23T04:04:42.146777+00:00",
   "stats": {
-    "total_listings": 465,
-    "total_tins": 443,
+    "total_listings": 478,
+    "total_tins": 456,
     "multi_member_tins": 9,
     "listings_in_groups": 28
   },
@@ -523,6 +523,35 @@
       ],
       "years": [
         "2024"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|2025esotericatillbury",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "2025 Esoterica Tillbury",
+      "members": [
+        {
+          "name": "2025 Esoterica Tillbury",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195395/",
+          "listing_price": "$340.00",
+          "pack_count": 1,
+          "price": "$340.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2025",
+          "price_history": [
+            {
+              "price": "$340.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2025"
       ]
     },
     {
@@ -2040,6 +2069,35 @@
       ],
       "years": [
         "2024"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|collectibletobaccosealedtincornelldiehlfiresontheleveemixture2ozsfrom2025",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Collectible Tobacco Sealed Tin Cornell & Diehl Fires on the Levee Mixture 2 oz’s from 2025",
+      "members": [
+        {
+          "name": "Collectible Tobacco Sealed Tin Cornell & Diehl Fires on the Levee Mixture 2 oz’s from 2025",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195225/",
+          "listing_price": "$20.50",
+          "pack_count": 1,
+          "price": "$20.50",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2025",
+          "price_history": [
+            {
+              "price": "$20.50",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2025"
       ]
     },
     {
@@ -3814,6 +3872,89 @@
       ]
     },
     {
+      "id": "tinbidsauctionsold|solo|esotericapembroke2oz",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esoterica Pembroke (2 oz)",
+      "members": [
+        {
+          "name": "Esoterica Pembroke (2 oz)",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196186/",
+          "listing_price": "$82.00",
+          "pack_count": 1,
+          "price": "$82.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$82.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|esotericapenzance8ozsealedbagoctober2019climatecontrolledcellaraged",
+      "brand": "",
+      "blend": "",
+      "quantity": "8oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esoterica Penzance 8oz Sealed Bag - October 2019 - Climate Controlled Cellar Aged",
+      "members": [
+        {
+          "name": "Esoterica Penzance 8oz Sealed Bag - October 2019 - Climate Controlled Cellar Aged",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195394/",
+          "listing_price": "$1210.00",
+          "pack_count": 1,
+          "price": "$1210.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2019",
+          "price_history": [
+            {
+              "price": "$1210.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2019"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|esotericatilbury2oz",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esoterica Tilbury (2 oz)",
+      "members": [
+        {
+          "name": "Esoterica Tilbury (2 oz)",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196192/",
+          "listing_price": "$82.00",
+          "pack_count": 1,
+          "price": "$82.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$82.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "tinbidsauctionsold|solo|esotericatobaccianabuterasmargate8ozsealedpipetobaccogermainsonuk",
       "brand": "",
       "blend": "",
@@ -3834,6 +3975,33 @@
             {
               "price": "$640.00",
               "date": "2026-06-22T13:53:20.063064+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
+      "id": "tinbidsauctionsold|solo|esotericatobaccianaprembroke2oz",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esoterica Tobacciana Prembroke 2 oz",
+      "members": [
+        {
+          "name": "Esoterica Tobacciana Prembroke 2 oz",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196127/",
+          "listing_price": "$100.00",
+          "pack_count": 1,
+          "price": "$100.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$100.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
             }
           ]
         }
@@ -4419,6 +4587,33 @@
       "years": []
     },
     {
+      "id": "tinbidsauctionsold|solo|esotericiabagandtinsbidorbuynow",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Esotericia Bag and Tins Bid or Buy Now",
+      "members": [
+        {
+          "name": "Esotericia Bag and Tins Bid or Buy Now",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195434/",
+          "listing_price": "$525.00",
+          "pack_count": 1,
+          "price": "$525.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$525.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "tinbidsauctionsold|solo|excellent2016reiner71lgf100grams",
       "brand": "",
       "blend": "",
@@ -4555,6 +4750,35 @@
             {
               "price": "$32.00",
               "date": "2026-06-21T05:37:17.147469+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|four50gtinsofpremiumpipetobaccotwobalkansobranieonebalkansasieniandonesolaniwhiteblackfrom2018",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018",
+      "members": [
+        {
+          "name": "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195379/",
+          "listing_price": "$241.00",
+          "pack_count": 1,
+          "price": "$241.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2018",
+          "price_history": [
+            {
+              "price": "$241.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
             }
           ]
         }
@@ -7078,6 +7302,33 @@
       "years": [
         "2009"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|macbarenhhacadianperique",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Mac Baren HH Acadian Perique",
+      "members": [
+        {
+          "name": "Mac Baren HH Acadian Perique",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195384/",
+          "listing_price": "$120.00",
+          "pack_count": 1,
+          "price": "$120.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$120.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "pipestudcom|mac|barenlatakiablendrollcake|100g",
@@ -11779,6 +12030,33 @@
       "years": []
     },
     {
+      "id": "tinbidsauctionsold|solo|sutliffblendno5sutliffprivatestock5x15oztins",
+      "brand": "",
+      "blend": "",
+      "quantity": "1.5oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Sutliff Blend No. 5 (Sutliff Private Stock) 5 x 1.5 oz tins",
+      "members": [
+        {
+          "name": "Sutliff Blend No. 5 (Sutliff Private Stock) 5 x 1.5 oz tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196109/",
+          "listing_price": "$60.00",
+          "pack_count": 5,
+          "price": "$12.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$12.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
+    },
+    {
       "id": "tinbidsauctionsold|solo|sutliffcountrycork",
       "brand": "",
       "blend": "",
@@ -12028,6 +12306,64 @@
       ],
       "years": [
         "2022"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|tobaccotinsutliffcrindleflake20232ozsealedpipetobaccotinbysutliff",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Tobacco Tin Sutliff Crindle Flake 2023 2 Oz. Sealed Pipe Tobacco Tin by Sutliff",
+      "members": [
+        {
+          "name": "Tobacco Tin Sutliff Crindle Flake 2023 2 Oz. Sealed Pipe Tobacco Tin by Sutliff",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195349/",
+          "listing_price": "$26.00",
+          "pack_count": 1,
+          "price": "$26.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2023",
+          "price_history": [
+            {
+              "price": "$26.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2023"
+      ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|tobaccotinsutliffcrindleflake20242ozsealedpipetobaccotinbysutliff",
+      "brand": "",
+      "blend": "",
+      "quantity": "2oz",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Tobacco Tin Sutliff Crindle Flake 2024 2 Oz. Sealed Pipe Tobacco Tin by Sutliff",
+      "members": [
+        {
+          "name": "Tobacco Tin Sutliff Crindle Flake 2024 2 Oz. Sealed Pipe Tobacco Tin by Sutliff",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195355/",
+          "listing_price": "$27.50",
+          "pack_count": 1,
+          "price": "$27.50",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "2024",
+          "price_history": [
+            {
+              "price": "$27.50",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2024"
       ]
     },
     {
@@ -12585,6 +12921,33 @@
       "years": [
         "2008"
       ]
+    },
+    {
+      "id": "tinbidsauctionsold|solo|vintageredribbonfrommccranies50g3sealedtins",
+      "brand": "",
+      "blend": "",
+      "quantity": "50g",
+      "source": "Tinbids Auction (Sold)",
+      "display_name": "Vintage RED RIBBON from McCranie’s 50g 3 Sealed Tins",
+      "members": [
+        {
+          "name": "Vintage RED RIBBON from McCranie’s 50g 3 Sealed Tins",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/195398/",
+          "listing_price": "$506.00",
+          "pack_count": 1,
+          "price": "$506.00",
+          "last_seen": "2026-06-23T04:00:28.453249+00:00",
+          "year": "",
+          "price_history": [
+            {
+              "price": "$506.00",
+              "date": "2026-06-23T04:00:28.453249+00:00"
+            }
+          ]
+        }
+      ],
+      "years": []
     },
     {
       "id": "pipestudcom|wo|larsenno28englishmixture|100g",
@@ -13219,6 +13582,19 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "pipestudcom|mac|barendarktwistrollcake|100g",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "pipestudcom|van|rossemsschipperstabak|312oz",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "pipestudcom|theodorus|niemeyerflyingdutchman|2oz",
+    "Collectible Tobacco Sealed Tin Cornell & Diehl Fires on the Levee Mixture 2 oz’s from 2025": "tinbidsauctionsold|solo|collectibletobaccosealedtincornelldiehlfiresontheleveemixture2ozsfrom2025",
+    "Tobacco Tin Sutliff Crindle Flake 2023 2 Oz. Sealed Pipe Tobacco Tin by Sutliff": "tinbidsauctionsold|solo|tobaccotinsutliffcrindleflake20232ozsealedpipetobaccotinbysutliff",
+    "Tobacco Tin Sutliff Crindle Flake 2024 2 Oz. Sealed Pipe Tobacco Tin by Sutliff": "tinbidsauctionsold|solo|tobaccotinsutliffcrindleflake20242ozsealedpipetobaccotinbysutliff",
+    "Four 50g Tins of Premium Pipe Tobacco: Two Balkan Sobranie, One Balkan Sasieni and One Solani White & Black from 2018": "tinbidsauctionsold|solo|four50gtinsofpremiumpipetobaccotwobalkansobranieonebalkansasieniandonesolaniwhiteblackfrom2018",
+    "Mac Baren HH Acadian Perique": "tinbidsauctionsold|solo|macbarenhhacadianperique",
+    "2025 Esoterica Tillbury": "tinbidsauctionsold|solo|2025esotericatillbury",
+    "Esoterica Penzance 8oz Sealed Bag - October 2019 - Climate Controlled Cellar Aged": "tinbidsauctionsold|solo|esotericapenzance8ozsealedbagoctober2019climatecontrolledcellaraged",
+    "Vintage RED RIBBON from McCranie’s 50g 3 Sealed Tins": "tinbidsauctionsold|solo|vintageredribbonfrommccranies50g3sealedtins",
+    "Sutliff Blend No. 5 (Sutliff Private Stock) 5 x 1.5 oz tins": "tinbidsauctionsold|solo|sutliffblendno5sutliffprivatestock5x15oztins",
+    "Esotericia Bag and Tins Bid or Buy Now": "tinbidsauctionsold|solo|esotericiabagandtinsbidorbuynow",
+    "Esoterica Tobacciana Prembroke 2 oz": "tinbidsauctionsold|solo|esotericatobaccianaprembroke2oz",
+    "Esoterica Pembroke (2 oz)": "tinbidsauctionsold|solo|esotericapembroke2oz",
+    "Esoterica Tilbury (2 oz)": "tinbidsauctionsold|solo|esotericatilbury2oz",
     "Nice Sealed Dunhill Three Years Matured Virginia 50g. Tin": "tinbidsauctionsold|solo|nicesealeddunhillthreeyearsmaturedvirginia50gtin",
     "2024 - Solani Aged Burley Flake - 50g": "tinbidsauctionsold|solo|2024solaniagedburleyflake50g",
     "Peterson 3-Sherlock Holmes": "tinbidsauctionsold|solo|peterson3sherlockholmes",
