@@ -1,10 +1,11 @@
-# 336 listings could not be structurally parsed (left as standalone tins):
+# 348 listings could not be structurally parsed (left as standalone tins):
 
 [4noggins.com] A&C Peterson: PREMIER CRU - C
 [4noggins.com] Ashton: BLACK PARROT 50g 2003 - C
 [4noggins.com] Ashton: BLACK PARROT SPECIAL CUT by William Taylor 1985- C
 [4noggins.com] Ashton: BRINDLE FLAKE 50g 2003 - C
 [4noggins.com] Ashton: CELEBRATED SOVEREIGN 50G 1998 - C
+[4noggins.com] Balkan Sobranie: BALKAN SOBRANIE 50g -C
 [4noggins.com] Brebbia: CLASSIC ENGLISH MIX No. 80 2012 50g - C
 [4noggins.com] Bufflehead: BLUEBILL DRAKE DECOY 2oz 2005 - C
 [4noggins.com] Bufflehead: CANVASBACK DECOY 4oz 2005 - C
@@ -56,12 +57,15 @@
 [4noggins.com] Esoterica: BRIGHTON 8oz - C
 [4noggins.com] Esoterica: BRIGHTON 8oz-C
 [4noggins.com] Esoterica: DORCHESTER 2oz 2013 - C
+[4noggins.com] Esoterica: DUNBAR 2oz - C
 [4noggins.com] Esoterica: DUNBAR 8oz - C
 [4noggins.com] Esoterica: MARGATE 2oz - C
 [4noggins.com] Esoterica: MARGATE 8oz - C
+[4noggins.com] Esoterica: PEMBROKE 2oz - C
 [4noggins.com] Esoterica: PEMBROKE 8oz -C
 [4noggins.com] Esoterica: PEMBROKE 8oz-C
 [4noggins.com] Esoterica: PENZANCE 2oz 2012 -C
+[4noggins.com] Esoterica: PENZANCE 50g - C
 [4noggins.com] Esoterica: PENZANCE 8oz - C
 [4noggins.com] Esoterica: RAMSGATE 8oz - C
 [4noggins.com] Esoterica: ST. IVES 8oz - C
@@ -70,6 +74,7 @@
 [4noggins.com] Esoterica: STONEHAVEN 8oz 2018 - C
 [4noggins.com] Esoterica: TILBURY 2oz  - C
 [4noggins.com] Esoterica: TILBURY 2oz - C
+[4noggins.com] Esoterica: TILBURY 8oz - C
 [4noggins.com] Esoterica: TILBURY 8oz. 2018 - C
 [4noggins.com] Esoterica: WOODBRIDGE 8oz -C
 [4noggins.com] Fribourg & Treyer: CUT BLENDED PLUG 50g 2004 - C
@@ -112,9 +117,11 @@
 [4noggins.com] J.F. Germain: FULL LATAKIA 50g - C
 [4noggins.com] J.F. Germain: KING CHARLES MIXTURE 50g - C
 [4noggins.com] J.F. Germain: MEDIUM FLAKE 50g - C
+[4noggins.com] J.F. Germain: PLUM CAKE MIXTURE 1.76oz - C
 [4noggins.com] J.F. Germain: RICH DARK FLAKE 50g - C
 [4noggins.com] J.F. Germain: ROYAL JERSEY w-LATAKIA 50g 2016 - C
 [4noggins.com] J.F. Germain: ROYAL JERSEY w-PERIQUE 50g 2016 - C
+[4noggins.com] J.F. Germain: SPECIAL LATAKIA FLAKE - C
 [4noggins.com] J.F. Germain: SPECIAL LATAKIA FLAKE 2015 - C
 [4noggins.com] J.F. Germain: UNCLE TOM'S SMOKING MIXTURE 50g - C
 [4noggins.com] John Cotton's: SMYRNA 1.75oz 2018 - C
@@ -149,7 +156,9 @@
 [4noggins.com] McClelland: CHRISTMAS CHEER 100g 2011 - C
 [4noggins.com] McClelland: CHRISTMAS CHEER 100g 2017 - C
 [4noggins.com] McClelland: CPCC RICH VIRGINIA RIBBON 50g 2015 - C
+[4noggins.com] McClelland: DARK STAR 50g 2011 - C
 [4noggins.com] McClelland: DEEP HOLLOW 100g 2017 - C
+[4noggins.com] McClelland: FROG MORTON 50g 2017 - C
 [4noggins.com] McClelland: FROG MORTON'S CELLAR 50g 2013 - C
 [4noggins.com] McClelland: Grand Orientals: BLACK SEA SOKHOUM 50g 2008 - C
 [4noggins.com] McClelland: Grand Orientals: BLACK SEA SOKHOUM 50g 2011 - C
@@ -200,11 +209,14 @@
 [4noggins.com] Samuel Gawith: ST. JAMES MINI PLUG 8oz - C
 [4noggins.com] Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C
 [4noggins.com] Smoker's Haven: IN-B-TWEEN MIXTURE 2oz 2018 - C
+[4noggins.com] Smoker's Haven: OUR BEST BLEND 2oz 2018 - C
 [4noggins.com] Smoker's Haven: SELECT MIXTURE 2oz 2018 - C
+[4noggins.com] Smokers' Haven: EXOTIQUE MIXTURE 2oz 2018 - C
 [4noggins.com] Solani: 633 VIRGINIA FLAKE 50g 2008 - C
 [4noggins.com] Solani: 656 AGED BURLEY FLAKE 50g 2011 - C
 [4noggins.com] Solani: 656 AGED BURLEY FLAKE 50g 2018 - C
 [4noggins.com] St. Bruno: ST BRUNO FLAKE 50g 1992 - C
+[4noggins.com] Sutliff: CRINGLE FLAKE 1.5oz 2020 - C
 [4noggins.com] Sutliff: SWEATED 12oz 2025 - C
 [4noggins.com] The Smoker Ltd.: FAVORITE 50g 1992 - C
 [4noggins.com] W.O. Larsen: EDITION 2009 100g - C
