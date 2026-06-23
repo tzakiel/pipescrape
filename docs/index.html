@@ -208,7 +208,11 @@
       /* card field order: name title, price, the meta trio, then source */
       .col-name   { order: -3; grid-column: 1 / -1; }
       .col-price  { order: -2; grid-column: 1 / -1; }
-      .col-source { order: 1;  grid-column: 1 / -1; }
+      td.col-source {
+        order: 1; grid-column: 1 / -1;
+        margin-top: .55rem; padding-top: .55rem;   /* buffer below the meta trio */
+        border-top: 1px solid #efe4d0;
+      }
 
       /* product name = card title */
       .col-name {
@@ -255,17 +259,21 @@
         font-weight: 700;
         color: #2c2015;
       }
-      /* Weight · Year · Last Updated: stacked label-over-value, three across one row */
+      /* Weight · Year · Last Updated: stacked label-over-value, three across one
+         row that fills the card — Weight left, Year centered, Last Updated right. */
       td.col-size, td.col-year, td.col-updated {
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
         gap: .1rem;
         padding: .4rem 0 0;
         font-size: .82rem;
       }
+      td.col-size    { align-items: flex-start; }
+      td.col-year    { align-items: center; }
+      td.col-updated { align-items: flex-end; }
+      /* labels follow each cell's alignment instead of the col-meta default */
       td.col-size::before, td.col-year::before, td.col-updated::before {
-        align-self: flex-start;
+        align-self: auto;
       }
       #mobile-sort { display: block; }
     }
