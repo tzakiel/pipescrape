@@ -288,7 +288,7 @@
   },
   "Balkan Sobranie: BALKAN SOBRANIE 50g -C": {
     "blend": "Balkan Sobranie",
-    "brand": "Balkan Sobranie",
+    "brand": "J.F. Germain",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -3597,7 +3597,7 @@
     "confidence": 0.95
   },
   "#7 Broken Flake 2021": {
-    "brand": "G.H.",
+    "brand": "Gawith Hoggarth & Co.",
     "blend": "#7 Broken Flake",
     "is_tin": true,
     "confidence": 0.85
@@ -3693,8 +3693,8 @@
     "confidence": 0.95
   },
   "(ThreeOne) 2014 3 Oaks English Blend 50g Tin": {
-    "brand": "3 Oaks",
-    "blend": "English Blend",
+    "brand": "McClelland",
+    "blend": "3 Oaks English Blend",
     "is_tin": true,
     "confidence": 0.75
   },
@@ -3821,7 +3821,7 @@
     "confidence": 0.88
   },
   "3 oz G&H Balkan Mixture 2021": {
-    "brand": "G.H.",
+    "brand": "Gawith Hoggarth & Co.",
     "blend": "Balkan Mixture",
     "is_tin": true,
     "confidence": 0.9
@@ -3875,7 +3875,7 @@
     "confidence": 0.88
   },
   "6 oz G&H Curly Cut Deluxe 2023": {
-    "brand": "G.H.",
+    "brand": "Gawith Hoggarth & Co.",
     "blend": "Curly Cut Deluxe",
     "is_tin": true,
     "confidence": 0.88
@@ -3894,8 +3894,8 @@
     "source": "llm"
   },
   "8oz GH #7 Broken Flake 2021": {
-    "brand": "G.H.",
-    "blend": "8oz GH #7 Broken Flake 2021",
+    "brand": "Gawith Hoggarth & Co.",
+    "blend": "#7 Broken Flake",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -4243,7 +4243,7 @@
     "confidence": 0.95
   },
   "Balkan Sobranie - 2020-2021?": {
-    "brand": "Scandinavian Tobacco Group",
+    "brand": "J.F. Germain",
     "blend": "Balkan Sobranie",
     "is_tin": true,
     "confidence": 0.9
@@ -4400,8 +4400,8 @@
     "source": "llm"
   },
   "Bought this off eBay and never smoked it. Though I think it has been smoked once. Extra bowl. I couldn’t find anything definitive about pricing so I’m going with": {
-    "brand": "G.H.",
-    "blend": "Bought this off eBay and never smoked it. Though I think it has been smoked once. Extra bowl. I couldn’t find anything definitive about pricing so I’m going with",
+    "brand": "Gawith Hoggarth & Co.",
+    "blend": "",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -4577,247 +4577,247 @@
   },
   "C&D Bayou Morning 07/2020                 48g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Bayou Morning 07/2020                 48g",
+    "blend": "Bayou Morning",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Bayou Morning 8oz mylar, 2015, x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Bayou Morning 8oz mylar, 2015, x1",
+    "blend": "Bayou Morning",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Billy Budd 02/2020                         38g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Billy Budd 02/2020                         38g",
+    "blend": "Billy Budd",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Billy Budd Blonde 02/2020            30g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Billy Budd Blonde 02/2020            30g",
+    "blend": "Billy Budd Blonde",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Byzantium 02/2020                        35g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Byzantium 02/2020                        35g",
+    "blend": "Byzantium",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D CRF w/Perique 09/29/2021            x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D CRF w/Perique 09/29/2021            x1",
+    "blend": "CRF w/Perique",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Carolina Red Flake 09/21/2019     x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Carolina Red Flake 09/21/2019     x1",
+    "blend": "Carolina Red Flake",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Carolina Red Flake 09/23/2019     x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Carolina Red Flake 09/23/2019     x1",
+    "blend": "Carolina Red Flake",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Carolina Red Flake 09/24/2019     x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Carolina Red Flake 09/24/2019     x1",
+    "blend": "Carolina Red Flake",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Carolina Red Flake 2018": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Carolina Red Flake 2018",
+    "blend": "Carolina Red Flake",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Chelsea Morning 02/21/2019         x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Chelsea Morning 02/21/2019         x1",
+    "blend": "Chelsea Morning",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Cross-eyed Cricket 02/2020         41g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Cross-eyed Cricket 02/2020         41g",
+    "blend": "Cross-eyed Cricket",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Derringer 1.6oz 2020": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Derringer 1.6oz 2020",
+    "blend": "Derringer",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Dreams of Kadath 10/27/2019       x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Dreams of Kadath 10/27/2019       x1",
+    "blend": "Dreams of Kadath",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Engine #382 08/2020                    45g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Engine #382 08/2020                    45g",
+    "blend": "Engine #382",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Father The Flame 1.5oz": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Father The Flame 1.5oz",
+    "blend": "Father The Flame",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Golden Days of Yore 1oz": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Golden Days of Yore 1oz",
+    "blend": "Golden Days of Yore",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Granby Station 07/2020                 46g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Granby Station 07/2020                 46g",
+    "blend": "Granby Station",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Haunted Bookshop 02/2020          87g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Haunted Bookshop 02/2020          87g",
+    "blend": "Haunted Bookshop",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Haunted Bookshop 02/2020        105g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Haunted Bookshop 02/2020        105g",
+    "blend": "Haunted Bookshop",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Haunted Bookshop 02/2020        129g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Haunted Bookshop 02/2020        129g",
+    "blend": "Haunted Bookshop",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Haunted Bookshop 8oz 11/01/2022 x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Haunted Bookshop 8oz 11/01/2022 x1",
+    "blend": "Haunted Bookshop",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Innsmouth 10/08/2019                   x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Innsmouth 10/08/2019                   x1",
+    "blend": "Innsmouth",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Izmir Turkish 2018 23g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Izmir Turkish 2018 23g",
+    "blend": "Izmir Turkish",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D John Marr 07/2020                         30g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D John Marr 07/2020                         30g",
+    "blend": "John Marr",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Jolly Old St. Nick 2018": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Jolly Old St. Nick 2018",
+    "blend": "Jolly Old St. Nick",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Maltese Falcon 09/29/2019          x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Maltese Falcon 09/29/2019          x1",
+    "blend": "Maltese Falcon",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Mississippi Mud 07/2020               54g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Mississippi Mud 07/2020               54g",
+    "blend": "Mississippi Mud",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D New Market 07/2020                      52g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D New Market 07/2020                      52g",
+    "blend": "New Market",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Night Train 8.8 oz": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Night Train 8.8 oz",
+    "blend": "Night Train",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 02/2021                 64g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 02/2021                 64g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 02/2021                 71g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 02/2021                 71g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 02/2021                 75g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 02/2021                 75g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 02/2021                 78g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 02/2021                 78g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 02/2021                 85g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 02/2021                 85g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 07/2020                 38g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 07/2020                 38g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 07/2020                 43g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 07/2020                 43g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Old Joe Krantz 07/2020                 44g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Old Joe Krantz 07/2020                 44g",
+    "blend": "Old Joe Krantz",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Palmetto Balkan 8oz": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Palmetto Balkan 8oz",
+    "blend": "Palmetto Balkan",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Poplar Camp 2016 40g zip and 4oz jar": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Poplar Camp 2016 40g zip and 4oz jar",
+    "blend": "Poplar Camp",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Redburn 02/22/2019                      x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Redburn 02/22/2019                      x1",
+    "blend": "Redburn",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -4835,13 +4835,13 @@
   },
   "C&D Sunbear 2020 35g zip and tin": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Sunbear 2020 35g zip and tin",
+    "blend": "Sunbear",
     "is_tin": true,
     "confidence": 0.85
   },
   "C&D Sunday Picnic 07/22/2020            x1": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Sunday Picnic 07/22/2020            x1",
+    "blend": "Sunday Picnic",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -4853,7 +4853,7 @@
   },
   "C&D Wintertime Reserve 11/2022          36g": {
     "brand": "Cornell & Diehl",
-    "blend": "C&D Wintertime Reserve 11/2022          36g",
+    "blend": "Wintertime Reserve",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -7051,7 +7051,7 @@
     "confidence": 0.98
   },
   "Up for grabs but not pictured is a wonderful 2018 Tin of Germain's Briwn Flake for": {
-    "brand": "Germain's",
+    "brand": "J.F. Germain",
     "blend": "Brown Flake",
     "is_tin": true,
     "confidence": 0.8
@@ -7432,7 +7432,7 @@
   },
   "x 2013 yellow capstan": {
     "brand": "Capstan",
-    "blend": "Capstan Yellow",
+    "blend": "Yellow",
     "is_tin": true,
     "confidence": 0.92
   },
@@ -7498,7 +7498,7 @@
   },
   "x 2018 Capstan Yellow": {
     "brand": "Capstan",
-    "blend": "Capstan Yellow",
+    "blend": "Yellow",
     "is_tin": true,
     "confidence": 0.92
   },
@@ -7612,7 +7612,7 @@
   },
   "x 2020 yellow capstan": {
     "brand": "Capstan",
-    "blend": "Capstan Yellow",
+    "blend": "Yellow",
     "is_tin": true,
     "confidence": 0.92
   },
@@ -10193,7 +10193,7 @@
     "source": "llm"
   },
   "Fat Bastard (2024) - 14.5oz": {
-    "brand": "Watch City Cigar",
+    "brand": "Watch City",
     "blend": "Fat Bastard",
     "confidence": 0.9,
     "is_tin": true,
