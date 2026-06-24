@@ -262,18 +262,17 @@
       }
       /* Weight · Year · Last Updated: stacked label-over-value, three across one
          row that fills the card — Weight left, Year centered, Last Updated right. */
-      td.col-size, td.col-year, td.col-updated {
+      td.col-year, td.col-updated {
         flex-direction: column;
         justify-content: flex-start;
         gap: .1rem;
         padding: .4rem 0 0;
         font-size: .82rem;
       }
-      td.col-size    { align-items: flex-start; }
       td.col-year    { align-items: center; }
       td.col-updated { align-items: flex-end; }
       /* labels follow each cell's alignment instead of the col-meta default */
-      td.col-size::before, td.col-year::before, td.col-updated::before {
+      td.col-year::before, td.col-updated::before {
         align-self: auto;
       }
       #mobile-sort { display: block; }
@@ -389,7 +388,7 @@
     <option value="updated:asc">Sort: Last Updated (oldest)</option>
     <option value="name:asc">Sort: Name (A–Z)</option>
     <option value="name:desc">Sort: Name (Z–A)</option>
-    <option value="size:asc">Sort: Size (small–large)</option>
+
     <option value="year:desc">Sort: Year (new–old)</option>
     <option value="year:asc">Sort: Year (old–new)</option>
     <option value="price:asc">Sort: Price (low–high)</option>
@@ -543,7 +542,10 @@
 
   /* ── grouped (consolidated tins) ── */
   function activeMembers(t) {
-    return t.members.filter(m => ACTIVE_SOURCES.has(m.source));
+    return (t.sizes || []).flatMap(sz => sz.members || []).filter(m => ACTIVE_SOURCES.has(m.source));
+  }
+  function totalMembers(t) {
+    return (t.sizes || []).reduce((n, sz) => n + (sz.members || []).length, 0);
   }
 
   // Price for a tin: single value or a min–max range across its active listings.
@@ -572,14 +574,11 @@
   function tinColumns() {
     return [
       { key: "name",  label: "Tin",          cls: "col-name",
-        cell: t => `${t.display_name}${t.members.length > 1
-          ? `<span class="tin-badge">${t.members.length} listings</span>` : ""}`,
+        cell: t => { const n = totalMembers(t); return `${t.display_name}${n > 1 ? `<span class="tin-badge">${n} listings</span>` : ""}`; },
         sortVal: t => (t.display_name || "").toLowerCase() },
       { key: "price", label: "Price", cls: "col-price",
         cell: t => tinPriceLabel(t),
         sortVal: t => { const p = tinPrice(t); return p ? p.lo : -1; } },
-      { key: "size",  label: "Weight",        cls: "col-meta col-size",
-        cell: t => t.quantity || "—", sortVal: t => weightGrams(t.quantity) },
       { key: "year",  label: "Year",          cls: "col-meta col-year",
         cell: t => { const am = activeMembers(t); return am.length > 1 ? "Multiple" : (am[0] && am[0].year) || "—"; },
         sortVal: t => Math.max(0, ...activeMembers(t).map(m => parseInt(m.year) || 0)) },
@@ -594,33 +593,39 @@
 
   function showGroupDetail(t) {
     history.pushState({ detail: t.id }, "", "");
-    const members = t.members.slice().sort((a, b) => (a.year || "").localeCompare(b.year || ""));
-    const rows = members.map(m => {
-      const src = m.url
-        ? `<a href="${m.url}" target="_blank" rel="noopener">${m.source || "link"}</a>`
-        : (m.source || "—");
-      return `<tr>
-        <td>${m.year || "—"}</td>
-        <td class="price">${m.price || "—"}</td>
-        <td>${src}${m.name ? `<span class="listing-name">${esc(m.name)}</span>` : ""}</td>
-        <td>${fmt(m.first_seen)}</td>
-      </tr>`;
+
+    const sizeSections = (t.sizes || []).map(sz => {
+      const members = sz.members.slice().sort((a, b) => (a.year || "").localeCompare(b.year || ""));
+      const rows = members.map(m => {
+        const src = m.url
+          ? `<a href="${m.url}" target="_blank" rel="noopener">${m.source || "link"}</a>`
+          : (m.source || "—");
+        return `<tr>
+          <td>${m.year || "—"}</td>
+          <td class="price">${m.price || "—"}</td>
+          <td>${src}${m.name ? `<span class="listing-name">${esc(m.name)}</span>` : ""}</td>
+          <td>${fmt(m.first_seen)}</td>
+        </tr>`;
+      }).join("");
+      const label = sz.quantity || "Unknown size";
+      const n = members.length;
+      return `
+        <div class="detail-section-title">${esc(label)} · ${n} listing${n !== 1 ? "s" : ""}</div>
+        <table class="history-table">
+          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>First Seen</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
     }).join("");
 
     detailContent.innerHTML = `
       <div class="detail-card">
         <div class="detail-name">${t.display_name}</div>
         <div class="detail-meta">
-          ${t.quantity ? `<span class="lbl">Weight</span><span class="val">${t.quantity}</span>` : ""}
           <span class="lbl">Price</span><span class="val detail-price">${tinPriceLabel(t)}</span>
-          <span class="lbl">Listings</span><span class="val">${t.members.length}${t.years.length ? " · " + t.years.join(", ") : ""}</span>
+          <span class="lbl">Listings</span><span class="val">${totalMembers(t)}${t.years && t.years.length ? " · " + t.years.join(", ") : ""}</span>
           <span class="lbl">Sources</span><span class="val">${(t.sources || []).join(", ") || "—"}</span>
         </div>
-        <div class="detail-section-title">Listings &amp; Prices</div>
-        <table class="history-table">
-          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>First Seen</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table>
+        ${sizeSections}
       </div>`;
 
     mainView.style.display = "none";
@@ -691,8 +696,8 @@
     TINS.forEach(t => { if (!t.sources) t.sources = t.source ? [t.source] : []; });
 
     ENRICH = {};
-    for (const t of TINS) for (const m of (t.members || [])) {
-      ENRICH[m.name] = { weight: t.quantity || "", year: m.year || "" };
+    for (const t of TINS) for (const sz of (t.sizes || [])) for (const m of (sz.members || [])) {
+      ENRICH[m.name] = { weight: sz.quantity || "", year: m.year || "" };
     }
 
     if (!TINS.length) {

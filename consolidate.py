@@ -13,9 +13,11 @@ sampler / assortment packs, "3 bags of …", "several tins", etc. — are droppe
 entirely (see _is_multi); a price spread across several tins can't be compared
 like-for-like against a single tin, so we don't capture it at all.
 
-A "tin" is one (brand, blend, size). Year-variants collapse together (e.g.
-McClelland Christmas Cheer 100g across 2008–2017 = one tin, many price points),
-and the SAME blend from DIFFERENT vendors collapses too (cross-source). Listings
+A "tin" is one (brand, blend). Size/weight variants of the same blend collapse
+into a single tin record under a `sizes` array — each size carries its own
+listings. Year-variants within a size collapse together (e.g. McClelland
+Christmas Cheer 100g across 2008–2017 = one size entry, many price points), and
+the SAME blend from DIFFERENT vendors collapses too (cross-source). Listings
 with no clean identity (unknown brand, or not a single blend — cigars, bundles)
 stay as a group of one, never mis-merged.
 """
@@ -125,6 +127,15 @@ def _year(s):
     return m.group(0) if m else ""
 
 
+def _qty_grams(q):
+    """Return quantity as grams (float) for size sorting. Unknown → large number."""
+    m = re.match(r"([\d.]+)\s*(g|oz)", (q or "").strip(), re.I)
+    if not m:
+        return 999999.0
+    v = float(m.group(1))
+    return v if m.group(2).lower() == "g" else v * 28.3495
+
+
 def _norm_apos(s):
     """Normalize Unicode curly apostrophes/quotes to ASCII so cache keys match source data."""
     return s.replace('’', "'").replace('‘', "'").replace('′', "'")
@@ -188,41 +199,51 @@ def main():
                 ],
             }
 
-            # Group cross-source on (brand, blend, size) — but only when we have a
-            # clean single-blend identity. Otherwise it's a standalone tin.
+            # Group cross-source on (brand, blend) — but only when we have a
+            # clean single-blend identity. Size/weight is a secondary dimension
+            # stored in the `sizes` array. Otherwise it's a standalone tin.
             if brand and blend:
-                key = f"{_norm(brand)}|{_norm(blend)}|{_norm(quantity)}"
+                key = f"{_norm(brand)}|{_norm(blend)}"
                 g = groups.get(key)
                 if not g:
                     disp = f"{brand} {blend}".strip()
-                    if quantity:
-                        disp += f" {quantity}"
                     g = groups[key] = {
                         "id": key, "brand": brand, "blend": blend,
-                        "quantity": quantity, "display_name": disp,
-                        "sources": [], "members": [],
+                        "display_name": disp,
+                        "sources": [], "_sizes": {},
                     }
-                g["members"].append(member)
+                sz = g["_sizes"].setdefault(quantity, {
+                    "quantity": quantity, "members": [], "sources": [],
+                })
+                sz["members"].append(member)
+                if source not in sz["sources"]:
+                    sz["sources"].append(source)
                 if source not in g["sources"]:
                     g["sources"].append(source)
             else:
                 key = f"solo|{_norm(source)}|{_norm(name)}"
                 groups[key] = {
                     "id": key, "brand": brand, "blend": blend,
-                    "quantity": quantity, "display_name": name,
-                    "sources": [source], "members": [member],
+                    "display_name": name,
+                    "sources": [source],
+                    "_sizes": {quantity: {"quantity": quantity, "members": [member], "sources": [source]}},
                 }
                 unmatched.append(f"[{source}] {name}")
             name_to_id[name] = key
 
     tins = []
     for g in groups.values():
-        g["members"].sort(key=lambda m: m["year"] or "")
-        g["years"] = sorted({m["year"] for m in g["members"] if m["year"]})
+        sizes = sorted(g.pop("_sizes").values(), key=lambda s: _qty_grams(s["quantity"]))
+        for sz in sizes:
+            sz["members"].sort(key=lambda m: m["year"] or "")
+        g["sizes"] = sizes
+        all_members = [m for sz in sizes for m in sz["members"]]
+        g["years"] = sorted({m["year"] for m in all_members if m["year"]})
         g["source"] = g["sources"][0] if len(g["sources"]) == 1 else "Multiple sources"
-        if len(g["members"]) > 1:
+        total = len(all_members)
+        if total > 1:
             counts["grouped_tins"] += 1
-            counts["collapsed_listings"] += len(g["members"])
+            counts["collapsed_listings"] += total
         tins.append(g)
     tins.sort(key=lambda g: g["display_name"].lower())
 
@@ -257,9 +278,13 @@ def main():
     print(f"Cross-source tins: {s['cross_source_tins']}")
     print(f"Standalone (no identity): {len(unmatched)}  — see {os.path.basename(LOG_FILE)}")
     print("\nLargest groups:")
-    for g in sorted(tins, key=lambda x: -len(x["members"]))[:10]:
-        if len(g["members"]) > 1:
-            print(f"  {len(g['members']):>2}x  {g['display_name']}  "
+    def _total_members(g):
+        return sum(len(sz["members"]) for sz in g["sizes"])
+    for g in sorted(tins, key=lambda x: -_total_members(x))[:10]:
+        total = _total_members(g)
+        if total > 1:
+            sizes_str = ", ".join(sz["quantity"] or "?" for sz in g["sizes"])
+            print(f"  {total:>2}x  {g['display_name']}  [{sizes_str}]  "
                   f"[{', '.join(g['sources'])}]")
 
 
