@@ -397,9 +397,15 @@
       border-top: 1px solid #e8dcc8;
       padding-top: 1rem;
     }
-    .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; }
+    .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; table-layout: fixed; }
     .history-table thead { background: #5c3510; }
     .history-table td, .history-table th { padding: .5rem .85rem; font-size: .85rem; }
+    /* Fixed column widths — identical across all size-section tables so columns stay aligned */
+    .history-table th:nth-child(1) { width: 4.5rem; }   /* Year */
+    .history-table th:nth-child(2) { width: 6.5rem; }   /* Price */
+    /* th:nth-child(3) = Source: no width, takes the remaining space */
+    .history-table th:nth-child(4) { width: 8.5rem; }   /* Date */
+    .history-table td { overflow-wrap: break-word; }
 
     /* ── footer ── */
     footer { text-align: center; padding: 2rem 1rem; color: #9b7b5a; font-size: .78rem; }
