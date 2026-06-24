@@ -1,9 +1,9 @@
 {
-  "generated": "2026-06-24T15:14:16.155657+00:00",
+  "generated": "2026-06-24T16:07:15.805970+00:00",
   "stats": {
-    "total_listings": 1636,
-    "excluded_multipacks": 82,
-    "total_tins": 1473,
+    "total_listings": 1650,
+    "excluded_multipacks": 92,
+    "total_tins": 1477,
     "multi_member_tins": 50,
     "listings_in_groups": 128,
     "cross_source_tins": 28
@@ -11225,6 +11225,37 @@
       "source": "4noggins.com"
     },
     {
+      "id": "solo|tinbidsauctionsold|dunhilldeluxenavyrolls2014",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "display_name": "Dunhill De Luxe Navy Rolls 2014",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "members": [
+        {
+          "name": "Dunhill De Luxe Navy Rolls 2014",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196073/",
+          "price": "$62.00",
+          "last_updated": "2026-06-24T16:00:32.058134+00:00",
+          "first_seen": "2026-06-24T16:00:32.058134+00:00",
+          "year": "2014",
+          "price_history": [
+            {
+              "price": "$62.00",
+              "date": "2026-06-24T16:00:32.058134+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "dunhill|deluxenavyrolls|50g",
       "brand": "Dunhill",
       "blend": "De Luxe Navy Rolls",
@@ -12664,6 +12695,37 @@
         "1980"
       ],
       "source": "pipestud.com"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|elizabethan2015lotnoreserve",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "display_name": "Elizabethan 2015 Lot No Reserve",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "members": [
+        {
+          "name": "Elizabethan 2015 Lot No Reserve",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196078/",
+          "price": "$203.00",
+          "last_updated": "2026-06-24T16:00:32.058134+00:00",
+          "first_seen": "2026-06-24T16:00:32.058134+00:00",
+          "year": "2015",
+          "price_history": [
+            {
+              "price": "$203.00",
+              "date": "2026-06-24T16:00:32.058134+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "solo|speakeasyclub|elmcookiepipedisplays5available",
@@ -22365,6 +22427,37 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|tinbidsauctionsold|lotofchristmascheer20162017andanniversary2010",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "display_name": "Lot of Christmas Cheer 2016, 2017, and Anniversary 2010",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "members": [
+        {
+          "name": "Lot of Christmas Cheer 2016, 2017, and Anniversary 2010",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/196057/",
+          "price": "$926.00",
+          "last_updated": "2026-06-24T16:00:32.058134+00:00",
+          "first_seen": "2026-06-24T16:00:32.058134+00:00",
+          "year": "2016",
+          "price_history": [
+            {
+              "price": "$926.00",
+              "date": "2026-06-24T16:00:32.058134+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "solo|speakeasyclub|louisianared2021",
       "brand": "",
       "blend": "",
@@ -25322,7 +25415,7 @@
         {
           "name": "1998 McClelland Iwan Ries Anniversary Blend Gourmet English 50g. Tin",
           "source": "Tinbids Auction (Sold)",
-          "url": "https://tinbids.com/auction/196247/",
+          "url": "https://tinbids.com/auction/197237/",
           "price": "$100.00",
           "last_updated": "2026-06-21T05:37:17.147469+00:00",
           "first_seen": "2026-06-21T05:37:17.147469+00:00",
@@ -25816,6 +25909,37 @@
         "2017"
       ],
       "source": "4noggins.com"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|mcclellandtastemaster2013",
+      "brand": "",
+      "blend": "",
+      "quantity": "",
+      "display_name": "McClelland Tastemaster 2013",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "members": [
+        {
+          "name": "McClelland Tastemaster 2013",
+          "source": "Tinbids Auction (Sold)",
+          "url": "https://tinbids.com/auction/198110/",
+          "price": "$75.00",
+          "last_updated": "2026-06-24T16:00:32.058134+00:00",
+          "first_seen": "2026-06-24T16:00:32.058134+00:00",
+          "year": "2013",
+          "price_history": [
+            {
+              "price": "$75.00",
+              "date": "2026-06-24T16:00:32.058134+00:00"
+            }
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "mcclelland|themindmeldchocolatenut|50g",
@@ -45954,6 +46078,10 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "macbaren|darktwistrollcake|100g",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "vanrossem|schipperstabak|312oz",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "theodorusniemeyer|flyingdutchman|2oz",
+    "McClelland Tastemaster 2013": "solo|tinbidsauctionsold|mcclellandtastemaster2013",
+    "Lot of Christmas Cheer 2016, 2017, and Anniversary 2010": "solo|tinbidsauctionsold|lotofchristmascheer20162017andanniversary2010",
+    "Dunhill De Luxe Navy Rolls 2014": "solo|tinbidsauctionsold|dunhilldeluxenavyrolls2014",
+    "Elizabethan 2015 Lot No Reserve": "solo|tinbidsauctionsold|elizabethan2015lotnoreserve",
     "1996 McClelland No. 25 Virginia 20th Anniversary - 100g": "solo|tinbidsauctionsold|1996mcclellandno25virginia20thanniversary100g",
     "Vintage - 2016 - Dunhill Baby's Botton (rare - spelled out)": "solo|tinbidsauctionsold|vintage2016dunhillbabysbottonrarespelledout",
     "Dunhill London Mixture, Painted Tin, 50g": "solo|tinbidsauctionsold|dunhilllondonmixturepaintedtin50g",
