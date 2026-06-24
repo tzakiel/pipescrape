@@ -400,11 +400,11 @@
     .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; table-layout: fixed; }
     .history-table thead { background: #5c3510; }
     .history-table td, .history-table th { padding: .5rem .85rem; font-size: .85rem; }
-    /* Fixed column widths — identical across all size-section tables so columns stay aligned */
-    .history-table th:nth-child(1) { width: 4.5rem; }   /* Year */
-    .history-table th:nth-child(2) { width: 6.5rem; }   /* Price */
-    /* th:nth-child(3) = Source: no width, takes the remaining space */
-    .history-table th:nth-child(4) { width: 8.5rem; }   /* Date */
+    /* colgroup drives column widths — col widths + table-layout:fixed guarantee
+       identical proportions across every size-section table on the detail page */
+    .history-table col.ht-col-yr { width: 5rem; }
+    .history-table col.ht-col-pr { width: 7rem; }
+    .history-table col.ht-col-dt { width: 9rem; }
     .history-table td { overflow-wrap: break-word; }
 
     /* ── footer ── */
@@ -712,6 +712,7 @@
       return `
         <div class="detail-section-title">${esc(label)} · ${n} listing${n !== 1 ? "s" : ""}</div>
         <table class="history-table">
+          <colgroup><col class="ht-col-yr"><col class="ht-col-pr"><col><col class="ht-col-dt"></colgroup>
           <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>Date</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>`;
