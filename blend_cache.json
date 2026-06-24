@@ -4231,7 +4231,7 @@
     "confidence": 0.9
   },
   "Balkan Sasieni ? not sure of year?": {
-    "brand": "Scandinavian Tobacco Group",
+    "brand": "STG",
     "blend": "Balkan Sasieni",
     "is_tin": true,
     "confidence": 0.9
@@ -5304,13 +5304,13 @@
   },
   "Dunhill 965 2012 50g": {
     "brand": "Dunhill",
-    "blend": "Dunhill 965 2012 50g",
+    "blend": "965 2012 50g",
     "is_tin": true,
     "confidence": 0.85
   },
   "Dunhill Elizabethan": {
     "brand": "Dunhill",
-    "blend": "Dunhill Elizabethan",
+    "blend": "Elizabethan",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -5340,7 +5340,7 @@
   },
   "Dunhill Nightcap 09/2018                       90g": {
     "brand": "Dunhill",
-    "blend": "Dunhill Nightcap 09/2018                       90g",
+    "blend": "Nightcap",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -5352,7 +5352,7 @@
   },
   "Dunhill Ready Rubbed 25g": {
     "brand": "Dunhill",
-    "blend": "Dunhill Ready Rubbed 25g",
+    "blend": "Ready Rubbed 25g",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -5364,13 +5364,13 @@
   },
   "Dunhill Shell 327 Opera 1963": {
     "brand": "Dunhill",
-    "blend": "Dunhill Shell 327 Opera 1963",
+    "blend": "Shell 327 Opera",
     "is_tin": true,
     "confidence": 0.85
   },
   "Dunhill Ye Olde Signe": {
     "brand": "Dunhill",
-    "blend": "Dunhill Ye Olde Signe",
+    "blend": "Ye Olde Signe",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -6595,13 +6595,13 @@
     "confidence": 0.98
   },
   "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone's interested": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Strange Magic",
     "is_tin": true,
     "confidence": 0.85
   },
   "Some dry ass WCC Rouxgaroux - ~1 oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Rouxgaroux",
     "is_tin": true,
     "confidence": 0.9
@@ -7118,7 +7118,7 @@
     "confidence": 0.92
   },
   "W.C. Simply red '19 171g": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Simply Red",
     "is_tin": true,
     "confidence": 0.92
@@ -7136,13 +7136,13 @@
     "confidence": 0.78
   },
   "Watch City Deluxe Crumb Cut 02/2020 36g": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Deluxe Crumb Cut",
     "is_tin": true,
     "confidence": 0.88
   },
   "Watch City Simply Red 112g 2021": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Simply Red",
     "is_tin": true,
     "confidence": 0.92
@@ -9936,7 +9936,7 @@
   },
   "Germains Balkan Sobranie": {
     "brand": "J.F. Germain",
-    "blend": "Balkan Sobranie Mixture",
+    "blend": "Balkan Sobranie",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"

@@ -226,5 +226,57 @@
     "brand": "",
     "blend": "",
     "is_tin": false
+  },
+  "Dunhill 965 2012 50g": {
+    "brand": "Dunhill",
+    "blend": "965 2012 50g"
+  },
+  "Dunhill Elizabethan": {
+    "brand": "Dunhill",
+    "blend": "Elizabethan"
+  },
+  "Dunhill Nightcap 09/2018                       90g": {
+    "brand": "Dunhill",
+    "blend": "Nightcap"
+  },
+  "Dunhill Ready Rubbed 25g": {
+    "brand": "Dunhill",
+    "blend": "Ready Rubbed"
+  },
+  "Dunhill Shell 327 Opera 1963": {
+    "brand": "Dunhill",
+    "blend": "Shell 327 Opera"
+  },
+  "Dunhill Ye Olde Signe": {
+    "brand": "Dunhill",
+    "blend": "Ye Olde Signe"
+  },
+  "Balkan Sasieni ? not sure of year?": {
+    "brand": "STG",
+    "blend": "Balkan Sasieni"
+  },
+  "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone's interested": {
+    "brand": "Watch City",
+    "blend": "Strange Magic"
+  },
+  "Some dry ass WCC Rouxgaroux - ~1 oz": {
+    "brand": "Watch City",
+    "blend": "Rouxgaroux"
+  },
+  "W.C. Simply red '19 171g": {
+    "brand": "Watch City",
+    "blend": "Simply Red"
+  },
+  "Watch City Deluxe Crumb Cut 02/2020 36g": {
+    "brand": "Watch City",
+    "blend": "Deluxe Crumb Cut"
+  },
+  "Watch City Simply Red 112g 2021": {
+    "brand": "Watch City",
+    "blend": "Simply Red"
+  },
+  "Germains Balkan Sobranie": {
+    "brand": "J.F. Germain",
+    "blend": "Balkan Sobranie"
   }
 }
