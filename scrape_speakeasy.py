@@ -3,17 +3,18 @@
 Login-required XenForo 2.x forum. Credentials come from SPEAKEASY_USERNAME and
 SPEAKEASY_PASSWORD environment variables (set via GitHub Secrets).
 
-Walk order:
-  1. Page through https://speak-easy.club/forums/market.39/ collecting every
-     thread that carries a [WTS] prefix label.
-  2. Fetch the first post of each thread — sellers typically list multiple tins
-     there with individual prices.
-  3. Yield one record per line that contains a recognisable $ price.
+Run strategy:
+  • First run (no prior data): bootstraps up to MAX_AGE_DAYS back.
+  • Subsequent runs: only visits threads with activity since the last scrape,
+    PLUS any thread seen within RECHECK_DAYS (to catch silent OP edits).
+  • Legitimately finding zero new listings is not treated as a failure — only
+    an inaccessible forum page triggers a hard exit.
 
 Runs daily. Writes docs/products_speakeasy.json. Shared logic in scrape_core.py.
 """
 import os
 import re
+import sys
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -27,10 +28,10 @@ FORUM_URL = f"{BASE_URL}/forums/market.39/"
 SOURCE = "Speak-Easy.Club"
 DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "products_speakeasy.json")
 
-PAGE_DELAY = 1.5  # seconds between forum index pages
-POST_DELAY = 1.2  # seconds between individual thread fetches
-MAX_AGE_DAYS = 2 * 365  # only collect threads active within the past 2 years
-
+PAGE_DELAY = 1.5   # seconds between forum index pages
+POST_DELAY = 1.2   # seconds between individual thread fetches
+MAX_AGE_DAYS = 2 * 365  # bootstrap lookback when no prior scrape exists
+RECHECK_DAYS = 14  # re-visit recently-seen threads to catch silent OP edits
 
 
 def _find_price(line):
@@ -100,7 +101,6 @@ def _is_wts(thread_el):
     label = thread_el.select_one(".label")
     if label:
         return "WTS" in label.get_text(strip=True).upper()
-    # Fallback: prefix baked into the title text
     title_el = (thread_el.select_one(".structItem-title a[data-tp-primary]")
                 or thread_el.select_one(".structItem-title a"))
     if title_el:
@@ -110,11 +110,7 @@ def _is_wts(thread_el):
 
 
 def _thread_date(thread_el):
-    """Return the thread's latest-activity datetime (UTC), or None if unreadable.
-
-    XenForo renders a <time data-time="unix_ts"> in each thread row; the
-    datetime attribute is an ISO string fallback.
-    """
+    """Return the thread's latest-activity datetime (UTC), or None if unreadable."""
     time_el = thread_el.select_one(
         ".structItem-latestDate time, .structItem-cell--latest time"
     )
@@ -141,15 +137,17 @@ def _thread_url(thread_el):
     return href if href.startswith("http") else BASE_URL + href
 
 
-def _collect_wts_urls(session):
-    """Walk forum listing pages and return WTS thread URLs active within MAX_AGE_DAYS.
+def _collect_new_urls(session, cutoff):
+    """Walk forum pages, returning (wts_urls, forum_ok).
 
-    XenForo sorts threads by latest activity (newest first), so once an entire
-    page is beyond the cutoff there is nothing left worth fetching.
+    Collects WTS threads with activity since `cutoff`. Stops paginating once
+    an entire page is older than the cutoff. forum_ok is False when the first
+    page loads but contains no thread elements — indicating a block or login
+    failure.
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     urls = []
     page = 1
+    forum_ok = False
 
     while True:
         url = FORUM_URL if page == 1 else f"{FORUM_URL}page-{page}"
@@ -160,21 +158,21 @@ def _collect_wts_urls(session):
         threads = soup.select(".structItem--thread")
         if not threads:
             break
+        forum_ok = True  # got at least one thread page — forum is reachable
 
         any_in_range = False
         for thread in threads:
             dt = _thread_date(thread)
             if dt is not None and dt < cutoff:
-                continue  # thread is too old — skip but keep scanning this page
-            any_in_range = True  # within range, or date unreadable (keep to be safe)
+                continue
+            any_in_range = True
             if _is_wts(thread):
                 u = _thread_url(thread)
                 if u:
                     urls.append(u)
 
-        # Once every thread on a page is past the cutoff we've gone far enough
         if not any_in_range:
-            print(f"[{SOURCE}] page {page}: all threads older than {MAX_AGE_DAYS} days — stopping.")
+            print(f"[{SOURCE}] page {page}: all threads older than cutoff — stopping.")
             break
 
         if not soup.select_one(".pageNav-jump--next, a[rel='next']"):
@@ -183,18 +181,17 @@ def _collect_wts_urls(session):
         page += 1
         time.sleep(PAGE_DELAY)
 
-    return urls
+    return urls, forum_ok
 
 
 def _parse_first_post(html):
     """Extract (name, price) pairs from the first post of a WTS thread.
 
-    Each line in the post that contains a $ price yields one listing. List
-    markers, separators, and quoted replies are stripped before scanning.
+    Each line containing a price signal yields one listing. Quoted replies
+    and list markers are stripped before scanning.
     """
     soup = BeautifulSoup(html, "lxml")
 
-    # Isolate the first post only (XenForo 2.x)
     messages = soup.select(".message--post")
     if not messages:
         return []
@@ -202,11 +199,9 @@ def _parse_first_post(html):
     if not post_body:
         return []
 
-    # Drop quoted content — prices from earlier posts shouldn't become listings
     for el in post_body.select("blockquote, .bbCodeBlock--quote"):
         el.decompose()
 
-    # Inject newlines at block boundaries before flattening to text
     for el in post_body.select("br"):
         el.replace_with("\n")
     for el in post_body.select("p, li, div"):
@@ -224,11 +219,8 @@ def _parse_first_post(html):
         if not m:
             continue
 
-        # Description = text before the price signal on this line
         desc = line[:m.start()].strip()
-        # Strip leading list markers: "- ", "* ", "1. ", "• " etc.
         desc = re.sub(r'^[\-\*•\d]+[\.\):\s]+', '', desc).strip()
-        # Strip trailing separators: " - ", " | ", "…"
         desc = re.sub(r'[\-–|\.]+\s*$', '', desc).strip()
 
         if len(desc) < 5:
@@ -239,15 +231,55 @@ def _parse_first_post(html):
     return listings
 
 
-def fetch():
+def main():
     session = cloudscraper.create_scraper()
     _login(session)
 
-    thread_urls = _collect_wts_urls(session)
-    print(f"[{SOURCE}] Found {len(thread_urls)} WTS threads — fetching first posts…")
+    data = scrape_core.load_existing(DATA_FILE)
+    now = datetime.now(timezone.utc)
+    now_iso = now.isoformat()
+
+    # Cutoff: since last scrape on ongoing runs; 2-year bootstrap on first run.
+    last_scraped = data.get("last_scraped")
+    if last_scraped:
+        cutoff = datetime.fromisoformat(last_scraped)
+        if cutoff.tzinfo is None:
+            cutoff = cutoff.replace(tzinfo=timezone.utc)
+    else:
+        cutoff = now - timedelta(days=MAX_AGE_DAYS)
+
+    # Prune expired re-check entries.
+    recheck = {
+        url: exp for url, exp in data.get("thread_recheck", {}).items()
+        if datetime.fromisoformat(exp) > now
+    }
+
+    # Walk forum for threads with activity since cutoff.
+    try:
+        new_urls, forum_ok = _collect_new_urls(session, cutoff)
+    except Exception as e:
+        print(f"[{SOURCE}] ERROR fetching forum pages: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    if not forum_ok:
+        print(f"[{SOURCE}] ERROR: forum returned no threads — likely blocked or "
+              "login expired. Keeping previous data.", file=sys.stderr)
+        sys.exit(1)
+
+    # Add newly-seen threads to the re-check cache.
+    expiry = (now + timedelta(days=RECHECK_DAYS)).isoformat()
+    for url in new_urls:
+        recheck.setdefault(url, expiry)
+
+    # Visit new threads + anything still in the re-check window (deduped).
+    all_urls = list(dict.fromkeys(new_urls + list(recheck)))
+    n_new = len(new_urls)
+    n_recheck = len(all_urls) - n_new
+    print(f"[{SOURCE}] {n_new} new thread(s), {n_recheck} re-check — "
+          f"fetching {len(all_urls)} total…")
 
     found = []
-    for thread_url in thread_urls:
+    for thread_url in all_urls:
         try:
             resp = session.get(thread_url, timeout=30)
             resp.raise_for_status()
@@ -270,8 +302,14 @@ def fetch():
 
         time.sleep(POST_DELAY)
 
-    return found
+    scrape_core.merge_products(data, found, now_iso)
+    data["thread_recheck"] = recheck
+    scrape_core.save(data, DATA_FILE)
+
+    print(f"[{SOURCE}] +{len(found)} listing(s) this run. "
+          f"Catalog: {len(data['products'])}. "
+          f"Re-check cache: {len(recheck)} thread(s).")
 
 
 if __name__ == "__main__":
-    scrape_core.run(SOURCE, fetch, DATA_FILE)
+    main()
