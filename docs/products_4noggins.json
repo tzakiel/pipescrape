@@ -27,10 +27,18 @@
         {
           "price": "$150.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica And So To Bed 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: MARGATE 2oz - C",
@@ -55,10 +63,18 @@
         {
           "price": "$140.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: MARGATE 8oz - C",
@@ -79,10 +95,18 @@
         {
           "price": "$525.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$475.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$525.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: ST. IVES 8oz - C",
@@ -139,10 +163,419 @@
         {
           "price": "$545.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$575.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$545.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica St Ives 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
+    },
+    {
+      "name": "Balkan Sobranie: BALKAN SOBRANIE 50g -C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-23T15:14:19.145115+00:00",
+      "last_seen": "2026-06-23T15:14:19.145115+00:00",
+      "price_history": [
+        {
+          "price": "$145.00",
+          "date": "2026-06-23T15:14:19.145115+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-23T15:14:19.145115+00:00"
+        },
+        {
+          "price": "$145.00",
+          "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$145.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd Party Seller Balkan Sobranie 50g",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
+    },
+    {
+      "name": "Butera: PELICAN 2014 2oz - C",
+      "price": "$245.00",
+      "url": "https://www.4noggins.com/products/butera-pelican-2014-2oz-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-21T02:45:17.226279+00:00",
+      "last_seen": "2026-06-23T15:14:19.145115+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-21T02:45:17.226279+00:00"
+        },
+        {
+          "price": "$245.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Butera Pelican 2oz Tin 2014 .",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
+    },
+    {
+      "name": "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C",
+      "price": "$165.00",
+      "url": "https://www.4noggins.com/products/astleys-no-44-dark-virginia-flake-50g-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$165.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A dark Virginia flake that is full of flavor but easy on the tongue. Citrus notes are detectable. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
+      "name": "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C",
+      "price": "$195.00",
+      "url": "https://www.4noggins.com/products/astleys-no-88-matured-dark-virginia-50g",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$195.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller With deep flavored, heat cured, naturally fermented and matured black Cavendish, Astley's No. 88 Matured Dark Virginia is rich and complex. Strength: Mild Flavoring: Extremely Mild Taste: Mild Room Note: Pleasant"
+    },
+    {
+      "name": "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/cornell-diehl-small-batch-carolina-red-flake-2oz-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin sold by 3rd party seller C&amp;D Carolina Red Flake 2oz 2017"
+    },
+    {
+      "name": "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/cornell-diehl-sp-com-20th-anniversary-xx-flake-dark-2oz-2020-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Cornell &amp; Diehl Smokingpipes.com 20th Anniversary XX Flake Dark 2oz 2020"
+    },
+    {
+      "name": "Davidoff: RED MIXTURE 50g 2015 - C",
+      "price": "$89.00",
+      "url": "https://www.4noggins.com/products/davidoff-red-mixture-50g-2015-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$89.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A delicious blend of tasty black Cavendish tobacco contrasted with a zesty Virginia blend makes an even and delightful smoke!. Enjoy some Davidoff Red! Strength: Mild Flavoring: Mild Taste: Mild Room Note: Pleasant"
+    },
+    {
+      "name": "Dunhill: MY MIXTURE 965 50g 2005 - C",
+      "price": "$285.00",
+      "url": "https://www.4noggins.com/products/dunhill-my-mixture-965-50g-2005-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dunhill My Mixture 965 50g 2005 Murray Era tin"
+    },
+    {
+      "name": "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C",
+      "price": "$190.00",
+      "url": "https://www.4noggins.com/products/dunhill-standard-mixture-medium-50g-2005-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$190.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dunhill Standard Mixture Mellow 50g 2005"
+    },
+    {
+      "name": "J.F. Germain: BROWN FLAKE 50g - C",
+      "price": "$135.00",
+      "url": "https://www.4noggins.com/products/j-f-germain-brown-flake-50g-c-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$135.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tins owned by 3rd party seller JF Germain's Brown Flake 50g"
+    },
+    {
+      "name": "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/j-f-germain-royal-jersey-cavendish-virginia-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller This pipe tobacco contains the same ingredients as the Royal Jersey Original Latakia Mixture, the recipe being faithfully followed, but without the Latakia, revealing a pipe tobacco with a quite different character. Strength: Mild to Medium Flavoring: Very Mild Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
+      "name": "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C",
+      "price": "$145.00",
+      "url": "https://www.4noggins.com/products/mac-baren-hh-pure-virginia-1-75oz-2021-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$145.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A blend composed of of both air-dried and flue-cured Virginia tobaccos. HH Pure Virginia is 100% Virginia tobaccos from regions with the highest reputation for growing the finest Virginia leaf in the world. Like all tobaccos in the HH family this blend has no top flavour and only the absolute necessary casing in order to emphasize the natural"
+    },
+    {
+      "name": "McClelland: DARK STAR 100g 2016 - C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-dark-star-100g",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dark Star begins as Bright Yellow, sugary top grade Virginia and Carolina leaf. Through careful triple aging, pressing and stoving, it becomes rich, cool and dark. A spicy aroma. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
+      "name": "McClelland: FROG MORTON'S CELLAR 100g 2018 -C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-frog-mortons-cellar-100g-2015-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland's Frog Morton's Cellar 100g 2018"
+    },
+    {
+      "name": "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C",
+      "price": "$245.00",
+      "url": "https://www.4noggins.com/products/mcclelland-grand-orientals-katerini-classic-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$245.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Grand Orientals Katerini Classic 2017"
+    },
+    {
+      "name": "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C",
+      "price": "$365.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-22-matured-virginia-100g-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$365.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A balanced blend of Eastern and Middle belt Virginias aged in cakes to develop their natural sweetness. A zesty tobacco with rich undertones, coarse enough to smoke on windy days outdoors, but easily rubbed-out to suit any occasion. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant"
+    },
+    {
+      "name": "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C",
+      "price": "$265.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-24-matured-virginia-50g-2011-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$265.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An unusual form of Flake tobacco, its deep chestnut color results from the extended aging of full flavored Old and Middle Belt leaf very lightly seasoned with drama. A smooth, robust tobacco good anytime for those who prefer the darker Virginia flavors. Strength: Mild to Medium Flavoring: Extremely Mild Taste: Medium Room Note: Pleasant to To"
+    },
+    {
+      "name": "McClelland: NO. 24 VIRGINIA 100g 2016- C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-24-virginia-100g-2014-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An unusual form of Flake tobacco, its deep chestnut color results from the extended aging of full flavored Old and Middle Belt leaf very lightly seasoned with drama. A smooth, robust tobacco good anytime for those who prefer the darker Virginia flavors. Strength: Mild to Medium Flavoring: Extremely Mild Taste: Medium Room Note: Pleasant to To"
+    },
+    {
+      "name": "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-27-matured-virginia-100g-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An excellent all day, indoor smoke. This beautiful Orange-red, shag cut cake has a mellow flavor and a light subtle aroma. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
+      "name": "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C",
+      "price": "$295.00",
+      "url": "https://www.4noggins.com/products/mcclelland-syrian-full-balkan-2oz-2008-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$295.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Syrian Full Balkan 50g 2004"
+    },
+    {
+      "name": "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C",
+      "price": "$295.00",
+      "url": "https://www.4noggins.com/products/mcclelland-syrian-super-balkan-50g-2006-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$295.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Syrian Super Balkan 50g 2006"
+    },
+    {
+      "name": "PCCA: FULL BALKAN RESERVE 2000 - C",
+      "price": "$285.00",
+      "url": "https://www.4noggins.com/products/pcca-full-balkan-reserve-1994-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Pipe Collector's Club of America by McClelland Full Balkan Reserve 50g 2000"
+    },
+    {
+      "name": "Samuel Gawith: 1792 FLAKE 50g 2016 - C",
+      "price": "$165.00",
+      "url": "https://www.4noggins.com/products/samuel-gawith-1792-flake-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$165.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dark-fired leaf hot pressed and cut into a 6\" flake before adding a dressing of Tonquin flavor. A full strength, full flavored pipe tobacco. Strength: Very Strong Flavoring: Medium Taste: Very Full Room Note: Tolerable to Strong"
+    },
+    {
+      "name": "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C",
+      "price": "$175.00",
+      "url": "https://www.4noggins.com/products/samuel-gawith-full-virginia-flake-50g-2011-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$175.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Samuel Gawith Full Virginia Flake 50g 2011"
+    },
+    {
+      "name": "Wessex: GOLD SLICE 1.5oz 2012 - C",
+      "price": "$110.00",
+      "url": "https://www.4noggins.com/products/wessex-gold-slice-1-5oz-2012-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$110.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Wessex Gold Slice 1.5oz"
     },
     {
       "name": "Esoterica: TILBURY 2oz - C",
@@ -182,34 +615,6 @@
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Tilbury 8oz 2018",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
-    },
-    {
-      "name": "Balkan Sobranie: BALKAN SOBRANIE 50g -C",
-      "price": "$125.00",
-      "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
-      "source": "4noggins.com",
-      "first_seen": "2026-06-23T15:14:19.145115+00:00",
-      "last_seen": "2026-06-23T15:14:19.145115+00:00",
-      "price_history": [
-        {
-          "price": "$145.00",
-          "date": "2026-06-23T15:14:19.145115+00:00"
-        },
-        {
-          "price": "$125.00",
-          "date": "2026-06-23T15:14:19.145115+00:00"
-        },
-        {
-          "price": "$145.00",
-          "date": "2026-06-24T15:14:15.069299+00:00"
-        },
-        {
-          "price": "$125.00",
-          "date": "2026-06-24T15:14:15.069299+00:00"
-        }
-      ],
-      "description": "Default Title Consignment tin owned by 3rd Party Seller Balkan Sobranie 50g",
       "last_updated": "2026-06-24T15:14:15.069299+00:00"
     },
     {
@@ -704,22 +1109,6 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
-      "name": "Butera: PELICAN 2014 2oz - C",
-      "price": "$285.00",
-      "url": "https://www.4noggins.com/products/butera-pelican-2016-2oz-c",
-      "source": "4noggins.com",
-      "first_seen": "2026-06-21T02:45:17.226279+00:00",
-      "last_seen": "2026-06-23T15:14:19.145115+00:00",
-      "price_history": [
-        {
-          "price": "$285.00",
-          "date": "2026-06-21T02:45:17.226279+00:00"
-        }
-      ],
-      "description": "Default Title Consignment tin owned by 3rd party seller Butera Pelican 2oz Tin 2014 .",
-      "last_updated": "2026-06-21T02:45:17.226279+00:00"
-    },
-    {
       "name": "CAO: MOONTRANCE 50g 2011 - C",
       "price": "$55.00",
       "url": "https://www.4noggins.com/products/cao-moontrance-50g-2011-c",
@@ -3792,7 +4181,7 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     }
   ],
-  "last_scraped": "2026-06-24T15:14:15.069299+00:00",
+  "last_scraped": "2026-06-25T15:14:21.789530+00:00",
   "latest_scrape": [
     {
       "name": "A&C Peterson: PREMIER CRU - C",
@@ -3875,32 +4264,34 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
-      "name": "Balkan Sobranie: BALKAN SOBRANIE 50g -C",
-      "price": "$125.00",
-      "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
+      "name": "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C",
+      "price": "$165.00",
+      "url": "https://www.4noggins.com/products/astleys-no-44-dark-virginia-flake-50g-c",
       "source": "4noggins.com",
-      "first_seen": "2026-06-23T15:14:19.145115+00:00",
-      "last_seen": "2026-06-23T15:14:19.145115+00:00",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
       "price_history": [
         {
-          "price": "$145.00",
-          "date": "2026-06-23T15:14:19.145115+00:00"
-        },
-        {
-          "price": "$125.00",
-          "date": "2026-06-23T15:14:19.145115+00:00"
-        },
-        {
-          "price": "$145.00",
-          "date": "2026-06-24T15:14:15.069299+00:00"
-        },
-        {
-          "price": "$125.00",
-          "date": "2026-06-24T15:14:15.069299+00:00"
+          "price": "$165.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
-      "description": "Default Title Consignment tin owned by 3rd Party Seller Balkan Sobranie 50g",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "description": "Default Title Consignment tin owned by 3rd party seller A dark Virginia flake that is full of flavor but easy on the tongue. Citrus notes are detectable. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
+      "name": "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C",
+      "price": "$195.00",
+      "url": "https://www.4noggins.com/products/astleys-no-88-matured-dark-virginia-50g",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$195.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller With deep flavored, heat cured, naturally fermented and matured black Cavendish, Astley's No. 88 Matured Dark Virginia is rich and complex. Strength: Mild Flavoring: Extremely Mild Taste: Mild Room Note: Pleasant"
     },
     {
       "name": "Balkan Sobranie: BALKAN SOBRANIE 50g -C",
@@ -3925,10 +4316,54 @@
         {
           "price": "$125.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$145.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd Party Seller Balkan Sobranie 50g",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
+    },
+    {
+      "name": "Balkan Sobranie: BALKAN SOBRANIE 50g -C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-23T15:14:19.145115+00:00",
+      "last_seen": "2026-06-23T15:14:19.145115+00:00",
+      "price_history": [
+        {
+          "price": "$145.00",
+          "date": "2026-06-23T15:14:19.145115+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-23T15:14:19.145115+00:00"
+        },
+        {
+          "price": "$145.00",
+          "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$145.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd Party Seller Balkan Sobranie 50g",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Brebbia: CLASSIC ENGLISH MIX No. 80 2012 50g - C",
@@ -4092,8 +4527,8 @@
     },
     {
       "name": "Butera: PELICAN 2014 2oz - C",
-      "price": "$285.00",
-      "url": "https://www.4noggins.com/products/butera-pelican-2016-2oz-c",
+      "price": "$245.00",
+      "url": "https://www.4noggins.com/products/butera-pelican-2014-2oz-c",
       "source": "4noggins.com",
       "first_seen": "2026-06-21T02:45:17.226279+00:00",
       "last_seen": "2026-06-23T15:14:19.145115+00:00",
@@ -4101,10 +4536,34 @@
         {
           "price": "$285.00",
           "date": "2026-06-21T02:45:17.226279+00:00"
+        },
+        {
+          "price": "$245.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Butera Pelican 2oz Tin 2014 .",
-      "last_updated": "2026-06-21T02:45:17.226279+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
+    },
+    {
+      "name": "Butera: PELICAN 2014 2oz - C",
+      "price": "$245.00",
+      "url": "https://www.4noggins.com/products/butera-pelican-2014-2oz-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-21T02:45:17.226279+00:00",
+      "last_seen": "2026-06-23T15:14:19.145115+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-21T02:45:17.226279+00:00"
+        },
+        {
+          "price": "$245.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Butera Pelican 2oz Tin 2014 .",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "CAO: MOONTRANCE 50g 2011 - C",
@@ -4235,6 +4694,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/cornell-diehl-small-batch-carolina-red-flake-2oz-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin sold by 3rd party seller C&amp;D Carolina Red Flake 2oz 2017"
+    },
+    {
       "name": "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2018 -C",
       "price": "$125.00",
       "url": "https://www.4noggins.com/products/cornell-diehl-small-batch-carolina-red-flake-2oz-2018-c",
@@ -4283,6 +4757,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/cornell-diehl-sp-com-20th-anniversary-xx-flake-dark-2oz-2020-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Cornell &amp; Diehl Smokingpipes.com 20th Anniversary XX Flake Dark 2oz 2020"
+    },
+    {
       "name": "Cornell & Diehl: VINTAGE BLEND-STRATHSPEY 2002 - C",
       "price": "$100.00",
       "url": "https://www.4noggins.com/products/cornell-diehl-haunted-bookshop-8oz-2005-c",
@@ -4313,6 +4802,21 @@
       ],
       "description": "Default Title Consignment tins owned by 3rd party seller Cornell &amp; Diehl Wintertime Reserve Toboggan Run 2oz 2021",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "Davidoff: RED MIXTURE 50g 2015 - C",
+      "price": "$89.00",
+      "url": "https://www.4noggins.com/products/davidoff-red-mixture-50g-2015-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$89.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A delicious blend of tasty black Cavendish tobacco contrasted with a zesty Virginia blend makes an even and delightful smoke!. Enjoy some Davidoff Red! Strength: Mild Flavoring: Mild Taste: Mild Room Note: Pleasant"
     },
     {
       "name": "Dobie's: FOUR SQUARE 1972 50g- C",
@@ -4555,6 +5059,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "Dunhill: MY MIXTURE 965 50g 2005 - C",
+      "price": "$285.00",
+      "url": "https://www.4noggins.com/products/dunhill-my-mixture-965-50g-2005-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dunhill My Mixture 965 50g 2005 Murray Era tin"
+    },
+    {
       "name": "Dunhill: NIGHTCAP 50g 2005 -C",
       "price": "$295.00",
       "url": "https://www.4noggins.com/products/dunhill-nightcap-50g-2005-c",
@@ -4585,6 +5104,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Dunhill The Royal Yacht Mixture 50g 2018",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C",
+      "price": "$190.00",
+      "url": "https://www.4noggins.com/products/dunhill-standard-mixture-medium-50g-2005-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$190.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dunhill Standard Mixture Mellow 50g 2005"
     },
     {
       "name": "Dunhill: THREE YEAR MATURED 100g 1972 - C",
@@ -4677,10 +5211,18 @@
         {
           "price": "$150.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica And So To Bed 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: AND SO TO BED 2oz - C",
@@ -4709,10 +5251,18 @@
         {
           "price": "$150.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica And So To Bed 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: AND SO TO BED 8oz - C",
@@ -4848,10 +5398,18 @@
         {
           "price": "$140.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: MARGATE 2oz - C",
@@ -4876,10 +5434,18 @@
         {
           "price": "$140.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$150.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$140.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 2oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: MARGATE 8oz - C",
@@ -4900,10 +5466,18 @@
         {
           "price": "$525.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$475.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$525.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: MARGATE 8oz - C",
@@ -4924,10 +5498,18 @@
         {
           "price": "$525.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$475.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$525.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica Margate 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: PEACEHAVEN 8oz - C",
@@ -5111,10 +5693,18 @@
         {
           "price": "$545.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$575.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$545.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica St Ives 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: ST. IVES 8oz - C",
@@ -5171,10 +5761,18 @@
         {
           "price": "$545.00",
           "date": "2026-06-24T15:14:15.069299+00:00"
+        },
+        {
+          "price": "$575.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        },
+        {
+          "price": "$545.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
         }
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Esoterica St Ives 8oz",
-      "last_updated": "2026-06-24T15:14:15.069299+00:00"
+      "last_updated": "2026-06-25T15:14:21.789530+00:00"
     },
     {
       "name": "Esoterica: STONEHAVEN 2oz - C",
@@ -5841,6 +6439,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "J.F. Germain: BROWN FLAKE 50g - C",
+      "price": "$135.00",
+      "url": "https://www.4noggins.com/products/j-f-germain-brown-flake-50g-c-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$135.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tins owned by 3rd party seller JF Germain's Brown Flake 50g"
+    },
+    {
       "name": "J.F. Germain: BROWN FLAKE 50g 2004 - C",
       "price": "$295.00",
       "url": "https://www.4noggins.com/products/j-f-germain-brown-flake-50g-2004-c",
@@ -5983,6 +6596,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller JF Germain Rich Dark Flake 50g",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C",
+      "price": "$125.00",
+      "url": "https://www.4noggins.com/products/j-f-germain-royal-jersey-cavendish-virginia-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$125.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller This pipe tobacco contains the same ingredients as the Royal Jersey Original Latakia Mixture, the recipe being faithfully followed, but without the Latakia, revealing a pipe tobacco with a quite different character. Strength: Mild to Medium Flavoring: Very Mild Taste: Medium Room Note: Pleasant to Tolerable"
     },
     {
       "name": "J.F. Germain: ROYAL JERSEY w-LATAKIA 50g 2016 - C",
@@ -6175,6 +6803,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller HH Mac Baren Mature Virginia 100g 2010",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C",
+      "price": "$145.00",
+      "url": "https://www.4noggins.com/products/mac-baren-hh-pure-virginia-1-75oz-2021-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$145.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A blend composed of of both air-dried and flue-cured Virginia tobaccos. HH Pure Virginia is 100% Virginia tobaccos from regions with the highest reputation for growing the finest Virginia leaf in the world. Like all tobaccos in the HH family this blend has no top flavour and only the absolute necessary casing in order to emphasize the natural"
     },
     {
       "name": "Mac Baren: HH VINTAGE SYRIAN 1.75oz 2017 - C",
@@ -6577,6 +7220,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "McClelland: DARK STAR 100g 2016 - C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-dark-star-100g",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dark Star begins as Bright Yellow, sugary top grade Virginia and Carolina leaf. Through careful triple aging, pressing and stoving, it becomes rich, cool and dark. A spicy aroma. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
+    },
+    {
       "name": "McClelland: DARK STAR 50g 2011 - C",
       "price": "$265.00",
       "url": "https://www.4noggins.com/products/mcclelland-dark-star-50g-2008-c",
@@ -6623,6 +7281,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller McClelland Frog Morton 50g 2017",
       "last_updated": "2026-06-23T15:14:19.145115+00:00"
+    },
+    {
+      "name": "McClelland: FROG MORTON'S CELLAR 100g 2018 -C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-frog-mortons-cellar-100g-2015-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland's Frog Morton's Cellar 100g 2018"
     },
     {
       "name": "McClelland: FROG MORTON'S CELLAR 50g 2013 - C",
@@ -6673,6 +7346,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C",
+      "price": "$245.00",
+      "url": "https://www.4noggins.com/products/mcclelland-grand-orientals-katerini-classic-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$245.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Grand Orientals Katerini Classic 2017"
+    },
+    {
       "name": "McClelland: Grand Orientals: YENIDJE SUPREME 50g 2007 - C",
       "price": "$265.00",
       "url": "https://www.4noggins.com/products/mcclelland-grand-orientals-yenidje-supreme-50g-c",
@@ -6721,6 +7409,51 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C",
+      "price": "$365.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-22-matured-virginia-100g-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$365.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller A balanced blend of Eastern and Middle belt Virginias aged in cakes to develop their natural sweetness. A zesty tobacco with rich undertones, coarse enough to smoke on windy days outdoors, but easily rubbed-out to suit any occasion. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant"
+    },
+    {
+      "name": "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C",
+      "price": "$265.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-24-matured-virginia-50g-2011-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$265.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An unusual form of Flake tobacco, its deep chestnut color results from the extended aging of full flavored Old and Middle Belt leaf very lightly seasoned with drama. A smooth, robust tobacco good anytime for those who prefer the darker Virginia flavors. Strength: Mild to Medium Flavoring: Extremely Mild Taste: Medium Room Note: Pleasant to To"
+    },
+    {
+      "name": "McClelland: NO. 24 VIRGINIA 100g 2016- C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-24-virginia-100g-2014-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An unusual form of Flake tobacco, its deep chestnut color results from the extended aging of full flavored Old and Middle Belt leaf very lightly seasoned with drama. A smooth, robust tobacco good anytime for those who prefer the darker Virginia flavors. Strength: Mild to Medium Flavoring: Extremely Mild Taste: Medium Room Note: Pleasant to To"
+    },
+    {
       "name": "McClelland: NO. 27 MATURED VIRGINIA  50g 2011 - C",
       "price": "$195.00",
       "url": "https://www.4noggins.com/products/mcclelland-no-27-matured-virginia-50g",
@@ -6735,6 +7468,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller McClelland Matured Virginia #27 50g 2011",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C",
+      "price": "$385.00",
+      "url": "https://www.4noggins.com/products/mcclelland-no-27-matured-virginia-100g-2017-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$385.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller An excellent all day, indoor smoke. This beautiful Orange-red, shag cut cake has a mellow flavor and a light subtle aroma. Strength: Medium Flavoring: None Detected Taste: Medium Room Note: Pleasant to Tolerable"
     },
     {
       "name": "McClelland: OLD DOG 50g 2011 - C",
@@ -6977,6 +7725,36 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C",
+      "price": "$295.00",
+      "url": "https://www.4noggins.com/products/mcclelland-syrian-full-balkan-2oz-2008-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$295.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Syrian Full Balkan 50g 2004"
+    },
+    {
+      "name": "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C",
+      "price": "$295.00",
+      "url": "https://www.4noggins.com/products/mcclelland-syrian-super-balkan-50g-2006-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$295.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller McClelland Syrian Super Balkan 50g 2006"
+    },
+    {
       "name": "McClelland: TUDOR CASTLE 50g 2017 - C",
       "price": "$215.00",
       "url": "https://www.4noggins.com/products/mcclelland-tudor-castle-50g-2012-c",
@@ -7169,6 +7947,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "PCCA: FULL BALKAN RESERVE 2000 - C",
+      "price": "$285.00",
+      "url": "https://www.4noggins.com/products/pcca-full-balkan-reserve-1994-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$285.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Pipe Collector's Club of America by McClelland Full Balkan Reserve 50g 2000"
+    },
+    {
       "name": "Peterson: UNIVERSITY FLAKE 2007 - C",
       "price": "$145.00",
       "url": "https://www.4noggins.com/products/peterson-university-flake-2004-c",
@@ -7265,6 +8058,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "Samuel Gawith: 1792 FLAKE 50g 2016 - C",
+      "price": "$165.00",
+      "url": "https://www.4noggins.com/products/samuel-gawith-1792-flake-50g-1",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$165.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Dark-fired leaf hot pressed and cut into a 6\" flake before adding a dressing of Tonquin flavor. A full strength, full flavored pipe tobacco. Strength: Very Strong Flavoring: Medium Taste: Very Full Room Note: Tolerable to Strong"
+    },
+    {
       "name": "Samuel Gawith: BROWN No. 4 50g 2004 - C",
       "price": "$120.00",
       "url": "https://www.4noggins.com/products/samuel-gawith-brown-no-4-50g-2008-c",
@@ -7327,6 +8135,21 @@
       ],
       "description": "Default Title Consignment tin owned by 3rd party seller Samuel Gawith Commonwealth Mixture 50g 2003",
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
+    },
+    {
+      "name": "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C",
+      "price": "$175.00",
+      "url": "https://www.4noggins.com/products/samuel-gawith-full-virginia-flake-50g-2011-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$175.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Samuel Gawith Full Virginia Flake 50g 2011"
     },
     {
       "name": "Samuel Gawith: NAVY FLAKE 50g 2016 - C",
@@ -7681,6 +8504,21 @@
       "last_updated": "2026-06-21T02:45:17.226279+00:00"
     },
     {
+      "name": "Wessex: GOLD SLICE 1.5oz 2012 - C",
+      "price": "$110.00",
+      "url": "https://www.4noggins.com/products/wessex-gold-slice-1-5oz-2012-c",
+      "source": "4noggins.com",
+      "first_seen": "2026-06-25T15:14:21.789530+00:00",
+      "last_updated": "2026-06-25T15:14:21.789530+00:00",
+      "price_history": [
+        {
+          "price": "$110.00",
+          "date": "2026-06-25T15:14:21.789530+00:00"
+        }
+      ],
+      "description": "Default Title Consignment tin owned by 3rd party seller Wessex Gold Slice 1.5oz"
+    },
+    {
       "name": "Wessex: GOLD SLICE 1.5oz 2017 - C",
       "price": "$135.00",
       "url": "https://www.4noggins.com/products/wessex-gold-slice-1-5oz-2017-c",
@@ -7734,6 +8572,13 @@
       "added": 2,
       "price_changed": 12,
       "total": 231
+    },
+    {
+      "date": "2026-06-25T15:14:21.789530+00:00",
+      "found": 257,
+      "added": 23,
+      "price_changed": 11,
+      "total": 254
     }
   ]
 }
