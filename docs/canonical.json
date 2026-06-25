@@ -1,9 +1,9 @@
 {
-  "generated": "2026-06-25T04:05:34.831999+00:00",
+  "generated": "2026-06-25T15:14:23.452453+00:00",
   "stats": {
-    "total_listings": 1659,
+    "total_listings": 1682,
     "excluded_multipacks": 537,
-    "total_tins": 709,
+    "total_tins": 732,
     "multi_member_tins": 200,
     "listings_in_groups": 613,
     "cross_source_tins": 105
@@ -856,6 +856,82 @@
       ],
       "years": [
         "1985"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|astleysno44darkvirginiaflake50g2014c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/astleys-no-44-dark-virginia-flake-50g-c",
+              "price": "$165.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2014",
+              "price_history": [
+                {
+                  "price": "$165.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|astleysno88matureddarkvirginia50g2008c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/astleys-no-88-matured-dark-virginia-50g",
+              "price": "$195.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2008",
+              "price_history": [
+                {
+                  "price": "$195.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2008"
       ],
       "source": "4noggins.com"
     },
@@ -1828,15 +1904,19 @@
             {
               "name": "Butera: PELICAN 2014 2oz - C",
               "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/butera-pelican-2016-2oz-c",
-              "price": "$285.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "url": "https://www.4noggins.com/products/butera-pelican-2014-2oz-c",
+              "price": "$245.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "2014",
               "price_history": [
                 {
                   "price": "$285.00",
                   "date": "2026-06-21T02:45:17.226279+00:00"
+                },
+                {
+                  "price": "$245.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -6129,6 +6209,82 @@
       "source": "4noggins.com"
     },
     {
+      "id": "solo|4nogginscom|cornelldiehlsmallbatchcarolinaredflake2oz2017c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/cornell-diehl-small-batch-carolina-red-flake-2oz-2017-c",
+              "price": "$125.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|cornelldiehlspcom20thanniversaryxxflakedark2oz2020c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/cornell-diehl-sp-com-20th-anniversary-xx-flake-dark-2oz-2020-c",
+              "price": "$125.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "cult|abacus",
       "brand": "Cult",
       "blend": "Abacus",
@@ -6890,6 +7046,44 @@
         "1990"
       ],
       "source": "pipestud.com"
+    },
+    {
+      "id": "solo|4nogginscom|davidoffredmixture50g2015c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Davidoff: RED MIXTURE 50g 2015 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Davidoff: RED MIXTURE 50g 2015 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/davidoff-red-mixture-50g-2015-c",
+              "price": "$89.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2015",
+              "price_history": [
+                {
+                  "price": "$89.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ],
+      "source": "4noggins.com"
     },
     {
       "id": "dobies|foursquare",
@@ -8656,6 +8850,82 @@
       "source": "Multiple sources"
     },
     {
+      "id": "solo|4nogginscom|dunhillmymixture96550g2005c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Dunhill: MY MIXTURE 965 50g 2005 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Dunhill: MY MIXTURE 965 50g 2005 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/dunhill-my-mixture-965-50g-2005-c",
+              "price": "$285.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2005",
+              "price_history": [
+                {
+                  "price": "$285.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|dunhillstandardmixturemellow50g2005c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/dunhill-standard-mixture-medium-50g-2005-c",
+              "price": "$190.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2005",
+              "price_history": [
+                {
+                  "price": "$190.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "elephantcastle|newworld",
       "brand": "Elephant & Castle",
       "blend": "New World",
@@ -9052,7 +9322,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-and-so-to-bed-2oz-c",
               "price": "$150.00",
-              "last_updated": "2026-06-24T15:14:15.069299+00:00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -9075,6 +9345,14 @@
                 {
                   "price": "$150.00",
                   "date": "2026-06-24T15:14:15.069299+00:00"
+                },
+                {
+                  "price": "$140.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$150.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             },
@@ -9499,7 +9777,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-margate-2oz-2015-c",
               "price": "$140.00",
-              "last_updated": "2026-06-24T15:14:15.069299+00:00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -9518,6 +9796,14 @@
                 {
                   "price": "$140.00",
                   "date": "2026-06-24T15:14:15.069299+00:00"
+                },
+                {
+                  "price": "$150.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$140.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -9549,7 +9835,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-margate-8oz-c-1",
               "price": "$525.00",
-              "last_updated": "2026-06-24T15:14:15.069299+00:00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -9564,6 +9850,14 @@
                 {
                   "price": "$525.00",
                   "date": "2026-06-24T15:14:15.069299+00:00"
+                },
+                {
+                  "price": "$475.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$525.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -9958,7 +10252,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-st-ives-8oz-c",
               "price": "$545.00",
-              "last_updated": "2026-06-24T15:14:15.069299+00:00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -10009,6 +10303,14 @@
                 {
                   "price": "$545.00",
                   "date": "2026-06-24T15:14:15.069299+00:00"
+                },
+                {
+                  "price": "$575.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$545.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -16159,7 +16461,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
               "price": "$125.00",
-              "last_updated": "2026-06-24T15:14:15.069299+00:00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
               "first_seen": "2026-06-23T15:14:19.145115+00:00",
               "year": "",
               "price_history": [
@@ -16178,6 +16480,14 @@
                 {
                   "price": "$125.00",
                   "date": "2026-06-24T15:14:15.069299+00:00"
+                },
+                {
+                  "price": "$145.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -16985,6 +17295,78 @@
                 {
                   "price": "$165.00",
                   "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|jfgermainbrownflake50gc",
+      "brand": "",
+      "blend": "",
+      "display_name": "J.F. Germain: BROWN FLAKE 50g - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "J.F. Germain: BROWN FLAKE 50g - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/j-f-germain-brown-flake-50g-c-1",
+              "price": "$135.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$135.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|jfgermainroyaljerseycavendishvirginia50gc",
+      "brand": "",
+      "blend": "",
+      "display_name": "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/j-f-germain-royal-jersey-cavendish-virginia-50g-1",
+              "price": "$125.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
                 }
               ]
             }
@@ -20377,6 +20759,44 @@
         "2020"
       ],
       "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "solo|4nogginscom|macbarenhhpurevirginia175oz2021c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.75oz",
+          "members": [
+            {
+              "name": "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mac-baren-hh-pure-virginia-1-75oz-2021-c",
+              "price": "$145.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2021",
+              "price_history": [
+                {
+                  "price": "$145.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ],
+      "source": "4noggins.com"
     },
     {
       "id": "mastrodepaja|roma",
@@ -24159,6 +24579,348 @@
       "source": "4noggins.com"
     },
     {
+      "id": "solo|4nogginscom|mcclellanddarkstar100g2016c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: DARK STAR 100g 2016 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "McClelland: DARK STAR 100g 2016 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-dark-star-100g",
+              "price": "$385.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$385.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandfrogmortonscellar100g2018c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: FROG MORTON'S CELLAR 100g 2018 -C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "McClelland: FROG MORTON'S CELLAR 100g 2018 -C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-frog-mortons-cellar-100g-2015-c",
+              "price": "$385.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$385.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandgrandorientalskateriniclassic50g2017c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-grand-orientals-katerini-classic-50g-1",
+              "price": "$245.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$245.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandno22maturedvirginia100g2017c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-no-22-matured-virginia-100g-2017-c",
+              "price": "$365.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$365.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandno24maturedvirginia50g2014c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-no-24-matured-virginia-50g-2011-c",
+              "price": "$265.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2014",
+              "price_history": [
+                {
+                  "price": "$265.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2014"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandno24virginia100g2016c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: NO. 24 VIRGINIA 100g 2016- C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "McClelland: NO. 24 VIRGINIA 100g 2016- C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-no-24-virginia-100g-2014-c",
+              "price": "$385.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$385.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandno27maturedvirginia100g2017c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-no-27-matured-virginia-100g-2017-c",
+              "price": "$385.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$385.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandsyrianfullbalkan2oz2004c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-syrian-full-balkan-2oz-2008-c",
+              "price": "$295.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2004",
+              "price_history": [
+                {
+                  "price": "$295.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2004"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|mcclellandsyriansuperbalkan50g2006c",
+      "brand": "",
+      "blend": "",
+      "display_name": "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-syrian-super-balkan-50g-2006-c",
+              "price": "$295.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2006",
+              "price_history": [
+                {
+                  "price": "$295.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2006"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "mcconnell|haddosdelight",
       "brand": "McConnell",
       "blend": "Haddo's Delight",
@@ -25521,6 +26283,44 @@
       ],
       "years": [
         "1992"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|pccafullbalkanreserve2000c",
+      "brand": "",
+      "blend": "",
+      "display_name": "PCCA: FULL BALKAN RESERVE 2000 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "PCCA: FULL BALKAN RESERVE 2000 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/pcca-full-balkan-reserve-1994-c",
+              "price": "$285.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2000",
+              "price_history": [
+                {
+                  "price": "$285.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2000"
       ],
       "source": "4noggins.com"
     },
@@ -30669,6 +31469,82 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|4nogginscom|samuelgawith1792flake50g2016c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Samuel Gawith: 1792 FLAKE 50g 2016 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Samuel Gawith: 1792 FLAKE 50g 2016 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/samuel-gawith-1792-flake-50g-1",
+              "price": "$165.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$165.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "solo|4nogginscom|samuelgawithfullvirginiaflake50g2011c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/samuel-gawith-full-virginia-flake-50g-2011-c",
+              "price": "$175.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2011",
+              "price_history": [
+                {
+                  "price": "$175.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2011"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "sasieni|balkan",
       "brand": "Sasieni",
       "blend": "Balkan",
@@ -35012,6 +35888,44 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|4nogginscom|wessexgoldslice15oz2012c",
+      "brand": "",
+      "blend": "",
+      "display_name": "Wessex: GOLD SLICE 1.5oz 2012 - C",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.5oz",
+          "members": [
+            {
+              "name": "Wessex: GOLD SLICE 1.5oz 2012 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/wessex-gold-slice-1-5oz-2012-c",
+              "price": "$110.00",
+              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "first_seen": "2026-06-25T15:14:21.789530+00:00",
+              "year": "2012",
+              "price_history": [
+                {
+                  "price": "$110.00",
+                  "date": "2026-06-25T15:14:21.789530+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "whitehall|whitehall",
       "brand": "Whitehall",
       "blend": "Whitehall",
@@ -35319,9 +36233,33 @@
     "Esoterica: MARGATE 2oz - C": "esoterica|margate",
     "Esoterica: MARGATE 8oz - C": "esoterica|margate",
     "Esoterica: ST. IVES 8oz - C": "esoterica|stives",
+    "Balkan Sobranie: BALKAN SOBRANIE 50g -C": "jfgermain|balkansobranie",
+    "Butera: PELICAN 2014 2oz - C": "butera|pelican",
+    "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C": "solo|4nogginscom|astleysno44darkvirginiaflake50g2014c",
+    "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C": "solo|4nogginscom|astleysno88matureddarkvirginia50g2008c",
+    "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C": "solo|4nogginscom|cornelldiehlsmallbatchcarolinaredflake2oz2017c",
+    "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C": "solo|4nogginscom|cornelldiehlspcom20thanniversaryxxflakedark2oz2020c",
+    "Davidoff: RED MIXTURE 50g 2015 - C": "solo|4nogginscom|davidoffredmixture50g2015c",
+    "Dunhill: MY MIXTURE 965 50g 2005 - C": "solo|4nogginscom|dunhillmymixture96550g2005c",
+    "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C": "solo|4nogginscom|dunhillstandardmixturemellow50g2005c",
+    "J.F. Germain: BROWN FLAKE 50g - C": "solo|4nogginscom|jfgermainbrownflake50gc",
+    "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C": "solo|4nogginscom|jfgermainroyaljerseycavendishvirginia50gc",
+    "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C": "solo|4nogginscom|macbarenhhpurevirginia175oz2021c",
+    "McClelland: DARK STAR 100g 2016 - C": "solo|4nogginscom|mcclellanddarkstar100g2016c",
+    "McClelland: FROG MORTON'S CELLAR 100g 2018 -C": "solo|4nogginscom|mcclellandfrogmortonscellar100g2018c",
+    "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C": "solo|4nogginscom|mcclellandgrandorientalskateriniclassic50g2017c",
+    "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C": "solo|4nogginscom|mcclellandno22maturedvirginia100g2017c",
+    "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C": "solo|4nogginscom|mcclellandno24maturedvirginia50g2014c",
+    "McClelland: NO. 24 VIRGINIA 100g 2016- C": "solo|4nogginscom|mcclellandno24virginia100g2016c",
+    "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C": "solo|4nogginscom|mcclellandno27maturedvirginia100g2017c",
+    "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C": "solo|4nogginscom|mcclellandsyrianfullbalkan2oz2004c",
+    "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C": "solo|4nogginscom|mcclellandsyriansuperbalkan50g2006c",
+    "PCCA: FULL BALKAN RESERVE 2000 - C": "solo|4nogginscom|pccafullbalkanreserve2000c",
+    "Samuel Gawith: 1792 FLAKE 50g 2016 - C": "solo|4nogginscom|samuelgawith1792flake50g2016c",
+    "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C": "solo|4nogginscom|samuelgawithfullvirginiaflake50g2011c",
+    "Wessex: GOLD SLICE 1.5oz 2012 - C": "solo|4nogginscom|wessexgoldslice15oz2012c",
     "Esoterica: TILBURY 2oz - C": "esoterica|tilbury",
     "Esoterica: TILBURY 8oz. 2018 - C": "esoterica|tilbury",
-    "Balkan Sobranie: BALKAN SOBRANIE 50g -C": "jfgermain|balkansobranie",
     "Esoterica: DORCHESTER 8oz - C": "solo|4nogginscom|esotericadorchester8ozc",
     "Esoterica: PEACEHAVEN 8oz - C": "solo|4nogginscom|esotericapeacehaven8ozc",
     "Esoterica: DUNBAR 8oz - C": "esoterica|dunbar",
@@ -35353,7 +36291,6 @@
     "Butera: DARK STOVED 50g 2017 - C": "butera|darkstoved",
     "Butera: GOLDEN CAKE 50g 2017 - C": "butera|goldencake",
     "Butera: MATURED RIBBON 50g 2017 - C": "butera|maturedribbon",
-    "Butera: PELICAN 2014 2oz - C": "butera|pelican",
     "CAO: MOONTRANCE 50g 2011 - C": "cao|moontrance",
     "Capstan: FLAKE GOLD 50g 2013 - C": "capstan|flakegold",
     "Capstan: NAVY CUT MILD 50g 1999 - C": "capstan|navycutmild",
