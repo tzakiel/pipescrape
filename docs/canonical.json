@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-24T19:46:04.717301+00:00",
+  "generated": "2026-06-25T04:05:34.831999+00:00",
   "stats": {
-    "total_listings": 1650,
+    "total_listings": 1659,
     "excluded_multipacks": 537,
-    "total_tins": 705,
-    "multi_member_tins": 199,
-    "listings_in_groups": 607,
+    "total_tins": 709,
+    "multi_member_tins": 200,
+    "listings_in_groups": 613,
     "cross_source_tins": 105
   },
   "tins": [
@@ -48,6 +48,158 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
+      "id": "solo|tinbidsauctionsold|2008mcclellandgrandorientalsdramareserveapprox16ounces",
+      "brand": "",
+      "blend": "",
+      "display_name": "2008 McCLELLAND GRAND ORIENTALS DRAMA RESERVE approx. 1.6 ounces",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.6oz",
+          "members": [
+            {
+              "name": "2008 McCLELLAND GRAND ORIENTALS DRAMA RESERVE approx. 1.6 ounces",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196165/",
+              "price": "$36.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T22:45:37+00:00",
+              "year": "2008",
+              "price_history": [
+                {
+                  "price": "$36.00",
+                  "date": "2026-06-24T22:45:37+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2008"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|2010peterheinrichsno169approx34ounces",
+      "brand": "",
+      "blend": "",
+      "display_name": "2010 PETER HEINRICHS No. 169 approx. 3.4 ounces",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "3.4oz",
+          "members": [
+            {
+              "name": "2010 PETER HEINRICHS No. 169 approx. 3.4 ounces",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196183/",
+              "price": "$36.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T22:57:33+00:00",
+              "year": "2010",
+              "price_history": [
+                {
+                  "price": "$36.00",
+                  "date": "2026-06-24T22:57:33+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2010"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|2012mcclellandgrandorientalyenidjehighlanderapprox19ounces",
+      "brand": "",
+      "blend": "",
+      "display_name": "2012 McCLELLAND GRAND ORIENTAL YENIDJE HIGHLANDER approx. 1.9 ounces",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.9oz",
+          "members": [
+            {
+              "name": "2012 McCLELLAND GRAND ORIENTAL YENIDJE HIGHLANDER approx. 1.9 ounces",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196156/",
+              "price": "$31.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T22:41:25+00:00",
+              "year": "2012",
+              "price_history": [
+                {
+                  "price": "$31.00",
+                  "date": "2026-06-24T22:41:25+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|2017frogmortononthelog50gram",
+      "brand": "",
+      "blend": "",
+      "display_name": "2017 Frog Morton on the log 50 gram",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "2017 Frog Morton on the log 50 gram",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/198363/",
+              "price": "$100.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T20:11:05+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$100.00",
+                  "date": "2026-06-24T20:11:05+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "solo|tinbidsauctionsold|2019perjensenbirdblendsuno50g",
       "brand": "",
       "blend": "",
@@ -82,6 +234,44 @@
       ],
       "years": [
         "2019"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|4nogginsbaldheadedteacher2017921grams",
+      "brand": "",
+      "blend": "",
+      "display_name": "4noggins Bald Headed Teacher 2017 - 92.1 grams",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "1g",
+          "members": [
+            {
+              "name": "4noggins Bald Headed Teacher 2017 - 92.1 grams",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196224/",
+              "price": "$25.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-25T00:44:05+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-25T00:44:05+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
       ],
       "source": "Tinbids Auction (Sold)"
     },
@@ -7026,6 +7216,44 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "dunhill|965201250g",
+      "brand": "Dunhill",
+      "blend": "965 2012 50g",
+      "display_name": "Dunhill 965 2012 50g",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Dunhill 965 2012 50g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/tossed-salad-of-a-sale.43263/",
+              "price": "$45",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-27T23:29:03+00:00",
+              "year": "2012",
+              "price_history": [
+                {
+                  "price": "$45",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2012"
+      ],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "dunhill|aperitif",
       "brand": "Dunhill",
       "blend": "Aperitif",
@@ -7285,232 +7513,6 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
-      "id": "dunhill|dunhill965201250g",
-      "brand": "Dunhill",
-      "blend": "Dunhill 965 2012 50g",
-      "display_name": "Dunhill Dunhill 965 2012 50g",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Dunhill 965 2012 50g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/tossed-salad-of-a-sale.43263/",
-              "price": "$45",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-27T23:29:03+00:00",
-              "year": "2012",
-              "price_history": [
-                {
-                  "price": "$45",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2012"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dunhill|dunhillelizabethan",
-      "brand": "Dunhill",
-      "blend": "Dunhill Elizabethan",
-      "display_name": "Dunhill Dunhill Elizabethan",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Dunhill Elizabethan",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/something-for-everyone-now-open-to-non-verified.43812/",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-01-13T23:29:24+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                },
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dunhill|dunhillnightcap09201890g",
-      "brand": "Dunhill",
-      "blend": "Dunhill Nightcap 09/2018                       90g",
-      "display_name": "Dunhill Dunhill Nightcap 09/2018                       90g",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "90g",
-          "members": [
-            {
-              "name": "Dunhill Nightcap 09/2018                       90g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/heaps.44351/",
-              "price": "$17",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-04-16T17:02:02+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$17",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2018"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dunhill|dunhillreadyrubbed25g",
-      "brand": "Dunhill",
-      "blend": "Dunhill Ready Rubbed 25g",
-      "display_name": "Dunhill Dunhill Ready Rubbed 25g",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "25g",
-          "members": [
-            {
-              "name": "Dunhill Ready Rubbed 25g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/partial-cellar-sell-off.41910/",
-              "price": "$7",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-02-21T23:49:21+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$7",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dunhill|dunhillshell327opera1963",
-      "brand": "Dunhill",
-      "blend": "Dunhill Shell 327 Opera 1963",
-      "display_name": "Dunhill Dunhill Shell 327 Opera 1963",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Dunhill Shell 327 Opera 1963",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/post-depression-pipes-and-flakes-bright-cr-glengarry-2025-11-03-price-drop.43262/",
-              "price": "$225",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-27T21:00:57+00:00",
-              "year": "1963",
-              "price_history": [
-                {
-                  "price": "$225",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "1963"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dunhill|dunhillyeoldesigne",
-      "brand": "Dunhill",
-      "blend": "Dunhill Ye Olde Signe",
-      "display_name": "Dunhill Dunhill Ye Olde Signe",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Dunhill Ye Olde Signe",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-02-09T04:02:43+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "dunhill|durbar",
       "brand": "Dunhill",
       "blend": "Durbar",
@@ -7582,6 +7584,46 @@
         "2014"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "dunhill|elizabethan",
+      "brand": "Dunhill",
+      "blend": "Elizabethan",
+      "display_name": "Dunhill Elizabethan",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Dunhill Elizabethan",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/something-for-everyone-now-open-to-non-verified.43812/",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-01-13T23:29:24+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "dunhill|elizabethanmixture",
@@ -8194,6 +8236,29 @@
           ]
         },
         {
+          "quantity": "90g",
+          "members": [
+            {
+              "name": "Dunhill Nightcap 09/2018                       90g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/heaps.44351/",
+              "price": "$17",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-04-16T17:02:02+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
           "quantity": "",
           "members": [
             {
@@ -8241,6 +8306,42 @@
       "source": "Multiple sources"
     },
     {
+      "id": "dunhill|readyrubbed",
+      "brand": "Dunhill",
+      "blend": "Ready Rubbed",
+      "display_name": "Dunhill Ready Rubbed",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "25g",
+          "members": [
+            {
+              "name": "Dunhill Ready Rubbed 25g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/partial-cellar-sell-off.41910/",
+              "price": "$7",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-02-21T23:49:21+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$7",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "dunhill|royalyacht",
       "brand": "Dunhill",
       "blend": "Royal Yacht",
@@ -8277,6 +8378,44 @@
         "2018"
       ],
       "source": "4noggins.com"
+    },
+    {
+      "id": "dunhill|shell327opera",
+      "brand": "Dunhill",
+      "blend": "Shell 327 Opera",
+      "display_name": "Dunhill Shell 327 Opera",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Dunhill Shell 327 Opera 1963",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/post-depression-pipes-and-flakes-bright-cr-glengarry-2025-11-03-price-drop.43262/",
+              "price": "$225",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-27T21:00:57+00:00",
+              "year": "1963",
+              "price_history": [
+                {
+                  "price": "$225",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "1963"
+      ],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "dunhill|standardmixturemedium",
@@ -8437,7 +8576,8 @@
       "display_name": "Dunhill Ye Olde Signe",
       "sources": [
         "Tinbids Auction (Sold)",
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -8484,6 +8624,29 @@
           ],
           "sources": [
             "4noggins.com"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Dunhill Ye Olde Signe",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-02-09T04:02:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -9145,6 +9308,44 @@
         "2013"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|esotericadorchester8ozbag2oztin2018",
+      "brand": "",
+      "blend": "",
+      "display_name": "Esoterica Dorchester 8oz Bag & 2oz Tin 2018",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "8oz",
+          "members": [
+            {
+              "name": "Esoterica Dorchester 8oz Bag & 2oz Tin 2018",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196117/",
+              "price": "$700.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T20:58:40+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$700.00",
+                  "date": "2026-06-24T20:58:40+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "esoterica|dunbar",
@@ -15989,6 +16190,25 @@
           "quantity": "",
           "members": [
             {
+              "name": "Germains Balkan Sobranie",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
+              "price": "$25",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-02-09T04:02:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
               "name": "Balkan Sobranie - 2020-2021?",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/rare-discontinued-stuff-fund-my-cannon-build.44610/unread",
@@ -16013,46 +16233,6 @@
         "2020"
       ],
       "source": "Multiple sources"
-    },
-    {
-      "id": "jfgermain|balkansobraniemixture",
-      "brand": "J.F. Germain",
-      "blend": "Balkan Sobranie Mixture",
-      "display_name": "J.F. Germain Balkan Sobranie Mixture",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Germains Balkan Sobranie",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
-              "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-02-09T04:02:43+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                },
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
     },
     {
       "id": "jfgermain|bridgeoldbrownflake",
@@ -17417,6 +17597,44 @@
       ],
       "years": [],
       "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|kenbyronventureskbvredforestphenomenon2021813grams",
+      "brand": "",
+      "blend": "",
+      "display_name": "Ken Byron Ventures KBV Red Forest Phenomenon 2021 - 81.3 grams",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "3g",
+          "members": [
+            {
+              "name": "Ken Byron Ventures KBV Red Forest Phenomenon 2021 - 81.3 grams",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196220/",
+              "price": "$32.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-25T00:41:27+00:00",
+              "year": "2021",
+              "price_history": [
+                {
+                  "price": "$32.00",
+                  "date": "2026-06-25T00:41:27+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "kenbyronventures|plaguebringer",
@@ -21713,6 +21931,44 @@
         "2017"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "solo|tinbidsauctionsold|mcclellandchristmascheer2016",
+      "brand": "",
+      "blend": "",
+      "display_name": "McCLELLAND CHRISTMAS CHEER 2016",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "McCLELLAND CHRISTMAS CHEER 2016",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196152/",
+              "price": "$180.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-24T22:35:45+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$180.00",
+                  "date": "2026-06-24T22:35:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "mcclelland|cpccrichvirginiaribbon",
@@ -30710,42 +30966,6 @@
       "source": "pipestud.com"
     },
     {
-      "id": "scandinaviantobaccogroup|balkansasieni",
-      "brand": "Scandinavian Tobacco Group",
-      "blend": "Balkan Sasieni",
-      "display_name": "Scandinavian Tobacco Group Balkan Sasieni",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Balkan Sasieni ? not sure of year?",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/tinstravaganza-lots-of-shit-reel-cheep-price-drops.40673/",
-              "price": "$11",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2024-07-19T05:09:22+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$11",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "seattlepipeclub|mississippiriver",
       "brand": "Seattle Pipe Club",
       "blend": "Mississippi River",
@@ -31556,6 +31776,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Balkan Sasieni ? not sure of year?",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/tinstravaganza-lots-of-shit-reel-cheep-price-drops.40673/",
+              "price": "$11",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2024-07-19T05:09:22+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
             {
               "name": "x Balkan Sasieni (2019)",
               "source": "Speak-Easy.Club",
@@ -33278,6 +33513,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|tinbidsauctionsold|unopened1970smurraysirishwhiskeyblend6ozbelfastcomplimentarysamplingtin",
+      "brand": "",
+      "blend": "",
+      "display_name": "Unopened 1970s Murray’s Irish Whiskey Blend 6 oz Belfast Complimentary Sampling Tin",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "6oz",
+          "members": [
+            {
+              "name": "Unopened 1970s Murray’s Irish Whiskey Blend 6 oz Belfast Complimentary Sampling Tin",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196237/",
+              "price": "$175.00",
+              "last_updated": "2026-06-25T04:00:27.332683+00:00",
+              "first_seen": "2026-06-25T02:54:08+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$175.00",
+                  "date": "2026-06-25T02:54:08+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "vanrossem|schipperstabak",
       "brand": "Van Rossem",
       "blend": "Schippers Tabak",
@@ -33782,10 +34053,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "watchcitycigars|deluxecrumbcut",
-      "brand": "Watch City Cigars",
+      "id": "watchcity|deluxecrumbcut",
+      "brand": "Watch City",
       "blend": "Deluxe Crumb Cut",
-      "display_name": "Watch City Cigars Deluxe Crumb Cut",
+      "display_name": "Watch City Deluxe Crumb Cut",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -33817,139 +34088,6 @@
       "years": [
         "2020"
       ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "watchcitycigars|rouxgaroux",
-      "brand": "Watch City Cigars",
-      "blend": "Rouxgaroux",
-      "display_name": "Watch City Cigars Rouxgaroux",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "1oz",
-          "members": [
-            {
-              "name": "Some dry ass WCC Rouxgaroux - ~1 oz",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/buncha-random-tobacco-sealed-and-unsealed-2-cobs.44061/",
-              "price": "$3",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-02-28T22:25:02+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$3",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "watchcitycigars|simplyred",
-      "brand": "Watch City Cigars",
-      "blend": "Simply Red",
-      "display_name": "Watch City Cigars Simply Red",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "112g",
-          "members": [
-            {
-              "name": "Watch City Simply Red 112g 2021",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/bulk-cellar-sale-v2-0h.41704/",
-              "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-01-15T00:18:15+00:00",
-              "year": "2021",
-              "price_history": [
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "171g",
-          "members": [
-            {
-              "name": "W.C. Simply red '19 171g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-thinning.43230/",
-              "price": "$45",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-23T01:12:00+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$45",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2021"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "watchcitycigars|strangemagic",
-      "brand": "Watch City Cigars",
-      "blend": "Strange Magic",
-      "display_name": "Watch City Cigars Strange Magic",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "4oz",
-          "members": [
-            {
-              "name": "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone’s interested",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/moonshine-pipes.43611/",
-              "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-12-11T03:15:57+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -34076,6 +34214,29 @@
       ],
       "sizes": [
         {
+          "quantity": "1oz",
+          "members": [
+            {
+              "name": "Some dry ass WCC Rouxgaroux - ~1 oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/buncha-random-tobacco-sealed-and-unsealed-2-cobs.44061/",
+              "price": "$3",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-02-28T22:25:02+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$3",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
           "quantity": "6.9oz",
           "members": [
             {
@@ -34126,6 +34287,103 @@
         "2024",
         "2025"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "watchcity|simplyred",
+      "brand": "Watch City",
+      "blend": "Simply Red",
+      "display_name": "Watch City Simply Red",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "112g",
+          "members": [
+            {
+              "name": "Watch City Simply Red 112g 2021",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/bulk-cellar-sale-v2-0h.41704/",
+              "price": "$25",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-01-15T00:18:15+00:00",
+              "year": "2021",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "171g",
+          "members": [
+            {
+              "name": "W.C. Simply red '19 171g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-thinning.43230/",
+              "price": "$45",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-23T01:12:00+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2021"
+      ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "watchcity|strangemagic",
+      "brand": "Watch City",
+      "blend": "Strange Magic",
+      "display_name": "Watch City Strange Magic",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "4oz",
+          "members": [
+            {
+              "name": "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone’s interested",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/moonshine-pipes.43611/",
+              "price": "$25",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-12-11T03:15:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -34870,6 +35128,15 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "macbaren|darktwistrollcake",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "vanrossem|schipperstabak",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "theodorusniemeyer|flyingdutchman",
+    "2017 Frog Morton on the log 50 gram": "solo|tinbidsauctionsold|2017frogmortononthelog50gram",
+    "Esoterica Dorchester 8oz Bag & 2oz Tin 2018": "solo|tinbidsauctionsold|esotericadorchester8ozbag2oztin2018",
+    "McCLELLAND CHRISTMAS CHEER 2016": "solo|tinbidsauctionsold|mcclellandchristmascheer2016",
+    "2012 McCLELLAND GRAND ORIENTAL YENIDJE HIGHLANDER approx. 1.9 ounces": "solo|tinbidsauctionsold|2012mcclellandgrandorientalyenidjehighlanderapprox19ounces",
+    "2008 McCLELLAND GRAND ORIENTALS DRAMA RESERVE approx. 1.6 ounces": "solo|tinbidsauctionsold|2008mcclellandgrandorientalsdramareserveapprox16ounces",
+    "2010 PETER HEINRICHS No. 169 approx. 3.4 ounces": "solo|tinbidsauctionsold|2010peterheinrichsno169approx34ounces",
+    "Ken Byron Ventures KBV Red Forest Phenomenon 2021 - 81.3 grams": "solo|tinbidsauctionsold|kenbyronventureskbvredforestphenomenon2021813grams",
+    "4noggins Bald Headed Teacher 2017 - 92.1 grams": "solo|tinbidsauctionsold|4nogginsbaldheadedteacher2017921grams",
+    "Unopened 1970s Murray’s Irish Whiskey Blend 6 oz Belfast Complimentary Sampling Tin": "solo|tinbidsauctionsold|unopened1970smurraysirishwhiskeyblend6ozbelfastcomplimentarysamplingtin",
     "McClelland Tastemaster 2013": "solo|tinbidsauctionsold|mcclellandtastemaster2013",
     "Lot of Christmas Cheer 2016, 2017, and Anniversary 2010": "solo|tinbidsauctionsold|lotofchristmascheer20162017andanniversary2010",
     "Dunhill De Luxe Navy Rolls 2014": "solo|tinbidsauctionsold|dunhilldeluxenavyrolls2014",
@@ -35372,7 +35639,7 @@
     "C&D Old Joe Krantz 07/2020                 38g": "cornelldiehl|oldjoekrantz",
     "C&D Old Joe Krantz 07/2020                 44g": "cornelldiehl|oldjoekrantz",
     "C&D Wintertime Reserve 11/2022          36g": "cornelldiehl|wintertimereserve",
-    "Dunhill Nightcap 09/2018                       90g": "dunhill|dunhillnightcap09201890g",
+    "Dunhill Nightcap 09/2018                       90g": "dunhill|nightcap",
     "G&H Scotch Flake 06/2020                    25g": "gawithhoggarthco|scotchflake",
     "H&H White Knight 11/2018                      45g": "hearthhome|whiteknight",
     "MacBaren Plumcake 07/2020                  26g": "macbaren|plumcake",
@@ -35381,7 +35648,7 @@
     "Samuel Gawith Balkan Flake 12/2020       62g": "samuelgawith|balkanflake",
     "Samuel Gawith Commonwealth 10/2020  45g": "samuelgawith|commonwealth",
     "Samuel Gawith Grousemoor 07/2020        26g": "samuelgawith|grousemoor",
-    "Watch City Deluxe Crumb Cut 02/2020 36g": "watchcitycigars|deluxecrumbcut",
+    "Watch City Deluxe Crumb Cut 02/2020 36g": "watchcity|deluxecrumbcut",
     "HH Latakia Flake 100g 2018": "macbaren|hhlatakiaflake",
     "Best Brown Flake 50g 2018": "gawithhoggarthco|bestbrownflake",
     "Full Virginia Flake 50g 2018 x1": "samuelgawith|fullvirginiaflake",
@@ -35447,7 +35714,7 @@
     "lb bag of 515 RC-1": "sutliff|515rc1",
     "Viprati": "hearthhome|viprati",
     "x Gold Slice": "wessex|goldslice",
-    "Dunhill Elizabethan": "dunhill|dunhillelizabethan",
+    "Dunhill Elizabethan": "dunhill|elizabethan",
     "4th Gen 1989": "erikstokebye|4thgeneration1989",
     "Peterson 3p 2021": "peterson|threeps",
     "Peterson Signature Flake": "peterson|signatureflake",
@@ -35462,7 +35729,7 @@
     "Tin Cult Abacus 2019 - 1.25 oz": "cult|abacus",
     "Tin Ole Shenandoah Appalachian Berry 2014 - 1.5 oz": "oleshenandoah|appalachianberry",
     "BULK Peterson Summertime 2021 - 90 g": "peterson|bulkpetersonsummertime202190g",
-    "Some dry ass WCC Rouxgaroux - ~1 oz": "watchcitycigars|rouxgaroux",
+    "Some dry ass WCC Rouxgaroux - ~1 oz": "watchcity|rouxgaroux",
     "Jarred KBV Samsun and Delilah 1+ oz": "kenbyronventures|samsunanddelilah",
     "Opened Mylar KBV Mr. Christian's Scare o'matic Licorice Cream - 1+ oz": "kohlhasekoppvoss|mrchristiansscareomaticlicoricecream",
     "Mississippi Mud (2023) - 8oz": "cornelldiehl|mississippimud",
@@ -35515,7 +35782,7 @@
     "*sold*Cap Blue '24": "capstan|blue",
     "*sold*SJF '24": "samuelgawith|stjamesflake",
     "FVF '24": "samuelgawith|fullvirginiaflake",
-    "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone’s interested": "watchcitycigars|strangemagic",
+    "Sold-Also have a sealed an 4oz bag of Watch City Cigars limited release Strange Magic flake if anyone’s interested": "watchcity|strangemagic",
     "(ThreeOne) 2014 3 Oaks English Blend 50g Tin": "mcclelland|3oaksenglishblend",
     "SOLD(One) 2017 Tudor Castle 50g Tin": "mcclelland|tudorcastle",
     "SOLD(One) 2017 Balkan Blue 40g Tin": "mcclelland|balkanblue",
@@ -35651,7 +35918,7 @@
     "Sold Westminster (small dent on bottom corner, seal is fine)": "glpease|westminster",
     "SOLD Telegraph Hill": "glpease|telegraphhill",
     "SOLD Plum Pudding Bourbon Barrel Aged 11/2020": "seattlepipeclub|plumpuddingbourbonbarrelaged",
-    "Dunhill Shell 327 Opera 1963": "dunhill|dunhillshell327opera1963",
+    "Dunhill Shell 327 Opera 1963": "dunhill|shell327opera",
     "x 2006 McC Dominican glory 50g": "mcclelland|dominicanglory",
     "x 2013 McC Dominican Glory 50g": "mcclelland|dominicanglory",
     "H&H AJ’s Vaper  2017": "hearthhome|ajsvaper",
@@ -35660,7 +35927,7 @@
     "Scottish Cake 2022 50g": "robertmcconnell|scottishcake",
     "Phantom Cake 2022(?) 50g": "sutliff|no6phantom",
     "Burley Slice 2020 50g": "wessex|burleyslice",
-    "Dunhill 965 2012 50g": "dunhill|dunhill965201250g",
+    "Dunhill 965 2012 50g": "dunhill|965201250g",
     "St Bruno 2018 50g": "stbruno|stbruno",
     "red Virginias crumble 21 50g": "sutliff|crumblekakeredvirginias",
     "Patriot Flake 21 50g": "samuelgawith|patriotflake",
@@ -35671,7 +35938,7 @@
     "Artifact OG not sure on age 87g": "solo|speakeasyclub|artifactognotsureonage87g",
     "Hellstar Plaguebringer OG 63g": "kenbyronventures|plaguebringer",
     "G.H & Co. Broken Scotch flake? '19 153g": "gawithhoggarthco|brokenscotchflake",
-    "W.C. Simply red '19 171g": "watchcitycigars|simplyred",
+    "W.C. Simply red '19 171g": "watchcity|simplyred",
     "x 2010  100g HH Mature Va": "hearthhome|matureva",
     "x 2019 50g HH Acadian $": "hearthhome|acadian",
     "x 2021 Cringle Flake": "sutliff|cringleflake",
@@ -35728,7 +35995,7 @@
     "Hearth and Home Country Lane 2017 missing one bowl zip and full tin": "hearthhome|countrylane",
     "Crumble Cake 2020 44g": "cornelldiehl|crumblekake",
     "Stokkebye Luxury bullseye flake 1.75oz 2018": "peterstokkebye|luxurybullseyeflake",
-    "Dunhill Ready Rubbed 25g": "dunhill|dunhillreadyrubbed25g",
+    "Dunhill Ready Rubbed 25g": "dunhill|readyrubbed",
     "Luxury Navy flake 2oz (or 400, says both but crossed off on label). Bought this before I moved, so at least 2017, unopened": "peterstokkebye|luxurynavyflake",
     "Newminster 400 2oz 2016 (unopened)": "newminster|no400superiornavyflake",
     "C&D Golden Days of Yore 1oz": "cornelldiehl|goldendaysofyore",
@@ -35790,18 +36057,18 @@
     "McClellands Dark Star 50g": "mcclelland|darkstar",
     "McClellands No. 24 100g": "mcclelland|no24",
     "Peter Heinrichs Golden Sliced 100g": "peterheinrichs|goldensliced",
-    "Germains Balkan Sobranie": "jfgermain|balkansobraniemixture",
+    "Germains Balkan Sobranie": "jfgermain|balkansobranie",
     "Esoterica Dorchester 2oz": "esoterica|dorchester",
     "Esoterica Dunbar 2oz": "esoterica|dunbar",
     "Esoterica ASTB 2oz": "esoterica|andsotobed",
-    "Dunhill Ye Olde Signe": "dunhill|dunhillyeoldesigne",
+    "Dunhill Ye Olde Signe": "dunhill|yeoldesigne",
     "SG Best Brown 250g 2020": "samuelgawith|bestbrownflake",
     "Gawith Bright CR 140g 2021": "gawithhoggarthco|brightcr",
     "Comoy’s #7 113g 2020": "comoys|caskno7",
     "Gawith Conniston 238g 2021": "gawithhoggarthco|conistoncutplug",
     "HU Krater Plug 265g 2019": "hutobacco|kraterplug",
     "SG RB plug 182g": "samuelgawith|rbplug",
-    "Watch City Simply Red 112g 2021": "watchcitycigars|simplyred",
+    "Watch City Simply Red 112g 2021": "watchcity|simplyred",
     "MB HH Mature Virginia 108g 2012": "macbaren|hhmaturevirginia",
     "MB HH Mature Virginia 96g 2010": "macbaren|hhmaturevirginia",
     "MB HH Burley 250g 2018": "macbaren|hhburleyflake",
@@ -35894,7 +36161,7 @@
     "Peterson De luxe navy rolls": "peterson|deluxenavyrolls",
     "Peterson 3 ps": "peterson|threeps",
     "St Bruno Flake 2021": "stbruno|stbrunoflake",
-    "Balkan Sasieni ? not sure of year?": "scandinaviantobaccogroup|balkansasieni",
+    "Balkan Sasieni ? not sure of year?": "stg|balkansasieni",
     "Fribourg and Treyer 34th 2021": "fribourgtreyer|34thanniversary",
     "Cringle Flake 2023": "sutliff|cringleflake",
     "Lane Andullo (Discontinued) year?": "lanelimited|andullo",
