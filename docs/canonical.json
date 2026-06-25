@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-25T19:16:17.257825+00:00",
+  "generated": "2026-06-25T20:31:50.088595+00:00",
   "stats": {
-    "total_listings": 1694,
+    "total_listings": 1699,
     "excluded_multipacks": 541,
-    "total_tins": 740,
-    "multi_member_tins": 200,
-    "listings_in_groups": 613,
+    "total_tins": 739,
+    "multi_member_tins": 198,
+    "listings_in_groups": 617,
     "cross_source_tins": 105
   },
   "tins": [
@@ -7918,7 +7918,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/something-for-everyone-now-open-to-non-verified.43812/",
               "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-01-13T23:29:24+00:00",
               "year": "",
               "price_history": [
@@ -7929,6 +7929,14 @@
                 {
                   "price": "$20",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
                 }
               ]
             }
@@ -12523,7 +12531,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/beefy-meaty-wall-of-what-not-for-sale.43358/",
               "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2025-11-08T11:44:22+00:00",
               "year": "",
               "price_history": [
@@ -12534,6 +12542,14 @@
                 {
                   "price": "$30",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
                 }
               ]
             }
@@ -14480,7 +14496,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/unread",
               "price": "$26",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-06-19T23:39:02+00:00",
               "year": "",
               "price_history": [
@@ -14491,6 +14507,14 @@
                 {
                   "price": "$26",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$10",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
+                },
+                {
+                  "price": "$26",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
                 }
               ]
             }
@@ -14592,7 +14616,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/unread",
               "price": "$8",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-06-19T23:39:02+00:00",
               "year": "",
               "price_history": [
@@ -14603,6 +14627,14 @@
                 {
                   "price": "$8",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$13",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
+                },
+                {
+                  "price": "$8",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
                 }
               ]
             }
@@ -14918,6 +14950,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|speakeasyclub|grainger12ozsealedtub",
+      "brand": "",
+      "blend": "",
+      "display_name": "Grainger, 12oz sealed tub,",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "12oz",
+          "members": [
+            {
+              "name": "Grainger, 12oz sealed tub,",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "price": "$55",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-24T14:49:03+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2026-06-24T14:49:03+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "halfandhalf|halfhalf",
       "brand": "Half and Half",
       "blend": "Half & Half",
@@ -15009,44 +15077,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "hearthhome|acadian",
-      "brand": "Hearth & Home",
-      "blend": "Acadian",
-      "display_name": "Hearth & Home Acadian",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "x 2019 50g HH Acadian $",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
-              "price": "$35",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-10T18:26:23+00:00",
-              "year": "2019",
-              "price_history": [
-                {
-                  "price": "$35",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2019"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "hearthhome|acadiangold",
       "brand": "Hearth & Home",
       "blend": "Acadian Gold",
@@ -15080,138 +15110,6 @@
         }
       ],
       "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "hearthhome|acadianperique",
-      "brand": "Hearth & Home",
-      "blend": "Acadian Perique",
-      "display_name": "Hearth & Home Acadian Perique",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "1.3oz",
-          "members": [
-            {
-              "name": "HH Acadian Perique 1.3oz  2015",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
-              "price": "$35",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-06-22T01:38:34+00:00",
-              "year": "2015",
-              "price_history": [
-                {
-                  "price": "$35",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "1.75oz",
-          "members": [
-            {
-              "name": "x HH Acadian Perique 1.75 oz 2019",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-07-09T13:52:02+00:00",
-              "year": "2019",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "HH Acadian Perique 50g 2018",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
-              "price": "$12",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2020-09-24T01:30:04+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$12",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "HH Acadian Perique, jarred 2019 (unopened) 2oz",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/partial-cellar-sell-off.41910/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-02-21T23:49:21+00:00",
-              "year": "2019",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "100g",
-          "members": [
-            {
-              "name": "x HHAcadian Perique 100g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
-              "price": "$45",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-07-09T13:52:02+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$45",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2015",
-        "2018",
-        "2019"
-      ],
       "source": "Speak-Easy.Club"
     },
     {
@@ -15379,44 +15277,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "hearthhome|boldkentucky",
-      "brand": "Hearth & Home",
-      "blend": "Bold Kentucky",
-      "display_name": "Hearth & Home Bold Kentucky",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "HH Bold Kentucky 50g 2015",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
-              "price": "$15",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2020-09-24T01:30:04+00:00",
-              "year": "2015",
-              "price_history": [
-                {
-                  "price": "$15",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2015"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "hearthhome|brightnight",
       "brand": "Hearth & Home",
       "blend": "Bright Night",
@@ -15475,21 +15335,6 @@
               "price_history": [
                 {
                   "price": "$45",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            },
-            {
-              "name": "x 2018 HH Burley Flake 100g’s",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/flash-sale.42149/",
-              "price": "$50",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-04-07T17:18:44+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$50",
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
@@ -15656,116 +15501,6 @@
         "2010"
       ],
       "source": "Tinbids Auction (Sold)"
-    },
-    {
-      "id": "hearthhome|matureva",
-      "brand": "Hearth & Home",
-      "blend": "Mature Va",
-      "display_name": "Hearth & Home Mature Va",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "100g",
-          "members": [
-            {
-              "name": "x 2010  100g HH Mature Va",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
-              "price": "$75",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-10T18:26:23+00:00",
-              "year": "2010",
-              "price_history": [
-                {
-                  "price": "$75",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2010"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "hearthhome|maturevirginia",
-      "brand": "Hearth & Home",
-      "blend": "Mature Virginia",
-      "display_name": "Hearth & Home Mature Virginia",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "100g",
-          "members": [
-            {
-              "name": "x HH Mature Virgina 100g tins",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
-              "price": "$55",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-07-09T13:52:02+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$55",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "hearthhome|olddarkfired",
-      "brand": "Hearth & Home",
-      "blend": "Old Dark Fired",
-      "display_name": "Hearth & Home Old Dark Fired",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "*sold*HH ODF '24",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/burnt-ends-open-to-unverified-odf-cap-burnt-ends.43744/",
-              "price": "$130",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-01-02T16:26:14+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$130",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
     },
     {
       "id": "hearthhome|oldkinderhook",
@@ -16074,6 +15809,42 @@
       "years": [
         "2018"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "solo|speakeasyclub|helloladiesandgermstodayihavealuxuriousvintagepipeingreatshapeforitsageiboughtthisoffebayafewyearsagoandneversmokeditimonlyaskingwhatipaidforit",
+      "brand": "",
+      "blend": "",
+      "display_name": "Hello ladies and germs, today I have a luxurious vintage pipe in great shape for its age. I bought this off eBay a few years ago and never smoked it. I’m only asking what I paid for it",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Hello ladies and germs, today I have a luxurious vintage pipe in great shape for its age. I bought this off eBay a few years ago and never smoked it. I’m only asking what I paid for it",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/vintage-bbb-91-smoking-pipe.44719/unread",
+              "price": "$200",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-25T13:57:54+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$200",
+                  "date": "2026-06-25T13:57:54+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -16512,6 +16283,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "solo|speakeasyclub|ihave4oftheconcavebrasstampersavailableifyoumissedoutontheplussyballnowisyourchanceidesignedthemwafriendwhofabricatedandfinishedthem",
+      "brand": "",
+      "blend": "",
+      "display_name": "I have 4 of the concave brass tampers available. If you missed out on the plussyball now is your chance. I designed them w a friend who fabricated and finished them",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "I have 4 of the concave brass tampers available. If you missed out on the plussyball now is your chance. I designed them w a friend who fabricated and finished them",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/brass-tampers-4-available.44690/unread",
+              "price": "$30",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-21T16:53:21+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-21T16:53:21+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "iwanries|threestarblue",
       "brand": "Iwan Ries",
       "blend": "Three Star Blue",
@@ -16670,7 +16477,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
               "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2025-02-09T04:02:43+00:00",
               "year": "",
               "price_history": [
@@ -16681,6 +16488,14 @@
                 {
                   "price": "$25",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-25T20:26:40.398134+00:00"
                 }
               ]
             },
@@ -19401,6 +19216,29 @@
       ],
       "sizes": [
         {
+          "quantity": "1.3oz",
+          "members": [
+            {
+              "name": "HH Acadian Perique 1.3oz  2015",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "price": "$35",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-06-22T01:38:34+00:00",
+              "year": "2015",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
           "quantity": "1.75oz",
           "members": [
             {
@@ -19414,6 +19252,82 @@
               "price_history": [
                 {
                   "price": "$35",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
+              "name": "x HH Acadian Perique 1.75 oz 2019",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-07-09T13:52:02+00:00",
+              "year": "2019",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "HH Acadian Perique 50g 2018",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
+              "price": "$12",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2020-09-24T01:30:04+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$12",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
+              "name": "x 2019 50g HH Acadian $",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
+              "price": "$35",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-10T18:26:23+00:00",
+              "year": "2019",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "HH Acadian Perique, jarred 2019 (unopened) 2oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/partial-cellar-sell-off.41910/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-02-21T23:49:21+00:00",
+              "year": "2019",
+              "price_history": [
+                {
+                  "price": "$30",
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
@@ -19450,6 +19364,21 @@
           "quantity": "100g",
           "members": [
             {
+              "name": "x HHAcadian Perique 100g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
+              "price": "$45",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-07-09T13:52:02+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
               "name": "Mac Baren: HH ACADIAN PERIQUE 100g 2020 - C",
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/mac-baren-hh-acadian-perique-100g",
@@ -19466,7 +19395,8 @@
             }
           ],
           "sources": [
-            "4noggins.com"
+            "4noggins.com",
+            "Speak-Easy.Club"
           ]
         },
         {
@@ -19494,9 +19424,50 @@
         }
       ],
       "years": [
+        "2015",
+        "2018",
+        "2019",
         "2020"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "macbaren|hhboldkentucky",
+      "brand": "Mac Baren",
+      "blend": "HH Bold Kentucky",
+      "display_name": "Mac Baren HH Bold Kentucky",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "HH Bold Kentucky 50g 2015",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
+              "price": "$15",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2020-09-24T01:30:04+00:00",
+              "year": "2015",
+              "price_history": [
+                {
+                  "price": "$15",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2015"
+      ],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "macbaren|hhburleyflake",
@@ -19521,6 +19492,29 @@
               "price_history": [
                 {
                   "price": "$35",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "100g",
+          "members": [
+            {
+              "name": "x 2018 HH Burley Flake 100g’s",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/flash-sale.42149/",
+              "price": "$50",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-04-07T17:18:44+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$50",
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
@@ -19727,6 +19721,21 @@
           "quantity": "100g",
           "members": [
             {
+              "name": "x HH Mature Virgina 100g tins",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/melang%C3%A9-of-good-tobac.42599/",
+              "price": "$55",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-07-09T13:52:02+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
               "name": "Mac Baren: HH MATURE VIRGINIA 100g 2010 - C",
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/mac-baren-hh-mature-virginia-100g-2010-c",
@@ -19740,10 +19749,26 @@
                   "date": "2026-06-21T02:45:17.226279+00:00"
                 }
               ]
+            },
+            {
+              "name": "x 2010  100g HH Mature Va",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
+              "price": "$75",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-10T18:26:23+00:00",
+              "year": "2010",
+              "price_history": [
+                {
+                  "price": "$75",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "4noggins.com"
+            "4noggins.com",
+            "Speak-Easy.Club"
           ]
         },
         {
@@ -19921,6 +19946,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "*sold*HH ODF '24",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/burnt-ends-open-to-unverified-odf-cap-burnt-ends.43744/",
+              "price": "$130",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-01-02T16:26:14+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$130",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
             {
               "name": "x MB ODF Plug 1.75 2019",
               "source": "Speak-Easy.Club",
@@ -20963,6 +21003,42 @@
         "2021"
       ],
       "source": "4noggins.com"
+    },
+    {
+      "id": "solo|speakeasyclub|macbarenbrunelloflake35ozroundtin",
+      "brand": "",
+      "blend": "",
+      "display_name": "Macbaren Brunello Flake, 3.5oz round tin,",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "3.5oz",
+          "members": [
+            {
+              "name": "Macbaren Brunello Flake, 3.5oz round tin,",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "price": "$35",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-24T14:49:03+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2026-06-24T14:49:03+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "mastrodepaja|roma",
@@ -22959,51 +23035,14 @@
       "source": "pipestud.com"
     },
     {
-      "id": "mcclelland|frogmortononthecellar",
-      "brand": "McClelland",
-      "blend": "Frog Morton On the Cellar",
-      "display_name": "McClelland Frog Morton On the Cellar",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Frog Morton Cellar 2013 (sealed new)",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/2013-frog-morton-cellar-2013-mcclelland-holiday-spirit-balkan-sasieni.44654/unread",
-              "price": "$300",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-06-15T15:44:37+00:00",
-              "year": "2013",
-              "price_history": [
-                {
-                  "price": "$300",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2013"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "mcclelland|frogmortonscellar",
       "brand": "McClelland",
       "blend": "Frog Morton's Cellar",
       "display_name": "McClelland Frog Morton's Cellar",
       "sources": [
         "pipestud.com",
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -23050,6 +23089,29 @@
           ],
           "sources": [
             "pipestud.com"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Frog Morton Cellar 2013 (sealed new)",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/2013-frog-morton-cellar-2013-mcclelland-holiday-spirit-balkan-sasieni.44654/unread",
+              "price": "$300",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-06-15T15:44:37+00:00",
+              "year": "2013",
+              "price_history": [
+                {
+                  "price": "$300",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -34795,6 +34857,42 @@
       "source": "pipestud.com"
     },
     {
+      "id": "solo|speakeasyclub|velvet12ozsealedtub",
+      "brand": "",
+      "blend": "",
+      "display_name": "Velvet, 12oz sealed tub,",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "12oz",
+          "members": [
+            {
+              "name": "Velvet, 12oz sealed tub,",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "price": "$55",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-24T14:49:03+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2026-06-24T14:49:03+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "villiger|midday",
       "brand": "Villiger",
       "blend": "Mid-Day",
@@ -36806,6 +36904,16 @@
     "Wessex: BURLEY SLICE 50g 2014 - C": "wessex|burleyslice",
     "Wessex: GOLD SLICE 1.5oz 2017 - C": "wessex|goldslice",
     "William Taylor Ashton:  OLD LONDON PEBBLE CUT 100g 1985- C": "ashton|oldlondonpebblecut",
+    "Ennerdale Flake": "gawithhoggarthco|ennerdaleflake",
+    "Rum Flake": "gawithhoggarthco|rumflake",
+    "Dunhill Elizabethan": "dunhill|elizabethan",
+    "key largo 50g": "glpease|keylargo",
+    "Germains Balkan Sobranie": "jfgermain|balkansobranie",
+    "Hello ladies and germs, today I have a luxurious vintage pipe in great shape for its age. I bought this off eBay a few years ago and never smoked it. I’m only asking what I paid for it": "solo|speakeasyclub|helloladiesandgermstodayihavealuxuriousvintagepipeingreatshapeforitsageiboughtthisoffebayafewyearsagoandneversmokeditimonlyaskingwhatipaidforit",
+    "I have 4 of the concave brass tampers available. If you missed out on the plussyball now is your chance. I designed them w a friend who fabricated and finished them": "solo|speakeasyclub|ihave4oftheconcavebrasstampersavailableifyoumissedoutontheplussyballnowisyourchanceidesignedthemwafriendwhofabricatedandfinishedthem",
+    "Macbaren Brunello Flake, 3.5oz round tin,": "solo|speakeasyclub|macbarenbrunelloflake35ozroundtin",
+    "Grainger, 12oz sealed tub,": "solo|speakeasyclub|grainger12ozsealedtub",
+    "Velvet, 12oz sealed tub,": "solo|speakeasyclub|velvet12ozsealedtub",
     "Amphora Black Cavendish, 7.5oz jar,": "amphora|blackcavendish",
     "Amphora English Blend, 8oz jar,": "amphora|englishblend",
     "Aylesbury Green, 1.76oz jar,": "johnaylesbury|green",
@@ -36823,17 +36931,15 @@
     "H & H Vintage Syrian 1.75 oz 2015": "hearthhome|vintagesyrian",
     "Mac Baren Burley London Blend 3.5 ounce  2021": "macbaren|burleylondonblend",
     "4th Generation Peaty Kentucky": "erikstokebye|4thgenerationpeatykentucky",
-    "HH Acadian Perique 1.3oz  2015": "hearthhome|acadianperique",
+    "HH Acadian Perique 1.3oz  2015": "macbaren|hhacadianperique",
     "Strauss Sleepy Hollow 1.1oz 2015": "strauss|sleepyhollow",
     "Frog Morton 3.1oz 2015": "mcclelland|frogmorton",
     "Mc Clelland Mellow Apple 2oz 2016": "mcclelland|mellowapple",
     "Mc Clelland Jubilee 1.4oz 2014": "mcclelland|jubilee",
     "C&D Father The Flame 1.5oz": "cornelldiehl|fathertheflame",
     "C&D Derringer 1.6oz 2020": "cornelldiehl|derringer",
-    "Ennerdale Flake": "gawithhoggarthco|ennerdaleflake",
-    "Rum Flake": "gawithhoggarthco|rumflake",
     "Bright CR Flake": "samuelgawith|brightcrflake",
-    "Frog Morton Cellar 2013 (sealed new)": "mcclelland|frogmortononthecellar",
+    "Frog Morton Cellar 2013 (sealed new)": "mcclelland|frogmortonscellar",
     "McClelland Holiday Spirit 2013 (sealed new)": "mcclelland|holidayspirit",
     "Bufflehead - Decoy - 8oz tin - 2003": "bufflehead|decoy",
     "Sutliff Sweated - 16oz block": "sutliff|sweated",
@@ -36922,9 +37028,9 @@
     "Jupiter Slices": "kenbyronventures|jupiterslices",
     "Christmas Cheer 100g 2017": "mcclelland|christmascheer",
     "No. 24 100g 2017": "mcclelland|no24",
-    "HH Bold Kentucky 50g 2015": "hearthhome|boldkentucky",
+    "HH Bold Kentucky 50g 2015": "macbaren|hhboldkentucky",
     "Old Dark Fired Plug Cut 50g": "macbaren|olddarkfiredplugcut",
-    "HH Acadian Perique 50g 2018": "hearthhome|acadianperique",
+    "HH Acadian Perique 50g 2018": "macbaren|hhacadianperique",
     "Escudo 50g 2016": "stg|escudonavydeluxe",
     "HU Dockworker 50g 2017": "hutobacco|dockworker",
     "Brown Sugar Flake 50g 2016": "samuelgawith|brownsugarflake",
@@ -36975,7 +37081,6 @@
     "lb bag of 515 RC-1": "sutliff|515rc1",
     "Viprati": "hearthhome|viprati",
     "x Gold Slice": "wessex|goldslice",
-    "Dunhill Elizabethan": "dunhill|elizabethan",
     "4th Gen 1989": "erikstokebye|4thgeneration1989",
     "Peterson 3p 2021": "peterson|threeps",
     "Peterson Signature Flake": "peterson|signatureflake",
@@ -37038,7 +37143,7 @@
     "Stave Aged 2012": "mcclelland|staveaged",
     "Christmas Cheer 2012": "mcclelland|christmascheer",
     "Christmas Cheer 2016": "mcclelland|christmascheer",
-    "*sold*HH ODF '24": "hearthhome|olddarkfired",
+    "*sold*HH ODF '24": "macbaren|hholddarkfired",
     "*sold*Cap Yellow '24": "capstan|yellow",
     "*sold*Cap Blue '24": "capstan|blue",
     "*sold*SJF '24": "samuelgawith|stjamesflake",
@@ -37157,7 +37262,6 @@
     "manhattan afternoon 50g": "cornelldiehl|manhattanafternoon",
     "x  2023 4th Gen Resolution 50g": "erikstokkebye|resolution",
     "x 2017 Embarcadero 50g": "glpease|embarcadero",
-    "key largo 50g": "glpease|keylargo",
     "Night Train 50g": "cornelldiehl|nighttrain",
     "x 2023 Anthology": "cornelldiehl|anthology2023",
     "Geometrie 50g": "glpease|gomtrie",
@@ -37200,8 +37304,8 @@
     "Hellstar Plaguebringer OG 63g": "kenbyronventures|plaguebringer",
     "G.H & Co. Broken Scotch flake? '19 153g": "gawithhoggarthco|brokenscotchflake",
     "W.C. Simply red '19 171g": "watchcity|simplyred",
-    "x 2010  100g HH Mature Va": "hearthhome|matureva",
-    "x 2019 50g HH Acadian $": "hearthhome|acadian",
+    "x 2010  100g HH Mature Va": "macbaren|hhmaturevirginia",
+    "x 2019 50g HH Acadian $": "macbaren|hhacadianperique",
     "x 2021 Cringle Flake": "sutliff|cringleflake",
     "x 2013 yellow capstan": "capstan|yellow",
     "x 2020 yellow capstan": "capstan|yellow",
@@ -37240,15 +37344,15 @@
     "x Anomalous 2023": "sutliff|anomalous",
     "xFlanagan Flake 50g 2020": "hutobacco|flanagan",
     "Ashton Brindle Flake 100g 1997": "ashton|brindleflake",
-    "x HH Mature Virgina 100g tins": "hearthhome|maturevirginia",
-    "x HHAcadian Perique 100g": "hearthhome|acadianperique",
-    "x HH Acadian Perique 1.75 oz 2019": "hearthhome|acadianperique",
+    "x HH Mature Virgina 100g tins": "macbaren|hhmaturevirginia",
+    "x HHAcadian Perique 100g": "macbaren|hhacadianperique",
+    "x HH Acadian Perique 1.75 oz 2019": "macbaren|hhacadianperique",
     "DSK 2020": "orlik|darkstrongkentucky",
     "London Mixture": "dunhill|londonmixture",
     "Acadian Gold": "hearthhome|acadiangold",
     "Fillmore": "glpease|fillmore",
     "Troost Aromatic Cavendish. Recent purchase from old stock. 40G": "troost|aromaticcavendish",
-    "HH Acadian Perique, jarred 2019 (unopened) 2oz": "hearthhome|acadianperique",
+    "HH Acadian Perique, jarred 2019 (unopened) 2oz": "macbaren|hhacadianperique",
     "GQ Nottingham Lace Noir (lakeland) 22g": "gqtobaccos|nottinghamlacenoir",
     "MacBaren Roll Cake (January 2010, jarred 2017) 1oz zip, 2oz jar": "macbaren|rollcake",
     "C&D Poplar Camp 2016 40g zip and 4oz jar": "cornelldiehl|poplarcamp",
@@ -37276,7 +37380,7 @@
     "MacBaren Roll Cake Spun Cut 2010": "macbaren|rollcake",
     "MacBaren Club Blend roll cake 2010": "macbaren|clubblend",
     "x 2018 Capstan Yellow": "capstan|yellow",
-    "x 2018 HH Burley Flake 100g’s": "hearthhome|burleyflake",
+    "x 2018 HH Burley Flake 100g’s": "macbaren|hhburleyflake",
     "HH Burley Flake 257g’s": "macbaren|hhburleyflake",
     "x 2020 OGS": "orlik|goldensliced",
     "x 2021 GLP Key Largo 8oz": "glpease|keylargo",
@@ -37318,7 +37422,6 @@
     "McClellands Dark Star 50g": "mcclelland|darkstar",
     "McClellands No. 24 100g": "mcclelland|no24",
     "Peter Heinrichs Golden Sliced 100g": "peterheinrichs|goldensliced",
-    "Germains Balkan Sobranie": "jfgermain|balkansobranie",
     "Esoterica Dorchester 2oz": "esoterica|dorchester",
     "Esoterica Dunbar 2oz": "esoterica|dunbar",
     "Esoterica ASTB 2oz": "esoterica|andsotobed",
