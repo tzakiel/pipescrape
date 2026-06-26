@@ -221,14 +221,8 @@ def main():
                 if source not in g["sources"]:
                     g["sources"].append(source)
             else:
-                key = f"solo|{_norm(source)}|{_norm(name)}"
-                groups[key] = {
-                    "id": key, "brand": brand, "blend": blend,
-                    "display_name": name,
-                    "sources": [source],
-                    "_sizes": {quantity: {"quantity": quantity, "members": [member], "sources": [source]}},
-                }
                 unmatched.append(f"[{source}] {name}")
+                continue
             name_to_id[name] = key
 
     tins = []
