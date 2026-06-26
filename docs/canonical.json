@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-26T17:56:50.760849+00:00",
+  "generated": "2026-06-26T18:20:44.032292+00:00",
   "stats": {
     "total_listings": 2788,
     "excluded_multipacks": 1211,
-    "total_tins": 892,
-    "multi_member_tins": 296,
-    "listings_in_groups": 981,
-    "cross_source_tins": 142
+    "total_tins": 884,
+    "multi_member_tins": 301,
+    "listings_in_groups": 994,
+    "cross_source_tins": 145
   },
   "tins": [
     {
@@ -7917,6 +7917,48 @@
       "source": "4noggins.com"
     },
     {
+      "id": "countrysquire|faulknerflake",
+      "brand": "Country Squire",
+      "blend": "Faulkner Flake",
+      "display_name": "Country Squire Faulkner Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "105g",
+          "members": [
+            {
+              "name": "105g 2022 Faulkner Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
+              "price": "$20",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2024-06-28T11:38:38+00:00",
+              "year": "2022",
+              "price_history": [
+                {
+                  "price": "$15",
+                  "date": "2024-06-28T11:38:38+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-25T20:46:10.923480+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2022"
+      ],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "countrysquire|oldtoby",
       "brand": "Country Squire",
       "blend": "Old Toby",
@@ -11435,80 +11477,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "erikstokebye|4thgeneration1989",
-      "brand": "Erik Stokebye",
-      "blend": "4th Generation 1989",
-      "display_name": "Erik Stokebye 4th Generation 1989",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "4th Gen 1989",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/pre-spring-sprung-loaded-whale-of-a-sale-folks.44136/",
-              "price": "$80",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-03-11T13:40:13+00:00",
-              "year": "1989",
-              "price_history": [
-                {
-                  "price": "$80",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "1989"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "erikstokebye|4thgenerationpeatykentucky",
-      "brand": "Erik Stokebye",
-      "blend": "4th Generation Peaty Kentucky",
-      "display_name": "Erik Stokebye 4th Generation Peaty Kentucky",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "4th Generation Peaty Kentucky",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-06-22T01:38:34+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "erikstokkebye|4thgeneration",
       "brand": "Erik Stokkebye",
       "blend": "4th Generation",
@@ -11635,6 +11603,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "4th Gen 1989",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/pre-spring-sprung-loaded-whale-of-a-sale-folks.44136/",
+              "price": "$80",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-03-11T13:40:13+00:00",
+              "year": "1989",
+              "price_history": [
+                {
+                  "price": "$80",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
               "name": "x 4th Gen 1989 (2023)",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/blownout-sale.43411/",
@@ -11722,6 +11705,42 @@
                 {
                   "price": "$80",
                   "date": "2026-03-14T23:32:53+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "erikstokkebye|4thgenerationpeatykentucky",
+      "brand": "Erik Stokkebye",
+      "blend": "4th Generation Peaty Kentucky",
+      "display_name": "Erik Stokkebye 4th Generation Peaty Kentucky",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "4th Generation Peaty Kentucky",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-06-22T01:38:34+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
             }
@@ -17718,78 +17737,6 @@
       "source": "4noggins.com"
     },
     {
-      "id": "gawithhoggarth|balkanmixture",
-      "brand": "Gawith & Hoggarth",
-      "blend": "Balkan Mixture",
-      "display_name": "Gawith & Hoggarth Balkan Mixture",
-      "sources": [
-        "Treasured Smokes"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Gawith Hoggarth - Balkan Mixture",
-              "source": "Treasured Smokes",
-              "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-balkan-mixture-2018",
-              "price": "$28.00",
-              "last_updated": "2026-06-20T18:32:06.142896+00:00",
-              "first_seen": "2026-06-20T18:32:06.142896+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$28.00",
-                  "date": "2026-06-20T18:32:06.142896+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Treasured Smokes"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Treasured Smokes"
-    },
-    {
-      "id": "gawithhoggarth|brightcrburntends",
-      "brand": "Gawith & Hoggarth",
-      "blend": "Bright CR Burnt Ends",
-      "display_name": "Gawith & Hoggarth Bright CR Burnt Ends",
-      "sources": [
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "500g",
-          "members": [
-            {
-              "name": "Gawith Hoggarth: BRIGHT CR BURNT ENDS 500g - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/gawith-hoggarth-bright-cr-burnt-ends-500g-c",
-              "price": "$295.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$295.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "4noggins.com"
-    },
-    {
       "id": "gawithhoggarth|laflake",
       "brand": "Gawith & Hoggarth",
       "blend": "LA Flake",
@@ -17828,48 +17775,10 @@
       "source": "4noggins.com"
     },
     {
-      "id": "gawithhoggarth|rumflake",
-      "brand": "Gawith & Hoggarth",
-      "blend": "Rum Flake",
-      "display_name": "Gawith & Hoggarth Rum Flake",
-      "sources": [
-        "Treasured Smokes"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Gawith Hoggarth - Rum Flake - 2021",
-              "source": "Treasured Smokes",
-              "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-rum-flake-2021",
-              "price": "$22.00",
-              "last_updated": "2026-06-20T18:32:06.142896+00:00",
-              "first_seen": "2026-06-20T18:32:06.142896+00:00",
-              "year": "2021",
-              "price_history": [
-                {
-                  "price": "$22.00",
-                  "date": "2026-06-20T18:32:06.142896+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Treasured Smokes"
-          ]
-        }
-      ],
-      "years": [
-        "2021"
-      ],
-      "source": "Treasured Smokes"
-    },
-    {
       "id": "gawithhoggarthco|7brokenflake",
-      "brand": "Gawith Hoggarth & Co.",
+      "brand": "Gawith, Hoggarth & Co.",
       "blend": "#7 Broken Flake",
-      "display_name": "Gawith Hoggarth & Co. #7 Broken Flake",
+      "display_name": "Gawith, Hoggarth & Co. #7 Broken Flake",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -17943,13 +17852,37 @@
     },
     {
       "id": "gawithhoggarthco|balkanmixture",
-      "brand": "Gawith Hoggarth & Co.",
+      "brand": "Gawith, Hoggarth & Co.",
       "blend": "Balkan Mixture",
-      "display_name": "Gawith Hoggarth & Co. Balkan Mixture",
+      "display_name": "Gawith, Hoggarth & Co. Balkan Mixture",
       "sources": [
+        "Treasured Smokes",
         "Speak-Easy.Club"
       ],
       "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Gawith Hoggarth - Balkan Mixture",
+              "source": "Treasured Smokes",
+              "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-balkan-mixture-2018",
+              "price": "$28.00",
+              "last_updated": "2026-06-20T18:32:06.142896+00:00",
+              "first_seen": "2026-06-20T18:32:06.142896+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$28.00",
+                  "date": "2026-06-20T18:32:06.142896+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Treasured Smokes"
+          ]
+        },
         {
           "quantity": "3oz",
           "members": [
@@ -17977,7 +17910,7 @@
       "years": [
         "2021"
       ],
-      "source": "Speak-Easy.Club"
+      "source": "Multiple sources"
     },
     {
       "id": "gawithhoggarthco|bengalslices",
@@ -18287,6 +18220,42 @@
         "2021"
       ],
       "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "gawithhoggarthco|brightcrburntends",
+      "brand": "Gawith, Hoggarth & Co.",
+      "blend": "Bright CR Burnt Ends",
+      "display_name": "Gawith, Hoggarth & Co. Bright CR Burnt Ends",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "500g",
+          "members": [
+            {
+              "name": "Gawith Hoggarth: BRIGHT CR BURNT ENDS 500g - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/gawith-hoggarth-bright-cr-burnt-ends-500g-c",
+              "price": "$295.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$295.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "4noggins.com"
     },
     {
       "id": "gawithhoggarthco|brokenscotchflake",
@@ -18836,6 +18805,7 @@
       "blend": "Rum Flake",
       "display_name": "Gawith, Hoggarth & Co. Rum Flake",
       "sources": [
+        "Treasured Smokes",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -18884,15 +18854,33 @@
                   "date": "2026-06-25T20:46:10.923480+00:00"
                 }
               ]
+            },
+            {
+              "name": "Gawith Hoggarth - Rum Flake - 2021",
+              "source": "Treasured Smokes",
+              "url": "https://www.treasuredsmokes.com/product-page/gawith-hoggarth-rum-flake-2021",
+              "price": "$22.00",
+              "last_updated": "2026-06-20T18:32:06.142896+00:00",
+              "first_seen": "2026-06-20T18:32:06.142896+00:00",
+              "year": "2021",
+              "price_history": [
+                {
+                  "price": "$22.00",
+                  "date": "2026-06-20T18:32:06.142896+00:00"
+                }
+              ]
             }
           ],
           "sources": [
+            "Treasured Smokes",
             "Speak-Easy.Club"
           ]
         }
       ],
-      "years": [],
-      "source": "Speak-Easy.Club"
+      "years": [
+        "2021"
+      ],
+      "source": "Multiple sources"
     },
     {
       "id": "gawithhoggarthco|rumtwistrope",
@@ -22718,42 +22706,6 @@
       "source": "4noggins.com"
     },
     {
-      "id": "kenbyron|redforestphenomenon",
-      "brand": "Ken Byron",
-      "blend": "Red Forest Phenomenon",
-      "display_name": "Ken Byron Red Forest Phenomenon",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Red Forest Phenomenon",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2020-09-24T01:30:04+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "kenbyronventures|bfrogscajunsafari",
       "brand": "Ken Byron Ventures",
       "blend": "B. Frog's Cajun Safari",
@@ -23313,7 +23265,8 @@
       "blend": "Red Forest Phenomenon",
       "display_name": "Ken Byron Ventures Red Forest Phenomenon",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -23338,12 +23291,35 @@
           "sources": [
             "Tinbids Auction (Sold)"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Red Forest Phenomenon",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2020-09-24T01:30:04+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2021"
       ],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
     },
     {
       "id": "kenbyronventures|riverofdeceit",
@@ -32627,152 +32603,6 @@
       "source": "4noggins.com"
     },
     {
-      "id": "mcconnell|haddosdelight",
-      "brand": "McConnell",
-      "blend": "Haddo's Delight",
-      "display_name": "McConnell Haddo's Delight",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "3.25oz",
-          "members": [
-            {
-              "name": "Haddo's Delight 3.25oz",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/aged-tobacco-and-more.40701/",
-              "price": "$45",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2024-07-23T15:34:58+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$45",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "mcconnell|highgate",
-      "brand": "McConnell",
-      "blend": "Highgate",
-      "display_name": "McConnell Highgate",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "x McConnell high gate 20",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellary.43592/",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-12-07T19:05:46+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "mcconnell|redva",
-      "brand": "McConnell",
-      "blend": "Red Va",
-      "display_name": "McConnell Red Va",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "x McConnell red Va",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
-              "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-11-14T21:52:44+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "mcconnell|richdarkva",
-      "brand": "McConnell",
-      "blend": "Rich Dark Va",
-      "display_name": "McConnell Rich Dark Va",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "x McConnell rich dark Va 2020",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-11-14T21:52:44+00:00",
-              "year": "2020",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2020"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "mccranies|redflake",
       "brand": "McCranie's",
       "blend": "Red Flake",
@@ -34256,10 +34086,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "peterheinrich|curlyblock",
-      "brand": "Peter Heinrich",
+      "id": "peterheinrichs|curlyblock",
+      "brand": "Peter Heinrichs",
       "blend": "Curly Block",
-      "display_name": "Peter Heinrich Curly Block",
+      "display_name": "Peter Heinrichs Curly Block",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -34286,22 +34116,7 @@
           "sources": [
             "Speak-Easy.Club"
           ]
-        }
-      ],
-      "years": [
-        "2019"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "peterheinrichs|curlyblock",
-      "brand": "Peter Heinrichs",
-      "blend": "Curly Block",
-      "display_name": "Peter Heinrichs Curly Block",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
+        },
         {
           "quantity": "275g",
           "members": [
@@ -37028,10 +36843,10 @@
       "source": "Multiple sources"
     },
     {
-      "id": "ravenwoodfineprovisions|frogmortonschalet",
-      "brand": "Ravenwood Fine Provisions",
+      "id": "ravenwood|frogmortonschalet",
+      "brand": "Ravenwood",
       "blend": "Frog Morton's Chalet",
-      "display_name": "Ravenwood Fine Provisions Frog Morton's Chalet",
+      "display_name": "Ravenwood Frog Morton's Chalet",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -37087,10 +36902,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "ravenwoodfineprovisions|gatesofargonath",
-      "brand": "Ravenwood Fine Provisions",
+      "id": "ravenwood|gatesofargonath",
+      "brand": "Ravenwood",
       "blend": "Gates of Argonath",
-      "display_name": "Ravenwood Fine Provisions Gates of Argonath",
+      "display_name": "Ravenwood Gates of Argonath",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -37123,10 +36938,48 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "ravenwoodfineprovisions|hobbitsleaf",
-      "brand": "Ravenwood Fine Provisions",
+      "id": "ravenwood|hobbitleaf",
+      "brand": "Ravenwood",
+      "blend": "Hobbit Leaf",
+      "display_name": "Ravenwood Hobbit Leaf",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/195334/",
+              "price": "$17.50",
+              "last_updated": "2026-06-22T16:00:41.686877+00:00",
+              "first_seen": "2026-06-22T16:00:41.686877+00:00",
+              "year": "2026",
+              "price_history": [
+                {
+                  "price": "$17.50",
+                  "date": "2026-06-22T16:00:41.686877+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2026"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "ravenwood|hobbitsleaf",
+      "brand": "Ravenwood",
       "blend": "Hobbit's Leaf",
-      "display_name": "Ravenwood Fine Provisions Hobbit's Leaf",
+      "display_name": "Ravenwood Hobbit's Leaf",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -37180,44 +37033,6 @@
       ],
       "years": [],
       "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "ravenwood|hobbitleaf",
-      "brand": "Ravenwood",
-      "blend": "Hobbit Leaf",
-      "display_name": "Ravenwood Hobbit Leaf",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026",
-              "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195334/",
-              "price": "$17.50",
-              "last_updated": "2026-06-22T16:00:41.686877+00:00",
-              "first_seen": "2026-06-22T16:00:41.686877+00:00",
-              "year": "2026",
-              "price_history": [
-                {
-                  "price": "$17.50",
-                  "date": "2026-06-22T16:00:41.686877+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Tinbids Auction (Sold)"
-          ]
-        }
-      ],
-      "years": [
-        "2026"
-      ],
-      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "reiner|blendno71longgoldenflake",
@@ -37793,6 +37608,78 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "robertmcconnell|haddosdelight",
+      "brand": "Robert McConnell",
+      "blend": "Haddo's Delight",
+      "display_name": "Robert McConnell Haddo's Delight",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "3.25oz",
+          "members": [
+            {
+              "name": "Haddo's Delight 3.25oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/aged-tobacco-and-more.40701/",
+              "price": "$45",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2024-07-23T15:34:58+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "robertmcconnell|highgate",
+      "brand": "Robert McConnell",
+      "blend": "Highgate",
+      "display_name": "Robert McConnell Highgate",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "x McConnell high gate 20",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellary.43592/",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-12-07T19:05:46+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "robertmcconnell|oriental",
       "brand": "Robert McConnell",
       "blend": "Oriental",
@@ -37894,6 +37781,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "robertmcconnell|redva",
+      "brand": "Robert McConnell",
+      "blend": "Red Va",
+      "display_name": "Robert McConnell Red Va",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "x McConnell red Va",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
+              "price": "$25",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-11-14T21:52:44+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "robertmcconnell|redvirginia",
       "brand": "Robert McConnell",
       "blend": "Red Virginia",
@@ -37948,6 +37871,44 @@
         "2009"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "robertmcconnell|richdarkva",
+      "brand": "Robert McConnell",
+      "blend": "Rich Dark Va",
+      "display_name": "Robert McConnell Rich Dark Va",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "x McConnell rich dark Va 2020",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-11-14T21:52:44+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "robertmcconnell|scottishblend",
@@ -41857,9 +41818,9 @@
     },
     {
       "id": "smokershaven|20thanniversarymixture",
-      "brand": "Smoker's Haven",
+      "brand": "Smokers Haven",
       "blend": "20th Anniversary Mixture",
-      "display_name": "Smoker's Haven 20th Anniversary Mixture",
+      "display_name": "Smokers Haven 20th Anniversary Mixture",
       "sources": [
         "4noggins.com"
       ],
@@ -41890,144 +41851,6 @@
       ],
       "years": [
         "2012"
-      ],
-      "source": "4noggins.com"
-    },
-    {
-      "id": "smokershaven|exotiquemixture",
-      "brand": "Smoker's Haven",
-      "blend": "Exotique Mixture",
-      "display_name": "Smoker's Haven Exotique Mixture",
-      "sources": [
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Smokers' Haven: EXOTIQUE MIXTURE 2oz 2018 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/smokers-haven-exotique-mixture-2oz-2018-c",
-              "price": "$145.00",
-              "last_updated": "2026-06-23T15:14:19.145115+00:00",
-              "first_seen": "2026-06-23T15:14:19.145115+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$145.00",
-                  "date": "2026-06-23T15:14:19.145115+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
-        "2018"
-      ],
-      "source": "4noggins.com"
-    },
-    {
-      "id": "smokershaven|inbtweenmixture",
-      "brand": "Smoker's Haven",
-      "blend": "In-B-Tween Mixture",
-      "display_name": "Smoker's Haven In-B-Tween Mixture",
-      "sources": [
-        "Tinbids Auction (Sold)",
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Smoker's Haven: IN-B-TWEEN MIXTURE 2oz 2018 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/smokers-haven-in-b-tween-mixture-2oz-2018-c",
-              "price": "$135.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$135.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        },
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "2018 Smoker’s Haven In-B-Tween Mixture",
-              "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195936/",
-              "price": "$95.00",
-              "last_updated": "2026-06-22T13:53:20.063064+00:00",
-              "first_seen": "2026-06-22T13:53:20.063064+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$95.00",
-                  "date": "2026-06-22T13:53:20.063064+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Tinbids Auction (Sold)"
-          ]
-        }
-      ],
-      "years": [
-        "2018"
-      ],
-      "source": "Multiple sources"
-    },
-    {
-      "id": "smokershaven|selectmixture",
-      "brand": "Smoker's Haven",
-      "blend": "Select Mixture",
-      "display_name": "Smoker's Haven Select Mixture",
-      "sources": [
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Smoker's Haven: SELECT MIXTURE 2oz 2018 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/smokers-haven-our-best-blend-2oz-2018-c",
-              "price": "$125.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$125.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
-        "2018"
       ],
       "source": "4noggins.com"
     },
@@ -42144,6 +41967,106 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
+      "id": "smokershaven|exotiquemixture",
+      "brand": "Smokers Haven",
+      "blend": "Exotique Mixture",
+      "display_name": "Smokers Haven Exotique Mixture",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Smokers' Haven: EXOTIQUE MIXTURE 2oz 2018 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/smokers-haven-exotique-mixture-2oz-2018-c",
+              "price": "$145.00",
+              "last_updated": "2026-06-23T15:14:19.145115+00:00",
+              "first_seen": "2026-06-23T15:14:19.145115+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$145.00",
+                  "date": "2026-06-23T15:14:19.145115+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ],
+      "source": "4noggins.com"
+    },
+    {
+      "id": "smokershaven|inbtweenmixture",
+      "brand": "Smokers Haven",
+      "blend": "In-B-Tween Mixture",
+      "display_name": "Smokers Haven In-B-Tween Mixture",
+      "sources": [
+        "Tinbids Auction (Sold)",
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Smoker's Haven: IN-B-TWEEN MIXTURE 2oz 2018 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/smokers-haven-in-b-tween-mixture-2oz-2018-c",
+              "price": "$135.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$135.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "2018 Smoker’s Haven In-B-Tween Mixture",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/195936/",
+              "price": "$95.00",
+              "last_updated": "2026-06-22T13:53:20.063064+00:00",
+              "first_seen": "2026-06-22T13:53:20.063064+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$95.00",
+                  "date": "2026-06-22T13:53:20.063064+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ],
+      "source": "Multiple sources"
+    },
+    {
       "id": "smokershaven|ourbestblend",
       "brand": "Smokers Haven",
       "blend": "Our Best Blend",
@@ -42204,6 +42127,44 @@
         "2018"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "smokershaven|selectmixture",
+      "brand": "Smokers Haven",
+      "blend": "Select Mixture",
+      "display_name": "Smokers Haven Select Mixture",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Smoker's Haven: SELECT MIXTURE 2oz 2018 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/smokers-haven-our-best-blend-2oz-2018-c",
+              "price": "$125.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2018"
+      ],
+      "source": "4noggins.com"
     },
     {
       "id": "solani|633",
@@ -45375,48 +45336,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "thecountrysquiretobacconist|faulknerflake",
-      "brand": "The Country Squire Tobacconist",
-      "blend": "Faulkner Flake",
-      "display_name": "The Country Squire Tobacconist Faulkner Flake",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "105g",
-          "members": [
-            {
-              "name": "105g 2022 Faulkner Flake",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
-              "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2024-06-28T11:38:38+00:00",
-              "year": "2022",
-              "price_history": [
-                {
-                  "price": "$15",
-                  "date": "2024-06-28T11:38:38+00:00"
-                },
-                {
-                  "price": "$20",
-                  "date": "2026-06-25T20:46:10.923480+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2022"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "thesmokerltd|favorite",
       "brand": "The Smoker Ltd.",
       "blend": "Favorite",
@@ -46085,46 +46004,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "watchcity|bostonianrhapsody",
+      "id": "watchcity|7",
       "brand": "Watch City",
-      "blend": "Bostonian Rhapsody",
-      "display_name": "Watch City Bostonian Rhapsody",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "8oz",
-          "members": [
-            {
-              "name": "8oz WCC Bostonian Rhapsody",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-sale-addendum-aged-happy-brown-bogie.44640/unread",
-              "price": "$50",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2026-06-13T18:17:38+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$50",
-                  "date": "2026-06-13T18:17:38+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "watchcitycigars|7",
-      "brand": "Watch City Cigars",
       "blend": "#7",
-      "display_name": "Watch City Cigars #7",
+      "display_name": "Watch City #7",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -46157,10 +46040,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "watchcitycigars|bipolarexpress",
-      "brand": "Watch City Cigars",
+      "id": "watchcity|bipolarexpress",
+      "brand": "Watch City",
       "blend": "Bipolar Express",
-      "display_name": "Watch City Cigars Bipolar Express",
+      "display_name": "Watch City Bipolar Express",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -46195,29 +46078,29 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "watchcitycigars|olddominion",
-      "brand": "Watch City Cigars",
-      "blend": "Old Dominion",
-      "display_name": "Watch City Cigars Old Dominion",
+      "id": "watchcity|bostonianrhapsody",
+      "brand": "Watch City",
+      "blend": "Bostonian Rhapsody",
+      "display_name": "Watch City Bostonian Rhapsody",
       "sources": [
         "Speak-Easy.Club"
       ],
       "sizes": [
         {
-          "quantity": "1.45oz",
+          "quantity": "8oz",
           "members": [
             {
-              "name": "Watch City Old Dominion - 1.45oz",
+              "name": "8oz WCC Bostonian Rhapsody",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-sale-and-trade.44164/",
-              "price": "$10",
+              "url": "https://speak-easy.club/threads/cellar-sale-addendum-aged-happy-brown-bogie.44640/unread",
+              "price": "$50",
               "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2026-03-15T10:18:31+00:00",
+              "first_seen": "2026-06-13T18:17:38+00:00",
               "year": "",
               "price_history": [
                 {
-                  "price": "$10",
-                  "date": "2026-03-15T10:18:31+00:00"
+                  "price": "$50",
+                  "date": "2026-06-13T18:17:38+00:00"
                 }
               ]
             }
@@ -46228,106 +46111,6 @@
         }
       ],
       "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "watchcitycigars|rouxgaroux",
-      "brand": "Watch City Cigars",
-      "blend": "Rouxgaroux",
-      "display_name": "Watch City Cigars Rouxgaroux",
-      "sources": [
-        "Tinbids Auction (Sold)",
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "8oz",
-          "members": [
-            {
-              "name": "Watch City Cigar Rouxgaroux 2026 8 oz",
-              "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/196519/",
-              "price": "$204.00",
-              "last_updated": "2026-06-26T04:00:26.274584+00:00",
-              "first_seen": "2026-06-25T22:08:41+00:00",
-              "year": "2026",
-              "price_history": [
-                {
-                  "price": "$204.00",
-                  "date": "2026-06-25T22:08:41+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Tinbids Auction (Sold)"
-          ]
-        },
-        {
-          "quantity": "12oz",
-          "members": [
-            {
-              "name": "Rouxgaroux 12oz",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/mcclelland-eso-roux.43048/",
-              "price": "$50",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2025-09-26T22:17:24+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$50",
-                  "date": "2025-09-26T22:17:24+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2026"
-      ],
-      "source": "Multiple sources"
-    },
-    {
-      "id": "watchcitycigars|simplyred",
-      "brand": "Watch City Cigars",
-      "blend": "Simply Red",
-      "display_name": "Watch City Cigars Simply Red",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Watch City Simply Red 2oz 2020",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/getting-rid-of-tins-and-mylar.44365/",
-              "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2026-04-19T17:38:27+00:00",
-              "year": "2020",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-04-19T17:38:27+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2020"
-      ],
       "source": "Speak-Easy.Club"
     },
     {
@@ -46526,6 +46309,29 @@
       ],
       "sizes": [
         {
+          "quantity": "1.45oz",
+          "members": [
+            {
+              "name": "Watch City Old Dominion - 1.45oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale-and-trade.44164/",
+              "price": "$10",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2026-03-15T10:18:31+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$10",
+                  "date": "2026-03-15T10:18:31+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
           "quantity": "12oz",
           "members": [
             {
@@ -46596,6 +46402,7 @@
       "blend": "Rouxgaroux",
       "display_name": "Watch City Rouxgaroux",
       "sources": [
+        "Tinbids Auction (Sold)",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -46690,13 +46497,60 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "8oz",
+          "members": [
+            {
+              "name": "Watch City Cigar Rouxgaroux 2026 8 oz",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196519/",
+              "price": "$204.00",
+              "last_updated": "2026-06-26T04:00:26.274584+00:00",
+              "first_seen": "2026-06-25T22:08:41+00:00",
+              "year": "2026",
+              "price_history": [
+                {
+                  "price": "$204.00",
+                  "date": "2026-06-25T22:08:41+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        },
+        {
+          "quantity": "12oz",
+          "members": [
+            {
+              "name": "Rouxgaroux 12oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/mcclelland-eso-roux.43048/",
+              "price": "$50",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2025-09-26T22:17:24+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2025-09-26T22:17:24+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2024",
-        "2025"
+        "2025",
+        "2026"
       ],
-      "source": "Speak-Easy.Club"
+      "source": "Multiple sources"
     },
     {
       "id": "watchcity|simplyred",
@@ -46707,6 +46561,29 @@
         "Speak-Easy.Club"
       ],
       "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Watch City Simply Red 2oz 2020",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/getting-rid-of-tins-and-mylar.44365/",
+              "price": "$20",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2026-04-19T17:38:27+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-04-19T17:38:27+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
         {
           "quantity": "112g",
           "members": [
@@ -46755,6 +46632,7 @@
         }
       ],
       "years": [
+        "2020",
         "2021"
       ],
       "source": "Speak-Easy.Club"
@@ -47758,7 +47636,7 @@
     "33 yrs Levin Pipes International 3 Oaks English Blend Sealed 50g Pipe Tobacco Tin ‘93": "mcclelland|3oaksenglishblend",
     "R & L Robert Lewis Wingfield Mixture Sealed Tin 50g Pipe Tobacco 2012": "robertlewis|wingfieldmixture",
     "22 Year Vintage ~ E. Hoffman Company Spilman Mixture 7 ozo Tin.": "ehoffmancompany|spilmanmixture",
-    "Watch City Cigar Rouxgaroux 2026 8 oz": "watchcitycigars|rouxgaroux",
+    "Watch City Cigar Rouxgaroux 2026 8 oz": "watchcity|rouxgaroux",
     "PRINCE ALBERT BURLEY Pipe Tobacco ORIGINAL BLEND (2021+) Middleton - 14oz Sealed Can": "princealbert|originalblend",
     "Esoterica Tobacciana Peacehaven 2016 NR": "esoterica|peacehaven",
     "Esoterica Tobacciana Margate 2016 NR": "esoterica|margate",
@@ -47954,8 +47832,8 @@
     "McClelland's - Blending Latakia - 2001!": "mcclelland|blendinglatakia",
     "Hearth and Home - Classic Burley Kake - 2012 - 8 Ounce Can!": "hearthhome|classicburleykake",
     "Half & Half - Burley & Bright - 2012!": "halfandhalf|halfhalf",
-    "Gawith Hoggarth - Balkan Mixture": "gawithhoggarth|balkanmixture",
-    "Gawith Hoggarth - Rum Flake - 2021": "gawithhoggarth|rumflake",
+    "Gawith Hoggarth - Balkan Mixture": "gawithhoggarthco|balkanmixture",
+    "Gawith Hoggarth - Rum Flake - 2021": "gawithhoggarthco|rumflake",
     "Friburg & Treyer - Cut Blended Plug - 2017": "fribourgtreyer|cutblendedplug",
     "Cornell & Diehl - Billy Budd - 2017": "cornelldiehl|billybudd",
     "BriarWorks - Country Lawyer - 2018": "briarworks|countrylawyer",
@@ -48100,7 +47978,7 @@
     "G.L. Pease: VAROOM 2oz 2015 - C": "glpease|varoom",
     "G.L. Pease: WIZARDS LEAF BLACK 2005 - C": "glpease|wizardsleafblack",
     "G.L. Pease: WIZARDS LEAF WHITE - 2005": "glpease|wizardsleafwhite",
-    "Gawith Hoggarth: BRIGHT CR BURNT ENDS 500g - C": "gawithhoggarth|brightcrburntends",
+    "Gawith Hoggarth: BRIGHT CR BURNT ENDS 500g - C": "gawithhoggarthco|brightcrburntends",
     "Hearth & Home: OLD KINDERHOOK 8oz": "hearthhome|oldkinderhook",
     "Hermit Tobacco: Captain Earle's Holiday 2009 2oz - C": "captainearles|holiday",
     "Hermit Tobacco: SYRIAN CAKE 8oz 1998 - C": "hermittobacco|syriancake",
@@ -48259,12 +48137,12 @@
     "'22 GLP Gaslight 2oz (56g)": "glpease|gaslight",
     "'18 Mac Baren Solent Mixture 3.5oz (100g)": "macbaren|solentmixture",
     "'24 SG Full Virgina Flake 50g": "samuelgawith|fullvirginiaflake",
-    "'26 Ravenwood Frog Morten Chalet 50g": "ravenwoodfineprovisions|frogmortonschalet",
-    "'26 Ravenwood Hobbit's Leaf 50g": "ravenwoodfineprovisions|hobbitsleaf",
+    "'26 Ravenwood Frog Morten Chalet 50g": "ravenwood|frogmortonschalet",
+    "'26 Ravenwood Hobbit's Leaf 50g": "ravenwood|hobbitsleaf",
     "'26 KBV Dungeon Meister 2oz": "kenbyronventures|dungeonmeister",
-    "'26 Ravenwood Frog Morten Chalet ~40g": "ravenwoodfineprovisions|frogmortonschalet",
-    "'26 Ravenwood Hobbit's Leaf ~40g": "ravenwoodfineprovisions|hobbitsleaf",
-    "'26 Ravenwood Gates of Argonath ~40g": "ravenwoodfineprovisions|gatesofargonath",
+    "'26 Ravenwood Frog Morten Chalet ~40g": "ravenwood|frogmortonschalet",
+    "'26 Ravenwood Hobbit's Leaf ~40g": "ravenwood|hobbitsleaf",
+    "'26 Ravenwood Gates of Argonath ~40g": "ravenwood|gatesofargonath",
     "'26 KBV Dungeon Meister ~35g (this one has a bit less than the others)": "kenbyronventures|dungeonmeister",
     "'26 KBV Throgmorten ~45g": "kenbyronventures|bfrogsthrogmorton",
     "SG Balkan Flake 46g": "samuelgawith|balkanflake",
@@ -48290,7 +48168,7 @@
     "Rattray's Old Gowrie 100g 2017": "rattrays|oldgowrie",
     "Sutliff Timeless 1.5oz 2023": "sutliff|timeless",
     "Esoterica Penbroke 2015 in jar 87g": "esoterica|pembroke",
-    "Peter Heinrich's Curly Block 2019 in jar 103g (NOT WESSEX)": "peterheinrich|curlyblock",
+    "Peter Heinrich's Curly Block 2019 in jar 103g (NOT WESSEX)": "peterheinrichs|curlyblock",
     "McClelland 2015 (2005) 135g": "mcclelland|2015",
     "Esoterica Stonehaven 50g 2017": "esoterica|stonehaven",
     "Wessex Brown Virginia Flake 50g 2021": "wessex|brownvirginiaflake",
@@ -48314,7 +48192,7 @@
     "C & D Small Batch Sun Bear 2oz 2020": "cornelldiehl|smallbatchsunbear",
     "H & H Anniversary Flake 50 g 9/4/18": "hearthhome|anniversaryflake",
     "Samuel Gawith Best Brown Flake 2.4 oz 2019": "samuelgawith|bestbrownflake",
-    "Watch City Simply Red 2oz 2020": "watchcitycigars|simplyred",
+    "Watch City Simply Red 2oz 2020": "watchcity|simplyred",
     "Samuel Gawith Cabbie's Mixture 50g 2019": "samuelgawith|cabbiesmixture",
     "Captain Black Grape 12oz": "captainblack|grape",
     "C & D Eight State Burley  2021": "cornelldiehl|eightstateburley",
@@ -48361,9 +48239,9 @@
     "Stanwell Melange - 1.68oz": "stanwell|melange",
     "Vauen Auenland - 1.23oz": "vauen|auenland",
     "Cornell and Diehl Golden Days of Yore - 1.62oz": "cornelldiehl|goldendaysofyore",
-    "Watch City Old Dominion - 1.45oz": "watchcitycigars|olddominion",
-    "Watch City #7 - 1.45oz": "watchcitycigars|7",
-    "Watch City Bipolar Express 2024 - 2.54oz": "watchcitycigars|bipolarexpress",
+    "Watch City Old Dominion - 1.45oz": "watchcity|olddominion",
+    "Watch City #7 - 1.45oz": "watchcity|7",
+    "Watch City Bipolar Express 2024 - 2.54oz": "watchcity|bipolarexpress",
     "L.J. Peretti Thanksgiving Day - 4oz": "ljperetti|thanksgivingday",
     "HU Dark Moor - 1.94oz": "hutobacco|darkmoor",
     "Mac Baren HH Old Dark Fired (ready rubbed)": "macbaren|hholddarkfiredreadyrubbed",
@@ -48422,7 +48300,7 @@
     "Frog Morton On The Bayou 50g": "mcclelland|frogmortononthebayou",
     "English Woods 50g": "mcclelland|englishwoods",
     "Tilbury 2oz": "glpease|tilbury",
-    "Rouxgaroux 12oz": "watchcitycigars|rouxgaroux",
+    "Rouxgaroux 12oz": "watchcity|rouxgaroux",
     "Peterson St. Patrick’s Day – 2017": "peterson|stpatricksday",
     "Peterson St. Patrick’s Day – 2018": "peterson|stpatricksday",
     "Peterson St. Patrick’s Day – 2024": "peterson|stpatricksday",
@@ -48572,7 +48450,7 @@
     "Whimsical": "sutliff|whimsical",
     "HH Pure Virginia 2020": "hearthhome|purevirginia",
     "Edward G 100g tin (2021)": "sutliff|edwardgrobinsonspipeblend",
-    "105g 2022 Faulkner Flake": "thecountrysquiretobacconist|faulknerflake",
+    "105g 2022 Faulkner Flake": "countrysquire|faulknerflake",
     "35g 2022 Stonehenge Flake": "glpease|stonehengeflake",
     "70g 2020 MacB Navy Flake": "macbaren|navyflake",
     "45g 2022 Best Brown Flake": "gawithhoggarthco|bestbrownflake",
@@ -48614,7 +48492,7 @@
     "Sutliff Sweated, 1.4oz block,": "sutliff|sweated",
     "H & H Vintage Syrian 1.75 oz 2015": "hearthhome|vintagesyrian",
     "Mac Baren Burley London Blend 3.5 ounce  2021": "macbaren|burleylondonblend",
-    "4th Generation Peaty Kentucky": "erikstokebye|4thgenerationpeatykentucky",
+    "4th Generation Peaty Kentucky": "erikstokkebye|4thgenerationpeatykentucky",
     "HH Acadian Perique 1.3oz  2015": "macbaren|hhacadianperique",
     "Strauss Sleepy Hollow 1.1oz 2015": "strauss|sleepyhollow",
     "Frog Morton 3.1oz 2015": "mcclelland|frogmorton",
@@ -48730,7 +48608,7 @@
     "King’s Ransom (original version before KBV; pretty sure it has Syrian Lat)": "kenbyronventures|kingsransom",
     "Samsun and Delilah": "kenbyronventures|samsunanddelilah",
     "Hellstar Dread Planet": "kenbyronventures|thedreadplanet",
-    "Red Forest Phenomenon": "kenbyron|redforestphenomenon",
+    "Red Forest Phenomenon": "kenbyronventures|redforestphenomenon",
     "Kendal Plug 250g 2019 in mylar": "samuelgawith|kendalplug",
     "Tilbury 8 oz. bag (bag in mylar)": "glpease|tilbury",
     "Dunbar 8 oz bag": "esoterica|dunbar",
@@ -48765,7 +48643,7 @@
     "lb bag of 515 RC-1": "sutliff|515rc1",
     "Viprati": "hearthhome|viprati",
     "x Gold Slice": "wessex|goldslice",
-    "4th Gen 1989": "erikstokebye|4thgeneration1989",
+    "4th Gen 1989": "erikstokkebye|4thgeneration1989",
     "Peterson 3p 2021": "peterson|threeps",
     "Peterson Signature Flake": "peterson|signatureflake",
     "Sutliff Eastfarthing 12/2024 - 1.5oz": "sutliff|eastfarthing",
@@ -48853,7 +48731,7 @@
     "x 2017 Filmore 8oz": "glpease|fillmore",
     "x 2021 Triple Play 8oz": "glpease|tripleplay",
     "x bs flake 17": "samuelgawith|brownsugarflake",
-    "x McConnell high gate 20": "mcconnell|highgate",
+    "x McConnell high gate 20": "robertmcconnell|highgate",
     "x Peterson’s royal yacht 21": "peterson|royalyacht",
     "x 2020 skiff mixture": "samuelgawith|skiffmixture",
     "Va Slices 7.4 oz": "sutliff|virginiaslices",
@@ -48922,13 +48800,13 @@
     "x Ashton artisian (2016) Syrian": "ashton|artisansblend",
     "x Peterson university (2019)": "peterson|universityflake",
     "x Peterson Irish flake (19-20)": "peterson|irishflake",
-    "x McConnell red Va": "mcconnell|redva",
+    "x McConnell red Va": "robertmcconnell|redva",
     "x st Bruno 2018": "stbruno|stbruno",
     "x classic flake 2021": "macbaren|vanillacreamflake",
     "x Stirling flake 2019": "rattrays|stirlingflake",
     "x sir John flake 2020": "johnaylesbury|sirjohnsflakevirginia",
     "x Dunhill nightcap 2015": "dunhill|nightcap",
-    "x McConnell rich dark Va 2020": "mcconnell|richdarkva",
+    "x McConnell rich dark Va 2020": "robertmcconnell|richdarkva",
     "x viprati (21-23)": "hearthhome|viprati",
     "x F&T blackjack (2020)": "fribourgtreyer|blackjack",
     "x bagpipers dream 2020": "rattrays|bagpipersdream",
@@ -49187,7 +49065,7 @@
     "Bob's Square Cut 3.5oz": "gawithhoggarthco|bobssquarecut",
     "Kendal Cream Flake 4oz": "samuelgawith|kendalcreamflake",
     "PS Navy Flake 4oz": "peterstokkebye|luxurynavyflake",
-    "Haddo's Delight 3.25oz": "mcconnell|haddosdelight",
+    "Haddo's Delight 3.25oz": "robertmcconnell|haddosdelight",
     "Firestorm": "samuelgawith|firestorm",
     "Presbyterian Ordained": "macbaren|presbyterianordained",
     "Mac Baren Golden Extra": "macbaren|goldenextra",

@@ -85,7 +85,7 @@
   },
   "2018 Smoker’s Haven In-B-Tween Mixture": {
     "blend": "In-B-Tween Mixture",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -379,7 +379,7 @@
   },
   "Bufflehead: GAWITH & HOGGARTH LA FLAKE 2oz 2005 - C": {
     "blend": "LA Flake",
-    "brand": "Gawith & Hoggarth",
+    "brand": "Gawith, Hoggarth & Co.",
     "confidence": 1.0,
     "is_tin": true,
     "source": "override"
@@ -1555,21 +1555,21 @@
   },
   "Gawith Hoggarth - Balkan Mixture": {
     "blend": "Balkan Mixture",
-    "brand": "Gawith & Hoggarth",
+    "brand": "Gawith, Hoggarth & Co.",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Gawith Hoggarth - Rum Flake - 2021": {
     "blend": "Rum Flake",
-    "brand": "Gawith & Hoggarth",
+    "brand": "Gawith, Hoggarth & Co.",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Gawith Hoggarth: BRIGHT CR BURNT ENDS 500g - C": {
     "blend": "Bright CR Burnt Ends",
-    "brand": "Gawith & Hoggarth",
+    "brand": "Gawith, Hoggarth & Co.",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -3123,35 +3123,35 @@
   },
   "Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C": {
     "blend": "20th Anniversary Mixture",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: IN-B-TWEEN MIXTURE 2oz 2018 - C": {
     "blend": "In-B-Tween Mixture",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: OUR BEST BLEND 2oz 2018 - C": {
     "blend": "Our Best Blend",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: SELECT MIXTURE 2oz 2018 - C": {
     "blend": "Select Mixture",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smokers' Haven: EXOTIQUE MIXTURE 2oz 2018 - C": {
     "blend": "Exotique Mixture",
-    "brand": "Smoker's Haven",
+    "brand": "Smokers Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -3597,7 +3597,7 @@
     "confidence": 0.95
   },
   "#7 Broken Flake 2021": {
-    "brand": "Gawith Hoggarth & Co.",
+    "brand": "Gawith, Hoggarth & Co.",
     "blend": "#7 Broken Flake",
     "is_tin": true,
     "confidence": 0.85
@@ -3821,7 +3821,7 @@
     "confidence": 0.88
   },
   "3 oz G&H Balkan Mixture 2021": {
-    "brand": "Gawith Hoggarth & Co.",
+    "brand": "Gawith, Hoggarth & Co.",
     "blend": "Balkan Mixture",
     "is_tin": true,
     "confidence": 0.9
@@ -3839,7 +3839,7 @@
     "confidence": 0.85
   },
   "4th Gen 1989": {
-    "brand": "Erik Stokebye",
+    "brand": "Erik Stokkebye",
     "blend": "4th Generation 1989",
     "is_tin": true,
     "confidence": 0.75
@@ -3857,7 +3857,7 @@
     "confidence": 0.95
   },
   "4th Generation Peaty Kentucky": {
-    "brand": "Erik Stokebye",
+    "brand": "Erik Stokkebye",
     "blend": "4th Generation Peaty Kentucky",
     "is_tin": true,
     "confidence": 0.75
@@ -3875,7 +3875,7 @@
     "confidence": 0.88
   },
   "6 oz G&H Curly Cut Deluxe 2023": {
-    "brand": "Gawith Hoggarth & Co.",
+    "brand": "Gawith, Hoggarth & Co.",
     "blend": "Curly Cut Deluxe",
     "is_tin": true,
     "confidence": 0.88
@@ -3894,7 +3894,7 @@
     "source": "llm"
   },
   "8oz GH #7 Broken Flake 2021": {
-    "brand": "Gawith Hoggarth & Co.",
+    "brand": "Gawith, Hoggarth & Co.",
     "blend": "#7 Broken Flake",
     "is_tin": true,
     "confidence": 0.85
@@ -6462,7 +6462,7 @@
     "confidence": 0.95
   },
   "Red Forest Phenomenon": {
-    "brand": "Ken Byron",
+    "brand": "Ken Byron Ventures",
     "blend": "Red Forest Phenomenon",
     "is_tin": true,
     "confidence": 0.95
@@ -8055,19 +8055,19 @@
     "confidence": 0.95
   },
   "x McConnell high gate 20": {
-    "brand": "McConnell",
+    "brand": "Robert McConnell",
     "blend": "Highgate",
     "is_tin": true,
     "confidence": 0.95
   },
   "x McConnell red Va": {
-    "brand": "McConnell",
+    "brand": "Robert McConnell",
     "blend": "Red Va",
     "is_tin": true,
     "confidence": 0.9
   },
   "x McConnell rich dark Va 2020": {
-    "brand": "McConnell",
+    "brand": "Robert McConnell",
     "blend": "Rich Dark Va",
     "is_tin": true,
     "confidence": 0.9
@@ -9956,7 +9956,7 @@
     "source": "llm"
   },
   "Haddo's Delight 3.25oz": {
-    "brand": "McConnell",
+    "brand": "Robert McConnell",
     "blend": "Haddo's Delight",
     "confidence": 0.9,
     "is_tin": true,
@@ -10549,31 +10549,31 @@
     "confidence": 0.92
   },
   "'26 Ravenwood Frog Morten Chalet 50g": {
-    "brand": "Ravenwood Fine Provisions",
+    "brand": "Ravenwood",
     "blend": "Frog Morton's Chalet",
     "is_tin": true,
     "confidence": 0.95
   },
   "'26 Ravenwood Frog Morten Chalet ~40g": {
-    "brand": "Ravenwood Fine Provisions",
+    "brand": "Ravenwood",
     "blend": "Frog Morton's Chalet",
     "is_tin": true,
     "confidence": 0.95
   },
   "'26 Ravenwood Gates of Argonath ~40g": {
-    "brand": "Ravenwood Fine Provisions",
+    "brand": "Ravenwood",
     "blend": "Gates of Argonath",
     "is_tin": true,
     "confidence": 0.95
   },
   "'26 Ravenwood Hobbit's Leaf 50g": {
-    "brand": "Ravenwood Fine Provisions",
+    "brand": "Ravenwood",
     "blend": "Hobbit's Leaf",
     "is_tin": true,
     "confidence": 0.95
   },
   "'26 Ravenwood Hobbit's Leaf ~40g": {
-    "brand": "Ravenwood Fine Provisions",
+    "brand": "Ravenwood",
     "blend": "Hobbit's Leaf",
     "is_tin": true,
     "confidence": 0.95
@@ -10843,7 +10843,7 @@
     "confidence": 0.9
   },
   "105g 2022 Faulkner Flake": {
-    "brand": "The Country Squire Tobacconist",
+    "brand": "Country Squire",
     "blend": "Faulkner Flake",
     "is_tin": true,
     "confidence": 0.92
@@ -13921,7 +13921,7 @@
     "confidence": 0.99
   },
   "Peter Heinrich's Curly Block 2019 in jar 103g (NOT WESSEX)": {
-    "brand": "Peter Heinrich",
+    "brand": "Peter Heinrichs",
     "blend": "Curly Block",
     "is_tin": true,
     "confidence": 0.9
@@ -14209,7 +14209,7 @@
     "confidence": 0.99
   },
   "Rouxgaroux 12oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Rouxgaroux",
     "is_tin": true,
     "confidence": 0.9
@@ -15439,25 +15439,25 @@
     "confidence": 0.99
   },
   "Watch City #7 - 1.45oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "#7",
     "is_tin": true,
     "confidence": 0.8
   },
   "Watch City Bipolar Express 2024 - 2.54oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Bipolar Express",
     "is_tin": true,
     "confidence": 0.9
   },
   "Watch City Old Dominion - 1.45oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Old Dominion",
     "is_tin": true,
     "confidence": 0.85
   },
   "Watch City Simply Red 2oz 2020": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Simply Red",
     "is_tin": true,
     "confidence": 0.9
@@ -16435,7 +16435,7 @@
     "confidence": 0.85
   },
   "Watch City Cigar Rouxgaroux 2026 8 oz": {
-    "brand": "Watch City Cigars",
+    "brand": "Watch City",
     "blend": "Rouxgaroux",
     "is_tin": true,
     "confidence": 0.9
