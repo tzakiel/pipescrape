@@ -27,7 +27,7 @@ Update this file whenever a new brand rule or correction is learned during a `/p
 | Cap Blue / Cap Yellow | Capstan, blend = Blue / Yellow (blend is just the color) |
 | KC Flake | Samuel Gawith Kendal Cream Flake |
 | BS Flake | Samuel Gawith Brown Sugar Flake |
-| WCC / W.C. | Watch City Cigars |
+| WCC / W.C. | Watch City |
 | McC | McClelland |
 | OGS | Orlik Golden Sliced |
 | LTF | Peter Stokkebye Luxury Twist Flake |
@@ -81,7 +81,7 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 
 - **Cascadia** — tobacco brand; blend: "Campsite" etc.
 - **Bufflehead** — tobacco brand; blend: "Bufflehead Decoy"
-- **Ravenwood Fine Provisions** — US tobacco brand; LOTR-themed blends: "Hobbit's Leaf", "Gates of Argonath", "Frog Morton's Chalet"; separate from "Ravenwood" (blend: "Eleventh Day of Christmas")
+- **Ravenwood** — US tobacco brand; LOTR-themed blends: "Hobbit's Leaf", "Gates of Argonath", "Frog Morton's Chalet"; also makes "Eleventh Day of Christmas"
 - **Emerson Southern Forged** — US small-batch blender (Jim Steffey); blends: "Abercastle", "Aberdeen", "Thomas' Blend"
 - **Ken Byron Ventures (KBV)** — US brand; whimsical blend names: "Mr. Christian's…", "Byronic Fragments", "B. Frog's…", "King's Ransom", "Live Wire", "VEO", "Dungeon Meister", "Full Metal Balkanist", "Myrkwood", "Notorious", "River of Deceit", "Verge Engine Overdrive"; "Hellstar" series = KBV. NOT Kohlhase, Kopp & Voss.
 - **Mike & Russ** — collaborative blenders; blend: "The Mind Meld Virginia/Perique"
@@ -97,8 +97,8 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 
 ### Shop house blends
 
-- **Watch City Cigars** — blends: "Rouxgaroux", "Simply Red", "Old Black Magic", "Strange Magic", "Deluxe Crumb Cut", "Rhythm and Blues", "Mistletoe Jam", "Old Dominion", "Bostonian Rhapsody", "Flake #558"
-- **Country Squire / The Country Squire Tobacconist** — Mississippi pipe shop; house blends: "Old Toby", "Faulkner Flake"
+- **Watch City** — blends: "Rouxgaroux", "Simply Red", "Old Black Magic", "Strange Magic", "Deluxe Crumb Cut", "Rhythm and Blues", "Mistletoe Jam", "Old Dominion", "Bostonian Rhapsody", "Flake #558"
+- **Country Squire** — Mississippi pipe shop; house blends: "Old Toby", "Faulkner Flake"
 - **Seattle Pipe Club** — also makes: "Plum Pudding Special Reserve"
 - **L.J. Peretti** — Boston tobacconist; house blends include "Thanksgiving Day"
 - **Robert Lewis** — London tobacconist; blend: "Tree Mixture"
@@ -110,7 +110,7 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 - **Reiner** — German brand (Rudiger L. Will); Blend No. 71 = Long Golden Flake; Blend No. 25 = aromatic
 - **John Aylesbury** — German collective; blends: Sir John's Flake Virginia, Classic Flake, Dragon Flake
 - **HU Tobacco** — German brand; blends: "Flanagan", "Aus den Krater" series. NOT Hermit Umbra.
-- **Peter Heinrich / Peter Heinrichs** — German brand; blend: "Curly Block" (confirmed NOT Wessex)
+- **Peter Heinrichs** — German brand; blend: "Curly Block" (confirmed NOT Wessex)
 - **Troost** — Dutch tobacco brand; blend: "Aromatic Cavendish"
 - **Arango** — importer/distributor; "Balkan Supreme" = Arango Balkan Supreme
 - **Bengal Slices** — standalone brand name (brand = "Bengal Slices", blend = "Bengal Slices"); originally Sobranie, now Standard Tobacco Co.
