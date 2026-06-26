@@ -16505,5 +16505,77 @@
     "blend": "Royal Yacht",
     "is_tin": true,
     "confidence": 0.95
+  },
+  "2013 McClelland's British Woods - 1 Tin NR BIN $220": {
+    "brand": "McClelland",
+    "blend": "British Woods",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2016 Frog Morton Across The Pond with Syrian Latakia by McClelland 10 Years of Age": {
+    "brand": "McClelland",
+    "blend": "Frog Morton Across the Pond",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2oz tin from Sep, 2021 of Cornell and Diehl's Small-Batch Carolina Red Flake w/Perique. 14,675/15,000": {
+    "brand": "Cornell & Diehl",
+    "blend": "Carolina Red Flake with Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Bell's Three Nuns 1.75oz tin by Mac Baren from Jul 2017 with 9 years of age on it": {
+    "brand": "Mac Baren",
+    "blend": "Three Nuns",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Tsuge \"The Four Seasons\" Pipe Tobacco - 3 out of 4 - 50g tins Premium Pipe Tobacco": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "VINTAGE and RARE Flying Dutchman 2oz cutter top": {
+    "brand": "Flying Dutchman",
+    "blend": "Flying Dutchman",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "VINTAGE and RARE Sealed Player's Whiskey Ready Rubbed 25g tin": {
+    "brand": "Player's",
+    "blend": "Whiskey Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "VINTAGE and RARE sealed 1960s Dunhill Flake 4oz": {
+    "brand": "Dunhill",
+    "blend": "Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "VINTAGE and RARE sealed Bengal Slices (aromatic) 50g tin": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Bengal Slices",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Vintage Dunhill My Mixture 965 (1980s-90s) Older Logo, Painted Lid (40 GRAMS) Open 50g Tin": {
+    "brand": "Dunhill",
+    "blend": "My Mixture No. 965",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Vintage McClelland 2016 CHRISTMAS CHEER 100g Sealed Tin": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Tsuge “The Four Seasons” Pipe Tobacco - 3 out of 4 - 50g tins Premium Pipe Tobacco": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
   }
 }

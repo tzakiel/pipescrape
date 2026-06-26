@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-26T17:02:14.472098+00:00",
+  "generated": "2026-06-26T17:05:09.488905+00:00",
   "stats": {
-    "total_listings": 2772,
-    "excluded_multipacks": 1205,
-    "total_tins": 886,
-    "multi_member_tins": 294,
-    "listings_in_groups": 975,
-    "cross_source_tins": 141
+    "total_listings": 2788,
+    "excluded_multipacks": 1211,
+    "total_tins": 892,
+    "multi_member_tins": 296,
+    "listings_in_groups": 981,
+    "cross_source_tins": 142
   },
   "tins": [
     {
@@ -2091,7 +2091,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/butera-pelican-2014-2oz-c",
               "price": "$245.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "2014",
               "price_history": [
@@ -2102,6 +2102,14 @@
                 {
                   "price": "$245.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$285.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$245.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             }
@@ -3999,9 +4007,33 @@
       "blend": "Carolina Red Flake with Perique",
       "display_name": "Cornell & Diehl Carolina Red Flake with Perique",
       "sources": [
+        "Tinbids Auction (Sold)",
         "Speak-Easy.Club"
       ],
       "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "2oz tin from Sep, 2021 of Cornell and Diehl's Small-Batch Carolina Red Flake w/Perique. 14,675/15,000",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196829/",
+              "price": "$30.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T14:16:00+00:00",
+              "year": "2021",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2026-06-26T14:16:00+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        },
         {
           "quantity": "",
           "members": [
@@ -4027,9 +4059,10 @@
         }
       ],
       "years": [
-        "2020"
+        "2020",
+        "2021"
       ],
-      "source": "Speak-Easy.Club"
+      "source": "Multiple sources"
     },
     {
       "id": "cornelldiehl|chelseamorning",
@@ -10033,6 +10066,29 @@
           ]
         },
         {
+          "quantity": "4oz",
+          "members": [
+            {
+              "name": "VINTAGE and RARE sealed 1960s Dunhill Flake 4oz",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196813/",
+              "price": "$1130.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T13:38:58+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$1130.00",
+                  "date": "2026-06-26T13:38:58+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        },
+        {
           "quantity": "",
           "members": [
             {
@@ -10479,6 +10535,29 @@
         "Tinbids Auction (Sold)"
       ],
       "sizes": [
+        {
+          "quantity": "40g",
+          "members": [
+            {
+              "name": "Vintage Dunhill My Mixture 965 (1980s-90s) Older Logo, Painted Lid (40 GRAMS) Open 50g Tin",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196615/",
+              "price": "$110.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T01:04:40+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$110.00",
+                  "date": "2026-06-26T01:04:40+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        },
         {
           "quantity": "",
           "members": [
@@ -11882,7 +11961,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-and-so-to-bed-2oz-c",
               "price": "$150.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -11913,6 +11992,14 @@
                 {
                   "price": "$150.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$140.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$150.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             },
@@ -12404,7 +12491,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-margate-2oz-2015-c",
               "price": "$140.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -12431,6 +12518,14 @@
                 {
                   "price": "$140.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$150.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$140.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             },
@@ -12505,7 +12600,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-margate-8oz-c-1",
               "price": "$525.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -12528,6 +12623,14 @@
                 {
                   "price": "$525.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$475.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$525.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             }
@@ -13074,7 +13177,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/esoterica-st-ives-8oz-c",
               "price": "$545.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-21T02:45:17.226279+00:00",
               "year": "",
               "price_history": [
@@ -13133,6 +13236,14 @@
                 {
                   "price": "$545.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$575.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$545.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             }
@@ -13537,6 +13648,42 @@
       ],
       "years": [],
       "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "flyingdutchman|flyingdutchman",
+      "brand": "Flying Dutchman",
+      "blend": "Flying Dutchman",
+      "display_name": "Flying Dutchman Flying Dutchman",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "VINTAGE and RARE Flying Dutchman 2oz cutter top",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196807/",
+              "price": "$305.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T13:36:17+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$305.00",
+                  "date": "2026-06-26T13:36:17+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "fribourgtreyer|34thanniversary",
@@ -17833,6 +17980,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "gawithhoggarthco|bengalslices",
+      "brand": "Gawith, Hoggarth & Co.",
+      "blend": "Bengal Slices",
+      "display_name": "Gawith, Hoggarth & Co. Bengal Slices",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "VINTAGE and RARE sealed Bengal Slices (aromatic) 50g tin",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196812/",
+              "price": "$350.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T13:38:28+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$350.00",
+                  "date": "2026-06-26T13:38:28+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "gawithhoggarthco|bestbrownflake",
       "brand": "Gawith, Hoggarth & Co.",
       "blend": "Best Brown Flake",
@@ -20954,7 +21137,7 @@
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/balkan-sobranie-balkan-sobranie-50g-c-1",
               "price": "$125.00",
-              "last_updated": "2026-06-25T15:14:21.789530+00:00",
+              "last_updated": "2026-06-26T15:14:15.656788+00:00",
               "first_seen": "2026-06-23T15:14:19.145115+00:00",
               "year": "",
               "price_history": [
@@ -20981,6 +21164,14 @@
                 {
                   "price": "$125.00",
                   "date": "2026-06-25T15:14:21.789530+00:00"
+                },
+                {
+                  "price": "$145.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
+                },
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-26T15:14:15.656788+00:00"
                 }
               ]
             },
@@ -26839,6 +27030,44 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
+      "id": "macbaren|threenuns",
+      "brand": "Mac Baren",
+      "blend": "Three Nuns",
+      "display_name": "Mac Baren Three Nuns",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.75oz",
+          "members": [
+            {
+              "name": "Bell’s Three Nuns 1.75oz tin by Mac Baren from Jul 2017 with 9 years of age on it",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196841/",
+              "price": "$46.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T14:22:13+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$46.00",
+                  "date": "2026-06-26T14:22:13+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2017"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "macbaren|uncutnavyflakeplug",
       "brand": "Mac Baren",
       "blend": "Uncut Navy Flake Plug",
@@ -28477,6 +28706,44 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "mcclelland|britishwoods",
+      "brand": "McClelland",
+      "blend": "British Woods",
+      "display_name": "McClelland British Woods",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "2013 McClelland’s British Woods - 1 Tin NR BIN $220",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/199020/",
+              "price": "$215.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T12:56:34+00:00",
+              "year": "2013",
+              "price_history": [
+                {
+                  "price": "$215.00",
+                  "date": "2026-06-26T12:56:34+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2013"
+      ],
+      "source": "Tinbids Auction (Sold)"
+    },
+    {
       "id": "mcclelland|buteralatakiano1",
       "brand": "McClelland",
       "blend": "Butera Latakia No. 1",
@@ -28748,6 +29015,21 @@
               ]
             },
             {
+              "name": "Vintage McClelland 2016 CHRISTMAS CHEER 100g Sealed Tin",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196740/",
+              "price": "$190.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T13:10:37+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$190.00",
+                  "date": "2026-06-26T13:10:37+00:00"
+                }
+              ]
+            },
+            {
               "name": "Christmas Cheer 100g 2016",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
@@ -28825,6 +29107,7 @@
           ],
           "sources": [
             "pipestud.com",
+            "Tinbids Auction (Sold)",
             "4noggins.com",
             "Speak-Easy.Club"
           ]
@@ -29394,6 +29677,44 @@
         "2017"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "mcclelland|frogmortonacrossthepond",
+      "brand": "McClelland",
+      "blend": "Frog Morton Across the Pond",
+      "display_name": "McClelland Frog Morton Across the Pond",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "2016 Frog Morton Across The Pond with Syrian Latakia by McClelland 10 Years of Age",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196835/",
+              "price": "$194.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T14:18:01+00:00",
+              "year": "2016",
+              "price_history": [
+                {
+                  "price": "$194.00",
+                  "date": "2026-06-26T14:18:01+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [
+        "2016"
+      ],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "mcclelland|frogmortononthebayou",
@@ -35608,6 +35929,42 @@
       ],
       "years": [],
       "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "players|whiskeyreadyrubbed",
+      "brand": "Player's",
+      "blend": "Whiskey Ready Rubbed",
+      "display_name": "Player's Whiskey Ready Rubbed",
+      "sources": [
+        "Tinbids Auction (Sold)"
+      ],
+      "sizes": [
+        {
+          "quantity": "25g",
+          "members": [
+            {
+              "name": "VINTAGE and RARE Sealed Player's Whiskey Ready Rubbed 25g tin",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/196811/",
+              "price": "$150.00",
+              "last_updated": "2026-06-26T16:00:27.901345+00:00",
+              "first_seen": "2026-06-26T13:37:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$150.00",
+                  "date": "2026-06-26T13:37:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Tinbids Auction (Sold)"
     },
     {
       "id": "princealbert|originalblend",
@@ -47361,6 +47718,16 @@
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "macbaren|darktwistrollcake",
     "Van Rossem’s Schippers Tabak 3-1/2oz tins – 1070’s – 1980’s era": "vanrossem|schipperstabak",
     "Theodorus Niemeyer Flying Dutchman 2oz tins – 1960’s – 1970’s era": "theodorusniemeyer|flyingdutchman",
+    "Vintage Dunhill My Mixture 965 (1980s-90s) Older Logo, Painted Lid (40 GRAMS) Open 50g Tin": "dunhill|mymixtureno965",
+    "2013 McClelland’s British Woods - 1 Tin NR BIN $220": "mcclelland|britishwoods",
+    "Vintage McClelland 2016 CHRISTMAS CHEER 100g Sealed Tin": "mcclelland|christmascheer",
+    "VINTAGE and RARE Flying Dutchman 2oz cutter top": "flyingdutchman|flyingdutchman",
+    "VINTAGE and RARE Sealed Player's Whiskey Ready Rubbed 25g tin": "players|whiskeyreadyrubbed",
+    "VINTAGE and RARE sealed Bengal Slices (aromatic) 50g tin": "gawithhoggarthco|bengalslices",
+    "VINTAGE and RARE sealed 1960s Dunhill Flake 4oz": "dunhill|flake",
+    "2oz tin from Sep, 2021 of Cornell and Diehl's Small-Batch Carolina Red Flake w/Perique. 14,675/15,000": "cornelldiehl|carolinaredflakewithperique",
+    "2016 Frog Morton Across The Pond with Syrian Latakia by McClelland 10 Years of Age": "mcclelland|frogmortonacrossthepond",
+    "Bell’s Three Nuns 1.75oz tin by Mac Baren from Jul 2017 with 9 years of age on it": "macbaren|threenuns",
     "2017 Frog Morton on the log 50 gram": "mcclelland|frogmortononthelog",
     "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003": "butera|pelican",
     "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK": "esoterica|margate",
