@@ -4067,9 +4067,9 @@
   },
   "Artifact OG not sure on age 87g": {
     "brand": "",
-    "blend": "Artifact OG not sure on age 87g",
-    "is_tin": true,
-    "confidence": 0.4
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.7
   },
   "Artisan's Blend 50g": {
     "brand": "Ashton",
@@ -5579,7 +5579,7 @@
     "confidence": 0.85
   },
   "Opened Mylar KBV Mr. Christian's Scare o'matic Licorice Cream - 1+ oz": {
-    "brand": "Kohlhase, Kopp & Voss",
+    "brand": "Ken Byron Ventures",
     "blend": "Mr. Christian's Scare-o-matic Licorice Cream",
     "is_tin": true,
     "confidence": 0.88
@@ -6330,7 +6330,7 @@
     "confidence": 0.92
   },
   "Samsun and Delilah": {
-    "brand": "Kohlhase, Kopp & Voss",
+    "brand": "Ken Byron Ventures",
     "blend": "Samsun and Delilah",
     "is_tin": true,
     "confidence": 0.88
@@ -6884,9 +6884,9 @@
   },
   "The Nuttensropp": {
     "brand": "",
-    "blend": "The Nuttensropp",
-    "is_tin": true,
-    "confidence": 0.55
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
   },
   "The magnums are": {
     "brand": "",
@@ -9823,7 +9823,7 @@
     "source": "llm"
   },
   "King’s Ransom (original version before KBV; pretty sure it has Syrian Lat)": {
-    "brand": "Kohlhase, Kopp & Voss",
+    "brand": "Ken Byron Ventures",
     "blend": "King's Ransom",
     "confidence": 0.9,
     "is_tin": true,
@@ -10325,5 +10325,6185 @@
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
+  },
+  "Astleys: No. 44 DARK VIRGINIA FLAKE 50g  2014 -C": {
+    "brand": "Astley's",
+    "blend": "No. 44 Dark Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Astleys: No. 88 MATURED DARK VIRGINIA 50g 2008 - C": {
+    "brand": "Astley's",
+    "blend": "No. 88 Matured Dark Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Cornell & Diehl: SP.COM 20th ANNIVERSARY XX FLAKE DARK 2oz 2020-C": {
+    "brand": "Cornell & Diehl",
+    "blend": "SP.com 20th Anniversary XX Flake Dark",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2oz 2017 -C": {
+    "brand": "Cornell & Diehl",
+    "blend": "Small Batch Carolina Red Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Davidoff: RED MIXTURE 50g 2015 - C": {
+    "brand": "Davidoff",
+    "blend": "Red Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill: MY MIXTURE 965 50g 2005 - C": {
+    "brand": "Dunhill",
+    "blend": "My Mixture 965",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Dunhill: STANDARD MIXTURE MELLOW 50g 2005 - C": {
+    "brand": "Dunhill",
+    "blend": "Standard Mixture Mellow",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica: DORCHESTER 8oz - C": {
+    "brand": "Esoterica",
+    "blend": "Dorchester",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "Esoterica: PEACEHAVEN 8oz - C": {
+    "brand": "Esoterica",
+    "blend": "Peacehaven",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "J.F. Germain: BROWN FLAKE 50g - C": {
+    "brand": "J.F. Germain",
+    "blend": "Brown Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "J.F. Germain: ROYAL JERSEY CAVENDISH & VIRGINIA 50g - C": {
+    "brand": "J.F. Germain",
+    "blend": "Royal Jersey Cavendish & Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Mac Baren: HH PURE VIRGINIA 1.75oz 2021 - C": {
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: DARK STAR 100g 2016 - C": {
+    "brand": "McClelland",
+    "blend": "Dark Star",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "McClelland: FROG MORTON'S CELLAR 100g 2018 -C": {
+    "brand": "McClelland",
+    "blend": "Frog Morton's Cellar",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "McClelland: Grand Orientals: KATERINI CLASSIC 50g 2017 - C": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals: Katerini Classic",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: NO. 22 MATURED VIRGINIA 100g 2017 - C": {
+    "brand": "McClelland",
+    "blend": "No. 22 Matured Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: NO. 24 MATURED VIRGINIA 50g 2014 - C": {
+    "brand": "McClelland",
+    "blend": "No. 24 Matured Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: NO. 24 VIRGINIA 100g 2016- C": {
+    "brand": "McClelland",
+    "blend": "No. 24 Matured Virginia",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "McClelland: NO. 27 MATURED VIRGINIA 100g 2017 - C": {
+    "brand": "McClelland",
+    "blend": "No. 27 Matured Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: SYRIAN FULL BALKAN 2oz 2004 - C": {
+    "brand": "McClelland",
+    "blend": "Syrian Full Balkan",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland: SYRIAN SUPER BALKAN 50g 2006 - C": {
+    "brand": "McClelland",
+    "blend": "Syrian Super Balkan",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "PCCA: FULL BALKAN RESERVE 2000 - C": {
+    "brand": "PCCA",
+    "blend": "Full Balkan Reserve",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Samuel Gawith: 1792 FLAKE 50g 2016 - C": {
+    "brand": "Samuel Gawith",
+    "blend": "1792 Flake",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "Samuel Gawith: FULL VIRGINIA FLAKE 50g 2011 - C": {
+    "brand": "Samuel Gawith",
+    "blend": "Full Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "Wessex: GOLD SLICE 1.5oz 2012 - C": {
+    "brand": "Wessex",
+    "blend": "Gold Slice",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "#7 Broken Flake 500g": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "No. 7 Broken Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'16 Christmas Cheer + 40th Anniversary": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "'18 Mac Baren Solent Mixture 3.5oz (100g)": {
+    "brand": "Mac Baren",
+    "blend": "Solent Mixture",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'20 + '23 3.5oz Rustica tins": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "'22 GLP Gaslight 2oz (56g)": {
+    "brand": "G.L. Pease",
+    "blend": "Gaslight",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'23 C&D From Beyond 2oz (56g)": {
+    "brand": "Cornell & Diehl",
+    "blend": "From Beyond",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'24 Mac Baren Old Dark Fired 3.5oz (100g)": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'24 Petersons Nightcap 50g": {
+    "brand": "Peterson",
+    "blend": "Nightcap",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'24 SG Full Virgina Flake 50g": {
+    "brand": "Samuel Gawith",
+    "blend": "Full Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "'26 KBV Dungeon Meister 2oz": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Dungeon Meister",
+    "is_tin": true,
+    "confidence": 0.7
+  },
+  "'26 KBV Dungeon Meister ~35g (this one has a bit less than the others)": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Dungeon Meister",
+    "is_tin": true,
+    "confidence": 0.7
+  },
+  "'26 KBV Throgmorten ~45g": {
+    "brand": "Ken Byron Ventures",
+    "blend": "B. Frog's Throgmorton",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "'26 Ravenwood Frog Morten Chalet 50g": {
+    "brand": "Ravenwood Fine Provisions",
+    "blend": "Frog Morton's Chalet",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "'26 Ravenwood Frog Morten Chalet ~40g": {
+    "brand": "Ravenwood Fine Provisions",
+    "blend": "Frog Morton's Chalet",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "'26 Ravenwood Gates of Argonath ~40g": {
+    "brand": "Ravenwood Fine Provisions",
+    "blend": "Gates of Argonath",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "'26 Ravenwood Hobbit's Leaf 50g": {
+    "brand": "Ravenwood Fine Provisions",
+    "blend": "Hobbit's Leaf",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "'26 Ravenwood Hobbit's Leaf ~40g": {
+    "brand": "Ravenwood Fine Provisions",
+    "blend": "Hobbit's Leaf",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "(1) SG Brown Sugar Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Brown Sugar Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "(Can do the three Boswells for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "(J) 2013 Frog Morton Cellar": {
+    "brand": "McClelland",
+    "blend": "Frog Morton On the Cellar",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "(J) 2020? Reiner 71 LGF (rubbed out)": {
+    "brand": "Reiner",
+    "blend": "Blend No. 71 (Long Golden Flake)",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "(J) 2021 Dorchester": {
+    "brand": "Esoterica",
+    "blend": "Dorchester",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "(J)2013 Mcclelland's Bombay Extra": {
+    "brand": "McClelland",
+    "blend": "Bombay Extra",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "(T) 2019 Old Dublin": {
+    "brand": "Peterson",
+    "blend": "Old Dublin",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "(T) 2019 Peterson Deluxe Navy Rolls": {
+    "brand": "Peterson",
+    "blend": "Deluxe Navy Rolls",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "***You don't get the jar.  Cary Grant will be opened and put in mylar so I can ship it cheap.  Unless you want to pay": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "**Buy all 3 Mac B tins listed above for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "*SOLD*  2018 Dunhill Dark Flake 1.76oz": {
+    "brand": "Dunhill",
+    "blend": "Dark Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD*  2020 Astley's No 44 1.76oz": {
+    "brand": "Astley's",
+    "blend": "No. 44 Dark Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD*  Maestro Geppetto with box and pipe sock, NOW": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "*SOLD* 2015 Germains Uncle Tom's Smoking Mixture 50g": {
+    "brand": "J.F. Germain",
+    "blend": "Uncle Tom's Smoking Mixture",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "*SOLD* 2015 Night Train": {
+    "brand": "Cornell & Diehl",
+    "blend": "Night Train",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "*SOLD* 2016 Fribourg & Treyer Golden Mixture 1.75oz": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Golden Mixture",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD* 2016 Fribourg & Treyer Vanners Mixture 1.75oz": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Vanners Mixture",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD* 2017 Dunhill Royal Yacht 1.76oz": {
+    "brand": "Dunhill",
+    "blend": "Royal Yacht",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD* 2017 Erinmore 1.76oz": {
+    "brand": "Erinmore",
+    "blend": "Flake",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "*SOLD* 2018 Dan Tobacco Old Ironsides 50g": {
+    "brand": "Dan Tobacco",
+    "blend": "Old Ironsides",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "*SOLD* 2018 The Mallard 1.75oz": {
+    "brand": "Dan Tobacco",
+    "blend": "The Mallard",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "*SOLD* 2019 Sutliff Crumble Kake Red Virginia 50g": {
+    "brand": "Sutliff",
+    "blend": "Crumble Kake Red Virginias",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD* 2020 King's Ransom": {
+    "brand": "Ken Byron Ventures",
+    "blend": "King's Ransom",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "*SOLD* 2020 River of Deceit": {
+    "brand": "Ken Byron Ventures",
+    "blend": "River of Deceit",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD* 2020 Robert McConnell Original Red Virginia 1.76oz": {
+    "brand": "Robert McConnell",
+    "blend": "Original Red Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "*SOLD* 2020 The Patience of Dr. Silence": {
+    "brand": "Ken Byron Ventures",
+    "blend": "The Patience of Dr. Silence",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "*SOLD* 2021 Interlude dented w/seal intact": {
+    "brand": "G.L. Pease",
+    "blend": "Interlude",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "*SOLD* 2021 Rattray's Wallace Flake 1.76oz": {
+    "brand": "Rattray's",
+    "blend": "Wallace Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD* 2021 Wessex Sovereign 1.76oz": {
+    "brand": "Wessex",
+    "blend": "Sovereign Curly Cut",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "*SOLD* 2022 Solani 633 Virginia Flake with Perique 1.76oz": {
+    "brand": "Solani",
+    "blend": "633 Virginia Flake with Perique",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD* 2023 Peterson Irish Flake1.76oz": {
+    "brand": "Peterson",
+    "blend": "Irish Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD* 2023 Peterson University Flake 1.76oz": {
+    "brand": "Peterson",
+    "blend": "University Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "*SOLD* 2024 Watch City Simply Red Cake 1.5oz": {
+    "brand": "Watch City",
+    "blend": "Simply Red Cake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "*SOLD*2020 Dan Tobacco Tordenskjold Virginia Slices 50g": {
+    "brand": "Dan Tobacco",
+    "blend": "Tordenskjold Virginia Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "*SOLD*2021 Wessex Brown Vurgina Flake 1.76oz": {
+    "brand": "Wessex",
+    "blend": "Brown Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "*SOLD*2023 Esoterica Tilbury 2oz": {
+    "brand": "Esoterica",
+    "blend": "Tilbury",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "-  100g McClelland's St James Flake": {
+    "brand": "McClelland",
+    "blend": "St. James Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "- 50g 2008 McClelland's St James Flake": {
+    "brand": "McClelland",
+    "blend": "St. James Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "- 50g 2014 McClelland's Oriental No. 14": {
+    "brand": "McClelland",
+    "blend": "Oriental No. 14",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "- 50g 2015 McClelland's Tudor Castle (IYKYK)": {
+    "brand": "McClelland",
+    "blend": "Tudor Castle",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "- 50g 2017 McClelland's Virginia Woods": {
+    "brand": "McClelland",
+    "blend": "Virginia Woods",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "- 50g Balkan Sobranie": {
+    "brand": "J.F. Germain",
+    "blend": "Balkan Sobranie",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "-40th Anniversary + '09 McClelland Beacon": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "100g McClelland's St James Flake": {
+    "brand": "McClelland",
+    "blend": "St. James Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "105g 2022 Faulkner Flake": {
+    "brand": "The Country Squire Tobacconist",
+    "blend": "Faulkner Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "110g 2023 Evening Flake": {
+    "brand": "Erik Stokkebye",
+    "blend": "Evening Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "11oz WCC Mistletoe Jam": {
+    "brand": "Watch City",
+    "blend": "Mistletoe Jam",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "12oz WCC Old Dominion": {
+    "brand": "Watch City",
+    "blend": "Old Dominion",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "150g 2021 Evening Flake": {
+    "brand": "Erik Stokkebye",
+    "blend": "Evening Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "16oz 2024 LTF": {
+    "brand": "Peter Stokkebye",
+    "blend": "Luxury Twist Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "16oz NM403": {
+    "brand": "Newminster",
+    "blend": "No. 403 Superior Round Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "1917/18 Gourd Calabash with red amber stem.  GWS JC (Singleton & Cole) with 1917/18 ferrule hallmarks and 1920/21 rim hallmarks.  Orific bit, light dinging on top of rim.  Pipe has almost zero odor, which is rare for these.  6 3/4\" from end of rim straight across to end of bit": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "1937 Dunhill": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "1Lb NM403": {
+    "brand": "Newminster",
+    "blend": "No. 403 Superior Round Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "1Lb bulk Virginia no1 2024": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.7
+  },
+  "1lb sutliff 507c jarred 2/2023": {
+    "brand": "Sutliff",
+    "blend": "507-C",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "2016? SPC PP Special Res.": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding Special Reserve",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "2022 Cringle Flake (1)": {
+    "brand": "Sutliff",
+    "blend": "Cringle Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "24oz 2024 LNF": {
+    "brand": "Peter Stokkebye",
+    "blend": "Luxury Navy Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "25oz H&H Chatham Manor": {
+    "brand": "Hearth & Home",
+    "blend": "Chatham Manor",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "2oz 2012": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "2oz SPC PP": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "3+ tins:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "35g 2022 Stonehenge Flake": {
+    "brand": "G.L. Pease",
+    "blend": "Stonehenge Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "35g Chacom no4": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "363 Pipes (Brendan Pinkham) Apple-ish Pot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "3oz golden extra": {
+    "brand": "Mac Baren",
+    "blend": "Golden Extra",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "4oz bag will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "4th Gen Night Slice - 1lb 8oz": {
+    "brand": "Erik Stokkebye",
+    "blend": "4th Generation Night Slice",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "4th Generation 1.4oz 2015": {
+    "brand": "Erik Stokkebye",
+    "blend": "4th Generation",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "4th Generation 10th Anniversary Sandblast - Bruno Nuttens​Price": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "50G Bag of Germain's Brown Flake": {
+    "brand": "J.F. Germain",
+    "blend": "Brown Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "50g 2021 Orchard Mist": {
+    "brand": "Missouri Meerschaum",
+    "blend": "Orchard Mist",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "50g Mallard + Perique": {
+    "brand": "Dan Tobacco",
+    "blend": "The Mallard Flake Plus Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "50g R McConnell Folded Flake (Date unknown for sure but no more than 1-2 years)": {
+    "brand": "Robert McConnell",
+    "blend": "Folded Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "515 RC-1 x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "65g 2021 GdO Flake": {
+    "brand": "Savinelli",
+    "blend": "Giubileo d'Oro Flake",
+    "is_tin": true,
+    "confidence": 0.78
+  },
+  "6oz 2017": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "6oz WCC Rouxgaroux": {
+    "brand": "Watch City",
+    "blend": "Rouxgaroux",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "701 Creme Brulee x1": {
+    "brand": "Sutliff",
+    "blend": "701 Crème Brûlée",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "707 Sweet Virginia x1": {
+    "brand": "Sutliff",
+    "blend": "707 Sweet Virginia",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "70g 2020 MacB Navy Flake": {
+    "brand": "Mac Baren",
+    "blend": "Navy Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "75\" Gilded AO X": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.8
+  },
+  "75oz tin of HH Burley Flake (Date 4/22)": {
+    "brand": "Mac Baren",
+    "blend": "HH Burley Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "7oz 2002": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "7oz bag will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "8oz 2024 Evening Flake": {
+    "brand": "Erik Stokkebye",
+    "blend": "Evening Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "8oz SPC PP": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "8oz WCC 558": {
+    "brand": "Watch City",
+    "blend": "Flake #558",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "8oz WCC Bostonian Rhapsody": {
+    "brand": "Watch City",
+    "blend": "Bostonian Rhapsody",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "A: L = 6 1/2 in, Flaw - Epoxy stain": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Abingdon – 2008": {
+    "brand": "G.L. Pease",
+    "blend": "Abingdon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Abingdon – 2009": {
+    "brand": "G.L. Pease",
+    "blend": "Abingdon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "About a month back or so, someone pointed this out on eBay.  I like Kaywoodies, so naturally I was interested.  However, the guy wanted something stupid for it, like": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Acrylic Stem, 9mm filter, and a pipe sock!": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Actual shipping via Pirate Ship": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Aged Capstan gold, that is! Have a couple lots up for consideration, paypal F&F, Conus": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Ahmet Gövem Lattice Stack Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Al Pascà Curvy 01 reverse calabash (extra stem) —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Aldo Velani": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "All tins (with a few exceptions) are": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Alright everyone this is a big 'un I know most folks blew their load on CRFwP but now I need some help too. I've got a few calabashes for sale here to fund a new one that's really ticking all the right boxes for me and to bring the total number of bashes to 2. All of these items are from Calabash Pipes World (CPW) and I can vouch for their quality since I don't think I've seen anyone else post their stuff before. If you have any follow-up questions or want any different pics just send me a DM. All items come in their own fitted hardcase and the bashes will also get the same CPW card they came with verifying make. Both calabash draws are snug compared to normal briar and cob draws but I've never had a problem with smoking them, it just takes some adjustment. These pipes new are listed around ~": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Altinay Okoume Calabash (with case)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Altinay Rusticated Squat Tomato (sock + box)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Altinay Smooth Squat Tomato w/ Rusticated Rim & Bottom (sock + box)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Altinok Churchwarden Apple CW1038": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "And lastly I've got this Rattray's Dark Ale 109 with box and sleeve. SP seems to have these listed for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.97
+  },
+  "And so to Bed, Dorchester and Pembroke. All 3 for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "Andreas Bauer Meerschaum tobacco pipe and its fitted case": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Any interest in this little lot for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Anyone West of the Mississippi it's": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Anyway, the pipe is made from hard maple, brass ferrule, finished with shellac. The mouthpiece is a \"non filter replacement stem\" from Missouri Meerschaum, they're easy to get if you need a new one. It's possible that those \"forever stems\" would fit in this pipe but I don't have one so I can't be 100% sure it would fit properly": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Arango Balkan Supreme 2021- 15 oz": {
+    "brand": "Arango",
+    "blend": "Balkan Supreme",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "As I recall, he was charging": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "As the title states. Looking for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Ashton Artisan's Blend 1.76oz": {
+    "brand": "Ashton",
+    "blend": "Artisan's Blend",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Ashton Artisan's Blend 2020 (not Syrian)": {
+    "brand": "Ashton",
+    "blend": "Artisan's Blend",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Ashton Artisan's Blend 50g tin 01/2020": {
+    "brand": "Ashton",
+    "blend": "Artisan's Blend",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Astley's Canadian": {
+    "brand": "Astley's",
+    "blend": "Canadian Mixture",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "Atilano Rusticated Bamboo shanked Oom Paul": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Available:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "B: L = 6 1/2 in, Flaw - Epoxy stain": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "BIG BALLER DEAL: BUY ALL FOR": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "BST bent Dublin - another beautiful straight-grain pipe that is in fabulous condition. 5 5/8\" long, 2\" tall": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Bags will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Balkan Blue": {
+    "brand": "McClelland",
+    "blend": "Balkan Blue",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Balkan Blue 50g": {
+    "brand": "McClelland",
+    "blend": "Balkan Blue",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Balkan Blue Pipe Tobacco 50g x 2 @": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "Balkan Sasieni - July 9, 2023- 50g - qty 3": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "Balkan Sasieni 50g ('21)": {
+    "brand": "STG",
+    "blend": "Balkan Sasieni",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Balkan Sobranie 2017 2oz": {
+    "brand": "J.F. Germain",
+    "blend": "Balkan Sobranie",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Balkan by Brebbia 40% Syrian Lat 2012 50g": {
+    "brand": "Brebbia",
+    "blend": "Balkan (Mixture No. 10)",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Batch 1 - 85": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Batch 2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Batch 3": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Batch 4": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Beacon": {
+    "brand": "McClelland",
+    "blend": "Beacon Extra",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Bellisima with the horn Material": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Ben Wade Jambo made in Gr. Britain bent brandy smooth African meer": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Ben Wade Royal Grain": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.97
+  },
+  "Bengal Slices 98.8g": {
+    "brand": "Bengal Slices",
+    "blend": "Bengal Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Big Ben Ranger two-toned leather covered": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.98
+  },
+  "Black Friday price": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Blackwoods 2016": {
+    "brand": "McClelland",
+    "blend": "Blackwoods Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Blackwoods Flake (date of 05 hand written on back of tin hopefully can be seen in the photo) 03": {
+    "brand": "McClelland",
+    "blend": "Blackwoods Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Bob's Chocolate 500g": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Bob's Chocolate Flake",
+    "is_tin": true,
+    "confidence": 0.98
+  },
+  "Boswell's Cherry Smash 30g": {
+    "brand": "Boswell",
+    "blend": "Cherry Smash",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Boswell's Penn Dutch Treat 30g": {
+    "brand": "Boswell",
+    "blend": "Penn Dutch Treat",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Boswell's Sweet and Mild 30g": {
+    "brand": "Boswell",
+    "blend": "Sweet and Mild",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Boswells Christmas Cookie - 1.58oz": {
+    "brand": "Boswell",
+    "blend": "Christmas Cookie",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "45g 2022 Best Brown Flake": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Best Brown Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "50g Best Brown (Date unknown for sure but no more than 1-2 years)": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Best Brown Flake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "45g 2023 Quarter Cask": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.7
+  },
+  "BPC from the @OldBoss sale - 8oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.7
+  },
+  "Bowl Diameter": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Bowl Height": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "BrandBlendYearTin (sealed) or JarSizePriceMac BarenHH Acadian Perique2015Tin3.5": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "BrandModelVideoOriginal URLPriceNotesW.Ø. LarsenHandmade LovatClick here!N/A": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Brian Doran Morta Pipe 2024 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Briar Cigar Holder": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Brunello": {
+    "brand": "Savinelli",
+    "blend": "Brunello Flake",
+    "is_tin": true,
+    "confidence": 0.65
+  },
+  "Bulk Pack #1": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Burley Bundle": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Butera's Royal Vintage Dark Stoved Pipe Tobacco 1.75oz  2015": {
+    "brand": "Butera",
+    "blend": "Royal Vintage Dark Stoved",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Butera's Royal Vintage Matured Ribbon Pipe Tobacco 1.75oz 2015": {
+    "brand": "Butera",
+    "blend": "Royal Vintage Matured Ribbon",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Buy em both for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Buy it all for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "C & D Captain Earle's Ten Russians 2oz 2017": {
+    "brand": "Cornell & Diehl",
+    "blend": "Captain Earle's Ten Russians",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C & D Eight State Burley  2021": {
+    "brand": "Cornell & Diehl",
+    "blend": "Eight State Burley",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C & D Sansepolcro 2oz 2020": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sansepolcro",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C & D Small Batch Carolina Red Flake w/perique 1.7 oz 2020": {
+    "brand": "Cornell & Diehl",
+    "blend": "Small Batch Carolina Red Flake with Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C & D Small Batch Sun Bear 2oz 2020": {
+    "brand": "Cornell & Diehl",
+    "blend": "Small Batch Sun Bear",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C & D Speakeasy Navy Blend 2oz 2017": {
+    "brand": "Cornell & Diehl",
+    "blend": "Speakeasy Navy Blend",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "C & D Two Friends English Chocolate 8oz 2016": {
+    "brand": "Cornell & Diehl",
+    "blend": "Two Friends English Chocolate",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C&D Bijou 2016 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Bijou",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C&D Bow Legged Bear 2015 – 1 tins": {
+    "brand": "Cornell & Diehl",
+    "blend": "Bow Legged Bear",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C&D Carolina Red Flake with Perique 2020 – 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Carolina Red Flake with Perique",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C&D GLP Stonehenge Flake 06/12/17 21g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.8
+  },
+  "C&D Hanted Bookshart 2020 – 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Haunted Bookshop",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "C&D Haunted Bookshop Cake 2oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Haunted Bookshop Cake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C&D Joie DeVivre – 2014 – 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Joie de Vivre",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C&D Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "C&D Oak Alley 2014 – 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Oak Alley",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C&D Small Batch Eight State Burley 2oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Small Batch Eight State Burley",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C&D Small Batch Sansepolcro 2oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Small Batch Sansepolcro",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "C&D Tom Eltang Virgina 2014 - 1 tin": {
+    "brand": "Cornell & Diehl",
+    "blend": "Tom Eltang Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C: L = 5 1/2 in, Flaw - Epoxy stain": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "CONUS only. Claim in thread. 2 item minimum for verified members only. Shipping is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "CONUS only. Now open to all members. Claim in thread. First come, first served": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "CPW Calabash, purchased brand new last year only smoked 5 times. Impact mark on the cap in the pictures, but still in incredible shape with lots of life left. Brand new these retail": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "CURRENT PRICE": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Cabbie's Mixture 50g:": {
+    "brand": "Samuel Gawith",
+    "blend": "Cabbie's Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Calling this one \"RED\" due to a lack of names. A large rusticated pipe with a unique shape. Feels great in the hand, but definitely too big to be a clencher. I have done a bit of research into David's pipes and I only ever see good things said about how they smoke. This one has not been smoked often, or it was just really well taken care of by the previous owner. Just not something that tickles my fancy. I see some of his more traditional rusticated shapes for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Capstan Blue Sleeves": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Capt. Earles Honor Blend  2021": {
+    "brand": "Captain Earle's",
+    "blend": "Honor Blend",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Captain Black Grape 12oz": {
+    "brand": "Captain Black",
+    "blend": "Grape",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Captain Black Grape 12oz 2017": {
+    "brand": "Captain Black",
+    "blend": "Grape",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Captain Earle's Ten Russians 30g": {
+    "brand": "Captain Earle's",
+    "blend": "Ten Russians",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Captain Earle's Ten Russians - 1.26oz": {
+    "brand": "Captain Earle's",
+    "blend": "Ten Russians",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Caravan 2015": {
+    "brand": "G.L. Pease",
+    "blend": "Caravan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Caravan – 2009": {
+    "brand": "G.L. Pease",
+    "blend": "Caravan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Carey Magic Inch Billiard, comes with box of paper filters": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Castello \"Castello\" 11 Author KKKK - Smoked, But Rather Clean": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Castello Sea Rock Oom Paul KKKK  - Some mild chamber carbonizing": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Castello Sea Rock Oom Paul KKKK - Some mild chamber carbonizing": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Castello ~1960s Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Celebi Bear Man block meerschaum pipe - unsmoked": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Celebi Claw Unsmoked, this has sat in its case for over a year now. I just can't think of smoking it when I have my other claw. Purchased new for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Chacom Saint Claude 50g": {
+    "brand": "Chacom",
+    "blend": "Saint Claude",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Chamber Depth": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Chamber Diameter": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Charring Cross 2020": {
+    "brand": "G.L. Pease",
+    "blend": "Charing Cross",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Charring Cross 2021": {
+    "brand": "G.L. Pease",
+    "blend": "Charing Cross",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Cheer": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Clearing out excess tobacco, spring cleaning. Get in on this before it hits": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Clearing out some stuff here. 2 pipes I've never reached for and never will. Just sticking with cigars lately. Both have never been smoked and come in the pouches they came in. Nording has a ding on lip that won't affect smoking. I'm asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Comoy's #4 9.4 oz 2014": {
+    "brand": "Comoy's",
+    "blend": "Cask No. 4",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Comoy's Sandblast Canadian – Shape 296": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Conus and ppff only.  Come on now, where else can you get tins from 2015, 2016, 2018, 2019 and 2020 for only": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Conus and ppff only. This thing is huge and I'll never smoke it. Unsmoked and": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Coordination fee (flat rate, charged once per order)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Corn Cob pipe and pen lot – Misc. Brands": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Cornell and Diehl Corn Cob Pipe and a Button nose - 1.69oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Corn Cob Pipe and a Button Nose",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Cornell and Diehl Epiphany - 1.75oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Epiphany",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Cornell and Diehl Golden Days of Yore - 1.62oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Golden Days of Yore",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Country Squire Old Toby - 2oz": {
+    "brand": "Country Squire",
+    "blend": "Old Toby",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Cristiano Silver Band Rhodesian (not real silver) —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Cristiano silver band bent pot (not real silver) —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Cut Virginia Plug, 2020(?) (4)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "D54 Chocolate Supreme x1": {
+    "brand": "Sutliff",
+    "blend": "Chocolate Supreme D54",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "D: L = 6 1/2 in,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dan Tobacco Devil's Holiday 50g 2016": {
+    "brand": "Dan Tobacco",
+    "blend": "Devil's Holiday",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dan Tobacco Old Ironsides 50g 2018": {
+    "brand": "Dan Tobacco",
+    "blend": "Old Ironsides",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dan Tobacco Salty Dogs Plug - 1.72oz": {
+    "brand": "Dan Tobacco",
+    "blend": "Salty Dog Plug",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dan Veermaster 250g 2020": {
+    "brand": "Dan Tobacco",
+    "blend": "Hamborger Veermaster",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dan Veermaster 7.1oz  2021": {
+    "brand": "Dan Tobacco",
+    "blend": "Hamborger Veermaster",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "David Johnson Black": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.8
+  },
+  "David Johnson Red": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.8
+  },
+  "Davidoff Flake Medallions": {
+    "brand": "Davidoff",
+    "blend": "Flake Medallions",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Did you miss this. Buy It Now": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dionysus - has a faint marking where someone wrote on a sticker": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dirk Heineman Blasted Zulu": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Do you like like big Butz but you can't lie to the missus about another expensive pipe? Add this Butz Choquin billiard with acrylic stem to your collection. Labeled Flamme VIP! Sizable do it all and go anywhere billiard. Seriously beautiful grain too!": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Doblone doro": {
+    "brand": "Mac Baren",
+    "blend": "Doblone d'Oro",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill Bruyere Canadian (1977)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dunhill Durbar 2018": {
+    "brand": "Dunhill",
+    "blend": "Durbar",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill Durbar x 2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Dunhill Elizabethan 2017": {
+    "brand": "Dunhill",
+    "blend": "Elizabethan Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill Flake 50g (square Tin):": {
+    "brand": "Dunhill",
+    "blend": "Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dunhill Nightcap ~28g": {
+    "brand": "Dunhill",
+    "blend": "Nightcap",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill Ready Rubbed – 2015 - 1 tin": {
+    "brand": "Dunhill",
+    "blend": "Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill The Royal Yacht 50g": {
+    "brand": "Dunhill",
+    "blend": "Royal Yacht",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhll Flake 50g 2015, 2016 x2   30": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Dwayne Klassen Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "E: L = 6 in,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "ESO + Rando Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Each 100g tin is priced at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Edward G 100g tin (2021)": {
+    "brand": "Sutliff",
+    "blend": "Edward G. Robinson's Pipe Blend",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Eleventh day of Christmas": {
+    "brand": "Ravenwood",
+    "blend": "Eleventh Day of Christmas",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "English Woods 50g": {
+    "brand": "McClelland",
+    "blend": "English Woods",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "English lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Eso Margate - 2024 - 50g": {
+    "brand": "Esoterica",
+    "blend": "Margate",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Margate 146g": {
+    "brand": "Esoterica",
+    "blend": "Margate",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Margate 2017 2oz": {
+    "brand": "Esoterica",
+    "blend": "Margate",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Penbroke 2015 in jar 87g": {
+    "brand": "Esoterica",
+    "blend": "Pembroke",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Esoterica Penzance 57.1g": {
+    "brand": "Esoterica",
+    "blend": "Penzance",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Stonehaven 50g 2017": {
+    "brand": "Esoterica",
+    "blend": "Stonehaven",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Estate Falcon and similar pipe bowls lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Everything has at least 4 years of age. Asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Example freight share": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "F&K Lancer Slices 10/15/19 34g": {
+    "brand": "F & K",
+    "blend": "Lancer Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "F&K Lancer Slices 10/15/19 75g": {
+    "brand": "F & K",
+    "blend": "Lancer Slices",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "F&T Vintage Flake (2020) x1": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Vintage Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "F: L = 5 1/2 in,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "FINAL REDUCTION on this lot making these tins just": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Fader's Specimen Grain Bent Apple": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Falcon Bowls,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Fart Patio Super Mix": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Feather Hi-Stainless": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Final Price": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Finally dove into some Reiner 71 about a week ago - it ain't for me. Valued somewhere between": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "First Lot:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "First is a Castello Collection 67 Shape K": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "First up, the Warren is an XL Lovat I bought from his Etsy store. I paid": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Flexible, but approximately": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "For sale: Savinelli TUNDRA 320 EX": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Found a few more things while cleaning up / re-organizing that I'd like to move": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Free shipping over": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Freehand Block Meerschaum Made in Tanganyika": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Fribourg and Treyer Special Brown Flake 2025 - 1.64": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Special Brown Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Fribourg and Treyer Vintage 2025 - 1.73oz": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Vintage",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Frog Morton On The Bayou 50g": {
+    "brand": "McClelland",
+    "blend": "Frog Morton on the Bayou",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "From Beyond 2023": {
+    "brand": "Cornell & Diehl",
+    "blend": "From Beyond",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Fuck Yeah Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Full Virginia Flake 2019 50g x 2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "G&H Curly Cut Deluxe 2023, 3.9 oz": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Curly Cut Deluxe",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "G&H Rum Twist Rope 2023, 11.7 oz": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Rum Twist Rope",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "G&H Whiskey Rope 2023, 1.9 oz": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Whiskey Rope",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "G.L. Pease Union Square 2025 - 1.37oz": {
+    "brand": "G.L. Pease",
+    "blend": "Union Square",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "G: L = 5 3/4 in, Flaw - small chip on quill end": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "GBD Fantasy Billiard – Shape 133": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "GEM G-bar Single Edge": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "GH Brown Slice 2021 7.9oz": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Brown Slice",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "GH Curley Cut Deluxe 9.9oz 2021": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Curly Cut Deluxe",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "GL Pease Barbary Coast 8 ounce (x2):": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "GLP 25th Anni 2025": {
+    "brand": "G.L. Pease",
+    "blend": "25th Anniversary",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "GLP Abingdon 2 oz – 2009": {
+    "brand": "G.L. Pease",
+    "blend": "Abingdon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Ashbury 2014 – 1 tins": {
+    "brand": "G.L. Pease",
+    "blend": "Ashbury",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "GLP Bundle": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "GLP Caravan": {
+    "brand": "G.L. Pease",
+    "blend": "Caravan",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Caravan 2 oz – 2009": {
+    "brand": "G.L. Pease",
+    "blend": "Caravan",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Gaslight 2016 8 oz": {
+    "brand": "G.L. Pease",
+    "blend": "Gaslight",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Maltese Falcon 2 oz – 2018": {
+    "brand": "G.L. Pease",
+    "blend": "Maltese Falcon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Maltese Falcon 2017 8 oz": {
+    "brand": "G.L. Pease",
+    "blend": "Maltese Falcon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "GLP Quiet Night 2016 8 oz": {
+    "brand": "G.L. Pease",
+    "blend": "Quiet Night",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Gaslight - May 21, 2024 - 8oz - qty 2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Gaslight 2021": {
+    "brand": "G.L. Pease",
+    "blend": "Gaslight",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Gawith & Hoggarth Dark Plug 4oz 2021": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Dark Plug",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Gawith & Hoggarth Grasmere Flake 5oz 2020": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Grasmere Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Gawith & Hoggarth Latakie Medium Cut 1oz 2021": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Latakie Medium Cut",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Gawith & Hoggarth Rich Dark Honeydew 3.6oz": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Rich Dark Honeydew",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Germain's Brown flake x 3 (2018)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Germain's King Charles": {
+    "brand": "J.F. Germain",
+    "blend": "King Charles Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Grainger, 12oz sealed tub,": {
+    "brand": "STG",
+    "blend": "Granger",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Guy A buys one pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Guy B buys 3 pipes - still": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "H & H Anniversary Flake 50 g 9/4/18": {
+    "brand": "Hearth & Home",
+    "blend": "Anniversary Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "H & H Black House 50g 2015": {
+    "brand": "Hearth & Home",
+    "blend": "Black House",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "H & H El Nino 50G 2016": {
+    "brand": "Hearth & Home",
+    "blend": "El Nino",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "H&H Anniversary Kake 02/26/20 57g": {
+    "brand": "Mac Baren",
+    "blend": "HH Anniversary Kake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "H&H Black House (might be a little dry, I don't know how dry the blend is normally) - 35g": {
+    "brand": "Hearth & Home",
+    "blend": "Black House",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "H: L = 5 1/4 in,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "HH Burley Flake - 1lbs": {
+    "brand": "Mac Baren",
+    "blend": "HH Burley Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Burley Flake, April 2021 (1)": {
+    "brand": "Mac Baren",
+    "blend": "HH Burley Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Latakia Flake - 3lbs": {
+    "brand": "Mac Baren",
+    "blend": "HH Latakia Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Mature Va 4oz": {
+    "brand": "Mac Baren",
+    "blend": "HH Mature Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH ODF RR 16oz": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "HH Old Dark Fired - 2lbs": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Old Dark Fired 1.75oz 2015": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Pure Virginia 2020": {
+    "brand": "Hearth & Home",
+    "blend": "Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HH Pure Virginia Flake (3.5 oz) , March 2019 (2)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "HH Rustica 3.5oz ('20)": {
+    "brand": "Mac Baren",
+    "blend": "HH Rustica",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HU Dark Moor - 1.94oz": {
+    "brand": "HU Tobacco",
+    "blend": "Dark Moor",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Hamborger Veermaster, 250g, 2021,": {
+    "brand": "Dan Tobacco",
+    "blend": "Hamborger Veermaster",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hansome Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Hansom Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hearth & Home Black House 10 Year Anniversary 50g 2021": {
+    "brand": "Hearth & Home",
+    "blend": "Black House 10 Year Anniversary",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Hearth & Home Black House 50g 07/2016": {
+    "brand": "Hearth & Home",
+    "blend": "Black House",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hearth & Home El Nino 50g": {
+    "brand": "Hearth & Home",
+    "blend": "El Nino",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Hearth & Home White Knight 1.76oz x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Hearth & Home White Knight 50g tin 08/2020": {
+    "brand": "Hearth & Home",
+    "blend": "White Knight",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hearth and Home Blackhouse - 1.42oz": {
+    "brand": "Hearth & Home",
+    "blend": "Black House",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hearth and Home Cerberus 2015 – 1 tins": {
+    "brand": "Hearth & Home",
+    "blend": "Cerberus",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Heath & Home Slow Aged Smokey Mountain 1.75oz x1": {
+    "brand": "Hearth & Home",
+    "blend": "Slow Aged Smokey Mountain",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Height": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hello ladies and germs, today I have a luxurious vintage pipe in great shape for its age. I bought this off eBay a few years ago and never smoked it. I'm only asking what I paid for it": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Here it is. This is probably the last available new and unsmoked 2024 Spez POTY Slenderman available to buy anywhere in this universe. It's an absolute beautiful piece of art and I would imagine since it came from Eldritch pipes, that it smokes amazingly well.  I literally just learned thay I'm more of a poker, billiard, cob kind of guy.  I'd rather have someone that's going to enjoy this than just put it away in a box. Like everyone else who purchase one I'm into it for a little over": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Here's a similar one (different pipe, not mine) that sold for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey SPEZ, I'm hoping to sell some aged 500g boxes of Gawith Hoggarth for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey SPEZ, I'm hoping to sell this 500g of recent production Gawith Hoggarth Bright CR Flake for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey SPEZ, I'm offering up twenty sealed 100g tins of Mac Baren HH Old Dark Fired for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey Y'all, need to make some $ for a Sutliff panic buy, on top of the holiday's and being laid off... Tried to keep prices bro-y but the masses shall decide that. Some lots for your consideration! CONUS preferred, PPFF,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey folks, I picked these up the other day when they came in stock at TobaccoPipes.com because there was a WTB here.  The other guy got sorted, so these are available if anyone wants them.  I paid": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey guys, short and sweet. Got this pipe in a trade from @MarkinAZ  and I haven't found myself wanting to pick it up and smoke it so I just cleaned it up a bit from the condition I got it in, and am posting it for sale. Comes with a smokingpipes sock/box": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey kids. I am selling this new in box 302 P-Lip system for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey y'all, if your wallets aren't already hurting enough, please consider these wares. Need to fund a new commission! CONUS, Paypal F&F, buyer pays shipping unless you spend more than": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hey y'all, need to fund my chronic TAD, so looking to clear out some things! Add": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hilson Epoque Dublin – Shape 203": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hilson Giant Canadian": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Howdy folks! I am looking to trade my Peterson X105 spigot system - smooth billiard. The pipe's great, I just like something with a little curve to it. Looking for trades in the": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Howdy folks. I have a Pete zulu that I bought on SP as an estate a few months back that I'm looking to re-home on the cheap. I got it for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Howdy gents,  Life be expensive especially when you have hobbies, so i'm trying to cull the herd somewhat. These tins are no newer than 2024, with some from 2023. Looking to sell at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Howdy y'all, been a busy year for me so far and the bills come a calling. With great sadness, I must list some aged favorites for your smoking pleasure. Age is listed if known, if not I'll put an accurate estimate with a (?). Paypal F&F, CONUS, add": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I cleaned it up but...it's just not grabbing me like I had hoped.  So I'd like to sell it for what I paid": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I feel": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I have 3 Dusk and 2 Dawn available": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I have 3 of these... 2 were": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I have 4 of the concave brass tampers available. If you missed out on the plussyball now is your chance. I designed them w a friend who fabricated and finished them": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I have a log of PH curly block that I bought in 2020. That's 9 oz of Vaper goodness. Asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I have this unsmoked rare gem. I don't have the original hose so I had a custom cut / made stem for it to make it a one of a kind piece": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I just found out my oldest daughter who has barely spoken to us for 6 month is coming home for Christmas this year! My wife is ecstatic! I'm over joyed! We're slightly ill prepared. Please help me make this the best Christmas ever. I'm selling my most valuable and tasty pipe tobacco I own. These jars have been in a cool dry basement for the last eight years. This is the best behaved Virginia/Perique blend. It smokes dry and cool. You can puff pretty hard without worrying about bite. The flavor to this Virginia blend is incredibly delightful. Just a hint of spiciness from the Perique and a load of tangy sweet Virginia. Lots of subtleties as well which keeps this blend interesting. I priced it at a": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I need a": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I paid what everyone else did, and I'm asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I see P&C has these priced new at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I won it for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I would sell these all together for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'm asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'm asking for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'm just not a Balkan person. I have 8oz of Sutliff Balkan II to trade. I figure it is worth": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I've got a handful of cheap pipes to offload. I'll throw up some measurements with the pictures but I'm going to try and let the pictures be the description for the most part. Always happy to answer any questions you might have beyond that though. For simplicity's sake, I'm just going to group these into two groups,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "IL Ceppo": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "IL ceppo Horn": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "If you spend": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "If you want the whole 8oz unopened bag, and no one has called any dibs on 2oz yet,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "If you would like to enter the contest, PM me or post on this thread a screenshot of the receipt of a donation to your preferred charity. Every": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "If you'd rather buy it outright, that would run you": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Im asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "It has been brought to my attention that this has recently been going for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "It's unsmoked, and yes, it's 8\" long (giggity).  It's a beautiful sparkly chipped rustication with a dramatic and dynamic swirly blue stem and a bit of accent.  I'm just asking what I paid,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "ItemYearFormatWeightPriceNotesBell's Three Nuns2023Tin1.75oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Items in sealed Mylar that weigh over 50g or 1.75oz be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'll add": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'm looking for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Hellstar The Dread Planet ~56g": {
+    "brand": "Ken Byron Ventures",
+    "blend": "The Dread Planet",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "I'm looking to sell an extremely lightly smoked (maybe five times) blasted Nate King. Very minimal chatter on the stem. Asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "J.T. Cooke - a pre-1996 J.T.&D-stamped smooth Dublin with great straight grain.  I had to top it just a little to remove a burn at the back of the rim that was very, very distracting.  The result was perfect and I doubt anyone would know the difference.  No sanding was done to any other part of the pipe - the stem is flawless.  6 1/2\" long, 2\" tall": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "JSEC (James Gilliam) Paneled Smooth Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "JackKnife Plug 2021": {
+    "brand": "G.L. Pease",
+    "blend": "JackKnife Plug",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Jarred tobacco,": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Joe Hinkle Smooth Danish Apple": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "John Aylesbury Classic Flake 1.76oz": {
+    "brand": "John Aylesbury",
+    "blend": "Classic Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "John Aylesbury Classic Flake 50g 2020": {
+    "brand": "John Aylesbury",
+    "blend": "Classic Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Just bought this on eBay for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "KBB Nudes": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "KBV B. Frog's Cajun Safari 2023": {
+    "brand": "Ken Byron Ventures",
+    "blend": "B. Frog's Cajun Safari",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV B. Frog's Voodoo Tour 2023": {
+    "brand": "Ken Byron Ventures",
+    "blend": "B. Frog's Voodoo Tour",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Bulk Pack": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "KBV Full Metal Balkanist 2oz pouch": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Full Metal Balkanist",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Live Wire 2oz 2020": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Live Wire",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Mona Lisa Overdrive (2022) x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "KBV Myrkwood - 2oz": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Myrkwood",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Notorious 2oz pouch": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Notorious",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV River of Deceit 2oz 2020": {
+    "brand": "Ken Byron Ventures",
+    "blend": "River of Deceit",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Verge Engine Overdrive": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Verge Engine Overdrive",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Verge Engine Overdrive 2020": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Verge Engine Overdrive",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "KBV Your Welcome (2021) x3": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "KBV Your Welcome (2022) x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Kaywoodie Carburetor Shape 8822": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Filter Pipe lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Flame Grain Chesterfield": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Meerschaum Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Regent": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Supergrain Shape 29": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kaywoodie Supergrain Shape 66": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kentucky Mixture 2/25/24 23g": {
+    "brand": "Samuel Gawith",
+    "blend": "Kentucky Mixture",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Kiko shape 12 rusticated African meer pot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kirsten Model \"S\"": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kristiansen Emma Y Sitter —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "L'Anatra Scottanaso sandblast pot —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "L.J. Peretti Thanksgiving Day - 4oz": {
+    "brand": "L.J. Peretti",
+    "blend": "Thanksgiving Day",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "L: 5 1/4\"; Ht: 1 7/8\"; OD: 1 3/4\"; ID: 7/8\"; Stem: Acrylic with very very lite chatter underneath stem near the bit. Stem on the bottom states Hand Made Castello; Wt": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LL Bean bent billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 1 – Peterson Early Morning Pipe 2020, C&D Sunbear Tupelo 2023 – 2043/20,000": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 10 – Castello Old Antiquari 2014 (Discontinued I believe) Artisans Blend 2021, Medal of Valor (Discontinued 2015) BlackHouse 2019": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 11 – St Bruno Flake, 2021, F&T 34th Mixture 2021": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 12 – HH Latakia Flake 3.5 oz 2020 and HH Latakia Flake 1.75 oz 2021": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 13 – Blackhouse 10 Year Anniversary 2021 Discontinued, HU Dockworker": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 15 – Lane Andullo (2015 Discontinued) Medal of Valor (Discontinued 2015), Nat Sherman Metropolitan 536 (Discontinued), Blackhouse 2021, Artisans Blend 2021": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 2 – Capstan Golden Navy 2013 square tins - $": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 3 – Brown Sugar Flake 2022": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 4 – HH Old Dark Fired 3.5 oz 2018": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 5 – St Bruno Flake 2021, Solani Aged Burley Flake 2022?": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 6 – Cringle Flake 2022 (3) and Cringle Flake 2023 (1)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 7 – Cringle Flake 2022 (3) and Cringle Flake 2023 (1)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 8 – Cringle Flake 2022 (3)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Ladies, up for grabs is a historic, at least ten years old, HH Mature Virginia jar. Seal is intact. It did keep tobacco fresh": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lagonda 2011": {
+    "brand": "G.L. Pease",
+    "blend": "Lagonda",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Lane Limited 125 Anniv 1.75oz": {
+    "brand": "Lane Limited",
+    "blend": "125th Anniversary",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Lane Ltd Edgeworth Ready Rubbed": {
+    "brand": "Lane Limited",
+    "blend": "Edgeworth Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Larsen": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Last lot for a while. Conus, verified members and ppff only. Here they are. Not super htf but good stuff nonetheless": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Leather Pipe Rolls x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Length - 8.5in C Diameter - .81in C Depth - 2.55in Weight": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Let's call it": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Letting it go for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Levin Pipes International big rusticated Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Long time no see friends. Hope you are doing better than me. Sadly I got a wicked nasty respiratory infection to start the year.  So my loss is your gain. I am parting with a lot of Samuel Gawith. Hoping to keep this all as one lot for ease of packing and shipping.Everything is relatively fresh with 2023 or 2024 dates but the Cabbie's Mixture its September 2020. Asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Looking at SP, where I bought this, 5 years ago, shows it is going for 73.97. I will charge": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Looking for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Looking to pick up some Jupiter Slices because the site is OOS.  Red Line is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Looking to sell these sealed tins of 1995 and 1997 Christmas Cheer. I purchased them on secondary as I was still in school and didn't smoke a pipe when they were released so sadly didn't pay sticker price. Looking for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Looking to trade or sell 1.9 oz of 2020 KBV Byronic Fragments": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 1 (SG)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 1 :": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 2:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 2:   Cringle Flake Vertical ('21-'23)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 3 Dunhill": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 3:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 4": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Lot 4:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "L'Anantra double egg": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "M&T Allwetter Tyrolean type briar pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Mac B. Burley '24 release": {
+    "brand": "Mac Baren",
+    "blend": "Burley",
+    "is_tin": true,
+    "confidence": 0.65
+  },
+  "Mac Baren": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Mac Baren Capstan Blue 2020": {
+    "brand": "Mac Baren",
+    "blend": "Capstan Blue",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Mac Baren Capstan Yellow 2020": {
+    "brand": "Mac Baren",
+    "blend": "Capstan Yellow",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Mac Baren HH Old Dark Fired (ready rubbed)": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren HH Rustica 3.5 ounce:": {
+    "brand": "Mac Baren",
+    "blend": "HH Rustica",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren HH Vintage Syrian 2015 3.5 oz": {
+    "brand": "Mac Baren",
+    "blend": "HH Vintage Syrian",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren Mixture Scottish Blend 3.5 ounce (x1):": {
+    "brand": "Mac Baren",
+    "blend": "Mixture Scottish Blend",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren Navy Flake (Flake Cut) 3.5 ounce:": {
+    "brand": "Mac Baren",
+    "blend": "Navy Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren Pure Virginia 2019": {
+    "brand": "Mac Baren",
+    "blend": "Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren Pure Virginia 2020": {
+    "brand": "Mac Baren",
+    "blend": "Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "MacBaren Golden Extra 1lb Bulk,": {
+    "brand": "Mac Baren",
+    "blend": "Golden Extra",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "MacBaren HH Latakia Flake 3.5 oz. 2020 - 1 tin": {
+    "brand": "Mac Baren",
+    "blend": "HH Latakia Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "MacBaren HH ODF - 1.75oz": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "MacBaren HH Old Dark Fired Ready Rubbed 12oz bulk,": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Macbaren Brunello Flake, 3.5oz round tin,": {
+    "brand": "Mac Baren",
+    "blend": "Brunello Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Maltese Falcon -2012": {
+    "brand": "G.L. Pease",
+    "blend": "Maltese Falcon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Maltese Falcon 2020": {
+    "brand": "G.L. Pease",
+    "blend": "Maltese Falcon",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Maple Shadows 10/31/23 49g": {
+    "brand": "Sutliff",
+    "blend": "Maple Shadows",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Maple Shadows II": {
+    "brand": "Sutliff",
+    "blend": "Maple Shadows II",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Margate tins left . No age. Each": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Mastercraft Custom Made Bent Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Mastercraft Prior Deluxe Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Match Victorian 10/15/19 67g": {
+    "brand": "Sutliff",
+    "blend": "Match Victorian",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland 2015 (2005) 135g": {
+    "brand": "McClelland",
+    "blend": "2015",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "McClelland Beacon 2015": {
+    "brand": "McClelland",
+    "blend": "Beacon Extra",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "McClelland Blackwoods Flake 100g:": {
+    "brand": "McClelland",
+    "blend": "Blackwoods Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland No. 24 Ribbon": {
+    "brand": "McClelland",
+    "blend": "No. 24",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland St. James Woods 50g:": {
+    "brand": "McClelland",
+    "blend": "St. James Woods",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland Tudor Castle 2015": {
+    "brand": "McClelland",
+    "blend": "Tudor Castle",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McCranie's 2000 RR": {
+    "brand": "McCranie's",
+    "blend": "Red Ribbon",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "McCranies 1983 Crop 1999 blend - 50g": {
+    "brand": "McCranie's",
+    "blend": "Red Flake",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "Meerschaum Bamboo Churchwarden": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Merkur 12c Open Comb": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Merkur 39c two-piece slant razor": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Mind Meld VA/per 50g": {
+    "brand": "Mike & Russ",
+    "blend": "The Mind Meld Virginia/Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Minimum of": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Minimum purchase": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Azzurro Smooth 105 Sitter (9mm) —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Peppino Grey (9mm) 100 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Peppino Grey (9mm) 101 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Peppino Grey (9mm) 102 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Peppino Grey (9mm) 103 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Molina Peppino Grey (9mm) 105 —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Moonshine Bent Egg —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Moonshine bent egg": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Muhsin Meerschaum Smooth Bent": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "NOS Polsilver SI": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Navy Cavendish 100g 2014": {
+    "brand": "McClelland",
+    "blend": "Navy Cavendish",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Navy Cavendish sold  - 06": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "New and under": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Next is a straight, radice rind, little smaller diameter bowl, a lot better for clenching, same as the last. Reamed it, cleaned it, smoke staining on the rim that I'm not going to fully buff out. This one still comes with a bag but no box, pretty much smoked the exact same stuff out of it as I did the other - it was more comfortable to clench so it took the others place in rotation for a few months. Also I don't think this one is a \"proper sitter\" as the bottom isn't sanded flat - but it will sit on it's own without tipping over": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "No name clay pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "No. 27 50g": {
+    "brand": "McClelland",
+    "blend": "No. 27",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "No. 44 Dark Virginia Flake, 2020(?) (2)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Non-AZ buyer": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Noob kit includes 13 different blends of tobacco, Czech tool(pipe tool), 2 different types of pipe cleaners, and 1 Missouri Meerschaum cob pipe. I believe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Nov. 2023 Mac Baren Burley London Blend 3.5 ounce (x1)": {
+    "brand": "Mac Baren",
+    "blend": "Burley London Blend",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "OK lads, this is a big thicc fatboy.   Could call it a bent billiard, could call it a bullmoose, could call it a ridiculous author, call it what you will.   It is a chunky monkey.  Handmades were produced in the 1947 to 1955 range.    This has the clover on the top.    The stem is in great shape, just a bit of wear on the button, but otherwise gorgeous.   The stummel is nearly flawless, just a beauty.   Ok, thats the good.   Here is the less good.    When I bought this years ago, there were a couple of fissures that were not disclosed.    I noticed them when I got it but I did not make a big deal out of it.    They have not propagated in the time I have smoked this.    There is one that you can probably see in the photos around the four oclock position.   There is another very small one around the 11 oclock position but you probably cannot see them from the photos.      I am just letting you know that they are there and there is some risk that they could propagate, but I have not seen it since I have owned it.    You have been warned, but I dont think its a big issue on this pipe.  There is a lot of mass with those incredibly thick walls to soak up heat.   The  other thing you will notice is that the ball has been cut off.    Does not really impact the smoke for me, but does impact collectability.    Pricing this is a bit of a moving target.  It is old, it has beautiful grain, including birdseye on the foot.  But it does have a few flaws.   Price drop to": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Oaks original English": {
+    "brand": "McClelland",
+    "blend": "3 Oaks Original",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Odyssey 2009": {
+    "brand": "G.L. Pease",
+    "blend": "Odyssey",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Old German Clay pipe with horn stem": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Olivewood Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "On Saturday, Feb 21 @ 10am EST, I will randomly select 14 users ordered 1": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Open to offers": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Or take all 3 lots for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Or to make it easy I'll take": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Original Sutliff made SPC Plum Pudding 2oz": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Osage orange Dublin Churchwarden": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "PCCA McClelland 15th Anniversary Virginian": {
+    "brand": "McClelland",
+    "blend": "PCCA 15th Anniversary Virginian",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "PPFF buyer pays pirate ship": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Palmetto Balkan 2024 - 8oz tin minus a bowl": {
+    "brand": "Cornell & Diehl",
+    "blend": "Palmetto Balkan",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Paradoxical - May 30, 2023 - 50g - qty 1": {
+    "brand": "Sutliff",
+    "blend": "Paradoxical",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Parker 98R with a heavy weight long handle": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pending 1 lb. Sutliff 507c": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Peter Heinrich's Curly Block 2019 in jar 103g (NOT WESSEX)": {
+    "brand": "Peter Heinrich",
+    "blend": "Curly Block",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Peterson": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Peterson DNR x14": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Peterson Flake 50g 2019 x4": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Peterson Sherlock Holmes 2024 - 1.75oz": {
+    "brand": "Peterson",
+    "blend": "Sherlock Holmes",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Peterson St. Patrick's Day – 2017": {
+    "brand": "Peterson",
+    "blend": "St. Patrick's Day",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Peterson St. Patrick's Day – 2018": {
+    "brand": "Peterson",
+    "blend": "St. Patrick's Day",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Peterson St. Patrick's Day – 2024": {
+    "brand": "Peterson",
+    "blend": "St. Patrick's Day",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Pick up both of them for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pioneer Bulldog with Sterling Silver band and Cumberland stem": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pioneer army mount African meer pot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pipe 1: Peterson St. Patricks Day 2021": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pipe 2: Savinelli Bing's Favorite": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pipe 3: Dagner Poker": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pipe is un-smoked. I'm asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pirate Kake 2016 - 15 oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Pirate Kake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Post WW2 Porcelain Tyrolean pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Post not very concise, I would appreciate if ya read the whole thing but fuck it. You can read this and skip the rest if ya really want. #1 and #5/": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pouch Capt. Black Gold": {
+    "brand": "Captain Black",
+    "blend": "Gold",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Pouches": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Price": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Price:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Pricing:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Priority given to someone wanting to purchase all lots for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Quiet Nights -2016": {
+    "brand": "G.L. Pease",
+    "blend": "Quiet Nights",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Quiet Nights 2018": {
+    "brand": "G.L. Pease",
+    "blend": "Quiet Nights",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "RO Acadian English 2020": {
+    "brand": "Hearth & Home",
+    "blend": "RO Acadian English",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rad Davis Sitting/rocking Dublin – 2009": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Radice": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Radice Rind Bulldog —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Radice Rind Rhodesian —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Rattray's 40 Virginia 100g 2018": {
+    "brand": "Rattray's",
+    "blend": "40 Virginia",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Rattray's Black Mallory 100g 2017": {
+    "brand": "Rattray's",
+    "blend": "Black Mallory",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattray's Hal O' The Wynd 100g 2020": {
+    "brand": "Rattray's",
+    "blend": "Hal O' The Wynd",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattray's Old Gowrie 100g 2017": {
+    "brand": "Rattray's",
+    "blend": "Old Gowrie",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattray's Red Rapparee 2016": {
+    "brand": "Rattray's",
+    "blend": "Red Rapparee",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattrays Black Virginia 3.5oz": {
+    "brand": "Rattray's",
+    "blend": "Black Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattray's Old Gowrie - 1oz": {
+    "brand": "Rattray's",
+    "blend": "Old Gowrie",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Recently, Maxpedition is doing a BOGO sale for a bunch of these organizer pouches.  I bought some, but it turns out I already had some.  So now I have too many.  I'll pass the sale on.  Shipping from Maxpedition is pricey, so it may actually be cheaper to get something from me, especially if you don't need two of them.    Shipping is flat": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Red Virginia Crumble Kake, 2024 (2)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Reiner Gloden Flake Blend 71 100g (x2):": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Relaxed(Concerned?) Sultan": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "River Town Crimson Shadow - 2oz": {
+    "brand": "Rivertown Tobacco Works",
+    "blend": "Crimson Shadow",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Robert Lewis Tree Mixture - pre-2018": {
+    "brand": "Robert Lewis",
+    "blend": "Tree Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Robusto 2017": {
+    "brand": "G.L. Pease",
+    "blend": "Robusto",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Roma Billiard Churchwarden – Shape 8230": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Ropp - Buis 9mm": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Rosinski Snuff Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Rouxgaroux 12oz": {
+    "brand": "Watch City Cigars",
+    "blend": "Rouxgaroux",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Royal Twist, 2024 (2)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Rustica": {
+    "brand": "Mac Baren",
+    "blend": "HH Rustica",
+    "is_tin": true,
+    "confidence": 0.65
+  },
+  "SG Balkan Flake 46g": {
+    "brand": "Samuel Gawith",
+    "blend": "Balkan Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Bothy Flake 2016": {
+    "brand": "Samuel Gawith",
+    "blend": "Bothy Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Chocolate Flake 8oz": {
+    "brand": "Samuel Gawith",
+    "blend": "Chocolate Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Commonwealth 2017 – 1 tin": {
+    "brand": "Samuel Gawith",
+    "blend": "Commonwealth",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Kendal Cream Flake 8oz": {
+    "brand": "Samuel Gawith",
+    "blend": "Kendal Cream Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Navy Flake – 2015 – 1 tin": {
+    "brand": "Samuel Gawith",
+    "blend": "Navy Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG Perfection 2024 - 1.76 oz": {
+    "brand": "Samuel Gawith",
+    "blend": "Perfection",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "SG Perfection 45g": {
+    "brand": "Samuel Gawith",
+    "blend": "Perfection",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "SG SJ Plug 2020 116g": {
+    "brand": "Samuel Gawith",
+    "blend": "St. James Plug",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "SG Skiff Mixture 8oz 2021": {
+    "brand": "Samuel Gawith",
+    "blend": "Skiff Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SG/HU Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SMS Large Bacchus Pipe– By Master Carver Yunus": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SMS Large Claw and Egg Pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - 2015 (older ridged bottom tin) Cerberus": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - 2016 (older ridged bottom tin) Magnum Opus": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - 2021 Wessex Burley Slices": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - 50g 2017 McClelland's Frog Morton Original (dented tin, seal is not compromised)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - 50g Esoterica Margate": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 - McCranies Currituck": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 1 lb Mac Baren Virginia Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 2 - 2022 Rattray's Hal O' the Wind": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 2 - 2022 Wessex Burley Slices": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD 2 - 50g  Balkan Sasieni": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Balkan Sobranie 2019 50g tin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD F&T Cut Virginia Plug - 2024 - 50g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD G.L. Pease Quiet Nights 2017 8oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD G.L. Pease Samarra 2016 8oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Germains Brown Flake - 2024 - 50g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Mark Tinsky 2015 number 6 Bent Brandy. Lightly smoked. A lightweight pipe. Great draft and drilled straight": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD McClellands Blackwood Flake - 2017 - 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Plum Pudding Special Reserve 2017 4oz tin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Reiner Gold Flake - 2024 - 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD SG FVF Burnt Ends - 2024 - 8oz - mylar'd": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Samuel Gawith Squandron Leader 2019 250G Sealed Box": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Solani Silver Flake - 2024 - 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD St. James Wood 100g 2017": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD Sutliff 507-S Stoved Virgina 2019 1lb bag": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SOLD- 2 100g 2017 McClelland's Frog Morton Cellar": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "SPC Mississippi River 2016 – 1 tins": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Mississippi River",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SPC Plum Pudding Special Reserve 2016 4oz": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding Special Reserve",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sam Gawith FVF 2017": {
+    "brand": "Samuel Gawith",
+    "blend": "Full Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sam Gawith Skiff Mixture 2019": {
+    "brand": "Samuel Gawith",
+    "blend": "Skiff Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sam Gawith Squadron Leader w/ Perique 2019 #2,672/4,500": {
+    "brand": "Samuel Gawith",
+    "blend": "Squadron Leader with Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sammy G Commonwealth 2020, 250g": {
+    "brand": "Samuel Gawith",
+    "blend": "Commonwealth",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Samson Large blasted billiard with Sterling silver band": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Samuel Gawith Best Brown Flake 2.4 oz 2019": {
+    "brand": "Samuel Gawith",
+    "blend": "Best Brown Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Samuel Gawith CH Flake 50g ('21)": {
+    "brand": "Samuel Gawith",
+    "blend": "CH Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Samuel Gawith Cabbie's Mixture 50g 2019": {
+    "brand": "Samuel Gawith",
+    "blend": "Cabbie's Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Samuel Gawith Commonwealth 1.5 oz 2021": {
+    "brand": "Samuel Gawith",
+    "blend": "Commonwealth",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Samuel Gawith Firedance Flake 1.5 oz 2021": {
+    "brand": "Samuel Gawith",
+    "blend": "Firedance Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sanslepolcro 2025": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sansepolcro",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Savinelli 2320 Dry System": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli 311 KS St. Nicholas 2023": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Savinelli 320KS Brown Alligator": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Bianca 310KS": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Brunello Flake 100g tin 01/2023": {
+    "brand": "Savinelli",
+    "blend": "Brunello Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Savinelli Brunello Flake 100g x 1": {
+    "brand": "Savinelli",
+    "blend": "Brunello Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Savinelli Capri Root Briar 624": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Doblone d'Oro 100g": {
+    "brand": "Savinelli",
+    "blend": "Doblone d'Oro",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Savinelli Dry System 1604": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Jockey Club leather covered Zulu": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Nonpareil 9121": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Oceano Smooth Finish 311": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Punto Oro 101": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Punto Oro Mister G Bulldog": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Regimental 101": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Roma 673KS": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli Virginia 111KS": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Savinelli: Dolomiti 6mm bent brandy)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Schwabe's Dark Rum - 2oz": {
+    "brand": "Schwab's",
+    "blend": "Dark Rum",
+    "is_tin": true,
+    "confidence": 0.7
+  },
+  "Scottie Piersel - gorgeous pipe, also in great condition.  Just the very slightest stem chatter.  7 3/8\" long, 1 1/2\" tall": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Second Lot:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Selling an aromatic lot because I know I'm never going to smoke these. Most is from '23 '24 except the tombigbee which is from January this year. The John Dengler blend is from John Dengler Tobacconist in St Charles Missouri a house blend although I believe the name has changed": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Selling for cost. It lists as": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Selling my restored Peterson! This pipe has been a fun one, but with buying a house, extra expenses come up! I am asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Selling this as a lot for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Semois - le petit robin 2024, 3.5 oz": {
+    "brand": "Tabac Manil",
+    "blend": "Le Petit Robin",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Shipping for 1-2 items is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Shipping for anyone East of the Mississippi is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Shipping will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Since you have to take my word for it, asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Smokers Haven Best Blend": {
+    "brand": "Smokers Haven",
+    "blend": "Best Blend",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "Smooth Briar Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Smooth Briar Panel Shorty pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Smooth ¼ Bent Pot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "So I did something dumb. I ordered an 8oz box of Full Virginia Plug. Then I remembered I had a 10 year old tin of FVF, popped it, jarred it, had 3 bowls and remembered that a lot of straight VAs aren't my jam. This is one of those. Sooooo.... I've got 44g of sugar snacks FVF and a fresh box of Full VA Plug to off load": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "So far I've only smoked 1 from the pack. But I've got a decent buzz going, I'll smoke 1-3 more. Tmmm. I'm  not big. On store bought cigarettes anymore, please for the love of God lock in. This trade, before I smoke anymore. I paid 8 bucks for a fresh pack. Trade me": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold - '12 Christmas Cheer": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold Out  40th Anniversary 100g x 2 1 @": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2022 KBV Black Friday (2oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2024 St James Flake Burnt Ends (8oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2025 KBV Dread Planet (2oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2025 KBV Haunted Virginia (2oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2025 St. James Mini Plug (8oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! 2026 KBV Kraken Wrack (2oz)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! BriarWorks Strawberry (OR02)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! F&T High Dry Toast (20g)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Moonshine \"Grapeshot\"": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Moonshine \"Stublin\"": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Rosinski Berliner Luft": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Rosinski Carlsbader": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Rosinski Goldapper": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Toque Whisky & Honey (25g)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold- '06 ('00?) Grey Havens": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Some tins for sale. Priced ea. RV 50, SG 35, the rest": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Someone buy the Chatham Manor and Carter hall together for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Spectre 1.75oz": {
+    "brand": "Spectre",
+    "blend": "Spectre",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Spend over": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "St Bruno pouch has loose tape on the flap but the actual seal is solid and all three weigh the same. 1 tin has a dent on the bottom edge but the seal is not compromised and all three weigh the same. I'll bundle those together and do": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Stanwell": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Stanwell 86": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Stanwell Melange - 1.68oz": {
+    "brand": "Stanwell",
+    "blend": "Melange",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Stanwell's Melange 45g": {
+    "brand": "Stanwell",
+    "blend": "Melange",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Stave Aged": {
+    "brand": "McClelland",
+    "blend": "Stave Aged Virginia",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Stemless Wally Frank Limited Dublin Oom Paul stummel": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Stemless clay pipe lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Stonehenge Flake 2021": {
+    "brand": "G.L. Pease",
+    "blend": "Stonehenge Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Strong & masculine Porto Cervo 673KS. One of their most popular shapes and beloved by \"Matches\" on YouTube, this one has been lovingly smoked more and shows signs of use but not abuse. A little rim darkening and handling spots, but stem looks free of tooth marks. Clean and ready to smoke. 1.6oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sun Bear Black Locust - 1.65oz": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sun Bear Black Locust",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sun Bear Navy Cask 2025": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sun Bear Navy Cask",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sun bear navy": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sun Bear Navy Cask",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff 1-M 3.75oz (unlabeled mylar in photo)": {
+    "brand": "Sutliff",
+    "blend": "1-M Mixture",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff 1849": {
+    "brand": "Sutliff",
+    "blend": "1849",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff 1lb Bags": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sutliff 600 - 4oz or just shy": {
+    "brand": "Sutliff",
+    "blend": "600",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff 707s Sweet VA 1lb bulk,": {
+    "brand": "Sutliff",
+    "blend": "707S Sweet Virginia",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Black & Gold - 1lb": {
+    "brand": "Sutliff",
+    "blend": "Black & Gold",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Cringle Flake 2024": {
+    "brand": "Sutliff",
+    "blend": "Cringle Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sutliff Crumble Kake Red Virginia (2024) x2": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sutliff Edward G Robinson Pipe Blend 1.5oz 2016": {
+    "brand": "Sutliff",
+    "blend": "Edward G. Robinson's Pipe Blend",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Sutliff HH Latakia Flake 100g tin 06/2014": {
+    "brand": "Mac Baren",
+    "blend": "HH Latakia Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Match Victorian 60g": {
+    "brand": "Sutliff",
+    "blend": "Match Victorian",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sutliff Match Walnut 3oz bulk": {
+    "brand": "Sutliff",
+    "blend": "Match Walnut",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Private Stock Maple 1.5 oz 2016 – 1 tin": {
+    "brand": "Sutliff",
+    "blend": "Private Stock Maple",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff RL-BD - 1lb": {
+    "brand": "Sutliff",
+    "blend": "RL-BD",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Sutliff Timeless 1.5oz 2023": {
+    "brand": "Sutliff",
+    "blend": "Timeless",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Timeless Coffee Bourbon 2023": {
+    "brand": "Sutliff",
+    "blend": "Timeless Coffee Bourbon",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Syrian and Gaslight are dented but sealed.  The others have some age.  The Peter Heinrich's is the new blend, stop hating it's good too.  Claim all for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Take all 4 for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Take it all for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Talbert LB Smooth Belge – 2012": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Talbert SPEZ 2021 POTY – Blasted Prince": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Tekin lattice pipe with silver fittings": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Ten Russians 2015": {
+    "brand": "Cornell & Diehl",
+    "blend": "Ten Russians",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Ten Russians 2016": {
+    "brand": "Cornell & Diehl",
+    "blend": "Ten Russians",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Ten to Midnight (last run as far as I know Feb. 2025) up to 16oz - I'll do": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Testing the waters at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "The Beast 2025": {
+    "brand": "Cornell & Diehl",
+    "blend": "The Beast",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "The Mellow Mallard 50g 2016": {
+    "brand": "Dan Tobacco",
+    "blend": "The Mellow Mallard",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "The price is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "The second tamper is made of an onyx-like stone material, jet black in color. There are some tooling marks from the maker. Price": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "The three regular tin trios will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "There is one large 5oz Mylar that I have that is unsealed, and somehow never wrote down what it is. That Mylar will go for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "There was one other pipe included in the lot (not pictured). If I'm remembering correctly I paid low trip digits for the lot, somewhere around": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "These are": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "These are pretty cool.   Its the woodie answer to a Falcon or a Kirsten.    1955 - 1959 production years I believe.    Restored, cleaned and sanitized and ready to smoke.  Has some light chatter and the one ding on the bowl see pic.   Otherwise a nice example": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "These are unfinished Natural Large Billiards and Dublins with Acrylic Stems": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "These start at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Thinning the cellar and looking to trade for NES games.  The tobacco in the picture is the stuff that needs to go.  I put the value of the lot at": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "This is Sunrise 2-star which sold for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "This is a nice blonde XL billiard from Pete.  Somewhat rare shape, XL21 with fishtail stem.  I bought this in Limerick Ireland in 2017.  I believe they only made this run in 2017, not seen it since and not many ever come up for sale.   It has some sentimental value to me, but I just dont reach for it much anymore.  Smoked maybe a dozen times.   Extremely light chatter on the stem, otherwise perfect.   The stummel has a few small flaws (from the factory), otherwise its perfect.    The birdseye on the once side is really nice.    Passes a pipe cleaner with ease.   Comes with original box and sock.    If you like big old bulldogs, this one is for you!   Any questions, please ask": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "This lot is for 8 sealed tins of Eso and Germain's tobacco": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "This one I bought on here for.. 150 or 160? Reducing the price because I've smoked it a lot and some coffee got spilled on the bag so it has a weird discoloration. The bag has the discoloration. Also not in the mood to buff the smoke staining off the rim but the pipe is solid, always used a softy bit, reamed out the bowl, cleaned up the exterior of the stem with alcohol. Only smoked va, vapers and haddos delight (which has burley in it). Comes in the smoking pipes box": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "This one has been smoked once and could be yours for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Thompson Blasted Briar Pot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Throwing out": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Tilbury": {
+    "brand": "G.L. Pease",
+    "blend": "Tilbury",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Tilbury 2oz": {
+    "brand": "G.L. Pease",
+    "blend": "Tilbury",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Tins will be": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Title": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Tom's": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "US Shipping is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "USA Shipping is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Unbranded Belge with Sterling silver band and Amber stem": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Union Square 2021": {
+    "brand": "G.L. Pease",
+    "blend": "Union Square",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Unmarked Meerschaum slightly bent apple": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Unmarked weird Meerschaum/Bakelite pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Unsmoked \"Not a\" Medico Gold Crest": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Up next, a SPEZ Clark that I impulse bought. I don't remember the specs and I *think* I paid": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "VA Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "VA/Oriental Lot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Van Auenland 30g": {
+    "brand": "Vauen",
+    "blend": "Auenland",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Vauen - New York 9mm": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vauen Auenland - 1.23oz": {
+    "brand": "Vauen",
+    "blend": "Auenland",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Vauen Virginia Flake No. 14 (2020) x3": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vauen: Basic": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vauen: New York 9mm": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Velvet Rat Box": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Velvet, 12oz sealed tub,": {
+    "brand": "Velvet",
+    "blend": "Velvet",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Vintage Flake, 2020(?)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vintage Flake, 2020(?) (2)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vintage H Ege Ornate Floral Bent Meerschaum Handmade Smoking Pipe w/ Case": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Vintage Syrian 2017 (Discontinued) - 3.5 oz": {
+    "brand": "Hearth & Home",
+    "blend": "Vintage Syrian",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Vintage Syrian Bulk– 2017 – 7 oz jarred. (Discontinued obviously)  I got this quite a long time ago, probably on here.    It has been in the jar ever since, it has not been opened.    Not sure of pricing on this especially in bulk.   Starting at": {
+    "brand": "Hearth & Home",
+    "blend": "Vintage Syrian",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Virginia Slices 2021 7.4 oz": {
+    "brand": "Sutliff",
+    "blend": "Virginia Slices",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Virginia Slices 2021 8.4 oz": {
+    "brand": "Sutliff",
+    "blend": "Virginia Slices",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Volkan - Arena": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Volkan 9mm": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Voodoo Queen 12/29/24 122g": {
+    "brand": "Sutliff",
+    "blend": "Voodoo Queen",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Walnut": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Walnut Mixture 2025 63g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Was asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Watch City #7 - 1.45oz": {
+    "brand": "Watch City Cigars",
+    "blend": "#7",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Watch City Bipolar Express 2024 - 2.54oz": {
+    "brand": "Watch City Cigars",
+    "blend": "Bipolar Express",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Watch City Old Dominion - 1.45oz": {
+    "brand": "Watch City Cigars",
+    "blend": "Old Dominion",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Watch City Simply Red 2oz 2020": {
+    "brand": "Watch City Cigars",
+    "blend": "Simply Red",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Wessex Brown Virginia Flake 50g 2021": {
+    "brand": "Wessex",
+    "blend": "Brown Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Wessex Gold Brick 3.5oz 2015": {
+    "brand": "Wessex",
+    "blend": "Gold Brick",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Wessex burley slice": {
+    "brand": "Wessex",
+    "blend": "Burley Slice",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Westminster 2020": {
+    "brand": "G.L. Pease",
+    "blend": "Westminster",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Whimsical": {
+    "brand": "Sutliff",
+    "blend": "Whimsical",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Whitehall Meerschaum Lined, Leather Covered Bent Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Width": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Wiebe Radiator with a Bones Morta bowl —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Wiebe Radiator with a Bones stack bowl —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Will also ship internationally at additional cost (+": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Will break up into 2 lots if anyone interested": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Wish you had an Ashton but the prices make you guffaw? Look no further than this Wessex Bent Dublin. Old excellent stunner from the Chacom-Capuis factory. A beautiful brown blast, large chamber, and a Hand Cut Cumberland stem? Excellent condition? Say less!": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Wooden case for clay pipe": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "X 1lb sealed folklore from 2023": {
+    "brand": "Cornell & Diehl",
+    "blend": "Folklore",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "You will also see 5 pipes. From right to left they are an Algerian Briar, 2 Medico Briars and 2 MM cobs. The cobs have never been smoked. The other 3 have seen a decent amount of use. I have cleaned them and they have been stored for about 6 months. I figure": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Your share of freight charged by the distributor to me": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "[1 - 50g 2015 McClelland's Black Parrot": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "[1 - 50g 2015 McClelland's Tudor Castle ( IYKYK)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "black \"beefy\" pouch": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "black EDC pouch": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "khaki \"beefy\" pouch": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "khaki EDC pouches": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "lots available. Each lot is": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "on both the Sams Flakes.  (277)  Not sure on the Westmoreland, no sticker.    Open to all members": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "oz Mylar HH Pure VA x3": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "oz. Sutliff VA Slices (Date 12/22) Jarred since purchase": {
+    "brand": "Sutliff",
+    "blend": "Virginia Slices",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "oz. in mylar for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "pack (1 lb)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "sleeve of 5 Dunhill Ye Olde Signe 2016 (": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "sleeve of Solani Virginia 2018 (": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "tins of FVF from 2022 - let's call it": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "tins of different Cobblestone (Sutliff i.e. retired) aromatics. I loaded up on too much tobacco this year. All sealed. Asking": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "tins:": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "unopened, unsmoked tins of Sutliff Barbados Plantation": {
+    "brand": "Sutliff",
+    "blend": "Barbados Plantation",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "unverified sale of tins.  this is a lot of tins.  if you signed up to this here forum before i joined one night while drunk (for verified members) i'll ship first": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x  2018 Germain's King Charles": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 100g Tins Red Rapparee (2020)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 100g '20 Rattray's Bagpiper's Dream": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 1997 100g Ashton Brindle Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2013 McClelland Dom. Glory Maduro": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2015 Dunhill Bb1938": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2016 Dunhill BB1938": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2016 HU Directors Cut 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2017 Dunhill BB1938": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2017 Dunhill London Mixture": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2017 Dunhill Standard Mix": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 1792": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 40th": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 Dunhill BB1938": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 FVF": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 Germain's Brown Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 HU Flanagan Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 SJF": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2018 St Bruno": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2019 1792": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2019 FVF": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2019 HU Fredders Flake 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2019 Rattrays Stirling Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 1792": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 Capstan Blue": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 Cringle Flake": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 HU Edward G. 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 HU Tillerman, 2021 Dan Patriot Flake, 2021 Dan Limerick all 3 for": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 Peter Heinrich (100g) Dark Strong Flake (amazing stuff)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2020 Skiff mixture @": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2021 8oz Haddo's Delight @": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2021 GLp Navigator": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 2022(?) SJF": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 4oz Bulk Red Rapparee (2020)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 50g Early Morning Pipe (2019)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 50g Nightcap (2019)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x 8 State Burley 2021 @": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Ashton Brindle Flake 1997 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x BS Flake (2017)": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dan Gordon Pym from 2014  50g WITH Syrian Latakia. This is a magnificent blend": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dunhill Dark Flake 2016": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dunhill Mix. 965 2012": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dunhill Navy Roll 2016": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dunhill Nightcap 2015-2017": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Dunhill Royal Yacht 2018": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x EMP 4/15": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x HU 50g '20 Aus dem Krater #1": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x HU 50g '20 Aus dem Krater #5": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x KBV YANA-2 Blackened Burley 2021, 3.5 oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x McC 100g 2017 Blackwoods": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x McClelland Blackwoods 2016 50g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x McClelland Blackwoods 2017 100g": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x McClelland Brindle Flake 50g 2016": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Peterson 50g Sherlock Holmes": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x SG Grousemoor 2019": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x SG Kendal Plug 2020": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "x Salty Dogs 2019-2020": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "1995 McClelland's Butera Latakia No.1 -  NR BIN $110": {
+    "brand": "McClelland",
+    "blend": "Butera Latakia No. 1",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "1996 McClelland No. 25 Virginia 20th Anniversary - 100g": {
+    "brand": "McClelland",
+    "blend": "No. 25 Virginia 20th Anniversary",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "2008 McCLELLAND GRAND ORIENTALS DRAMA RESERVE approx. 1.6 ounces": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals Drama Reserve",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2010 PETER HEINRICHS No. 169 approx. 3.4 ounces": {
+    "brand": "Peter Heinrichs",
+    "blend": "No. 169",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "2012 McCLELLAND GRAND ORIENTAL YENIDJE HIGHLANDER approx. 1.9 ounces": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals Yenidje Highlander",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2014 PETER STOKKEBYE NATURAL DUTCH CAVENDISH 301 approx. 2 oz jarred": {
+    "brand": "Peter Stokkebye",
+    "blend": "Natural Dutch Cavendish",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2014 SAMUEL GAWITH MEDIUM VIRGINIA FLAKE (GOLDEN GLOW) approx. 2 oz jarred": {
+    "brand": "Samuel Gawith",
+    "blend": "Golden Glow",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2017 Frog Morton on the log 50 gram": {
+    "brand": "McClelland",
+    "blend": "Frog Morton On the Log",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2018 CORNELL & DIEHL BYZANTIUM approx. 2 ounces": {
+    "brand": "Cornell & Diehl",
+    "blend": "Byzantium",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "2018 Mac Baren HH Old Dark Fired 3.5 ounce - 1 Tin NR BIN $100": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "2019 Per Jensen Bird Blends - Uno - 50g": {
+    "brand": "Sutliff",
+    "blend": "Birds of a Feather Uno",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "22 Year Vintage ~ E. Hoffman Company Spilman Mixture 7 ozo Tin.": {
+    "brand": "E. Hoffman Company",
+    "blend": "Spilman Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "33 yrs Levin Pipes International 3 Oaks English Blend Sealed 50g Pipe Tobacco Tin '93": {
+    "brand": "McClelland",
+    "blend": "3 Oaks English Blend",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "4noggins Bald Headed Teacher 2017 - 92.1 grams": {
+    "brand": "4noggins",
+    "blend": "Bald Headed Teacher",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "50g tin of Piper's Choice TOP HAT Pipe Tobacco by McClelland from 2017": {
+    "brand": "McClelland",
+    "blend": "Top Hat",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Balkan by Brebbia 50g Pipe Tobacco Sealed Tin Syrian Latakia": {
+    "brand": "Brebbia",
+    "blend": "Balkan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Butera's Royal Vintage Latakia No. 2 Sealed 50g Pipe Tobacco Tin 2016": {
+    "brand": "Butera",
+    "blend": "Royal Vintage Latakia No. 2",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Butera's Royal Vintage Latakia No.1 Sealed 50g Pipe Tobacco Tin 1996": {
+    "brand": "Butera",
+    "blend": "Royal Vintage Latakia No. 1",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Collectible G.L. Pease Jack Knife Ready Rubbed 50g Sealed Pipe Tobacco Tin 2020": {
+    "brand": "G.L. Pease",
+    "blend": "Jack Knife Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Discontinued! Amphora Virginia Blend pouches six pack": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Drew Estate Meat Pie English Mixture Sealed 50g Pipe Tobacco Tin": {
+    "brand": "Drew Estate",
+    "blend": "Meat Pie English Mixture",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Dunhill De Luxe Navy Rolls 2014": {
+    "brand": "Dunhill",
+    "blend": "De Luxe Navy Rolls",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill Flake 2017 NR": {
+    "brand": "Dunhill",
+    "blend": "Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill London Mixture, Painted Tin, 50g": {
+    "brand": "Dunhill",
+    "blend": "London Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill My Mixture 965 2017 NR": {
+    "brand": "Dunhill",
+    "blend": "My Mixture No. 965",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill My Mixture BB1938 1.76 oz's Pipe Tobacco Sealed Tin Made in Denmark 2018": {
+    "brand": "Dunhill",
+    "blend": "My Mixture BB1938",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Dunhill Standard Mixture Medium 2009 NR": {
+    "brand": "Dunhill",
+    "blend": "Standard Mixture Medium",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill Standard Mixture Mild 1997 NR": {
+    "brand": "Dunhill",
+    "blend": "Standard Mixture Mild",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill The \"Royal Yacht \" Mixture 2017 NR": {
+    "brand": "Dunhill",
+    "blend": "Royal Yacht",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Elizabethan 2015 Lot No Reserve": {
+    "brand": "Dunhill",
+    "blend": "Elizabethan Mixture",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Esoterica Dorchester 8oz Bag & 2oz Tin 2018": {
+    "brand": "Esoterica",
+    "blend": "Dorchester",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Pembroke - 1 Tin NR BIN $100": {
+    "brand": "Esoterica",
+    "blend": "Pembroke",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Tobacciana Margate 2016 NR": {
+    "brand": "Esoterica",
+    "blend": "Margate",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Esoterica Tobacciana Peacehaven 2016 NR": {
+    "brand": "Esoterica",
+    "blend": "Peacehaven",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Gawith Cabbie's Mixture 2016 NR": {
+    "brand": "Samuel Gawith",
+    "blend": "Cabbie's Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Germain & Son Esoterica DUNBAR 8oz Sealed Bag": {
+    "brand": "Esoterica",
+    "blend": "Dunbar",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Germain Royal Jersey: Perique Mixture 2009 NR": {
+    "brand": "J.F. Germain",
+    "blend": "Royal Jersey Perique Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "HU Tobacco Director's Cut 100g (2021)": {
+    "brand": "HU Tobacco",
+    "blend": "Director's Cut",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Ken Byron Ventures KBV Red Forest Phenomenon 2021 - 81.3 grams": {
+    "brand": "Ken Byron Ventures",
+    "blend": "Red Forest Phenomenon",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Lot of Christmas Cheer 2016, 2017, and Anniversary 2010": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "McCLELLAND CHRISTMAS CHEER 2016": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland - Deep Hollow": {
+    "brand": "McClelland",
+    "blend": "Deep Hollow",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - English blend 3 Oaks": {
+    "brand": "McClelland",
+    "blend": "3 Oaks English Blend",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - Orient 996": {
+    "brand": "McClelland",
+    "blend": "Orient 996",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - Rose of Latakia": {
+    "brand": "McClelland",
+    "blend": "Rose of Latakia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - Royal Cajun": {
+    "brand": "McClelland",
+    "blend": "Royal Cajun",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - Syrian full Balkan": {
+    "brand": "McClelland",
+    "blend": "Syrian Full Balkan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland - Syrian super Balkan": {
+    "brand": "McClelland",
+    "blend": "Syrian Super Balkan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland 221B Series: Honeydew 2015 NR": {
+    "brand": "McClelland",
+    "blend": "221B Honeydew",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland Blakeney's Best: Tawny Flake 2006 NR": {
+    "brand": "McClelland",
+    "blend": "Blakeney's Best Tawny Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "McClelland Grand Orientals - Classic Samsun": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals Classic Samsun",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland Grand Orientals - Yenidje Highlander": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals Yenidje Highlander",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland Grand Orientals - Yenidje Supreme": {
+    "brand": "McClelland",
+    "blend": "Grand Orientals Yenidje Supreme",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland Tastemaster 2013": {
+    "brand": "McClelland",
+    "blend": "Tastemaster",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "McClelland's 3 Oaks Original Syrian Latakia English Blend Sealed 50g Pipe Tobacco Tin 2012": {
+    "brand": "McClelland",
+    "blend": "3 Oaks Syrian",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Orlik Dark Strong Kentucky 2020 -101.5 grams": {
+    "brand": "Orlik",
+    "blend": "Dark Strong Kentucky",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "PRINCE ALBERT BURLEY Pipe Tobacco ORIGINAL BLEND (2021+) Middleton - 14oz Sealed Can": {
+    "brand": "Prince Albert",
+    "blend": "Original Blend",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Peter Stokkebye Luxury Bullseye Flake (No. 403) 8oz (2017)": {
+    "brand": "Peter Stokkebye",
+    "blend": "Luxury Bullseye Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "R & L Robert Lewis Wingfield Mixture Sealed Tin 50g Pipe Tobacco 2012": {
+    "brand": "Robert Lewis",
+    "blend": "Wingfield Mixture",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "STG Stokkebye Escudo 2010 NR": {
+    "brand": "STG",
+    "blend": "Escudo Navy De Luxe",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Samuel Gawith St. James Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "St. James Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Smoker's Haven Cognac Blend 2018 - 61.6 grams": {
+    "brand": "Smokers Haven",
+    "blend": "Cognac Blend",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Smoker's Haven Our Best Blend OBB 2018 '18 - 76.5g": {
+    "brand": "Smokers Haven",
+    "blend": "Our Best Blend",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Three-Three Nuns": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Tobacco Tin Mc Clelland Syrian Super Balkan 2004 Out of Production": {
+    "brand": "McClelland",
+    "blend": "Syrian Super Balkan",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Two (2) well aged, sealed Salty Dogs Plug from 2018": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Unopened 1970s Murray's Irish Whiskey Blend 6 oz Belfast Complimentary Sampling Tin": {
+    "brand": "Murray's",
+    "blend": "Irish Whiskey Blend",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Vintage - 2016 - Dunhill Baby's Botton (rare - spelled out)": {
+    "brand": "Dunhill",
+    "blend": "Baby's Bottom",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Vintage 1994 - Ashton Golden Flake": {
+    "brand": "Ashton",
+    "blend": "Golden Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "War Horse Bar! Discontinued grab a tin while you still can!": {
+    "brand": "War Horse",
+    "blend": "Bar",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Watch City Cigar Rouxgaroux 2026 8 oz": {
+    "brand": "Watch City Cigars",
+    "blend": "Rouxgaroux",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Al Pascià Curvy 01 reverse calabash (extra stem) —": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Boulder and Briar blasted Prince": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "I'm just not a Balkan person. I have 8oz of Sutliff Balkan II to trade. I have kept it jarred. I figure it is worth": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Kirsten Model “S”": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "LOT 15 – Lane Andullo (2015 Discontinued) Medal of Valor (2015 Discontinued), Nat Sherman Metropolitan 536 (Discontinued), Blackhouse 2021, Artisans Blend 2021": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Moonshine “Grapeshot”": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Sold! Moonshine “Stublin”": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Strong & masculine Porto Cervo 673KS. One of their most popular shapes and beloved by “Matches” on YouTube, this one has been lovingly smoked more and shows signs of use but not abuse. A little rim darkening and handling spots, but stem looks free of tooth marks. Clean and ready to smoke. 1.6oz": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Dunhill The “Royal Yacht ” Mixture 2017 NR": {
+    "brand": "Dunhill",
+    "blend": "Royal Yacht",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "(J) 2023 Emerson Southern Forged, Burley/Rye": {
+    "brand": "Emerson Southern Forged",
+    "blend": "Burley/Rye",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Dunhill The “Royal Yacht “ Mixture 2017 NR": {
+    "brand": "Dunhill",
+    "blend": "Royal Yacht",
+    "is_tin": true,
+    "confidence": 0.95
   }
 }
