@@ -129,7 +129,7 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 - **Dan Tobacco** — also makes: "Devil's Holiday", "Hamborger Veermaster", "Salty Dog", "Dan Milonga", "The Mallard", "Midnight Ride", "Tordenskjold Virginia Slices", "Gordon Pym"
 - **Sutliff** — also makes: "Paradoxical" (Birds of a Feather series), "Match Victorian", "Maple Shadows", "Maple Shadows II", "Chocolate Supreme D54", "Anomalous", "Privateer", "No. 6 Phantom", "Cringle Flake", "Eastfarthing", "Sweated", "TS1R", "J4 Burley", "Barrel Aged series", "515 RC-1", "507-C", "701 Crème Brûlée", "707 Sweet Virginia"
 - **Erik Stokkebye** — distinct from Peter Stokkebye; "4th Generation" series (1931, 1989, Resolution etc.); also makes "Evening Flake", "4th Generation Night Slice"
-- **STG (Scandinavian Tobacco Group)** — makes "Escudo" (Navy De Luxe), "Balkan Sasieni", "Granger" (seller sometimes misspells as "Grainger"). Does NOT make Balkan Sobranie.
+- **STG (Scandinavian Tobacco Group)** — makes "Escudo" (Navy De Luxe), "Balkan Sasieni". Does NOT make Balkan Sobranie. (Granger is a separate standalone brand, not STG.)
 - **Erinmore** — brand (STG/Mac Baren); main tin blend = "Flake"; bare "Erinmore" without sub-name = Erinmore Flake
 - **Robert McConnell** — makes "Scottish Cake", "Black Flake", "Folded Flake"
 - **Ashton** — makes "Artisan's Blend" (English/Syrian Latakia)
@@ -193,6 +193,54 @@ If a pipe brand name appears **and** any of these descriptors are present, mark 
 - "SOLD" prefix → always is_tin: false (sold listing fragment, not a product title)
 - "several tins", "multiple", "variety pack", "sampler", "assortment"
 - Chewing tobacco brands (Stokers, Levi Garrett, etc.) → is_tin: false
+
+---
+
+## Additional Known Tobacco Brands
+
+These are confirmed tobacco brands not yet heavily represented in the cache. When a listing title contains one of these names, treat it as is_tin: true (unless other signals override) and assign the brand accordingly.
+
+| Brand | Notes |
+|---|---|
+| Barclay-Rex | NYC tobacconist; house blends |
+| Bond Street | classic aromatic blend (various manufacturers over time) |
+| Borkum Riff | Swedish Match aromatic brand |
+| Carter Hall | Standard Commercial Corp; American Burley aromatic |
+| Clan | Swedish Match; aromatic blend |
+| Condor | classic UK ready-rubbed |
+| Daughters & Ryan | US retailer/blender |
+| Drexel | vintage US brand |
+| Edward G. Robinson | vintage US aromatic blend |
+| Field & Stream | vintage US brand |
+| Five Brothers | vintage US Burley; sold in pouches |
+| Former's | vintage US brand |
+| George Washington | vintage US Burley |
+| Gladora | vintage brand |
+| Gold Block | classic UK ready-rubbed (Ogden's/BAT) |
+| Granger | American Burley aromatic; standalone brand (not an STG blend) |
+| Hampton House | US house-blend brand |
+| Holger Danske | Danish brand |
+| House of Windsor | US aromatic brand |
+| James J. Fox | London tobacconist; house blends |
+| Kentucky Club | vintage US Burley aromatic |
+| Kohlhase & Kopp | German brand; distinct from Ken Byron Ventures |
+| Niall of Nine | Irish/Celtic-themed brand |
+| Ogden's | UK brand (BAT); "Gold Block" is an Ogden's blend |
+| Paladin | vintage US Black Cherry aromatic |
+| Pipeworks & Wilke | Chicago tobacconist; house blends |
+| Poschl Tabak | German brand |
+| Poul Winslow | Danish brand |
+| Sail | Dutch aromatic brand (various blends) |
+| Scotty's | US house-blend tobacconist |
+| Sir Walter Raleigh | vintage US aromatic (Brown & Williamson) |
+| Smoker's Pride | US value aromatic brand |
+| Sullivan Powell | London tobacconist; house blends |
+| Super Value | US value brand |
+| Svendborg | Danish brand |
+| Tinder Box | US retail chain; house blends |
+| Union Leader | vintage US Burley |
+| Who Dat Pipe Works | New Orleans-area tobacconist; house blends |
+| Wills | UK brand (Imperial Tobacco); "Wills's Whiffs" etc. |
 
 ---
 
