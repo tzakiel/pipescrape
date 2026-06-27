@@ -9303,8 +9303,8 @@
     "source": "llm"
   },
   "H & H Vintage Syrian 1.75 oz 2015": {
-    "brand": "Hearth & Home",
-    "blend": "Vintage Syrian",
+    "brand": "Mac Baren",
+    "blend": "HH Vintage Syrian",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -9954,7 +9954,7 @@
     "source": "llm"
   },
   "Haddo's Delight 3.25oz": {
-    "brand": "Robert McConnell",
+    "brand": "G.L. Pease",
     "blend": "Haddo's Delight",
     "confidence": 0.9,
     "is_tin": true,
@@ -15342,14 +15342,14 @@
     "confidence": 0.99
   },
   "Vintage Syrian 2017 (Discontinued) - 3.5 oz": {
-    "brand": "Hearth & Home",
-    "blend": "Vintage Syrian",
+    "brand": "Mac Baren",
+    "blend": "HH Vintage Syrian",
     "is_tin": true,
     "confidence": 0.95
   },
   "Vintage Syrian Bulk– 2017 – 7 oz jarred. (Discontinued obviously)  I got this quite a long time ago, probably on here.    It has been in the jar ever since, it has not been opened.    Not sure of pricing on this especially in bulk.   Starting at": {
-    "brand": "Hearth & Home",
-    "blend": "Vintage Syrian",
+    "brand": "Mac Baren",
+    "blend": "HH Vintage Syrian",
     "is_tin": true,
     "confidence": 0.95
   },
