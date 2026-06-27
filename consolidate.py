@@ -197,6 +197,11 @@ def main():
             # Normalize shorthand brand names to canonical form.
             brand = brand_aliases.get(brand, brand)
 
+            # Normalize Virginia/Perique shorthand: "Va/Per", "Va. Per", "Va. Perique"
+            # → "Virginia Perique". The separator (/ or .) is load-bearing: it prevents
+            # "AJ's VaPer" (H&H official name, no separator) from being rewritten.
+            blend = re.sub(r'\bVa[/.]\s*Per(?:ique)?\b', 'Virginia Perique', blend, flags=re.I)
+
             # Apply blend aliases: remap known-wrong blend names to canonical.
             # This fires after cache/overrides so no stale entry can roll back a fix.
             blend = aliases.get(brand, {}).get(blend, blend)

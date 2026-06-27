@@ -6762,7 +6762,7 @@
   },
   "Sutliff Crumble Kake Va Perique 50g": {
     "brand": "Sutliff",
-    "blend": "Crumble Kake Va/Per",
+    "blend": "Crumble Kake Virginia Perique",
     "is_tin": true,
     "confidence": 0.9
   },
@@ -8258,7 +8258,7 @@
   },
   "x crumble kake va/periqe (2019)": {
     "brand": "Sutliff",
-    "blend": "Crumble Kake Va. Perique",
+    "blend": "Crumble Kake Virginia Perique",
     "is_tin": true,
     "confidence": 0.95
   },
@@ -8288,7 +8288,7 @@
   },
   "x krumble kake vaper": {
     "brand": "Sutliff",
-    "blend": "Crumble Kake Va. Perique",
+    "blend": "Crumble Kake Virginia Perique",
     "is_tin": true,
     "confidence": 0.9
   },
