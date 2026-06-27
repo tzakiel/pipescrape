@@ -3,12 +3,12 @@
 Runs weekly. Writes docs/products.json. Shared logic lives in scrape_core.py.
 Uses Playwright (real Chromium browser) to bypass Cloudflare protection.
 
-Pipestud paginates 12 tins per page across ~8 pages. We read the highest page
-number from page 1's pagination, then walk every page with a polite delay and
-per-page retries. Cloudflare rate-limits rapid requests in one browser session,
-so each page load gets a FRESH browser context (fresh cookies/fingerprint) —
-that alone clears most throttling — and an empty page is retried (also with a
-fresh context) rather than silently ending the walk.
+Pipestud paginates 12 tins per page. We walk pages sequentially until a page
+returns empty after retries (= past the last page), rather than detecting the
+page count from pagination links (unreliable when Cloudflare delays JS
+rendering). Each page load gets a FRESH browser context (fresh
+cookies/fingerprint) — that alone clears most Cloudflare throttling — and an
+empty page is retried before concluding we've reached the end.
 """
 import os
 import time
@@ -87,38 +87,38 @@ def _load_page(browser, n):
     return None
 
 
+MAX_PAGES = 50  # hard ceiling — prevents an infinite walk if the site misbehaves
+
+
 def fetch():
-    """One full attempt: walk every page once. Returns a list (empty if blocked)."""
+    """One full attempt: walk every page once. Returns a list (empty if blocked).
+
+    Rather than detecting max_page from page-1's pagination links (unreliable
+    when Cloudflare delays JS rendering), we walk sequentially and stop when a
+    page comes back empty after retries — that means we've passed the last page.
+    """
     found = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
 
-        # Page 1 — also tells us how many pages exist.
-        soup = _load_page(browser, 1)
-        if soup is None:
-            print("[pipestud.com] blocked: could not load page 1 (Cloudflare challenge).")
-            browser.close()
-            return []
+        for n in range(1, MAX_PAGES + 1):
+            if n > 1:
+                time.sleep(PAGE_DELAY)
+            soup = _load_page(browser, n)
+            if soup is None:
+                if n == 1:
+                    print("[pipestud.com] blocked: could not load page 1 (Cloudflare challenge).")
+                    browser.close()
+                    return []
+                # Empty after retries past page 1 = past the last page.
+                print(f"[pipestud.com] page {n} empty after retries — stopping at {n - 1} pages.")
+                break
+            batch = _parse_products(soup)
+            found.extend(batch)
+            print(f"[pipestud.com] page {n}: {len(batch)} products (running total: {len(found)})")
 
-        found.extend(_parse_products(soup))
-
-        max_page = 1
-        for a in soup.select("a.page-numbers"):
-            t = a.get_text(strip=True).replace(",", "")
-            if t.isdigit():
-                max_page = max(max_page, int(t))
-
-        for n in range(2, max_page + 1):
-            time.sleep(PAGE_DELAY)
-            page_soup = _load_page(browser, n)
-            if page_soup is None:
-                print(f"[pipestud.com] page {n}/{max_page} failed after retries; "
-                      f"continuing with {len(found)} products so far.")
-                continue
-            found.extend(_parse_products(page_soup))
-
-        print(f"[pipestud.com] walked {max_page} pages, collected {len(found)} products.")
+        print(f"[pipestud.com] collected {len(found)} products.")
         browser.close()
 
     return found
