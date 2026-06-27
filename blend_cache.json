@@ -16961,5 +16961,203 @@
     "blend": "Dark Flake",
     "is_tin": true,
     "confidence": 0.85
+  },
+  "A&C Petersen Caledonian Milange No. 421 in a 50g tin – Late 1990's or Early 2000's era": {
+    "brand": "A & C Petersen",
+    "blend": "Caledonian Melange No. 421",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "A&C Petersen Caledonian Original Navy Cut No. 499 in 50g tins – Late 1990's – Early 2000's era (One Tin Per Customer)": {
+    "brand": "A & C Petersen",
+    "blend": "Caledonian Melange No. 499",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Ashton Type 1 in a 50g tin – Early 1980s era & Made in England by Robert McConnell": {
+    "brand": "Ashton",
+    "blend": "Type 1",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Ashton Type 5 in 50g tins – 1990s era & Made in Denmark by Orlik": {
+    "brand": "Ashton",
+    "blend": "Type 5",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Astley's No. 109 Medium Virginia Flake 50g tin – Year 2004": {
+    "brand": "Astley's",
+    "blend": "No. 109 Medium Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "BBB Straight 100% Burley 50g tins – Year 1990 – Tinned by McClelland's (One Tin Per Customer)": {
+    "brand": "BBB",
+    "blend": "Straight 100% Burley",
+    "is_tin": true,
+    "confidence": 0.78
+  },
+  "Charatan's Original Black Aromatic – 1970's era & Made by Dunhill": {
+    "brand": "Charatan's",
+    "blend": "Original Black Aromatic",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Charatan's Original Mild Ready Rubbed – 1970's era & Made by Dunhill in London": {
+    "brand": "Charatan's",
+    "blend": "Original Mild Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Cornell & Diehl's Briar Fox 2oz tins – First Year 2005 Production": {
+    "brand": "Cornell & Diehl",
+    "blend": "Briar Fox",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Dunhill Early Morning Pipe 50g tins – Year 2010": {
+    "brand": "Dunhill",
+    "blend": "Early Morning Pipe",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Dunhill My Mixture 965 in a 50g tin – Year 2010": {
+    "brand": "Dunhill",
+    "blend": "My Mixture 965",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Dunhill Nightcap 50g tins – Year 2017": {
+    "brand": "Dunhill",
+    "blend": "Nightcap",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "G.L. Pease NASPC Show Limited Edition Aragorn 2oz tin – Year 2004": {
+    "brand": "G.L. Pease",
+    "blend": "Aragorn",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "G.L. Pease NASPC Show Limited Edition Southfarthing 2oz tin – Year 2001": {
+    "brand": "G.L. Pease",
+    "blend": "Southfarthing",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Germain's Smoker's Haven 20th Anniversary Mixture 2oz tin – Year 2013": {
+    "brand": "Smokers' Haven",
+    "blend": "20th Anniversary Mixture",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "JBR's Quintessence NO 3 in 50g tins – 1990's era & Made by Mac Baren": {
+    "brand": "JBR's",
+    "blend": "Quintessence NO 3",
+    "is_tin": true,
+    "confidence": 0.7
+  },
+  "McClelland's No. 25 Matured Virginia 100g tin – Year 1994": {
+    "brand": "McClelland",
+    "blend": "No. 25 Matured Virginia",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "McClelland's Original Frog Morton 50g tin – First Year 1993 Production": {
+    "brand": "McClelland",
+    "blend": "Frog Morton",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "McClelland's Personal Reserve Series Blackwoods Flake 100g tin – Year 1998": {
+    "brand": "McClelland",
+    "blend": "Blackwoods Flake",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Murrays Erinmore Cube Cut 50g tins – 1960's -1970's era": {
+    "brand": "Murray's",
+    "blend": "Erinmore Cube Cut",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "Murrays Erinmore Special Blend 50g tin – 1980's era": {
+    "brand": "Murray's",
+    "blend": "Erinmore Special Blend",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "Peterson's Irish Oak 50g tin – 1990's era & Made by Murray's of Northern Ireland": {
+    "brand": "Peterson",
+    "blend": "Irish Oak",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Reiner's Long Golden Flake 100g tins – Year 2008": {
+    "brand": "Reiner",
+    "blend": "Long Golden Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Robert Lewis Tree Mixture 50g tin – Year 2005": {
+    "brand": "Robert Lewis",
+    "blend": "Tree Mixture",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Robert McConnell's Folded Flake 50g tin – Year 2005": {
+    "brand": "Robert McConnell",
+    "blend": "Folded Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Robert McConnell's Maduro Virginia/Perique 50g tin – Year 2003": {
+    "brand": "Robert McConnell",
+    "blend": "Maduro Virginia/Perique",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Robert McConnell's Original Red Virginia 50g tins – Years 1992 & 1998": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Samuel Gawith Black XX 50g tins – Year 2017": {
+    "brand": "Samuel Gawith",
+    "blend": "Black XX",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "The Bufflehead Shop Bufflehead Decoy 4oz tin – Year 2005": {
+    "brand": "Bufflehead",
+    "blend": "Bufflehead Decoy",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Von Eicken's Black & Gold English Blend 2oz tins – 1990's era": {
+    "brand": "Von Eicken",
+    "blend": "Black & Gold Mixture",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Wessex Brown Virginia Flake 50g tin – Year 2008": {
+    "brand": "Wessex",
+    "blend": "Brown Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Wessex Dark Red Virginia Flake 50g tin – Year 2012": {
+    "brand": "Wessex",
+    "blend": "Dark Red Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Wessex Premier Mellow Aroma 50g tin – 1990's": {
+    "brand": "Wessex",
+    "blend": "Premier Mellow Aroma",
+    "is_tin": true,
+    "confidence": 0.8
   }
 }
