@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-27T20:38:29.155590+00:00",
+  "generated": "2026-06-27T20:42:13.827500+00:00",
   "stats": {
     "total_listings": 3069,
     "excluded_multipacks": 1237,
-    "total_tins": 879,
+    "total_tins": 871,
     "multi_member_tins": 322,
-    "listings_in_groups": 1112,
-    "cross_source_tins": 168
+    "listings_in_groups": 1120,
+    "cross_source_tins": 171
   },
   "tins": [
     {
@@ -8339,80 +8339,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "dan|devilsholiday",
-      "brand": "Dan",
-      "blend": "Devil's Holiday",
-      "display_name": "Dan Devil's Holiday",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "872g",
-          "members": [
-            {
-              "name": "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/stuff-and-things.41742/",
-              "price": "$40",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-01-22T02:27:39+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$40",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dan|hamborgerveermaster",
-      "brand": "Dan",
-      "blend": "Hamborger Veermaster",
-      "display_name": "Dan Hamborger Veermaster",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "veermaster 2020",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/tobacco-for-spring-sale.44370/",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-04-20T12:16:13+00:00",
-              "year": "2020",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2020"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "dan|milonga",
       "brand": "Dan",
       "blend": "Milonga",
@@ -8573,6 +8499,29 @@
           ]
         },
         {
+          "quantity": "872g",
+          "members": [
+            {
+              "name": "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/stuff-and-things.41742/",
+              "price": "$40",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-01-22T02:27:39+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$40",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
           "quantity": "",
           "members": [
             {
@@ -8724,6 +8673,21 @@
               "price_history": [
                 {
                   "price": "$50",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
+              "name": "veermaster 2020",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/tobacco-for-spring-sale.44370/",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-04-20T12:16:13+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$20",
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
@@ -14631,11 +14595,12 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "fribourgtreyer|vintage",
+      "id": "fribourgtreyer|vintageflake",
       "brand": "Fribourg & Treyer",
-      "blend": "Vintage",
-      "display_name": "Fribourg & Treyer Vintage",
+      "blend": "Vintage Flake",
+      "display_name": "Fribourg & Treyer Vintage Flake",
       "sources": [
+        "4noggins.com",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -14660,6 +14625,29 @@
           ],
           "sources": [
             "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "Fribourg & Treyer: VINTAGE FLAKE 50g 2004 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/fribourg-treyer-vintage-flake-50g-2004-c",
+              "price": "$165.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2004",
+              "price_history": [
+                {
+                  "price": "$165.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
           ]
         },
         {
@@ -14694,55 +14682,7 @@
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2018",
-        "2025"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "fribourgtreyer|vintageflake",
-      "brand": "Fribourg & Treyer",
-      "blend": "Vintage Flake",
-      "display_name": "Fribourg & Treyer Vintage Flake",
-      "sources": [
-        "4noggins.com",
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Fribourg & Treyer: VINTAGE FLAKE 50g 2004 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/fribourg-treyer-vintage-flake-50g-2004-c",
-              "price": "$165.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2004",
-              "price_history": [
-                {
-                  "price": "$165.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        },
-        {
-          "quantity": "",
-          "members": [
+            },
             {
               "name": "F&T Vintage Flake (2020) x1",
               "source": "Speak-Easy.Club",
@@ -14766,7 +14706,9 @@
       ],
       "years": [
         "2004",
-        "2020"
+        "2018",
+        "2020",
+        "2025"
       ],
       "source": "Multiple sources"
     },
@@ -18774,10 +18716,10 @@
       "source": "4noggins.com"
     },
     {
-      "id": "gawithhoggarthco|brokenscotchcake",
+      "id": "gawithhoggarthco|brokenscotchflake",
       "brand": "Gawith, Hoggarth & Co.",
-      "blend": "Broken Scotch Cake",
-      "display_name": "Gawith, Hoggarth & Co. Broken Scotch Cake",
+      "blend": "Broken Scotch Flake",
+      "display_name": "Gawith, Hoggarth & Co. Broken Scotch Flake",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -18804,20 +18746,7 @@
           "sources": [
             "Speak-Easy.Club"
           ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "gawithhoggarthco|brokenscotchflake",
-      "brand": "Gawith, Hoggarth & Co.",
-      "blend": "Broken Scotch Flake",
-      "display_name": "Gawith, Hoggarth & Co. Broken Scotch Flake",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
+        },
         {
           "quantity": "153g",
           "members": [
@@ -35246,48 +35175,13 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "orlik|mellowmix",
-      "brand": "Orlik",
-      "blend": "Mellow Mix",
-      "display_name": "Orlik Mellow Mix",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Orlik Mellow Mix ? year",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/tinstravaganza-lots-of-shit-reel-cheep-price-drops.40673/",
-              "price": "$12",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2024-07-19T05:09:22+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$12",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "orlik|mellowmixture",
       "brand": "Orlik",
       "blend": "Mellow Mixture",
       "display_name": "Orlik Mellow Mixture",
       "sources": [
-        "Treasured Smokes"
+        "Treasured Smokes",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -35312,12 +35206,35 @@
           "sources": [
             "Treasured Smokes"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Orlik Mellow Mix ? year",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/tinstravaganza-lots-of-shit-reel-cheep-price-drops.40673/",
+              "price": "$12",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2024-07-19T05:09:22+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$12",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2017"
       ],
-      "source": "Treasured Smokes"
+      "source": "Multiple sources"
     },
     {
       "id": "pcca|cyprianstar",
@@ -38722,49 +38639,12 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "ravenwood|hobbitleaf",
-      "brand": "Ravenwood",
-      "blend": "Hobbit Leaf",
-      "display_name": "Ravenwood Hobbit Leaf",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026",
-              "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195334/",
-              "price": "$17.50",
-              "last_updated": "2026-06-22T16:00:41.686877+00:00",
-              "first_seen": "2026-06-22T16:00:41.686877+00:00",
-              "year": "2026",
-              "price_history": [
-                {
-                  "price": "$17.50",
-                  "date": "2026-06-22T16:00:41.686877+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Tinbids Auction (Sold)"
-          ]
-        }
-      ],
-      "years": [
-        "2026"
-      ],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
       "id": "ravenwood|hobbitsleaf",
       "brand": "Ravenwood",
       "blend": "Hobbit's Leaf",
       "display_name": "Ravenwood Hobbit's Leaf",
       "sources": [
+        "Tinbids Auction (Sold)",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -38808,15 +38688,33 @@
                   "date": "2026-05-12T22:02:58+00:00"
                 }
               ]
+            },
+            {
+              "name": "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/195334/",
+              "price": "$17.50",
+              "last_updated": "2026-06-22T16:00:41.686877+00:00",
+              "first_seen": "2026-06-22T16:00:41.686877+00:00",
+              "year": "2026",
+              "price_history": [
+                {
+                  "price": "$17.50",
+                  "date": "2026-06-22T16:00:41.686877+00:00"
+                }
+              ]
             }
           ],
           "sources": [
+            "Tinbids Auction (Sold)",
             "Speak-Easy.Club"
           ]
         }
       ],
-      "years": [],
-      "source": "Speak-Easy.Club"
+      "years": [
+        "2026"
+      ],
+      "source": "Multiple sources"
     },
     {
       "id": "reiner|longgoldenflake",
@@ -40855,11 +40753,13 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "samuelgawith|commonwealth",
+      "id": "samuelgawith|commonwealthmixture",
       "brand": "Samuel Gawith",
-      "blend": "Commonwealth",
-      "display_name": "Samuel Gawith Commonwealth",
+      "blend": "Commonwealth Mixture",
+      "display_name": "Samuel Gawith Commonwealth Mixture",
       "sources": [
+        "pipestud.com",
+        "4noggins.com",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -40913,6 +40813,36 @@
           "quantity": "50g",
           "members": [
             {
+              "name": "Samuel Gawith: COMMONWEALTH MIXTURE 50g 2003 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/samuel-gawith-commonwealth-mixture-50g-2003-c",
+              "price": "$125.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2003",
+              "price_history": [
+                {
+                  "price": "$125.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Samuel Gawith Commonwealth 50g tins – Year 2013",
+              "source": "pipestud.com",
+              "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-commonwealth-50g-tins-year-2013/",
+              "price": "$40.00",
+              "last_updated": "2026-06-21T03:15:02.754777+00:00",
+              "first_seen": "2026-06-20T16:28:47.877864+00:00",
+              "year": "2013",
+              "price_history": [
+                {
+                  "price": "$40.00",
+                  "date": "2026-06-20T16:28:47.877864+00:00"
+                }
+              ]
+            },
+            {
               "name": "Commonwealth Mixture 50g 2018",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/lots-of-tins.29798/",
@@ -40929,6 +40859,8 @@
             }
           ],
           "sources": [
+            "pipestud.com",
+            "4noggins.com",
             "Speak-Easy.Club"
           ]
         },
@@ -41003,66 +40935,12 @@
         }
       ],
       "years": [
+        "2003",
+        "2013",
         "2017",
         "2018",
         "2020",
         "2021"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "samuelgawith|commonwealthmixture",
-      "brand": "Samuel Gawith",
-      "blend": "Commonwealth Mixture",
-      "display_name": "Samuel Gawith Commonwealth Mixture",
-      "sources": [
-        "pipestud.com",
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "Samuel Gawith: COMMONWEALTH MIXTURE 50g 2003 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/samuel-gawith-commonwealth-mixture-50g-2003-c",
-              "price": "$125.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2003",
-              "price_history": [
-                {
-                  "price": "$125.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            },
-            {
-              "name": "Samuel Gawith Commonwealth 50g tins – Year 2013",
-              "source": "pipestud.com",
-              "url": "https://www.pipestud.com/product/tobacco-tins/samuel-gawith-commonwealth-50g-tins-year-2013/",
-              "price": "$40.00",
-              "last_updated": "2026-06-21T03:15:02.754777+00:00",
-              "first_seen": "2026-06-20T16:28:47.877864+00:00",
-              "year": "2013",
-              "price_history": [
-                {
-                  "price": "$40.00",
-                  "date": "2026-06-20T16:28:47.877864+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "pipestud.com",
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
-        "2003",
-        "2013"
       ],
       "source": "Multiple sources"
     },
@@ -42666,12 +42544,13 @@
       "source": "Multiple sources"
     },
     {
-      "id": "samuelgawith|squadronleaderperique",
+      "id": "samuelgawith|squadronleaderwithperique",
       "brand": "Samuel Gawith",
-      "blend": "Squadron Leader Perique",
-      "display_name": "Samuel Gawith Squadron Leader Perique",
+      "blend": "Squadron Leader with Perique",
+      "display_name": "Samuel Gawith Squadron Leader with Perique",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -42696,20 +42575,7 @@
           "sources": [
             "4noggins.com"
           ]
-        }
-      ],
-      "years": [],
-      "source": "4noggins.com"
-    },
-    {
-      "id": "samuelgawith|squadronleaderwithperique",
-      "brand": "Samuel Gawith",
-      "blend": "Squadron Leader with Perique",
-      "display_name": "Samuel Gawith Squadron Leader with Perique",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
+        },
         {
           "quantity": "",
           "members": [
@@ -42737,7 +42603,7 @@
       "years": [
         "2019"
       ],
-      "source": "Speak-Easy.Club"
+      "source": "Multiple sources"
     },
     {
       "id": "samuelgawith|stjamesflake",
@@ -49988,7 +49854,7 @@
     "Esoterica- Penzance 7.94 oz": "esoterica|penzance",
     "Collectible John Cotton’s Creme 50g Pipe Tobacco Sealed Original Tin Out of Production": "johncottons|creme",
     "Peterson’s Dunhill Nightcap Sealed 50g Tin": "dunhill|nightcap",
-    "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026": "ravenwood|hobbitleaf",
+    "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026": "ravenwood|hobbitsleaf",
     "Tobacco Tin Sutliff Crindle Flake 2 oz. Sealed Pipe Tobacco Tin by Sutliff 2022": "sutliff|cringleflake",
     "McClelland 40th Anniversary - NR BIN $225": "mcclelland|40thanniversary",
     "Very Nice Sealed Germain's King Charles 50g. Tin": "jfgermain|kingcharlesmixture",
@@ -50341,7 +50207,7 @@
     "Samuel Gawith: CABBIE'S MIXTURE 50g 2018 - C": "samuelgawith|cabbiesmixture",
     "Samuel Gawith: COMMONWEALTH MIXTURE 50g 2003 - C": "samuelgawith|commonwealthmixture",
     "Samuel Gawith: NAVY FLAKE 50g 2016 - C": "samuelgawith|navyflake",
-    "Samuel Gawith: SQUADRON LEADER w- Perique 50g - C": "samuelgawith|squadronleaderperique",
+    "Samuel Gawith: SQUADRON LEADER w- Perique 50g - C": "samuelgawith|squadronleaderwithperique",
     "Samuel Gawith: ST. JAMES FLAKE 50g 2018 -C": "samuelgawith|stjamesflake",
     "Samuel Gawith: ST. JAMES MINI PLUG 8oz - C": "samuelgawith|stjamesminiplug",
     "Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C": "smokershaven|20thanniversarymixture",
@@ -50392,7 +50258,7 @@
     "Warped the Haunting 2 oz. tin (#1585 of 2000.)": "warped|thehaunting",
     "SG Brown #4 50 g tin": "samuelgawith|brownno4",
     "SG Black XX Kendal Twist 50g tin": "samuelgawith|finestkendaltwistblackxx",
-    "GH Broken Scotch Cake 50g tin": "gawithhoggarthco|brokenscotchcake",
+    "GH Broken Scotch Cake 50g tin": "gawithhoggarthco|brokenscotchflake",
     "Peter Heinrichs Curly Block 4oz. (Jarred since purchased in 2020.)": "peterheinrichs|curlyblock",
     "Kendal Kentucky 5 oz in Mylar": "gawithhoggarthco|kendalkentucky",
     "Kendal Kentucky 4 oz. in Mylar": "gawithhoggarthco|kendalkentucky",
@@ -50478,7 +50344,7 @@
     "McClelland 2015 (2005) 135g": "mcclelland|2015",
     "Esoterica Stonehaven 50g 2017": "esoterica|stonehaven",
     "Wessex Brown Virginia Flake 50g 2021": "wessex|brownvirginiaflake",
-    "Samuel Gawith Commonwealth 1.5 oz 2021": "samuelgawith|commonwealth",
+    "Samuel Gawith Commonwealth 1.5 oz 2021": "samuelgawith|commonwealthmixture",
     "Samuel Gawith Firedance Flake 1.5 oz 2021": "samuelgawith|firedanceflake",
     "Gawith & Hoggarth Dark Plug 4oz 2021": "gawithhoggarthco|darkplug",
     "Gawith & Hoggarth Latakie Medium Cut 1oz 2021": "gawithhoggarthco|latakiemediumcut",
@@ -50529,7 +50395,7 @@
     "Heath & Home Slow Aged Smokey Mountain 1.75oz x1": "hearthhome|slowagedsmokeymountain",
     "Peterson Sherlock Holmes 2024 - 1.75oz": "peterson|sherlockholmes",
     "From Beyond 2023": "cornelldiehl|frombeyond",
-    "Fribourg and Treyer Vintage 2025 - 1.73oz": "fribourgtreyer|vintage",
+    "Fribourg and Treyer Vintage 2025 - 1.73oz": "fribourgtreyer|vintageflake",
     "Captain Earle’s Ten Russians - 1.26oz": "captainearles|tenrussians",
     "Sun Bear Black Locust - 1.65oz": "cornelldiehl|sunbearblacklocust",
     "Fribourg and Treyer Special Brown Flake 2025 - 1.64": "fribourgtreyer|specialbrownflake",
@@ -50583,7 +50449,7 @@
     "G&H Whiskey Rope 2023, 1.9 oz": "gawithhoggarthco|whiskeyrope",
     "G&H Rum Twist Rope 2023, 11.7 oz": "gawithhoggarthco|rumtwistrope",
     "G&H Curly Cut Deluxe 2023, 3.9 oz": "gawithhoggarthco|curlycutdeluxe",
-    "Sammy G Commonwealth 2020, 250g": "samuelgawith|commonwealth",
+    "Sammy G Commonwealth 2020, 250g": "samuelgawith|commonwealthmixture",
     "HH Rustica 3.5oz ('20)": "macbaren|hhrustica",
     "Balkan Sasieni 50g ('21)": "stg|balkansasieni",
     "Samuel Gawith CH Flake 50g ('21)": "samuelgawith|chflake",
@@ -50639,7 +50505,7 @@
     "Dunhill Ready Rubbed – 2015 - 1 tin": "dunhill|readyrubbed",
     "GLP Ashbury 2014 – 1 tins": "glpease|ashbury",
     "Hearth and Home Cerberus 2015 – 1 tins": "hearthhome|cerberus",
-    "SG Commonwealth 2017 – 1 tin": "samuelgawith|commonwealth",
+    "SG Commonwealth 2017 – 1 tin": "samuelgawith|commonwealthmixture",
     "SG Navy Flake – 2015 – 1 tin": "samuelgawith|navyflake",
     "SPC Mississippi River 2016 – 1 tins": "seattlepipeclub|mississippiriver",
     "Sutliff Private Stock Maple 1.5 oz 2016 – 1 tin": "sutliff|privatestockmaple",
@@ -50867,14 +50733,14 @@
     "Peter Stokkebye LTF 02/2020                  28g": "peterstokkebye|luxurytwistflake",
     "Presbyterian Mixture 01/2019                   34g": "macbaren|presbyterianmixture",
     "Samuel Gawith Balkan Flake 12/2020       62g": "samuelgawith|balkanflake",
-    "Samuel Gawith Commonwealth 10/2020  45g": "samuelgawith|commonwealth",
+    "Samuel Gawith Commonwealth 10/2020  45g": "samuelgawith|commonwealthmixture",
     "Samuel Gawith Grousemoor 07/2020        26g": "samuelgawith|grousemoor",
     "Watch City Deluxe Crumb Cut 02/2020 36g": "watchcity|deluxecrumbcut",
     "HH Latakia Flake 100g 2018": "macbaren|hhlatakiaflake",
     "Best Brown Flake 50g 2018": "gawithhoggarthco|bestbrownflake",
     "Full Virginia Flake 50g 2018 x1": "samuelgawith|fullvirginiaflake",
     "Balkan Flake 50g 2018": "samuelgawith|balkanflake",
-    "Commonwealth Mixture 50g 2018": "samuelgawith|commonwealth",
+    "Commonwealth Mixture 50g 2018": "samuelgawith|commonwealthmixture",
     "St. James Woods 100g 2017": "mcclelland|stjameswoods",
     "Dark Star 100g 2017": "mcclelland|darkstar",
     "Blackwoods 100g 2011": "mcclelland|blackwoodsflake",
@@ -50927,7 +50793,7 @@
     "x torgenskjold 2020": "dantobacco|tordenskjoldvirginiaslices",
     "x krumble kake vaper": "sutliff|crumblekakevaperique",
     "x viprati": "hearthhome|viprati",
-    "veermaster 2020": "dan|hamborgerveermaster",
+    "veermaster 2020": "dantobacco|hamborgerveermaster",
     "Mylar bag Reiner Golden 2015 92g’s": "reiner|longgoldenflake",
     "Christmas Cheer": "mcclelland|christmascheer",
     "8 state burley": "cornelldiehl|8stateburley",
@@ -51075,7 +50941,7 @@
     "x Gordon Pym (2020)": "dantobacco|gordonpym",
     "x university flake 2019": "peterson|universityflake",
     "x F&T special brown flake (2020)": "fribourgtreyer|specialbrownflake",
-    "x F&T vintage (20/21)": "fribourgtreyer|vintage",
+    "x F&T vintage (20/21)": "fribourgtreyer|vintageflake",
     "Scottish cake 2022": "robertmcconnell|scottishcake",
     "F&T cut blended (2020)": "fribourgtreyer|cutblendedplug",
     "x F&T golden mixture 2020 (": "fribourgtreyer|goldenmixture",
@@ -51224,7 +51090,7 @@
     "MacBaren HH Mature Virginia 2010 14g zip and 2oz jar": "macbaren|hhmaturevirginia",
     "Viprati 2017": "hearthhome|viprati",
     "F&T Cut Vintage Plug 2019": "fribourgtreyer|cutvintageplug",
-    "F&T Vintage (2018 or 2019)": "fribourgtreyer|vintage",
+    "F&T Vintage (2018 or 2019)": "fribourgtreyer|vintageflake",
     "MacBaren Roll Cake Spun Cut 2010": "macbaren|rollcake",
     "MacBaren Club Blend roll cake 2010": "macbaren|clubblend",
     "x 2018 Capstan Yellow": "macbaren|capstanyellow",
@@ -51248,7 +51114,7 @@
     "Escudo Navy Deluxe 2014": "stg|escudonavydeluxe",
     "GL Pease Gaslight 2014": "glpease|gaslight",
     "Peterson University Flake 2015": "peterson|universityflake",
-    "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday": "dan|devilsholiday",
+    "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday": "dantobacco|devilsholiday",
     "Oaks Original Pipe Tobacco Blend 2014": "mcclelland|3oaksoriginal",
     "McCranies 1983 Red Flake x1": "mccranies|redflake",
     "Smokers Haven 65th Anniversary Flake 2005": "smokershaven|65thanniversaryflake",
@@ -51321,7 +51187,7 @@
     "Campsite Cascadia 50g": "cascadia|campsite",
     "Edward G Robinson's Pipe Blend 1.5oz": "sutliff|edwardgrobinsonspipeblend",
     "Sutliff Crumble Kake Va Perique 50g": "sutliff|crumblekakevaper",
-    "Commonwealth 1/2018 220g": "samuelgawith|commonwealth",
+    "Commonwealth 1/2018 220g": "samuelgawith|commonwealthmixture",
     "Skiff 1/2019": "samuelgawith|skiffmixture",
     "Fire dance flake 6/2022": "samuelgawith|firedanceflake",
     "Stokkebye 1855": "peterstokkebye|1855",
@@ -51377,7 +51243,7 @@
     "Nat Sherman 536 (Discontinued) year?": "natsherman|536",
     "Robert McConnel Black Flake 2023": "robertmcconnell|blackflake",
     "Robert McConnel Folded Flake 2023": "robertmcconnell|foldedflake",
-    "Orlik Mellow Mix ? year": "orlik|mellowmix",
+    "Orlik Mellow Mix ? year": "orlik|mellowmixture",
     "HH Latakia Flake 3.5 oz 2020": "macbaren|hhlatakiaflake",
     "HH ODF 3.5 oz – 2018": "macbaren|hholddarkfired"
   }

@@ -517,7 +517,7 @@
     "source": "llm"
   },
   "Collectible Ravenwood Hobbit Leaf Sealed 50g Tin Made in USA Spring 2026": {
-    "blend": "Hobbit Leaf",
+    "blend": "Hobbit's Leaf",
     "brand": "Ravenwood",
     "confidence": 0.9,
     "is_tin": true,
@@ -3037,7 +3037,7 @@
     "source": "llm"
   },
   "Samuel Gawith: SQUADRON LEADER w- Perique 50g - C": {
-    "blend": "Squadron Leader Perique",
+    "blend": "Squadron Leader with Perique",
     "brand": "Samuel Gawith",
     "confidence": 0.9,
     "is_tin": true,
@@ -5084,13 +5084,13 @@
   },
   "Commonwealth 1/2018 220g": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.9
   },
   "Commonwealth Mixture 50g 2018": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.9
   },
@@ -5590,7 +5590,7 @@
   },
   "Orlik Mellow Mix ? year": {
     "brand": "Orlik",
-    "blend": "Mellow Mix",
+    "blend": "Mellow Mixture",
     "is_tin": true,
     "confidence": 0.88
   },
@@ -6347,7 +6347,7 @@
   },
   "Samuel Gawith Commonwealth 10/2020  45g": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.92
   },
@@ -7236,7 +7236,7 @@
     "confidence": 0.97
   },
   "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Devil's Holiday",
     "is_tin": true,
     "confidence": 0.92
@@ -7339,7 +7339,7 @@
     "confidence": 0.97
   },
   "veermaster 2020": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Hamborger Veermaster",
     "is_tin": true,
     "confidence": 0.95
@@ -7886,7 +7886,7 @@
   },
   "x F&T vintage (20/21)": {
     "brand": "Fribourg & Treyer",
-    "blend": "Vintage",
+    "blend": "Vintage Flake",
     "is_tin": true,
     "confidence": 0.8
   },
@@ -9780,7 +9780,7 @@
   },
   "F&T Vintage (2018 or 2019)": {
     "brand": "Fribourg & Treyer",
-    "blend": "Vintage",
+    "blend": "Vintage Flake",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -12289,7 +12289,7 @@
   },
   "Fribourg and Treyer Vintage 2025 - 1.73oz": {
     "brand": "Fribourg & Treyer",
-    "blend": "Vintage",
+    "blend": "Vintage Flake",
     "is_tin": true,
     "confidence": 0.9
   },
@@ -14209,7 +14209,7 @@
   },
   "SG Commonwealth 2017 – 1 tin": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.95
   },
@@ -14449,7 +14449,7 @@
   },
   "Sammy G Commonwealth 2020, 250g": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.95
   },
@@ -14479,7 +14479,7 @@
   },
   "Samuel Gawith Commonwealth 1.5 oz 2021": {
     "brand": "Samuel Gawith",
-    "blend": "Commonwealth",
+    "blend": "Commonwealth Mixture",
     "is_tin": true,
     "confidence": 0.85
   },
@@ -16591,7 +16591,7 @@
   },
   "GH Broken Scotch Cake 50g tin": {
     "brand": "Gawith, Hoggarth & Co.",
-    "blend": "Broken Scotch Cake",
+    "blend": "Broken Scotch Flake",
     "is_tin": true,
     "confidence": 0.97
   },

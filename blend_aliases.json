@@ -5,8 +5,12 @@
     "965 2012 50g": "My Mixture No. 965",
     "Elizabethan": "Elizabethan Mixture"
   },
+  "Fribourg & Treyer": {
+    "Vintage": "Vintage Flake"
+  },
   "Gawith, Hoggarth & Co.": {
-    "#7 Broken Flake": "No. 7 Broken Flake"
+    "#7 Broken Flake": "No. 7 Broken Flake",
+    "Broken Scotch Cake": "Broken Scotch Flake"
   },
   "G.L. Pease": {
     "Quiet Night": "Quiet Nights"
@@ -27,6 +31,9 @@
     "Yenidje Highlander": "Grand Orientals Yenidje Highlander",
     "Frog Morton On the Cellar": "Frog Morton's Cellar"
   },
+  "Orlik": {
+    "Mellow Mix": "Mellow Mixture"
+  },
   "Rattray's": {
     "Hall O' The Wynd": "Hal O' The Wynd"
   },
@@ -34,7 +41,12 @@
     "LGF": "Long Golden Flake",
     "Blend No. 71 (Long Golden Flake)": "Long Golden Flake"
   },
+  "Ravenwood": {
+    "Hobbit Leaf": "Hobbit's Leaf"
+  },
   "Samuel Gawith": {
+    "Commonwealth": "Commonwealth Mixture",
+    "Squadron Leader Perique": "Squadron Leader with Perique",
     "8oz SG 1792 1/22": "1792 Flake",
     "8oz SG Balkan Flake 1/23": "Balkan Flake",
     "8oz SG Grousemoor plug 6/22": "Grousemoor",
