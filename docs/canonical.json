@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-27T04:05:25.597416+00:00",
+  "generated": "2026-06-27T15:14:12.482888+00:00",
   "stats": {
-    "total_listings": 2807,
+    "total_listings": 2828,
     "excluded_multipacks": 1218,
     "total_tins": 884,
     "multi_member_tins": 301,
@@ -98,7 +98,7 @@
             {
               "name": "Amphora Black Cavendish, 7.5oz jar,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$20",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-13T02:23:45+00:00",
@@ -134,7 +134,7 @@
             {
               "name": "Amphora English Blend, 8oz jar,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$30",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-13T02:23:45+00:00",
@@ -3454,7 +3454,7 @@
             {
               "name": "C&D Bayou Morning 8oz mylar, 2015, x1",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/unread",
+              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/",
               "price": "$50",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-27T14:45:25+00:00",
@@ -4364,7 +4364,7 @@
             {
               "name": "C&D Derringer 1.6oz 2020",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$10",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -4713,7 +4713,7 @@
             {
               "name": "C&D Father The Flame 1.5oz",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$20",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -5948,7 +5948,7 @@
             {
               "name": "C&D Night Train 8.8 oz",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/unread",
+              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/",
               "price": "$5",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-16T14:24:10+00:00",
@@ -7941,7 +7941,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
               "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-06-28T11:38:38+00:00",
               "year": "2022",
               "price_history": [
@@ -7952,6 +7952,14 @@
                 {
                   "price": "$20",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$15",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -9929,7 +9937,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/something-for-everyone-now-open-to-non-verified.43812/",
               "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2026-01-13T23:29:24+00:00",
               "year": "",
               "price_history": [
@@ -9956,6 +9964,14 @@
                 {
                   "price": "$20",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -11740,7 +11756,7 @@
             {
               "name": "4th Generation Peaty Kentucky",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$20",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -11778,7 +11794,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
               "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-06-28T11:38:38+00:00",
               "year": "2023",
               "price_history": [
@@ -11789,6 +11805,14 @@
                 {
                   "price": "$20",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$15",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -11805,7 +11829,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
               "price": "$25",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-06-28T11:38:38+00:00",
               "year": "2021",
               "price_history": [
@@ -11816,6 +11840,14 @@
                 {
                   "price": "$25",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$18",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -14462,7 +14494,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$20",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2008",
               "price_history": [
@@ -14473,6 +14505,14 @@
                 {
                   "price": "$20",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$19",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -14846,7 +14886,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$50",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2015",
               "price_history": [
@@ -14857,6 +14897,14 @@
                 {
                   "price": "$50",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$50",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -14913,7 +14961,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$45",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2020",
               "price_history": [
@@ -14924,6 +14972,14 @@
                 {
                   "price": "$45",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$45",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -15430,7 +15486,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$45",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2021",
               "price_history": [
@@ -15441,6 +15497,14 @@
                 {
                   "price": "$45",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$40",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$45",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -15967,7 +16031,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/beefy-meaty-wall-of-what-not-for-sale.43358/",
               "price": "$30",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2025-11-08T11:44:22+00:00",
               "year": "",
               "price_history": [
@@ -15994,6 +16058,14 @@
                 {
                   "price": "$30",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -16048,7 +16120,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$24",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2011",
               "price_history": [
@@ -16059,6 +16131,14 @@
                 {
                   "price": "$24",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$19",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$24",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -16212,7 +16292,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$45",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2020",
               "price_history": [
@@ -16223,6 +16303,14 @@
                 {
                   "price": "$45",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$40",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$45",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -16478,7 +16566,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$24",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2009",
               "price_history": [
@@ -16489,6 +16577,14 @@
                 {
                   "price": "$24",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$19",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$24",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -16739,7 +16835,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/ok-we-are-done-thanks.40508/",
               "price": "$16",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-07-18T04:01:33+00:00",
               "year": "2017",
               "price_history": [
@@ -16750,6 +16846,14 @@
                 {
                   "price": "$16",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$15",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$16",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -18546,9 +18650,9 @@
             {
               "name": "Ennerdale Flake",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/unread",
+              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/",
               "price": "$26",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2026-06-19T23:39:02+00:00",
               "year": "",
               "price_history": [
@@ -18583,6 +18687,22 @@
                 {
                   "price": "$26",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$10",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$26",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$10",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$26",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -18831,9 +18951,9 @@
             {
               "name": "Rum Flake",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/unread",
+              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/",
               "price": "$8",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2026-06-19T23:39:02+00:00",
               "year": "",
               "price_history": [
@@ -18868,6 +18988,22 @@
                 {
                   "price": "$8",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$13",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$8",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$13",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$8",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -19720,7 +19856,7 @@
             {
               "name": "Hearth & Home Bright Night, Received 12/24, don't know date, x1",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/unread",
+              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/",
               "price": "$25",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-27T14:45:25+00:00",
@@ -20268,7 +20404,7 @@
             {
               "name": "H & H Vintage Syrian 1.75 oz 2015",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/getting-rid-of-tins-and-mylar.44365/",
               "price": "$50",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -21231,7 +21367,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/mcc-eso-germain-couple-others.41850/",
               "price": "$25",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2025-02-09T04:02:43+00:00",
               "year": "",
               "price_history": [
@@ -21258,6 +21394,14 @@
                 {
                   "price": "$25",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -24097,7 +24241,7 @@
             {
               "name": "Macbaren Brunello Flake, 3.5oz round tin,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$35",
               "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-06-24T14:49:03+00:00",
@@ -24112,7 +24256,7 @@
             {
               "name": "Macbaren Brunello Flake, 3.5oz square tin,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$45",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-13T02:23:45+00:00",
@@ -24185,7 +24329,7 @@
             {
               "name": "Mac Baren Burley London Blend 3.5 ounce  2021",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$30",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -24797,7 +24941,7 @@
             {
               "name": "HH Acadian Perique 1.3oz  2015",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$35",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -29112,7 +29256,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/mcclelland-tins.41086/",
               "price": "$90",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2026-06-22T17:17:30+00:00",
               "year": "",
               "price_history": [
@@ -29131,6 +29275,14 @@
                 {
                   "price": "$90",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$110",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$90",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -29607,7 +29759,7 @@
             {
               "name": "Frog Morton 3.1oz 2015",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$50",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -30565,7 +30717,7 @@
             {
               "name": "Mc Clelland Jubilee 1.4oz 2014",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$50",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -30657,7 +30809,7 @@
             {
               "name": "Mc Clelland Mellow Apple 2oz 2016",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$30",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -31790,7 +31942,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/mac-baren-mcclelland-etc.43857/",
               "price": "$65",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2026-01-24T00:46:03+00:00",
               "year": "",
               "price_history": [
@@ -31801,6 +31953,14 @@
                 {
                   "price": "$65",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$65",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -33027,7 +33187,7 @@
             {
               "name": "Missouri Meerschaum 150th blend, 12/24, x1",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/unread",
+              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/",
               "price": "$20",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-27T14:45:25+00:00",
@@ -34669,7 +34829,7 @@
             {
               "name": "Peterson Balkan Mixture, 24, x1",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/unread",
+              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/",
               "price": "$12",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-27T14:45:25+00:00",
@@ -35429,7 +35589,7 @@
             {
               "name": "Peterson Standard Mixture, 2025, x1",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/unread",
+              "url": "https://speak-easy.club/threads/cellar-clean-up.44554/",
               "price": "$13",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-27T14:45:25+00:00",
@@ -38616,7 +38776,7 @@
             {
               "name": "Bright CR Flake",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/unread",
+              "url": "https://speak-easy.club/threads/reduced-5-pounds-of-sparkly-gh-goodness.44678/",
               "price": "$26",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-19T23:39:02+00:00",
@@ -41348,7 +41508,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/please-please-please-give-me-what-i-want-your-green-for-my-brown.40481/",
               "price": "$15",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2024-06-28T11:38:38+00:00",
               "year": "2021",
               "price_history": [
@@ -41359,6 +41519,14 @@
                 {
                   "price": "$15",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$12",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$15",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             }
@@ -42923,7 +43091,7 @@
             {
               "name": "Grainger, 12oz sealed tub,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$55",
               "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-06-24T14:49:03+00:00",
@@ -42959,7 +43127,7 @@
             {
               "name": "Strauss Sleepy Hollow 1.1oz 2015",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/unread",
+              "url": "https://speak-easy.club/threads/random-jarred-things-and-a-few-tins.44696/",
               "price": "$10",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-06-22T01:38:34+00:00",
@@ -43850,7 +44018,7 @@
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/moving-to-the-east-side-sale.41394/",
               "price": "$25",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "last_updated": "2026-06-27T14:53:48.757249+00:00",
               "first_seen": "2025-10-10T18:26:23+00:00",
               "year": "2021",
               "price_history": [
@@ -43861,6 +44029,14 @@
                 {
                   "price": "$25",
                   "date": "2026-06-25T20:46:10.923480+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T14:53:48.757249+00:00"
                 }
               ]
             },
@@ -44198,7 +44374,7 @@
             {
               "name": "Then we've got a bag (opened, but still moist since it's J4) of the sadly discontinued Sutliff J4 Burley. I don't have any way of taring out the bag so let's call it 12 ounces",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/unread",
+              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/",
               "price": "$4",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-16T14:24:10+00:00",
@@ -45624,7 +45800,7 @@
             {
               "name": "Velvet, 12oz sealed tub,",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/unread",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
               "price": "$55",
               "last_updated": "2026-06-25T20:26:40.398134+00:00",
               "first_seen": "2026-06-24T14:49:03+00:00",
@@ -47221,7 +47397,7 @@
             {
               "name": "Finally a chunk of Wessex Gold Brick. I took a slice and smoked a bowl when I got it but wasn't thrilled, wanted to try it with some age but never got around to it. 3.4oz",
               "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/unread",
+              "url": "https://speak-easy.club/threads/wts-misc-pipe-tobacco.44490/",
               "price": "$35",
               "last_updated": "2026-06-24T02:02:09.029335+00:00",
               "first_seen": "2026-05-16T14:24:10+00:00",
@@ -48117,6 +48293,19 @@
     "Germains Balkan Sobranie": "jfgermain|balkansobranie",
     "x 2021 Cringle Flake": "sutliff|cringleflake",
     "Cheer": "mcclelland|christmascheer",
+    "McClelland St. James Woods 50g:": "mcclelland|stjameswoods",
+    "Caravan 2015": "glpease|caravan",
+    "Gaslight 2021": "glpease|gaslight",
+    "Charring Cross 2020": "glpease|charingcross",
+    "Maltese Falcon 2020": "glpease|maltesefalcon",
+    "Abingdon – 2008": "glpease|abingdon",
+    "Robusto 2017": "glpease|robusto",
+    "Lagonda 2011": "glpease|lagonda",
+    "Odyssey 2009": "glpease|odyssey",
+    "105g 2022 Faulkner Flake": "countrysquire|faulknerflake",
+    "150g 2021 Evening Flake": "erikstokkebye|eveningflake",
+    "110g 2023 Evening Flake": "erikstokkebye|eveningflake",
+    "65g 2021 GdO Flake": "savinelli|giubileodoroflake",
     "Beacon": "mcclelland|beaconextra",
     "McCranie's 2000 RR": "mccranies|redribbon",
     "8oz WCC Bostonian Rhapsody": "watchcity|bostonianrhapsody",
@@ -48269,7 +48458,6 @@
     "Mac Baren Navy Flake (Flake Cut) 3.5 ounce:": "macbaren|navyflake",
     "Cabbie's Mixture 50g:": "samuelgawith|cabbiesmixture",
     "Dunhill Flake 50g (square Tin):": "dunhill|flake",
-    "McClelland St. James Woods 50g:": "mcclelland|stjameswoods",
     "McClelland Blackwoods Flake 100g:": "mcclelland|blackwoodsflake",
     "MacBaren Golden Extra 1lb Bulk,": "macbaren|goldenextra",
     "Sutliff 707s Sweet VA 1lb bulk,": "sutliff|707ssweetvirginia",
@@ -48448,31 +48636,19 @@
     "Germain’s King Charles": "jfgermain|kingcharlesmixture",
     "McClelland Beacon 2015": "mcclelland|beaconextra",
     "McClelland Tudor Castle 2015": "mcclelland|tudorcastle",
-    "Caravan 2015": "glpease|caravan",
-    "Gaslight 2021": "glpease|gaslight",
-    "Charring Cross 2020": "glpease|charingcross",
-    "Maltese Falcon 2020": "glpease|maltesefalcon",
-    "Abingdon – 2008": "glpease|abingdon",
     "Abingdon – 2009": "glpease|abingdon",
     "Maltese Falcon -2012": "glpease|maltesefalcon",
     "Caravan – 2009": "glpease|caravan",
     "Quiet Nights -2016": "glpease|quietnights",
-    "Robusto 2017": "glpease|robusto",
-    "Lagonda 2011": "glpease|lagonda",
-    "Odyssey 2009": "glpease|odyssey",
     "Vintage Syrian 2017 (Discontinued) - 3.5 oz": "hearthhome|vintagesyrian",
     "Pirate Kake 2016 - 15 oz": "cornelldiehl|piratekake",
     "Arango Balkan Supreme 2021- 15 oz": "arango|balkansupreme",
     "Whimsical": "sutliff|whimsical",
     "HH Pure Virginia 2020": "hearthhome|purevirginia",
     "Edward G 100g tin (2021)": "sutliff|edwardgrobinsonspipeblend",
-    "105g 2022 Faulkner Flake": "countrysquire|faulknerflake",
     "35g 2022 Stonehenge Flake": "glpease|stonehengeflake",
     "70g 2020 MacB Navy Flake": "macbaren|navyflake",
     "45g 2022 Best Brown Flake": "gawithhoggarthco|bestbrownflake",
-    "150g 2021 Evening Flake": "erikstokkebye|eveningflake",
-    "110g 2023 Evening Flake": "erikstokkebye|eveningflake",
-    "65g 2021 GdO Flake": "savinelli|giubileodoroflake",
     "50g 2021 Orchard Mist": "missourimeerschaum|orchardmist",
     "50g Mallard + Perique": "dantobacco|themallardflakeplusperique",
     "(1) SG Brown Sugar Flake": "samuelgawith|brownsugarflake",
