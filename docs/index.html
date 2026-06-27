@@ -790,9 +790,9 @@
     }
 
     // x-axis ticks — single label when all points share one date
-    const xTicks = sameDateCluster ? [minMs] : Array.from(
-      { length: Math.min(5, pts.length) }, (_, i, a) =>
-        minMs + (msRange * i) / Math.max(a.length - 1, 1));
+    const xCount = sameDateCluster ? 1 : Math.min(5, pts.length);
+    const xTicks = Array.from({ length: xCount }, (_, i) =>
+      minMs + (msRange * i) / Math.max(xCount - 1, 1));
 
     function fmtTick(ms) {
       return new Date(ms).toLocaleDateString("en-US", { month: "short", year: "2-digit" });
@@ -802,13 +802,13 @@
     const grid = yTicks.map(v => {
       const y = toY(v).toFixed(1);
       return `<line x1="${PL}" y1="${y}" x2="${W - PR}" y2="${y}" stroke="#e8dcc8" stroke-width="1"/>
-        <text x="${PL - 5}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="#8a6a4a" font-size="10">$${v.toFixed(2)}</text>`;
+        <text x="${PL - 5}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="#8a6a4a" font-size="8">$${v.toFixed(2)}</text>`;
     }).join("");
 
     // x labels
     const xLabels = xTicks.map(ms => {
       const x = toX(ms).toFixed(1);
-      return `<text x="${x}" y="${(PT + plotH + 18).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="10">${fmtTick(ms)}</text>`;
+      return `<text x="${x}" y="${(PT + plotH + 16).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="8">${fmtTick(ms)}</text>`;
     }).join("");
 
     // Trend line: average $/oz per unique date
@@ -823,13 +823,13 @@
       .sort((a, b) => a.ms - b.ms);
     const lineCoords = avgPts.map(p => `${toX(p.ms).toFixed(1)},${toY(p.ppo).toFixed(1)}`).join(" ");
     const trendLine = avgPts.length > 1
-      ? `<polyline points="${lineCoords}" fill="none" stroke="#d8b483" stroke-width="1.5" stroke-linejoin="round"/>`
+      ? `<polyline points="${lineCoords}" fill="none" stroke="#FF69AF" stroke-width="1.5" stroke-linejoin="round" stroke-opacity=".7"/>`
       : "";
 
     // Individual dots — carry listing data for tooltip
     const dots = pts.map(p =>
       `<circle cx="${toX(p.ms).toFixed(1)}" cy="${toY(p.ppo).toFixed(1)}" r="5"
-        fill="#cf8a73" fill-opacity=".8" class="ppo-dot"
+        fill="#FF69AF" fill-opacity=".85" class="ppo-dot"
         data-ppo="${p.ppo.toFixed(2)}"
         data-price="${esc(p.price)}" data-source="${esc(p.source)}"
         data-size="${esc(p.size)}" data-date="${p.date || ""}"/>`
