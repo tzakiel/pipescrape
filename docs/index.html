@@ -756,7 +756,7 @@
           size: sz.quantity || "—", date: m.first_seen });
       }
     }
-    if (pts.length < 2) return "";
+    if (pts.length < 1) return "";
     pts.sort((a, b) => a.ms - b.ms);
 
     const W = 500, H = 160;
@@ -764,7 +764,8 @@
     const plotW = W - PL - PR, plotH = H - PT - PB;
 
     const minMs = pts[0].ms, maxMs = pts[pts.length - 1].ms;
-    const msRange = maxMs - minMs || 1;
+    const sameDateCluster = maxMs === minMs;
+    const msRange = sameDateCluster ? 1 : maxMs - minMs;
     const ppoVals = pts.map(p => p.ppo);
     const rawMin = Math.min(...ppoVals), rawMax = Math.max(...ppoVals);
     const pad = (rawMax - rawMin) * 0.15 || rawMax * 0.15 || 1;
@@ -782,14 +783,16 @@
       return mag * 10;
     }
     const yStep  = niceStep(rawMax - rawMin || rawMax * 0.5 || 1, 3);
-    const yStart = Math.ceil(rawMin / yStep) * yStep;
+    const yStart = Math.floor(minPpo / yStep) * yStep;
     const yTicks = [];
-    for (let v = yStart; v <= rawMax + yStep * 0.01; v += yStep) yTicks.push(v);
+    for (let v = yStart; v <= maxPpo + yStep * 0.01; v += yStep) {
+      if (v >= minPpo - yStep * 0.01) yTicks.push(v);
+    }
 
-    // x-axis ticks (up to 5 evenly spaced dates)
-    const xCount = Math.min(5, pts.length);
-    const xTicks = Array.from({ length: xCount }, (_, i) =>
-      minMs + (msRange * i) / Math.max(xCount - 1, 1));
+    // x-axis ticks — single label when all points share one date
+    const xTicks = sameDateCluster ? [minMs] : Array.from(
+      { length: Math.min(5, pts.length) }, (_, i, a) =>
+        minMs + (msRange * i) / Math.max(a.length - 1, 1));
 
     function fmtTick(ms) {
       return new Date(ms).toLocaleDateString("en-US", { month: "short", year: "2-digit" });
