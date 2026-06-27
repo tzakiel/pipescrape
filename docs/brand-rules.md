@@ -24,7 +24,7 @@ Update this file whenever a new brand rule or correction is learned during a `/p
 | ODF (standalone) | Hearth & Home Old Dark Fired |
 | HH ODF / MB ODF | Mac Baren HH Old Dark Fired |
 | CRF | Cornell & Diehl Carolina Red Flake |
-| Cap Blue / Cap Yellow | Capstan, blend = Blue / Yellow (blend is just the color) |
+| Cap Blue / Cap Yellow | Mac Baren, blend = "Capstan Blue" / "Capstan Yellow" (keep full "Capstan [color]" as blend name) |
 | KC Flake | Samuel Gawith Kendal Cream Flake |
 | BS Flake | Samuel Gawith Brown Sugar Flake |
 | WCC / W.C. | Watch City |
@@ -37,7 +37,7 @@ Update this file whenever a new brand rule or correction is learned during a `/p
 | KBV | Ken Byron Ventures |
 | NM403 | Newminster No. 403 |
 | AJ's VaPer | Hearth & Home AJ's VaPer |
-| LGF | uncertain — ask if seen again |
+| LGF | Reiner Long Golden Flake (brand: Reiner, blend: Long Golden Flake) |
 
 ---
 
@@ -106,30 +106,30 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 
 ### German / European brands
 
-- **Solani** — German brand (Rudiger L. Will); numbered blends: 656 (Aged Burley Flake), 660 (Silver Flake); named: White & Black, Red Label, Blue Label
+- **Solani** — German brand (Rudiger L. Will); numbered blends: 656 (Aged Burley Flake), 660 (Silver Flake), 663 (Va and Perique → blend name = "663"); named: White & Black, Red Label, Blue Label
 - **Reiner** — German brand (Rudiger L. Will); Blend No. 71 = Long Golden Flake; Blend No. 25 = aromatic
 - **John Aylesbury** — German collective; blends: Sir John's Flake Virginia, Classic Flake, Dragon Flake
 - **HU Tobacco** — German brand; blends: "Flanagan", "Aus den Krater" series. NOT Hermit Umbra.
 - **Peter Heinrichs** — German brand; blend: "Curly Block" (confirmed NOT Wessex)
 - **Troost** — Dutch tobacco brand; blend: "Aromatic Cavendish"
 - **Arango** — importer/distributor; "Balkan Supreme" = Arango Balkan Supreme
-- **Bengal Slices** — standalone brand name (brand = "Bengal Slices", blend = "Bengal Slices"); originally Sobranie, now Standard Tobacco Co.
+- **Bengal Slices** — brand = "Sutliff", blend = "Bengal Slices"; blended by Sutliff (NOT a standalone brand, NOT Sobranie/Standard Tobacco Co.)
 
 ### Specific brand notes
 
 - **Cornell & Diehl** — also makes: "From Beyond", "Palmetto Balkan", "Pirate Kake", "Corn Cob Pipe and a Button Nose", "Epiphany", "Golden Days of Yore", "Joie de Vivre", "Bow Legged Bear", "Bijou", "Tom Eltang Virginia", "Eight State Burley", "Speakeasy Navy Blend", "Two Friends English Chocolate". **Oak Alley is C&D, NOT G.L. Pease.**
-- **G.L. Pease** — also makes: "Caravan", "JackKnife Plug", "Lagonda", "Odyssey", "Robusto", "Quiet Nights", "25th Anniversary", "Ashbury", "Union Square", "Triple Play", "Sixpence", "Embarcadero", "Fillmore", "Temple Bar", "Key Largo", "Tilbury", "Cumberland", "Abingdon", "Westminster", "Star of the East", "Speakeasy", "Charing Cross", "Vieux Carré"
+- **G.L. Pease** — also makes: "Caravan", "JackKnife Plug", "Lagonda", "Odyssey", "Robusto", "Quiet Nights", "25th Anniversary", "Ashbury", "Union Square", "Triple Play", "Sixpence", "Embarcadero", "Fillmore", "Temple Bar", "Key Largo", "Cumberland", "Abingdon", "Westminster", "Star of the East", "Speakeasy", "Charing Cross", "Vieux Carré". **"Tilbury" → Esoterica Tilbury, NOT G.L. Pease.**
 - **Hearth & Home** — also makes: "Viprati", "Pure Virginia", "Burley Flake", "Acadian", "RO Acadian English", "RO Acadian VaPer"
-- **Mac Baren** — also makes: "HH Anniversary Kake", "Capstan Blue", "Capstan Yellow", "Navy Flake", "Pure Virginia", "Mixture Scottish Blend", "Brunello Flake", "Presbyterian Mixture", "Presbyterian Ordained"
+- **Mac Baren** — also makes: "HH Anniversary Kake", "Capstan Blue", "Capstan Yellow", "Navy Flake", "Pure Virginia", "Mixture Scottish Blend", "Brunello Flake", "Presbyterian Mixture", "Presbyterian Ordained", "St. Bruno Ready Rubbed", "St. Bruno Flake". Capstan blends: brand = "Mac Baren", blend = "Capstan Blue" or "Capstan Yellow" (full blend name, not just color).
 - **Samuel Gawith** — also makes: "Hansom Flake" (correct spelling, not "Hansome"), "Balkan Flake", "Bothy Flake", "Chocolate Flake", "Commonwealth", "Perfection", "Best Brown Flake", "SJ Plug", "Skiff Mixture", "Navy Flake"
 - **Gawith, Hoggarth & Co.** — also makes: "Curly Cut Deluxe", "Rum Twist Rope", "Whiskey Rope", "Brown Slice", "Dark Plug", "Grasmere Flake", "Latakie Medium Cut", "Rich Dark Honeydew", "Revor Plug", "Sliced Brown Twist"
 - **McClelland** — also makes: "Navy Cavendish", "No. 27", "2015", "Tudor Castle", "Blackwoods Flake", "St. James Woods", "No. 24 Ribbon", "3 Oaks Original", "3 Oaks English Blend", "3 Oaks Syrian", "Stave Aged", "Tawny Flake", "Virginia Woods", "Dominican Glory", "Christmas Cheer", "Dark Star", "Beacon Extra", "Balkan Blue". brand=McClelland for all "3 Oaks" variants; do NOT use "3 Oaks" as the brand.
 - **McCranie's** — "RR" = Red Ribbon; "1983 Crop" = Red Flake (1983 crop Virginia)
 - **Rattray's** — also makes: "Stirling Flake", "Accountant's Mixture", "40 Virginia", "Black Mallory", "Hal O' The Wynd", "Red Rapparee", "Black Virginia", "Old Gowrie", "Professional Mixture", "Bagpiper's Dream", "Brown Clunee", "Jock's Mixture"
 - **Dan Tobacco** — also makes: "Devil's Holiday", "Hamborger Veermaster", "Salty Dog", "Dan Milonga", "The Mallard", "Midnight Ride", "Tordenskjold Virginia Slices", "Gordon Pym"
-- **Sutliff** — also makes: "Paradoxical" (Birds of a Feather series), "Match Victorian", "Maple Shadows", "Maple Shadows II", "Chocolate Supreme D54", "Anomalous", "Privateer", "No. 6 Phantom", "Cringle Flake", "Eastfarthing", "Sweated", "TS1R", "J4 Burley", "Barrel Aged series", "515 RC-1", "507-C", "701 Crème Brûlée", "707 Sweet Virginia"
-- **Erik Stokkebye** — distinct from Peter Stokkebye; "4th Generation" series (1931, 1989, Resolution etc.); also makes "Evening Flake", "4th Generation Night Slice"
-- **STG (Scandinavian Tobacco Group)** — makes "Escudo" (Navy De Luxe), "Balkan Sasieni". Does NOT make Balkan Sobranie. (Granger is a separate standalone brand, not STG.)
+- **Sutliff** — also makes: "Paradoxical" (Birds of a Feather series), "Match Victorian", "Maple Shadows", "Maple Shadows II", "Chocolate Supreme D54", "Anomalous", "Privateer", "No. 6 Phantom", "Cringle Flake", "Eastfarthing", "Sweated", "TS1R", "J4 Burley", "Barrel Aged series", "515 RC-1", "507-C", "701 Crème Brûlée", "707 Sweet Virginia", "Bengal Slices", "War Horse Bar"
+- **Erik Stokkebye** — distinct from Peter Stokkebye; "4th Generation" series: bare "4th Generation" = "4th Generation 1931" (default); also "4th Generation 1989", "4th Generation Resolution", "4th Generation Night Slice", "Evening Flake"
+- **STG (Scandinavian Tobacco Group)** — makes "Escudo Navy Deluxe" (blend name = "Escudo Navy Deluxe"); bare "Escudo" alone is NOT a valid entry — always expand to "Escudo Navy Deluxe". Also makes "Balkan Sasieni" (blend name = "Balkan Sasieni", NOT "Sasieni Balkan"). Does NOT make Balkan Sobranie. (Granger is a separate standalone brand, not STG.)
 - **Erinmore** — brand (STG/Mac Baren); main tin blend = "Flake"; bare "Erinmore" without sub-name = Erinmore Flake
 - **Robert McConnell** — makes "Scottish Cake", "Black Flake", "Folded Flake"
 - **Ashton** — makes "Artisan's Blend" (English/Syrian Latakia)
@@ -142,6 +142,8 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 - **Butera** — tobacco brand; blends: "Dark Stoved", "Pelican"
 - **Russ Ouellette** — brand; blend: "Acadian Gold"
 - **GH / Gawith Hoggarth** — same as Gawith, Hoggarth & Co.; canonical form: "Gawith, Hoggarth & Co."
+- **St. Bruno disambiguation** — "St. Bruno Ready Rubbed" and "St. Bruno Flake" → brand: "Mac Baren"; "Ogden St. Bruno" (or "St. Bruno" without further qualifier in Ogden's context) → brand: "Ogden's", blend: "St. Bruno"
+- **Samuel Gawith blend names** — strip weights/sizes from blend names; e.g. "Full Virginia Flake 50g" → blend: "Full Virginia Flake" (not "Full Virginia Flake 50g")
 
 ---
 
@@ -149,14 +151,17 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 
 - **Balkan Sobranie** → brand: "J.F. Germain" (NOT STG); "Germain's" = same brand, normalize to "J.F. Germain"
 - **Dunbar** → brand: "Esoterica" (NOT Gawith Hoggarth)
+- **Tilbury** → brand: "Esoterica", blend: "Tilbury" (NOT G.L. Pease)
 - **Oak Alley** → Cornell & Diehl (NOT G.L. Pease)
-- **Dunhill Shell/Cumberland + shape number** → is_tin: false (pipe)
+- **Dunhill Shell** → is_tin: false (pipe line); "Dunhill Shell [shape]" is always a pipe, not tobacco
+- **Dunhill Elizabethan** → brand: "Dunhill", blend: "Elizabethan Mixture" (same blend, two title forms)
 - **Comoy's #4 / #7** (bare, no weight) → is_tin: false (pipe shapes); "Comoy's #4 3.5oz" or "Cask No.4" → is_tin: true (tobacco)
 - **Dunhill BB** → "Baby's Bottom" blend (NOT an abbreviation for another blend). "BB1938" = Baby's Bottom 1938.
 - **Castello Sea Rock / Old Antiquari / Perla Nera** → is_tin: false (pipe lines)
 - **Danish Sovereign 341** → is_tin: false (pipe)
 - **Davidoff Medallion** → is_tin: false (pipe); Davidoff Green Mixture = tobacco
 - **HU** → HU Tobacco (German brand), NOT Hermit Umbra
+- **"Escudo" bare** → always expand to brand: "STG", blend: "Escudo Navy Deluxe"; never leave as just "Escudo"
 
 ---
 
@@ -164,8 +169,9 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 
 - Strip the brand prefix from the blend name: brand=`Cornell & Diehl`, blend=`Bayou Morning` (NOT "C&D Bayou Morning")
 - Strip brand prefix from Dunhill blends: brand=`Dunhill`, blend=`Nightcap` (NOT "Dunhill Nightcap")
-- Capstan blend is just the color: brand=`Capstan`, blend=`Yellow` (NOT "Capstan Yellow")
+- Capstan: brand=`Mac Baren`, blend=`Capstan Yellow` or `Capstan Blue` (keep full "Capstan [color]" as blend name; brand is Mac Baren)
 - Date/year variants are the same blend: "Carolina Red Flake 09/21/2019" → blend=`Carolina Red Flake` (strip dates)
+- Strip weights from all Samuel Gawith blend names: "Full Virginia Flake 50g" → blend=`Full Virginia Flake`; applies to any SG entry with a trailing weight (50g, 250g, 4oz, etc.)
 - "Crumble Kake" format: check Sutliff vs C&D by variant name
 
 ---
