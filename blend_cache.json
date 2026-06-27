@@ -5241,7 +5241,7 @@
     "confidence": 0.95
   },
   "Dan Milonga, 1.76oz tin,": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Milonga",
     "is_tin": true,
     "confidence": 0.9
@@ -7345,7 +7345,7 @@
     "confidence": 0.95
   },
   "x  2018 Salty Dog": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Salty Dog",
     "is_tin": true,
     "confidence": 0.92
@@ -7519,7 +7519,7 @@
     "confidence": 0.88
   },
   "x 2019 Salty Dogs": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Salty Dog",
     "is_tin": true,
     "confidence": 0.92
@@ -7597,7 +7597,7 @@
     "confidence": 0.92
   },
   "x 2020 Roper's Roundels 50g": {
-    "brand": "Dan",
+    "brand": "Dan Tobacco",
     "blend": "Roper's Roundels",
     "is_tin": true,
     "confidence": 0.95

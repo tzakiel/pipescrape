@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T21:53:42.624509+00:00",
+  "generated": "2026-06-27T21:54:57.830781+00:00",
   "stats": {
     "total_listings": 3069,
     "excluded_multipacks": 1237,
@@ -8256,134 +8256,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "dan|milonga",
-      "brand": "Dan",
-      "blend": "Milonga",
-      "display_name": "Dan Milonga",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "1.76oz",
-          "members": [
-            {
-              "name": "Dan Milonga, 1.76oz tin,",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
-              "price": "$20",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-06-13T02:23:45+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$20",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dan|ropersroundels",
-      "brand": "Dan",
-      "blend": "Roper's Roundels",
-      "display_name": "Dan Roper's Roundels",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "x 2020 Roper’s Roundels 50g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/a-quickie-of-a-sale.43217/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-21T00:21:15+00:00",
-              "year": "2020",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2020"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "dan|saltydog",
-      "brand": "Dan",
-      "blend": "Salty Dog",
-      "display_name": "Dan Salty Dog",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "x  2018 Salty Dog",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-10T18:26:23+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            },
-            {
-              "name": "x 2019 Salty Dogs",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/a-quickie-of-a-sale.43217/",
-              "price": "$30",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-21T00:21:15+00:00",
-              "year": "2019",
-              "price_history": [
-                {
-                  "price": "$30",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2018",
-        "2019"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "dantobacco|devilsholiday",
       "brand": "Dan Tobacco",
       "blend": "Devil's Holiday",
@@ -8712,6 +8584,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "dantobacco|milonga",
+      "brand": "Dan Tobacco",
+      "blend": "Milonga",
+      "display_name": "Dan Tobacco Milonga",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "1.76oz",
+          "members": [
+            {
+              "name": "Dan Milonga, 1.76oz tin,",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$20",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-06-13T02:23:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "dantobacco|oldironsides",
       "brand": "Dan Tobacco",
       "blend": "Old Ironsides",
@@ -8761,6 +8669,98 @@
       ],
       "years": [
         "2018"
+      ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "dantobacco|ropersroundels",
+      "brand": "Dan Tobacco",
+      "blend": "Roper's Roundels",
+      "display_name": "Dan Tobacco Roper's Roundels",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "x 2020 Roper’s Roundels 50g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/a-quickie-of-a-sale.43217/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-21T00:21:15+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2020"
+      ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "dantobacco|saltydog",
+      "brand": "Dan Tobacco",
+      "blend": "Salty Dog",
+      "display_name": "Dan Tobacco Salty Dog",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "x  2018 Salty Dog",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/quickie-sale-varietals.43140/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-10T18:26:23+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
+              "name": "x 2019 Salty Dogs",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/a-quickie-of-a-sale.43217/",
+              "price": "$30",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-21T00:21:15+00:00",
+              "year": "2019",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2018",
+        "2019"
       ],
       "source": "Speak-Easy.Club"
     },
@@ -50860,7 +50860,7 @@
     "Amphora English Blend, 8oz jar,": "amphora|englishblend",
     "Aylesbury Green, 1.76oz jar,": "johnaylesbury|green",
     "Aylesbury Red, 1.76oz jar,": "johnaylesbury|red",
-    "Dan Milonga, 1.76oz tin,": "dan|milonga",
+    "Dan Milonga, 1.76oz tin,": "dantobacco|milonga",
     "Macbaren Brunello Flake, 3.5oz square tin,": "macbaren|brunelloflake",
     "Macbaren Doblone D'oro, 3.5oz round tin + 1oz loose,": "macbaren|doblonedoro",
     "Macbaren Golden Extra, 6.5oz jar,": "macbaren|goldenextra",
@@ -51132,7 +51132,7 @@
     "4 oz LJ Peretti Cambridge Flake 2022": "ljperetti|cambridgeflake",
     "9 oz KBV ProBlend VBC 2021": "kenbyronventures|problendvbc",
     "6 oz G&H Curly Cut Deluxe 2023": "gawithhoggarthco|curlycutdeluxe",
-    "x 2020 Roper’s Roundels 50g": "dan|ropersroundels",
+    "x 2020 Roper’s Roundels 50g": "dantobacco|ropersroundels",
     "x 2020 Flanagan Flake 50g": "hutobacco|flanagan",
     "x 2013 GLP Cumberland": "glpease|cumberland",
     "x 2020 HU Aus den krater #1": "hutobacco|ausdenkrater1",
@@ -51143,7 +51143,7 @@
     "x 2021 GLP Stratford 8oz": "glpease|stratford",
     "x  2021 GLP Cumberlland": "glpease|cumberland",
     "x 2021 Windjammer": "glpease|windjammer",
-    "x 2019 Salty Dogs": "dan|saltydog",
+    "x 2019 Salty Dogs": "dantobacco|saltydog",
     "x 4th Gen 1989 (2023)": "erikstokkebye|4thgeneration1989",
     "x Dunhill BB1938 (15-19)": "dunhill|babysbottom1938",
     "x 100g Brunello Flake (2018)": "savinelli|brunelloflake",
@@ -51249,7 +51249,7 @@
     "x 2020 MacB Dark Twist 100g": "macbaren|darktwist",
     "x 2018 hh burley 100g": "hearthhome|burleyflake",
     "x 2022(?)Sutliff Barrel Aged #2": "sutliff|barrelaged2",
-    "x  2018 Salty Dog": "dan|saltydog",
+    "x  2018 Salty Dog": "dantobacco|saltydog",
     "Holker": "samuelgawith|holker",
     "Revor": "gawithhoggarthco|revorplug",
     "Peterson Summertime Limited Edition - hinged lid opens; sealed never opened plastic bag & contents feel fresh": "peterson|summertime",
