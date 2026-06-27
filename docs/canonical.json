@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T21:54:57.830781+00:00",
+  "generated": "2026-06-27T22:00:37.821058+00:00",
   "stats": {
     "total_listings": 3069,
     "excluded_multipacks": 1237,
@@ -3167,10 +3167,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "charatan|executivexl",
-      "brand": "Charatan",
+      "id": "charatans|executivexl",
+      "brand": "Charatan's",
       "blend": "Executive XL",
-      "display_name": "Charatan Executive XL",
+      "display_name": "Charatan's Executive XL",
       "sources": [
         "4noggins.com"
       ],
@@ -3205,44 +3205,6 @@
       "source": "4noggins.com"
     },
     {
-      "id": "charatan|originallightaromatic",
-      "brand": "Charatan",
-      "blend": "Original Light Aromatic",
-      "display_name": "Charatan Original Light Aromatic",
-      "sources": [
-        "pipestud.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill",
-              "source": "pipestud.com",
-              "url": "https://www.pipestud.com/product/tobacco-tins/charatans-original-light-aromatic-1970s-era-made-by-dunhill-2/",
-              "price": "$85.00",
-              "last_updated": "2026-06-21T03:15:02.754777+00:00",
-              "first_seen": "2026-06-20T16:28:47.877864+00:00",
-              "year": "1970",
-              "price_history": [
-                {
-                  "price": "$85.00",
-                  "date": "2026-06-20T16:28:47.877864+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "pipestud.com"
-          ]
-        }
-      ],
-      "years": [
-        "1970"
-      ],
-      "source": "pipestud.com"
-    },
-    {
       "id": "charatans|originalblackaromatic",
       "brand": "Charatan's",
       "blend": "Original Black Aromatic",
@@ -3266,6 +3228,44 @@
                 {
                   "price": "$85.00",
                   "date": "2026-06-27T19:29:21.362652+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "pipestud.com"
+          ]
+        }
+      ],
+      "years": [
+        "1970"
+      ],
+      "source": "pipestud.com"
+    },
+    {
+      "id": "charatans|originallightaromatic",
+      "brand": "Charatan's",
+      "blend": "Original Light Aromatic",
+      "display_name": "Charatan's Original Light Aromatic",
+      "sources": [
+        "pipestud.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill",
+              "source": "pipestud.com",
+              "url": "https://www.pipestud.com/product/tobacco-tins/charatans-original-light-aromatic-1970s-era-made-by-dunhill-2/",
+              "price": "$85.00",
+              "last_updated": "2026-06-21T03:15:02.754777+00:00",
+              "first_seen": "2026-06-20T16:28:47.877864+00:00",
+              "year": "1970",
+              "price_history": [
+                {
+                  "price": "$85.00",
+                  "date": "2026-06-20T16:28:47.877864+00:00"
                 }
               ]
             }
@@ -23231,10 +23231,10 @@
       "source": "Multiple sources"
     },
     {
-      "id": "jbr|quintessencecurlycut",
-      "brand": "JBR",
+      "id": "jbrs|quintessencecurlycut",
+      "brand": "JBR's",
       "blend": "Quintessence Curly Cut",
-      "display_name": "JBR Quintessence Curly Cut",
+      "display_name": "JBR's Quintessence Curly Cut",
       "sources": [
         "pipestud.com"
       ],
@@ -43753,10 +43753,66 @@
       "source": "pipestud.com"
     },
     {
+      "id": "smokershaven|20thanniversarymixture",
+      "brand": "Smokers' Haven",
+      "blend": "20th Anniversary Mixture",
+      "display_name": "Smokers' Haven 20th Anniversary Mixture",
+      "sources": [
+        "pipestud.com",
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/smokers-haven-20th-anniversary-mixture-2oz-2018-c",
+              "price": "$195.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2012",
+              "price_history": [
+                {
+                  "price": "$195.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Germain’s Smoker’s Haven 20th Anniversary Mixture 2oz tin – Year 2013",
+              "source": "pipestud.com",
+              "url": "https://www.pipestud.com/product/tobacco-tins/germains-smokers-haven-20th-anniversary-mixture-2oz-tin-year-2013/",
+              "price": "$80.00",
+              "last_updated": "2026-06-27T19:29:21.362652+00:00",
+              "first_seen": "2026-06-27T19:29:21.362652+00:00",
+              "year": "2013",
+              "price_history": [
+                {
+                  "price": "$80.00",
+                  "date": "2026-06-27T19:29:21.362652+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "pipestud.com",
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2012",
+        "2013"
+      ],
+      "source": "Multiple sources"
+    },
+    {
       "id": "smokershaven|65thanniversaryflake",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "65th Anniversary Flake",
-      "display_name": "Smokers Haven 65th Anniversary Flake",
+      "display_name": "Smokers' Haven 65th Anniversary Flake",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -43792,9 +43848,9 @@
     },
     {
       "id": "smokershaven|bestblend",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "Best Blend",
-      "display_name": "Smokers Haven Best Blend",
+      "display_name": "Smokers' Haven Best Blend",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -43828,9 +43884,9 @@
     },
     {
       "id": "smokershaven|cognacblend",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "Cognac Blend",
-      "display_name": "Smokers Haven Cognac Blend",
+      "display_name": "Smokers' Haven Cognac Blend",
       "sources": [
         "Tinbids Auction (Sold)"
       ],
@@ -43866,9 +43922,9 @@
     },
     {
       "id": "smokershaven|exotiquemixture",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "Exotique Mixture",
-      "display_name": "Smokers Haven Exotique Mixture",
+      "display_name": "Smokers' Haven Exotique Mixture",
       "sources": [
         "4noggins.com"
       ],
@@ -43904,9 +43960,9 @@
     },
     {
       "id": "smokershaven|inbtweenmixture",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "In-B-Tween Mixture",
-      "display_name": "Smokers Haven In-B-Tween Mixture",
+      "display_name": "Smokers' Haven In-B-Tween Mixture",
       "sources": [
         "Tinbids Auction (Sold)",
         "4noggins.com"
@@ -43966,9 +44022,9 @@
     },
     {
       "id": "smokershaven|ourbestblend",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "Our Best Blend",
-      "display_name": "Smokers Haven Our Best Blend",
+      "display_name": "Smokers' Haven Our Best Blend",
       "sources": [
         "Tinbids Auction (Sold)",
         "4noggins.com"
@@ -44028,9 +44084,9 @@
     },
     {
       "id": "smokershaven|selectmixture",
-      "brand": "Smokers Haven",
+      "brand": "Smokers' Haven",
       "blend": "Select Mixture",
-      "display_name": "Smokers Haven Select Mixture",
+      "display_name": "Smokers' Haven Select Mixture",
       "sources": [
         "4noggins.com"
       ],
@@ -44063,62 +44119,6 @@
         "2018"
       ],
       "source": "4noggins.com"
-    },
-    {
-      "id": "smokershaven|20thanniversarymixture",
-      "brand": "Smokers' Haven",
-      "blend": "20th Anniversary Mixture",
-      "display_name": "Smokers' Haven 20th Anniversary Mixture",
-      "sources": [
-        "pipestud.com",
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/smokers-haven-20th-anniversary-mixture-2oz-2018-c",
-              "price": "$195.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2012",
-              "price_history": [
-                {
-                  "price": "$195.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            },
-            {
-              "name": "Germain’s Smoker’s Haven 20th Anniversary Mixture 2oz tin – Year 2013",
-              "source": "pipestud.com",
-              "url": "https://www.pipestud.com/product/tobacco-tins/germains-smokers-haven-20th-anniversary-mixture-2oz-tin-year-2013/",
-              "price": "$80.00",
-              "last_updated": "2026-06-27T19:29:21.362652+00:00",
-              "first_seen": "2026-06-27T19:29:21.362652+00:00",
-              "year": "2013",
-              "price_history": [
-                {
-                  "price": "$80.00",
-                  "date": "2026-06-27T19:29:21.362652+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "pipestud.com",
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
-        "2012",
-        "2013"
-      ],
-      "source": "Multiple sources"
     },
     {
       "id": "solani|633",
@@ -49864,7 +49864,7 @@
     "Dannemann’s Blend 700 in 50g tins – 1970’s era & Made by Germain (One Tin Per Customer)": "dannemann|blend700",
     "House of Craven Original Craven Mixture 50g tins – 1970’s era": "houseofcraven|cravenmixture",
     "Robert McConnell’s Original Red Virginia 50g tin – Year 1998": "robertmcconnell|redvirginia",
-    "JBR’s Quintessence Curly Cut 50g tin – 1990’s era & Made by Mac Baren’s": "jbr|quintessencecurlycut",
+    "JBR’s Quintessence Curly Cut 50g tin – 1990’s era & Made by Mac Baren’s": "jbrs|quintessencecurlycut",
     "Elephant & Castle New World 50g tin – 1980’s era and Made by McConnell’s in England": "elephantcastle|newworld",
     "G. Smith & Sons Virginia 50g tin – 1970’s era": "gsmithsons|virginia",
     "W.O. Larsen No. 28 English Mixture 100g tin – 1980’s era and Made by Orlik": "wolarsen|no28englishmixture",
@@ -49918,7 +49918,7 @@
     "Van Rossem’s Schippers Tabak 3-1/2oz Dented tin – 1970’s – 1980’s era (Lot #2)": "vanrossem|schipperstabak",
     "Bell’s Original W.D & H.O. Wills Scotland Made Three Nuns – 100g tin – 1980’s era": "bells|threenuns",
     "McClelland’s Limited Edition Uncle Ed’s Scottish Mixture 50g tin – Year 1997": "mcclelland|uncleedsscottishmixture",
-    "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill": "charatan|originallightaromatic",
+    "Charatan’s Original Light Aromatic – 1970’s era & Made by Dunhill": "charatans|originallightaromatic",
     "Samuel Gawith Commonwealth 50g tins – Year 2013": "samuelgawith|commonwealthmixture",
     "Mac Baren Dark Twist Roll Cake One Pound tins – Year 2009": "macbaren|darktwistrollcake",
     "Mac Baren Dark Twist Roll Cake 100g tins – Year 2009": "macbaren|darktwistrollcake",
@@ -50261,7 +50261,7 @@
     "CAO: MOONTRANCE 50g 2011 - C": "cao|moontrance",
     "Capstan: FLAKE GOLD 50g 2013 - C": "macbaren|capstanyellow",
     "Capstan: NAVY CUT MILD 50g 1999 - C": "macbaren|capstanblue",
-    "Charatans Make: LONDON ENGLAND EXECUTIVE XL 1965": "charatan|executivexl",
+    "Charatans Make: LONDON ENGLAND EXECUTIVE XL 1965": "charatans|executivexl",
     "Cornell & Diehl: PENNINGTON GAP 50g 1998 - C": "cornelldiehl|penningtongap",
     "Cornell & Diehl: RENAISSANCE da VINCI 50g -2000 - C": "cornelldiehl|renaissancedavinci",
     "Cornell & Diehl: Small Batch: CAROLINA RED FLAKE 2020 2oz - C": "cornelldiehl|carolinaredflake",

@@ -34,6 +34,7 @@ EXCLUDED_LOG = os.path.join(DOCS, "excluded.log")
 CACHE_FILE = os.path.join(HERE, "blend_cache.json")
 OVERRIDES_FILE = os.path.join(HERE, "overrides.json")
 ALIASES_FILE = os.path.join(HERE, "blend_aliases.json")
+BRAND_ALIASES_FILE = os.path.join(HERE, "brand_aliases.json")
 
 SOURCE_FILES = [
     "products.json",
@@ -161,9 +162,17 @@ def load_aliases():
     return json.load(open(ALIASES_FILE, encoding="utf-8"))
 
 
+def load_brand_aliases():
+    """shorthand_brand -> canonical_brand. Applied after identity lookup."""
+    if not os.path.exists(BRAND_ALIASES_FILE):
+        return {}
+    return json.load(open(BRAND_ALIASES_FILE, encoding="utf-8"))
+
+
 def main():
     ident = load_identity()
     aliases = load_aliases()
+    brand_aliases = load_brand_aliases()
     groups = {}
     name_to_id = {}
     unmatched = []
@@ -184,6 +193,9 @@ def main():
             brand = (id_rec.get("brand") or "").strip()
             blend = (id_rec.get("blend") or "").strip()
             is_tin = id_rec.get("is_tin", True)
+
+            # Normalize shorthand brand names to canonical form.
+            brand = brand_aliases.get(brand, brand)
 
             # Apply blend aliases: remap known-wrong blend names to canonical.
             # This fires after cache/overrides so no stale entry can roll back a fix.

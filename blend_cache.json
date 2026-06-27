@@ -85,7 +85,7 @@
   },
   "2018 Smoker's Haven In-B-Tween Mixture": {
     "blend": "In-B-Tween Mixture",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -497,14 +497,14 @@
   },
   "Charatans Make: LONDON ENGLAND EXECUTIVE XL 1965": {
     "blend": "Executive XL",
-    "brand": "Charatan",
+    "brand": "Charatan's",
     "confidence": 1.0,
     "is_tin": true,
     "source": "override"
   },
   "Charatan's Original Light Aromatic – 1970's era & Made by Dunhill": {
     "blend": "Original Light Aromatic",
-    "brand": "Charatan",
+    "brand": "Charatan's",
     "confidence": 1.0,
     "is_tin": true,
     "source": "override"
@@ -1813,7 +1813,7 @@
   },
   "JBR's Quintessence Curly Cut 50g tin – 1990's era & Made by Mac Baren's": {
     "blend": "Quintessence Curly Cut",
-    "brand": "JBR",
+    "brand": "JBR's",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -3122,35 +3122,35 @@
   },
   "Smoker's Haven: 20th Anniversary Mixture 2oz 2012 - C": {
     "blend": "20th Anniversary Mixture",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: IN-B-TWEEN MIXTURE 2oz 2018 - C": {
     "blend": "In-B-Tween Mixture",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: OUR BEST BLEND 2oz 2018 - C": {
     "blend": "Our Best Blend",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smoker's Haven: SELECT MIXTURE 2oz 2018 - C": {
     "blend": "Select Mixture",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
   },
   "Smokers' Haven: EXOTIQUE MIXTURE 2oz 2018 - C": {
     "blend": "Exotique Mixture",
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -6533,7 +6533,7 @@
     "confidence": 0.95
   },
   "Smokers Haven 65th Anniversary Flake 2005": {
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "blend": "65th Anniversary Flake",
     "is_tin": true,
     "confidence": 0.6
@@ -14676,7 +14676,7 @@
     "confidence": 0.99
   },
   "Smokers Haven Best Blend": {
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "blend": "Best Blend",
     "is_tin": true,
     "confidence": 0.75
@@ -16344,13 +16344,13 @@
     "confidence": 0.95
   },
   "Smoker's Haven Cognac Blend 2018 - 61.6 grams": {
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "blend": "Cognac Blend",
     "is_tin": true,
     "confidence": 0.8
   },
   "Smoker's Haven Our Best Blend OBB 2018 '18 - 76.5g": {
-    "brand": "Smokers Haven",
+    "brand": "Smokers' Haven",
     "blend": "Our Best Blend",
     "is_tin": true,
     "confidence": 0.85
