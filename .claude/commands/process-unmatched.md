@@ -127,6 +127,57 @@ After writing the batch, report:
 
 Then wait for corrections or "continue" before starting the next batch, per CLAUDE.md rules.
 
+## Step 8 — End-of-round sanity check (run only when unmatched.log is exhausted)
+
+After the final batch of a round, run `python3 consolidate.py`, then run this audit and present the results to the user for review before committing:
+
+```python
+import json, difflib, re
+from itertools import combinations
+
+with open('docs/canonical.json') as f:
+    tins = json.load(f)['tins']
+
+entries = [(t['brand'], t['blend'], sum(len(s['members']) for s in t['sizes'])) for t in tins]
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+# 1. Near-duplicate blends within same brand (ratio >= 0.85)
+by_brand = {}
+for brand, blend, cnt in entries:
+    by_brand.setdefault(brand, []).append((blend, cnt))
+
+near_dupes = []
+for brand, blends in sorted(by_brand.items()):
+    names = [b for b, _ in blends]
+    for a, b in combinations(names, 2):
+        ratio = difflib.SequenceMatcher(None, norm(a), norm(b)).ratio()
+        if ratio >= 0.85 and norm(a) != norm(b):
+            ca = next(c for x, c in blends if x == a)
+            cb = next(c for x, c in blends if x == b)
+            near_dupes.append((ratio, brand, a, ca, b, cb))
+
+# 2. Same blend name, different brand (possible mis-brand)
+by_blend = {}
+for brand, blend, cnt in entries:
+    by_blend.setdefault(norm(blend), []).append((brand, blend, cnt))
+
+cross_brand = [(g[0][1], [(br, cnt) for br, _, cnt in g])
+               for g in by_blend.values()
+               if len({br for br, _, _ in g}) > 1]
+
+print("=== NEAR-DUPLICATE BLENDS (same brand, similarity >= 0.85) ===")
+for ratio, brand, a, ca, b, cb in sorted(near_dupes, reverse=True):
+    print(f"[{ratio:.2f}] {brand}: '{a}' ({ca}x) vs '{b}' ({cb}x)")
+
+print("\n=== SAME BLEND NAME, DIFFERENT BRAND ===")
+for blend, groups in sorted(cross_brand):
+    print(f"'{blend}': " + ", ".join(f"{br} ({cnt}x)" for br, cnt in groups))
+```
+
+Present the output as two tables to the user. For each potential dupe, ask: **merge, keep-separate, or unsure?** Do not make any changes until the user responds. When they confirm merges, apply them to `blend_cache.json` and `blend_aliases.json` together (same as the standard correction workflow).
+
 ## New brand rules
 
 When the user provides a brand correction or a new brand is confirmed:
