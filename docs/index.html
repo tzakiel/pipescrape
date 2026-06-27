@@ -611,15 +611,14 @@
   function goHome() {
     qEl.value = "";
     closeDropdown();
-    const onDetail = detailView.style.display !== "none";
-    // If a detail page is open, hide it and return to the main list.
+    // Replace current history entry with the clean base URL (strips hash, query,
+    // and any detail pushState) without navigating backwards — history.back()
+    // would risk leaving the site if the stack is shallow.
+    history.replaceState(null, "", location.pathname);
     mainView.style.display = "";
     detailView.style.display = "none";
     render();
     window.scrollTo(0, 0);
-    // A detail is always opened with a pushState, so popping it keeps the
-    // browser Back button in sync (the popstate handler is a no-op once hidden).
-    if (onDetail) history.back();
   }
 
   /* ── generic sortable table (drives both views) ── */
