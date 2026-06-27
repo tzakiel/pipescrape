@@ -33,6 +33,7 @@ LOG_FILE = os.path.join(DOCS, "unmatched.log")
 EXCLUDED_LOG = os.path.join(DOCS, "excluded.log")
 CACHE_FILE = os.path.join(HERE, "blend_cache.json")
 OVERRIDES_FILE = os.path.join(HERE, "overrides.json")
+ALIASES_FILE = os.path.join(HERE, "blend_aliases.json")
 
 SOURCE_FILES = [
     "products.json",
@@ -153,8 +154,16 @@ def load_identity():
     return ident
 
 
+def load_aliases():
+    """(brand, bad_blend) -> canonical_blend. Applied after identity lookup."""
+    if not os.path.exists(ALIASES_FILE):
+        return {}
+    return json.load(open(ALIASES_FILE, encoding="utf-8"))
+
+
 def main():
     ident = load_identity()
+    aliases = load_aliases()
     groups = {}
     name_to_id = {}
     unmatched = []
@@ -175,6 +184,10 @@ def main():
             brand = (id_rec.get("brand") or "").strip()
             blend = (id_rec.get("blend") or "").strip()
             is_tin = id_rec.get("is_tin", True)
+
+            # Apply blend aliases: remap known-wrong blend names to canonical.
+            # This fires after cache/overrides so no stale entry can roll back a fix.
+            blend = aliases.get(brand, {}).get(blend, blend)
 
             # Drop anything that isn't a single tin. Two gates: the LLM's is_tin
             # flag (catches multi-blend sets, bundles, cigars — things regex can't
