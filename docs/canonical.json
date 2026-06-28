@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-28T01:01:46.654523+00:00",
+  "generated": "2026-06-28T01:10:32.591296+00:00",
   "stats": {
     "total_listings": 3069,
     "excluded_multipacks": 1239,
-    "total_tins": 849,
-    "multi_member_tins": 322,
-    "listings_in_groups": 1140,
-    "cross_source_tins": 175
+    "total_tins": 846,
+    "multi_member_tins": 320,
+    "listings_in_groups": 1141,
+    "cross_source_tins": 176
   },
   "tins": [
     {
@@ -28439,59 +28439,6 @@
       "source": "Tinbids Auction (Sold)"
     },
     {
-      "id": "mcclelland|3oaksoriginal",
-      "brand": "McClelland",
-      "blend": "3 Oaks Original",
-      "display_name": "McClelland 3 Oaks Original",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Oaks original English",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/smokers-haven-3-oaks-blackwoods-50gs.42146/",
-              "price": "$40",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2025-04-06T18:17:16+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$40",
-                  "date": "2025-04-06T18:17:16+00:00"
-                }
-              ]
-            },
-            {
-              "name": "Oaks Original Pipe Tobacco Blend 2014",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/i-think-im-selling-all-my-mcclellands-etc.41983/",
-              "price": "$50",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-03-10T03:14:29+00:00",
-              "year": "2014",
-              "price_history": [
-                {
-                  "price": "$50",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2014"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "mcclelland|3oaksoriginalblend",
       "brand": "McClelland",
       "blend": "3 Oaks Original Blend",
@@ -28557,10 +28504,41 @@
                   "date": "2026-06-25T16:49:58+00:00"
                 }
               ]
+            },
+            {
+              "name": "Oaks original English",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/smokers-haven-3-oaks-blackwoods-50gs.42146/",
+              "price": "$40",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2025-04-06T18:17:16+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$40",
+                  "date": "2025-04-06T18:17:16+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Oaks Original Pipe Tobacco Blend 2014",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/i-think-im-selling-all-my-mcclellands-etc.41983/",
+              "price": "$50",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-03-10T03:14:29+00:00",
+              "year": "2014",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -33185,9 +33163,33 @@
       "blend": "Stave Aged Virginia",
       "display_name": "McClelland Stave Aged Virginia",
       "sources": [
+        "4noggins.com",
         "Speak-Easy.Club"
       ],
       "sizes": [
+        {
+          "quantity": "50g",
+          "members": [
+            {
+              "name": "McClelland: STAVE-AGED VIRGINIA RIBBON 35 50g 2017 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/mcclelland-stave-aged-35-50g-2014-c",
+              "price": "$99.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$99.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        },
         {
           "quantity": "",
           "members": [
@@ -33244,47 +33246,10 @@
       ],
       "years": [
         "2012",
-        "2016"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "mcclelland|staveagedvirginiaribbon35",
-      "brand": "McClelland",
-      "blend": "Stave-Aged Virginia Ribbon 35",
-      "display_name": "McClelland Stave-Aged Virginia Ribbon 35",
-      "sources": [
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "McClelland: STAVE-AGED VIRGINIA RIBBON 35 50g 2017 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/mcclelland-stave-aged-35-50g-2014-c",
-              "price": "$99.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2017",
-              "price_history": [
-                {
-                  "price": "$99.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
+        "2016",
         "2017"
       ],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "mcclelland|syrianfullbalkan",
@@ -44037,15 +44002,46 @@
                   "date": "2026-06-21T02:45:17.226279+00:00"
                 }
               ]
+            },
+            {
+              "name": "St Bruno 2018 50g",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/tossed-salad-of-a-sale.43263/",
+              "price": "$35",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-10-27T23:29:03+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "4noggins.com"
+            "4noggins.com",
+            "Speak-Easy.Club"
           ]
         },
         {
           "quantity": "",
           "members": [
+            {
+              "name": "x st Bruno 2018",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
+              "price": "$25",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2025-11-14T21:52:44+00:00",
+              "year": "2018",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
             {
               "name": "St Bruno Flake 2021",
               "source": "Speak-Easy.Club",
@@ -44069,70 +44065,10 @@
       ],
       "years": [
         "1992",
+        "2018",
         "2021"
       ],
       "source": "Multiple sources"
-    },
-    {
-      "id": "stbruno|stbruno",
-      "brand": "St. Bruno",
-      "blend": "St. Bruno",
-      "display_name": "St. Bruno St. Bruno",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "50g",
-          "members": [
-            {
-              "name": "St Bruno 2018 50g",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/tossed-salad-of-a-sale.43263/",
-              "price": "$35",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-10-27T23:29:03+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$35",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        },
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "x st Bruno 2018",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/blownout-sale.43411/",
-              "price": "$25",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2025-11-14T21:52:44+00:00",
-              "year": "2018",
-              "price_history": [
-                {
-                  "price": "$25",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2018"
-      ],
-      "source": "Speak-Easy.Club"
     },
     {
       "id": "stanwell|melange",
@@ -50000,7 +49936,7 @@
     "McClelland: ROYAL CAJUN EBONY 2006 - C": "mcclelland|royalcajunebony",
     "McClelland: ROYAL CAJUN SPECIAL 50g 2006 -C": "mcclelland|royalcajunspecial",
     "McClelland: ST. JAMES WOODS 50g 2015 - C": "mcclelland|stjameswoods",
-    "McClelland: STAVE-AGED VIRGINIA RIBBON 35 50g 2017 - C": "mcclelland|staveagedvirginiaribbon35",
+    "McClelland: STAVE-AGED VIRGINIA RIBBON 35 50g 2017 - C": "mcclelland|staveagedvirginia",
     "McClelland: TUDOR CASTLE 50g 2017 - C": "mcclelland|tudorcastle",
     "McClelland: WILDERNESS 50g 2010 - C": "mcclelland|wilderness",
     "McClelland: YENIDJE HIGHLANDER 2011 50g - C": "mcclelland|grandorientalsyenidjehighlander",
@@ -50307,7 +50243,7 @@
     "Mac Baren Pure Virginia 2020": "macbaren|hhpurevirginia",
     "Mac Baren Pure Virginia 2019": "macbaren|hhpurevirginia",
     "Hamborger Veermaster, 250g, 2021,": "dantobacco|hamborgerveermaster",
-    "Oaks original English": "mcclelland|3oaksoriginal",
+    "Oaks original English": "mcclelland|3oaksoriginalblend",
     "Smokers Haven Best Blend": "smokershaven|bestblend",
     "Blackwoods 2016": "mcclelland|blackwoodsflake",
     "1lb sutliff 507c jarred 2/2023": "sutliff|507c",
@@ -50772,7 +50708,7 @@
     "x Peterson university (2019)": "peterson|universityflake",
     "x Peterson Irish flake (19-20)": "peterson|irishflake",
     "x McConnell red Va": "robertmcconnell|redvirginia",
-    "x st Bruno 2018": "stbruno|stbruno",
+    "x st Bruno 2018": "stbruno|flake",
     "x classic flake 2021": "macbaren|vanillacreamflake",
     "x Stirling flake 2019": "rattrays|stirlingflake",
     "x sir John flake 2020": "johnaylesbury|sirjohnsflakevirginia",
@@ -50825,7 +50761,7 @@
     "Phantom Cake 2022(?) 50g": "sutliff|no6phantom",
     "Burley Slice 2020 50g": "wessex|burleyslice",
     "Dunhill 965 2012 50g": "dunhill|mymixtureno965",
-    "St Bruno 2018 50g": "stbruno|stbruno",
+    "St Bruno 2018 50g": "stbruno|flake",
     "red Virginias crumble 21 50g": "sutliff|crumblekakeredvirginias",
     "Patriot Flake 21 50g": "dantobacco|patriotflake",
     "Limerick 21 50g": "dantobacco|limerick",
@@ -50930,7 +50866,7 @@
     "GL Pease Gaslight 2014": "glpease|gaslight",
     "Peterson University Flake 2015": "peterson|universityflake",
     "[SOLD] Lot 5: ~872g JUMBO bag o Devil's Holiday": "dantobacco|devilsholiday",
-    "Oaks Original Pipe Tobacco Blend 2014": "mcclelland|3oaksoriginal",
+    "Oaks Original Pipe Tobacco Blend 2014": "mcclelland|3oaksoriginalblend",
     "McCranies 1983 Red Flake x1": "mccranies|redflake",
     "Smokers Haven 65th Anniversary Flake 2005": "smokershaven|65thanniversaryflake",
     "Blackwoods 50g ...2000?": "mcclelland|blackwoodsflake",
