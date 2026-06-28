@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-28T01:14:21.680405+00:00",
+  "generated": "2026-06-28T02:16:21.060358+00:00",
   "stats": {
     "total_listings": 3069,
-    "excluded_multipacks": 1239,
-    "total_tins": 846,
-    "multi_member_tins": 320,
-    "listings_in_groups": 1141,
-    "cross_source_tins": 176
+    "excluded_multipacks": 1246,
+    "total_tins": 883,
+    "multi_member_tins": 350,
+    "listings_in_groups": 1277,
+    "cross_source_tins": 190
   },
   "tins": [
     {
@@ -342,6 +342,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "AshtonArtisan’s Blend",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "Ashton Artisan’s",
               "source": "Speak-Easy.Club",
@@ -1020,6 +1035,29 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "No. 44 Dark Virginia Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$16",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$16",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -1111,7 +1149,8 @@
       "display_name": "Bell's Three Nuns",
       "sources": [
         "pipestud.com",
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -1196,6 +1235,29 @@
           ],
           "sources": [
             "pipestud.com"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Bell’s Three Nuns",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$30",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -2558,7 +2620,8 @@
       "blend": "Royal Vintage Latakia No. 1",
       "display_name": "Butera Royal Vintage Latakia No. 1",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -2583,12 +2646,35 @@
           "sources": [
             "Tinbids Auction (Sold)"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Butera’s Royal Vintage Latakia No. 1",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "1996"
       ],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
     },
     {
       "id": "butera|royalvintagelatakiano2",
@@ -4234,6 +4320,21 @@
                   "date": "2026-06-24T02:02:09.029335+00:00"
                 }
               ]
+            },
+            {
+              "name": "Carolina Red Flake 2020",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
             }
           ],
           "sources": [
@@ -4285,6 +4386,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Carolina Red Flake w/ Perique",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "C&D Carolina Red Flake with Perique 2020 – 1 tin",
               "source": "Speak-Easy.Club",
@@ -4624,6 +4740,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Eight State Burley",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "C & D Eight State Burley  2021",
               "source": "Speak-Easy.Club",
@@ -6284,44 +6415,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "cornelldiehl|olddominion",
-      "brand": "Cornell & Diehl",
-      "blend": "Old Dominion",
-      "display_name": "Cornell & Diehl Old Dominion",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "13.7oz",
-          "members": [
-            {
-              "name": "Old Dominion (2024) - 13.7oz",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/releasing-tobacco-back-into-the-wild-bulk-edition.43941/",
-              "price": "$65",
-              "last_updated": "2026-06-24T02:02:09.029335+00:00",
-              "first_seen": "2026-02-05T22:11:17+00:00",
-              "year": "2024",
-              "price_history": [
-                {
-                  "price": "$65",
-                  "date": "2026-06-24T02:02:09.029335+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [
-        "2024"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "cornelldiehl|oldjoekrantz",
       "brand": "Cornell & Diehl",
       "blend": "Old Joe Krantz",
@@ -6960,6 +7053,36 @@
           "quantity": "",
           "members": [
             {
+              "name": "C&D Sansepolcro",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$18",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$18",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Sansepolcro 2020",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2020",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "Sanslepolcro 2025",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/babastobacco-for-sale-gawith-c-d-small-batch-etc.44533/",
@@ -7173,12 +7296,64 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "cornelldiehl|spcom20thanniversaryxxflake",
+      "brand": "Cornell & Diehl",
+      "blend": "SP.com 20th Anniversary XX Flake",
+      "display_name": "Cornell & Diehl SP.com 20th Anniversary XX Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "XX Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
+              "name": "SmokingPipes 20th Anniversary XX Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$35.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "cornelldiehl|spcom20thanniversaryxxflakedark",
       "brand": "Cornell & Diehl",
       "blend": "SP.com 20th Anniversary XX Flake Dark",
       "display_name": "Cornell & Diehl SP.com 20th Anniversary XX Flake Dark",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -7203,12 +7378,50 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "XX Flake Dark x1Oil_Drum",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$30",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            },
+            {
+              "name": "XX Flake Dark",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2020"
       ],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "cornelldiehl|speakeasynavyblend",
@@ -7463,6 +7676,21 @@
               ]
             },
             {
+              "name": "Sun Bear x1 (2019)Drsmooth",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "2019",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            },
+            {
               "name": "(SOLD) 2024 Sunbear",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/bunch-o-stuff-mcc-sg-reiner-odds-ends-fun-stuff-happy-time.41819/",
@@ -7484,6 +7712,7 @@
         }
       ],
       "years": [
+        "2019",
         "2020",
         "2024"
       ],
@@ -7561,6 +7790,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "C&D Sun Bear Navy Cask",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
             {
               "name": "Sun bear navy",
               "source": "Speak-Easy.Club",
@@ -7821,44 +8065,6 @@
       "source": "Multiple sources"
     },
     {
-      "id": "cornelldiehl|thehaunting",
-      "brand": "Cornell & Diehl",
-      "blend": "The Haunting",
-      "display_name": "Cornell & Diehl The Haunting",
-      "sources": [
-        "Tinbids Auction (Sold)"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Collectible Tobacco Sealed Tin Cornell & Diehl Warped:The Haunting Mixture 2oz’s from 2025",
-              "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195280/",
-              "price": "$25.00",
-              "last_updated": "2026-06-22T16:00:41.686877+00:00",
-              "first_seen": "2026-06-22T16:00:41.686877+00:00",
-              "year": "2025",
-              "price_history": [
-                {
-                  "price": "$25.00",
-                  "date": "2026-06-22T16:00:41.686877+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Tinbids Auction (Sold)"
-          ]
-        }
-      ],
-      "years": [
-        "2025"
-      ],
-      "source": "Tinbids Auction (Sold)"
-    },
-    {
       "id": "cornelldiehl|tomeltangvirginia",
       "brand": "Cornell & Diehl",
       "blend": "Tom Eltang Virginia",
@@ -8117,6 +8323,42 @@
         "2021"
       ],
       "source": "4noggins.com"
+    },
+    {
+      "id": "cornelldiehl|xxvdusk",
+      "brand": "Cornell & Diehl",
+      "blend": "XXV Dusk",
+      "display_name": "Cornell & Diehl XXV Dusk",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "C&D XXV Dusk",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "countrysquire|faulknerflake",
@@ -8455,6 +8697,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Hamborger Veermaster",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
+            {
               "name": "x Dan Veermaster 1999",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/blownout-sale.43411/",
@@ -8706,6 +8963,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Patriot Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$45.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [],
@@ -8784,6 +9064,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Salty Dogs",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
             {
               "name": "x  2018 Salty Dog",
               "source": "Speak-Easy.Club",
@@ -8946,6 +9241,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Mallard with Perique",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$25.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                }
+              ]
+            },
             {
               "name": "Mallard Flake with Perique - 2020 Release",
               "source": "Speak-Easy.Club",
@@ -12307,6 +12617,33 @@
               ]
             },
             {
+              "name": "And so to Bed",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$35",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "Esoterica And So To Bed 2015",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/cellar-clean-out-esoterica-mcc-artisan-pipes-etc-price-drop-new-tins.42207/",
@@ -12949,6 +13286,21 @@
               ]
             },
             {
+              "name": "Margate",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "Esoterica Margate 2015",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/cellar-clean-out-esoterica-mcc-artisan-pipes-etc-price-drop-new-tins.42207/",
@@ -13214,10 +13566,26 @@
                   "date": "2026-06-25T12:35:31+00:00"
                 }
               ]
+            },
+            {
+              "name": "Pembroke",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -14404,6 +14772,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Golden Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "x F&T golden mixture 2020 (",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/blownout-sale.43411/",
@@ -14443,6 +14826,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Special Brown Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "x F&T special brown flake (2020)",
               "source": "Speak-Easy.Club",
@@ -14582,6 +14980,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Fribourg & Treyer Vintage",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
             {
               "name": "x F&T vintage (20/21)",
               "source": "Speak-Easy.Club",
@@ -18287,44 +18700,6 @@
       "source": "4noggins.com"
     },
     {
-      "id": "gawithhoggarth|laflake",
-      "brand": "Gawith & Hoggarth",
-      "blend": "LA Flake",
-      "display_name": "Gawith & Hoggarth LA Flake",
-      "sources": [
-        "4noggins.com"
-      ],
-      "sizes": [
-        {
-          "quantity": "2oz",
-          "members": [
-            {
-              "name": "Bufflehead: GAWITH & HOGGARTH LA FLAKE 2oz 2005 - C",
-              "source": "4noggins.com",
-              "url": "https://www.4noggins.com/products/copy-of-bufflehead-bluebill-drake-decoy-2oz-2005-c",
-              "price": "$285.00",
-              "last_updated": "2026-06-21T02:45:17.226279+00:00",
-              "first_seen": "2026-06-21T02:45:17.226279+00:00",
-              "year": "2005",
-              "price_history": [
-                {
-                  "price": "$285.00",
-                  "date": "2026-06-21T02:45:17.226279+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "4noggins.com"
-          ]
-        }
-      ],
-      "years": [
-        "2005"
-      ],
-      "source": "4noggins.com"
-    },
-    {
       "id": "gawithhoggarthco|aniseedtwist",
       "brand": "Gawith, Hoggarth & Co.",
       "blend": "Aniseed Twist",
@@ -18582,6 +18957,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Gawith & HoggarthBob’s Chocolate Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "2017 Gawith and Hoggarth Bob's Chocolate Flake",
               "source": "Tinbids Auction (Sold)",
               "url": "https://tinbids.com/auction/196927/",
@@ -18598,7 +18988,8 @@
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -19450,6 +19841,44 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "gawithhoggarthco|laflake",
+      "brand": "Gawith, Hoggarth & Co.",
+      "blend": "LA Flake",
+      "display_name": "Gawith, Hoggarth & Co. LA Flake",
+      "sources": [
+        "4noggins.com"
+      ],
+      "sizes": [
+        {
+          "quantity": "2oz",
+          "members": [
+            {
+              "name": "Bufflehead: GAWITH & HOGGARTH LA FLAKE 2oz 2005 - C",
+              "source": "4noggins.com",
+              "url": "https://www.4noggins.com/products/copy-of-bufflehead-bluebill-drake-decoy-2oz-2005-c",
+              "price": "$285.00",
+              "last_updated": "2026-06-21T02:45:17.226279+00:00",
+              "first_seen": "2026-06-21T02:45:17.226279+00:00",
+              "year": "2005",
+              "price_history": [
+                {
+                  "price": "$285.00",
+                  "date": "2026-06-21T02:45:17.226279+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "4noggins.com"
+          ]
+        }
+      ],
+      "years": [
+        "2005"
+      ],
+      "source": "4noggins.com"
+    },
+    {
       "id": "gawithhoggarthco|latakiemediumcut",
       "brand": "Gawith, Hoggarth & Co.",
       "blend": "Latakie Medium Cut",
@@ -20267,6 +20696,77 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "granger|granger",
+      "brand": "Granger",
+      "blend": "Granger",
+      "display_name": "Granger Granger",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "12oz",
+          "members": [
+            {
+              "name": "Grainger, 12oz sealed tub,",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$55",
+              "last_updated": "2026-06-25T20:26:40.398134+00:00",
+              "first_seen": "2026-06-24T14:49:03+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2026-06-24T14:49:03+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Granger",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "halfandhalf|halfhalf",
       "brand": "Half and Half",
       "blend": "Half & Half",
@@ -20320,6 +20820,42 @@
         "2012"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "halfandhalf|halfandhalf",
+      "brand": "Half and Half",
+      "blend": "Half and Half",
+      "display_name": "Half and Half Half and Half",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Half and Half",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "hearthhome|acadiangold",
@@ -20634,10 +21170,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "hearthhome|blackhouse10yearanniversary",
+      "id": "hearthhome|blackhouse10thanniversary",
       "brand": "Hearth & Home",
-      "blend": "Black House 10 Year Anniversary",
-      "display_name": "Hearth & Home Black House 10 Year Anniversary",
+      "blend": "Black House 10th Anniversary",
+      "display_name": "Hearth & Home Black House 10th Anniversary",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -20664,22 +21200,7 @@
           "sources": [
             "Speak-Easy.Club"
           ]
-        }
-      ],
-      "years": [
-        "2021"
-      ],
-      "source": "Speak-Easy.Club"
-    },
-    {
-      "id": "hearthhome|blackhouse10thanniversary",
-      "brand": "Hearth & Home",
-      "blend": "Black House 10th Anniversary",
-      "display_name": "Hearth & Home Black House 10th Anniversary",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
+        },
         {
           "quantity": "",
           "members": [
@@ -20704,7 +21225,9 @@
           ]
         }
       ],
-      "years": [],
+      "years": [
+        "2021"
+      ],
       "source": "Speak-Easy.Club"
     },
     {
@@ -20947,6 +21470,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "hearthhome|fusiliersration",
+      "brand": "Hearth & Home",
+      "blend": "Fusilier's Ration",
+      "display_name": "Hearth & Home Fusilier's Ration",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Fusiliers Ration x1",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "hearthhome|internationalpipesmokingday",
       "brand": "Hearth & Home",
       "blend": "International Pipe Smoking Day",
@@ -21021,6 +21580,42 @@
         "2010"
       ],
       "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "hearthhome|magnumopus",
+      "brand": "Hearth & Home",
+      "blend": "Magnum Opus",
+      "display_name": "Hearth & Home Magnum Opus",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Hearth & HomeMagnum Opus",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "hearthhome|oldkinderhook",
@@ -21862,7 +22457,8 @@
       "display_name": "J.F. Germain B.K. Flake",
       "sources": [
         "Tinbids Auction (Sold)",
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -21892,6 +22488,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "B. K. Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$55",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "Germain B.K. Flake 2018 NR",
               "source": "Tinbids Auction (Sold)",
               "url": "https://tinbids.com/auction/195508/",
@@ -21908,7 +22519,8 @@
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -22636,7 +23248,8 @@
       "blend": "Plum Cake Mixture",
       "display_name": "J.F. Germain Plum Cake Mixture",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -22661,10 +23274,33 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Plum Cake Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$55",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "jfgermain|richdarkflake",
@@ -22953,6 +23589,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Special Latakia Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$55",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "Germain’s Special Latakia Flake 2015",
               "source": "Speak-Easy.Club",
@@ -23344,6 +23995,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Sir John's Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
             {
               "name": "x sir John flake 2020",
               "source": "Speak-Easy.Club",
@@ -24903,6 +25569,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "macbaren|7seasregular",
+      "brand": "Mac Baren",
+      "blend": "7 Seas Regular",
+      "display_name": "Mac Baren 7 Seas Regular",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Seas Regular",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "macbaren|balkanluxuryblend",
       "brand": "Mac Baren",
       "blend": "Balkan Luxury Blend",
@@ -25527,7 +26229,8 @@
       "blend": "Dark Twist Roll Cake",
       "display_name": "Mac Baren Dark Twist Roll Cake",
       "sources": [
-        "pipestud.com"
+        "pipestud.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -25580,6 +26283,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Dark Twist Roll Cake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$100.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$100.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
+            {
               "name": "Mac Baren Dark Twist Roll Cake One Pound tins – Year 2009",
               "source": "pipestud.com",
               "url": "https://www.pipestud.com/product/tobacco-tins/mac-baren-dark-twist-roll-cake-100g-tins-year-2009/",
@@ -25596,7 +26314,8 @@
             }
           ],
           "sources": [
-            "pipestud.com"
+            "pipestud.com",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -25604,7 +26323,7 @@
         "2007",
         "2009"
       ],
-      "source": "pipestud.com"
+      "source": "Multiple sources"
     },
     {
       "id": "macbaren|doblonedoro",
@@ -25786,6 +26505,33 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Golden Extra",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$55.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
             {
               "name": "MacBaren Golden Extra 1lb Bulk,",
               "source": "Speak-Easy.Club",
@@ -26039,10 +26785,46 @@
                   "date": "2026-06-23T04:00:28.453249+00:00"
                 }
               ]
+            },
+            {
+              "name": "HH Acadian Perique",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$40.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                },
+                {
+                  "price": "$110.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$40.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$110.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$40.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -26078,6 +26860,42 @@
                 {
                   "price": "$16",
                   "date": "2026-05-12T17:24:08+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "macbaren|hhbalkanblend",
+      "brand": "Mac Baren",
+      "blend": "HH Balkan Blend",
+      "display_name": "Mac Baren HH Balkan Blend",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "HH Balkan Blend",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$14",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$14",
+                  "date": "2024-10-06T22:24:57+00:00"
                 }
               ]
             }
@@ -26160,6 +26978,29 @@
                 {
                   "price": "$15",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "HH Bold Kentucky",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
                 }
               ]
             }
@@ -26318,6 +27159,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "HH Burley Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "HH Burley Flake - 1lbs",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/excellent-tobaccos-seeking-a-forever-cellar.43737/",
@@ -26447,6 +27303,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "HH Latakia Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
             {
               "name": "HH Latakia Flake - 3lbs",
               "source": "Speak-Easy.Club",
@@ -26681,6 +27552,33 @@
           "quantity": "",
           "members": [
             {
+              "name": "HH Mature Virginia",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$75.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$75.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$75.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "x McB mature Virginia",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/tobacco-for-spring-sale.44370/",
@@ -26881,6 +27779,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "HH Old Dark Fired",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "HH Old Dark Fired - 2lbs",
               "source": "Speak-Easy.Club",
@@ -27183,6 +28096,36 @@
           "quantity": "",
           "members": [
             {
+              "name": "HH Pure Virginia",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Mac Baren HH Pure Virginia",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
+            {
               "name": "Mac Baren Pure Virginia 2019",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/some-random-tins-for-sale-kbv-sg-dunhill-macbaren.42515/",
@@ -27481,6 +28424,29 @@
                 {
                   "price": "$75",
                   "date": "2024-06-26T04:42:53+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "HH Vintage Syrian",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$75",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$75",
+                  "date": "2024-10-06T22:24:57+00:00"
                 }
               ]
             }
@@ -28036,6 +29002,41 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Royal Twist",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -28103,6 +29104,42 @@
                 {
                   "price": "$35",
                   "date": "2026-05-12T22:02:58+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "macbaren|stbrunoflake",
+      "brand": "Mac Baren",
+      "blend": "St. Bruno Flake",
+      "display_name": "Mac Baren St. Bruno Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "St. Bruno Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$20.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20.00",
+                  "date": "2026-06-13T00:39:45+00:00"
                 }
               ]
             }
@@ -28263,6 +29300,33 @@
           "quantity": "",
           "members": [
             {
+              "name": "Vanilla Cream",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$25.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$11",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "x classic flake 2021",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/blownout-sale.43411/",
@@ -28294,7 +29358,8 @@
       "blend": "Vanilla Roll Cake",
       "display_name": "Mac Baren Vanilla Roll Cake",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -28319,12 +29384,35 @@
           "sources": [
             "Tinbids Auction (Sold)"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Vanilla Roll Cake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$45.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2020"
       ],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
     },
     {
       "id": "mastrodepaja|roma",
@@ -28941,7 +30029,8 @@
       "blend": "Balkan Beauty",
       "display_name": "McClelland Balkan Beauty",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -28966,12 +30055,35 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Balkan Beauty",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2016"
       ],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "mcclelland|balkanblue",
@@ -30270,6 +31382,36 @@
               ]
             },
             {
+              "name": "Christmas Cheer x1Dencoan",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$100",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$100",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            },
+            {
+              "name": "McClelland Christmas Cheer",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/unloading-some-of-my-mcclellands.41223/",
+              "price": "$125",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-21T21:17:52+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$125",
+                  "date": "2024-10-21T21:17:52+00:00"
+                }
+              ]
+            },
+            {
               "name": "Christmas Cheer",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/spring-cleaning.44205/",
@@ -30281,6 +31423,51 @@
                 {
                   "price": "$115",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Christmas Cheer 2001",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$175",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2001",
+              "price_history": [
+                {
+                  "price": "$175",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Christmas Cheer 2005",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$140",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2005",
+              "price_history": [
+                {
+                  "price": "$140",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Christmas Cheer 2011",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$125",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2011",
+              "price_history": [
+                {
+                  "price": "$125",
+                  "date": "2024-10-06T22:24:57+00:00"
                 }
               ]
             },
@@ -30327,6 +31514,21 @@
               ]
             },
             {
+              "name": "Christmas Cheer 2014",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$125",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2014",
+              "price_history": [
+                {
+                  "price": "$125",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "McCLELLAND CHRISTMAS CHEER 2016",
               "source": "Tinbids Auction (Sold)",
               "url": "https://tinbids.com/auction/196152/",
@@ -30367,6 +31569,21 @@
                   "date": "2026-06-27T20:55:22.733904+00:00"
                 }
               ]
+            },
+            {
+              "name": "Christmas Cheer 2017",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$125",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "2017",
+              "price_history": [
+                {
+                  "price": "$125",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
             }
           ],
           "sources": [
@@ -30376,6 +31593,8 @@
         }
       ],
       "years": [
+        "2001",
+        "2005",
         "2008",
         "2009",
         "2010",
@@ -30426,6 +31645,42 @@
         "2015"
       ],
       "source": "4noggins.com"
+    },
+    {
+      "id": "mcclelland|cpccscottishwoods",
+      "brand": "McClelland",
+      "blend": "CPCC Scottish Woods",
+      "display_name": "McClelland CPCC Scottish Woods",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "CPCC Scottish Woods",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "mcclelland|darknavyflake",
@@ -30847,6 +32102,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Frog Morton",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "x McClelland - Frog Morton",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/aged-baccy.40996/",
@@ -30896,12 +32166,28 @@
       "blend": "Frog Morton Across the Pond",
       "display_name": "McClelland Frog Morton Across the Pond",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Frog Morton Across the Pond",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "2016 Frog Morton Across The Pond with Syrian Latakia by McClelland 10 Years of Age",
               "source": "Tinbids Auction (Sold)",
@@ -30919,14 +32205,15 @@
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
       "years": [
         "2016"
       ],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
     },
     {
       "id": "mcclelland|frogmortononthebayou",
@@ -30999,6 +32286,41 @@
           "sources": [
             "pipestud.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Frog Morton On the Bayou",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$100",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$100",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$100",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -31013,7 +32335,8 @@
       "blend": "Frog Morton on the Town",
       "display_name": "McClelland Frog Morton on the Town",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -31038,12 +32361,47 @@
           "sources": [
             "Tinbids Auction (Sold)"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Frog Morton On the Town",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$80",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$80",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2008"
       ],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
     },
     {
       "id": "mcclelland|frogmortonscellar",
@@ -31121,6 +32479,33 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Frog Morton’s Cellar",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$100",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$100",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$60",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
             {
               "name": "(J) 2013 Frog Morton Cellar",
               "source": "Speak-Easy.Club",
@@ -31688,6 +33073,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Holiday Spirit x1Wintercearig",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            },
+            {
               "name": "McClelland Holiday Spirit 2013 (sealed new)",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/2013-frog-morton-cellar-2013-mcclelland-holiday-spirit-balkan-sasieni.44654/unread",
@@ -32210,6 +33610,42 @@
         "2017"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "mcclelland|no25",
+      "brand": "McClelland",
+      "blend": "No. 25",
+      "display_name": "McClelland No. 25",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "No. 25 Virginia",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$175",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$175",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "mcclelland|no25maturedvirginia",
@@ -32739,6 +34175,42 @@
       "source": "4noggins.com"
     },
     {
+      "id": "mcclelland|ringlowsyrianreserve",
+      "brand": "McClelland",
+      "blend": "Ringlow Syrian Reserve",
+      "display_name": "McClelland Ringlow Syrian Reserve",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Ringlow Syrian Reserve",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "mcclelland|roseoflatakia",
       "brand": "McClelland",
       "blend": "Rose of Latakia",
@@ -32942,7 +34414,8 @@
       "blend": "Royal Cajun Special",
       "display_name": "McClelland Royal Cajun Special",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -32967,12 +34440,35 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Royal Cajun Special",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2006"
       ],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "mcclelland|stjamesflake",
@@ -33142,6 +34638,41 @@
                 {
                   "price": "$85",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "McClelland St. James Woods",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/unloading-some-of-my-mcclellands.41223/",
+              "price": "$50",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-21T21:17:52+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$100",
+                  "date": "2024-10-21T21:17:52+00:00"
+                },
+                {
+                  "price": "$50",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$100",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$50",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
                 }
               ]
             }
@@ -35539,6 +37070,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "peterheinrichs|curlyspecial",
+      "brand": "Peter Heinrichs",
+      "blend": "Curly Special",
+      "display_name": "Peter Heinrichs Curly Special",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Peter Heinrich’sCurly Special",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "peterheinrichs|darkstrongflake",
       "brand": "Peter Heinrichs",
       "blend": "Dark Strong Flake",
@@ -37137,6 +38704,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "University Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$35.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
+            {
               "name": "Peterson: UNIVERSITY FLAKE 2007 - C",
               "source": "4noggins.com",
               "url": "https://www.4noggins.com/products/peterson-university-flake-2004-c",
@@ -37328,7 +38910,8 @@
       "blend": "3 Noggins",
       "display_name": "Rattray's 3 Noggins",
       "sources": [
-        "pipestud.com"
+        "pipestud.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -37353,12 +38936,35 @@
           "sources": [
             "pipestud.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Noggins",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2009"
       ],
-      "source": "pipestud.com"
+      "source": "Multiple sources"
     },
     {
       "id": "rattrays|40virginia",
@@ -37472,6 +39078,36 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Bagpiper’s Dream",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Rattrays Bagpiper’s Dream",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$15",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$15",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
             {
               "name": "x bagpipers dream 2020",
               "source": "Speak-Easy.Club",
@@ -37673,6 +39309,49 @@
           "quantity": "",
           "members": [
             {
+              "name": "Brown Clunee",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$25.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$85.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$75.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$85.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$75.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "x brown Clunee 2020",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/blownout-sale.43411/",
@@ -37738,6 +39417,29 @@
                 {
                   "price": "$20",
                   "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Exotic Passion",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$25.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-13T00:39:45+00:00"
                 }
               ]
             }
@@ -37818,6 +39520,33 @@
           "quantity": "",
           "members": [
             {
+              "name": "Hal O’ the Wynd",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$18",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$18",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$18",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "x Rattray's Hall O' The Wynd - 4 years since I bought it",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/aged-baccy.40996/",
@@ -37880,6 +39609,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Jocks Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$13",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$13",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "x jock’s mixture 2020",
               "source": "Speak-Easy.Club",
@@ -38086,6 +39830,33 @@
           "quantity": "",
           "members": [
             {
+              "name": "Old Gowrie",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$18",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$18",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "x Rattray's Old Gowrie - Also 4 years old",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/aged-baccy.40996/",
@@ -38125,6 +39896,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Professional Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "x Professional Mixture 2020",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/tobacco-for-spring-sale.44370/",
@@ -38162,6 +39948,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Red Rapparee",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "Rattray's Red Rapparee 2016",
               "source": "Speak-Easy.Club",
@@ -38202,6 +40003,42 @@
         "2016",
         "2020"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "rattrays|sirwilliam",
+      "brand": "Rattray's",
+      "blend": "Sir William",
+      "display_name": "Rattray's Sir William",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Sir William",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -38289,6 +40126,29 @@
                 {
                   "price": "$15",
                   "date": "2024-11-11T20:54:27+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Wallace Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$35.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-13T00:39:45+00:00"
                 }
               ]
             }
@@ -39882,6 +41742,29 @@
             "Tinbids Auction (Sold)",
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Balkan Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -39968,6 +41851,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Best Brown Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -39978,12 +41884,49 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "samuelgawith|blackforest",
+      "brand": "Samuel Gawith",
+      "blend": "Black Forest",
+      "display_name": "Samuel Gawith Black Forest",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Black Forest",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "samuelgawith|blackxx",
       "brand": "Samuel Gawith",
       "blend": "Black XX",
       "display_name": "Samuel Gawith Black XX",
       "sources": [
-        "pipestud.com"
+        "pipestud.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -40008,12 +41951,35 @@
           "sources": [
             "pipestud.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Black XX",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2017"
       ],
-      "source": "pipestud.com"
+      "source": "Multiple sources"
     },
     {
       "id": "samuelgawith|bothyflake",
@@ -40027,6 +41993,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Bothy Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "SG Bothy Flake 2016",
               "source": "Speak-Easy.Club",
@@ -40393,6 +42374,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Cabbie’s Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "Gawith Cabbie’s Mixture 2016 NR",
               "source": "Tinbids Auction (Sold)",
               "url": "https://tinbids.com/auction/196697/",
@@ -40409,7 +42405,8 @@
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -40491,6 +42488,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Chocolate Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "SG Chocolate Flake",
               "source": "Speak-Easy.Club",
@@ -40676,6 +42688,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Commonwealth Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "SG Commonwealth 2017 – 1 tin",
               "source": "Speak-Easy.Club",
@@ -41049,6 +43076,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "SG Full Virginia Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$60",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$60",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            },
             {
               "name": "FVF '24",
               "source": "Speak-Easy.Club",
@@ -41641,6 +43683,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Kendall Plug",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -42109,6 +44174,42 @@
       "source": "Multiple sources"
     },
     {
+      "id": "samuelgawith|scottishautumnflake",
+      "brand": "Samuel Gawith",
+      "blend": "Scottish Autumn Flake",
+      "display_name": "Samuel Gawith Scottish Autumn Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Scottish Autumn Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$30",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "samuelgawith|skiffmixture",
       "brand": "Samuel Gawith",
       "blend": "Skiff Mixture",
@@ -42143,6 +44244,33 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Skiff Mixture",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$25",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
             {
               "name": "Sam Gawith Skiff Mixture 2019",
               "source": "Speak-Easy.Club",
@@ -42271,12 +44399,83 @@
           "sources": [
             "Treasured Smokes"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Squadron Leader",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$35.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$30",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2017"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "samuelgawith|squadronleaderspecialedition",
+      "brand": "Samuel Gawith",
+      "blend": "Squadron Leader Special Edition",
+      "display_name": "Samuel Gawith Squadron Leader Special Edition",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Squadron Leader SE w/ Perique",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$55.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "samuelgawith|squadronleaderwithperique",
@@ -42567,11 +44766,90 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "St. James Plug",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$85.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$85.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$85.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2020"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "savinelli|140thanniversary",
+      "brand": "Savinelli",
+      "blend": "140th Anniversary",
+      "display_name": "Savinelli 140th Anniversary",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "140th Anniversary",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -42586,6 +44864,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "145th Anniversary",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "x 2021 Savinelli 145 Anni",
               "source": "Speak-Easy.Club",
@@ -42708,6 +45001,41 @@
           "quantity": "",
           "members": [
             {
+              "name": "Brunello Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$45.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$20",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "Brunello",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/i-am-once-again-asking-for-your-financial-support.44485/",
@@ -42766,6 +45094,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Doblone D'Oro",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$55.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [],
@@ -42812,6 +45163,42 @@
         "1980"
       ],
       "source": "pipestud.com"
+    },
+    {
+      "id": "savinelli|giubileodoro",
+      "brand": "Savinelli",
+      "blend": "Giubileo d'Oro",
+      "display_name": "Savinelli Giubileo d'Oro",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Giubileo d’Oro",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$40",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$40",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "savinelli|giubileodoroflake",
@@ -42877,6 +45264,78 @@
       "years": [
         "2021"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "savinelli|janus",
+      "brand": "Savinelli",
+      "blend": "Janus",
+      "display_name": "Savinelli Janus",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Janus",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "savinelli|jupiter",
+      "brand": "Savinelli",
+      "blend": "Jupiter",
+      "display_name": "Savinelli Jupiter",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Jupiter",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -43042,6 +45501,78 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "seattlepipeclub|gallopinggertie",
+      "brand": "Seattle Pipe Club",
+      "blend": "Galloping Gertie",
+      "display_name": "Seattle Pipe Club Galloping Gertie",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Galloping Gertie",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|hoodcanal",
+      "brand": "Seattle Pipe Club",
+      "blend": "Hood Canal",
+      "display_name": "Seattle Pipe Club Hood Canal",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Club Hood Canal",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$35",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$35",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "seattlepipeclub|mississippiriver",
       "brand": "Seattle Pipe Club",
       "blend": "Mississippi River",
@@ -43077,6 +45608,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Mississippi River",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            },
+            {
               "name": "SPC Mississippi River 2016 – 1 tins",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/aged-tins-for-sale.41896/",
@@ -43101,6 +45647,78 @@
         "2016",
         "2019"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|mississippiriverrumbarrelaged",
+      "brand": "Seattle Pipe Club",
+      "blend": "Mississippi River Rum Barrel Aged",
+      "display_name": "Seattle Pipe Club Mississippi River Rum Barrel Aged",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Mississippi River Rum Barrel Aged",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$21",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$21",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|mississippiriverspecialreserve",
+      "brand": "Seattle Pipe Club",
+      "blend": "Mississippi River Special Reserve",
+      "display_name": "Seattle Pipe Club Mississippi River Special Reserve",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Mississippi River Special Reserve",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$37",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$37",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -43172,6 +45790,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "SPC Plum Pudding (Sutliff)",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$40",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$40",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [],
@@ -43189,6 +45830,21 @@
         {
           "quantity": "",
           "members": [
+            {
+              "name": "Plum Pudding Bourbon Barrel Aged",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$21",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$21",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
             {
               "name": "SOLD Plum Pudding Bourbon Barrel Aged 11/2020",
               "source": "Speak-Easy.Club",
@@ -43251,6 +45907,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Plum Pudding Special Reserve",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$37",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$37",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "2016? SPC PP Special Res.",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/it-all-has-got-to-go-closed.41401/",
@@ -43274,6 +45945,150 @@
       "years": [
         "2016"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|plumpuddingspecialreserveflake",
+      "brand": "Seattle Pipe Club",
+      "blend": "Plum Pudding Special Reserve Flake",
+      "display_name": "Seattle Pipe Club Plum Pudding Special Reserve Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Plum Pudding Special Reserve Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|potlatch",
+      "brand": "Seattle Pipe Club",
+      "blend": "Potlatch",
+      "display_name": "Seattle Pipe Club Potlatch",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Potlatch",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|seattleevening",
+      "brand": "Seattle Pipe Club",
+      "blend": "Seattle Evening",
+      "display_name": "Seattle Pipe Club Seattle Evening",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Seattle Evening",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "seattlepipeclub|wildman",
+      "brand": "Seattle Pipe Club",
+      "blend": "Wild Man",
+      "display_name": "Seattle Pipe Club Wild Man",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Wild Man",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$17",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$17",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -43445,42 +46260,6 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "smokershaven|bestblend",
-      "brand": "Smokers' Haven",
-      "blend": "Best Blend",
-      "display_name": "Smokers' Haven Best Blend",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "",
-          "members": [
-            {
-              "name": "Smokers Haven Best Blend",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/smokers-haven-3-oaks-blackwoods-50gs.42146/",
-              "price": "$50",
-              "last_updated": "2026-06-25T20:46:10.923480+00:00",
-              "first_seen": "2025-04-06T18:17:16+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$50",
-                  "date": "2025-04-06T18:17:16+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
-    },
-    {
       "id": "smokershaven|cognacblend",
       "brand": "Smokers' Haven",
       "blend": "Cognac Blend",
@@ -43625,7 +46404,8 @@
       "display_name": "Smokers' Haven Our Best Blend",
       "sources": [
         "Tinbids Auction (Sold)",
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -43672,6 +46452,29 @@
           ],
           "sources": [
             "4noggins.com"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Smokers Haven Best Blend",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/smokers-haven-3-oaks-blackwoods-50gs.42146/",
+              "price": "$50",
+              "last_updated": "2026-06-25T20:46:10.923480+00:00",
+              "first_seen": "2025-04-06T18:17:16+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50",
+                  "date": "2025-04-06T18:17:16+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
           ]
         }
       ],
@@ -43900,6 +46703,42 @@
         "2024"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "solani|silverflake",
+      "brand": "Solani",
+      "blend": "Silver Flake",
+      "display_name": "Solani Silver Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Silver Flake 660",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$28",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$28",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "solani|whiteblack",
@@ -44225,6 +47064,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Balkan Sasieni",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$10",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$10",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "Balkan Sasieni ? not sure of year?",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/tinstravaganza-lots-of-shit-reel-cheep-price-drops.40673/",
@@ -44394,42 +47248,6 @@
         "2020"
       ],
       "source": "Multiple sources"
-    },
-    {
-      "id": "stg|granger",
-      "brand": "STG",
-      "blend": "Granger",
-      "display_name": "STG Granger",
-      "sources": [
-        "Speak-Easy.Club"
-      ],
-      "sizes": [
-        {
-          "quantity": "12oz",
-          "members": [
-            {
-              "name": "Grainger, 12oz sealed tub,",
-              "source": "Speak-Easy.Club",
-              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
-              "price": "$55",
-              "last_updated": "2026-06-25T20:26:40.398134+00:00",
-              "first_seen": "2026-06-24T14:49:03+00:00",
-              "year": "",
-              "price_history": [
-                {
-                  "price": "$55",
-                  "date": "2026-06-24T14:49:03+00:00"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            "Speak-Easy.Club"
-          ]
-        }
-      ],
-      "years": [],
-      "source": "Speak-Easy.Club"
     },
     {
       "id": "strauss|sleepyhollow",
@@ -44987,6 +47805,42 @@
       "source": "Multiple sources"
     },
     {
+      "id": "sutliff|birdsofafeatheranomalous",
+      "brand": "Sutliff",
+      "blend": "Birds of a Feather Anomalous",
+      "display_name": "Sutliff Birds of a Feather Anomalous",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Birds of a Feather Anomalous",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "sutliff|birdsofafeatheruno",
       "brand": "Sutliff",
       "blend": "Birds of a Feather Uno",
@@ -45023,6 +47877,42 @@
         "2019"
       ],
       "source": "Tinbids Auction (Sold)"
+    },
+    {
+      "id": "sutliff|birdsofafeatherwhimsical",
+      "brand": "Sutliff",
+      "blend": "Birds of a Feather Whimsical",
+      "display_name": "Sutliff Birds of a Feather Whimsical",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Birds of a Feather Whimsical",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "sutliff|blackgold",
@@ -45276,6 +48166,49 @@
           "quantity": "",
           "members": [
             {
+              "name": "Cringle Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$35.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$40.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$45.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$40.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$35.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
               "name": "Cringle",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/aged-tobacco-and-more.40701/",
@@ -45468,6 +48401,21 @@
                   "date": "2026-06-27T20:55:22.733904+00:00"
                 }
               ]
+            },
+            {
+              "name": "Kringle Flake x1 (2024)Dencoan",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "2024",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
             }
           ],
           "sources": [
@@ -45485,6 +48433,42 @@
         "2024"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "sutliff|cringleflakesweated",
+      "brand": "Sutliff",
+      "blend": "Cringle Flake Sweated",
+      "display_name": "Sutliff Cringle Flake Sweated",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Cringle Flake (Sweated)",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$50.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "sutliff|crumblekake",
@@ -45545,6 +48529,42 @@
       "years": [
         "2020"
       ],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "sutliff|crumblekakebarrelagedno2",
+      "brand": "Sutliff",
+      "blend": "Crumble Kake Barrel Aged No. 2",
+      "display_name": "Sutliff Crumble Kake Barrel Aged No. 2",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Crumble Kake Barrel Aged No. 2",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -45923,6 +48943,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "sutliff|matchreadyrubbed",
+      "brand": "Sutliff",
+      "blend": "Match Ready Rubbed",
+      "display_name": "Sutliff Match Ready Rubbed",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Sutliff Ready Rubbed Match",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$10",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$10",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "sutliff|matchvictorian",
       "brand": "Sutliff",
       "blend": "Match Victorian",
@@ -46124,6 +49180,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Phantom Privateer x1Dencoan",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/next-batch-of-tins.44567/",
+              "price": "$25",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-05-30T02:37:43+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$25",
+                  "date": "2026-05-30T02:37:43+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
@@ -46175,7 +49254,8 @@
       "blend": "Pipe Force Episode V",
       "display_name": "Sutliff Pipe Force Episode V",
       "sources": [
-        "Tinbids Auction (Sold)"
+        "Tinbids Auction (Sold)",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -46195,15 +49275,67 @@
                   "date": "2026-06-21T05:37:17.147469+00:00"
                 }
               ]
+            },
+            {
+              "name": "Pipe Force V",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                }
+              ]
             }
           ],
           "sources": [
-            "Tinbids Auction (Sold)"
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
           ]
         }
       ],
       "years": [],
-      "source": "Tinbids Auction (Sold)"
+      "source": "Multiple sources"
+    },
+    {
+      "id": "sutliff|pipeforceepisodevi",
+      "brand": "Sutliff",
+      "blend": "Pipe Force Episode VI",
+      "display_name": "Sutliff Pipe Force Episode VI",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Pipe Force VI",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/all-done-thanks-macbaren-and-sutliff-per-jensen-discontinued-tins-bulk.43101/",
+              "price": "$30.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2025-10-04T00:10:01+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30.00",
+                  "date": "2025-10-04T00:10:01+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "sutliff|privatestockmaple",
@@ -47375,6 +50507,29 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Velvet",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$65.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$65.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [],
@@ -47647,11 +50802,120 @@
       "source": "4noggins.com"
     },
     {
+      "id": "warped|cloudhopper",
+      "brand": "Warped",
+      "blend": "Cloud Hopper",
+      "display_name": "Warped Cloud Hopper",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Cloud Hopper",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "warped|kingsstride",
+      "brand": "Warped",
+      "blend": "Kings Stride",
+      "display_name": "Warped Kings Stride",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Kings Stride",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
+      "id": "warped|sarto",
+      "brand": "Warped",
+      "blend": "Sarto",
+      "display_name": "Warped Sarto",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Sarto",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "warped|thehaunting",
       "brand": "Warped",
       "blend": "The Haunting",
       "display_name": "Warped The Haunting",
       "sources": [
+        "Tinbids Auction (Sold)",
         "Speak-Easy.Club"
       ],
       "sizes": [
@@ -47687,6 +50951,61 @@
                   "date": "2026-06-26T03:40:44+00:00"
                 }
               ]
+            },
+            {
+              "name": "Collectible Tobacco Sealed Tin Cornell & Diehl Warped:The Haunting Mixture 2oz’s from 2025",
+              "source": "Tinbids Auction (Sold)",
+              "url": "https://tinbids.com/auction/195280/",
+              "price": "$25.00",
+              "last_updated": "2026-06-22T16:00:41.686877+00:00",
+              "first_seen": "2026-06-22T16:00:41.686877+00:00",
+              "year": "2025",
+              "price_history": [
+                {
+                  "price": "$25.00",
+                  "date": "2026-06-22T16:00:41.686877+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Tinbids Auction (Sold)",
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [
+        "2000",
+        "2025"
+      ],
+      "source": "Multiple sources"
+    },
+    {
+      "id": "warped|theredhunt",
+      "brand": "Warped",
+      "blend": "The Red Hunt",
+      "display_name": "Warped The Red Hunt",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "The Red Hunt",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$11",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$11",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
             }
           ],
           "sources": [
@@ -47694,9 +51013,7 @@
           ]
         }
       ],
-      "years": [
-        "2000"
-      ],
+      "years": [],
       "source": "Speak-Easy.Club"
     },
     {
@@ -48049,9 +51366,57 @@
           "sources": [
             "Speak-Easy.Club"
           ]
+        },
+        {
+          "quantity": "13.7oz",
+          "members": [
+            {
+              "name": "Old Dominion (2024) - 13.7oz",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/releasing-tobacco-back-into-the-wild-bulk-edition.43941/",
+              "price": "$65",
+              "last_updated": "2026-06-24T02:02:09.029335+00:00",
+              "first_seen": "2026-02-05T22:11:17+00:00",
+              "year": "2024",
+              "price_history": [
+                {
+                  "price": "$65",
+                  "date": "2026-06-24T02:02:09.029335+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Old Dominion",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$100.00",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$100.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
-      "years": [],
+      "years": [
+        "2024"
+      ],
       "source": "Speak-Easy.Club"
     },
     {
@@ -48247,6 +51612,42 @@
         "2026"
       ],
       "source": "Multiple sources"
+    },
+    {
+      "id": "watchcity|simplyorangevirginia",
+      "brand": "Watch City",
+      "blend": "Simply Orange Virginia",
+      "display_name": "Watch City Simply Orange Virginia",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "WC Simply Orange",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/little-cellar-sale.44647/unread",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2026-06-14T20:50:09+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2026-06-14T20:50:09+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
     },
     {
       "id": "watchcity|simplyred",
@@ -48451,7 +51852,8 @@
       "blend": "Brigade Campaign Dark Flake",
       "display_name": "Wessex Brigade Campaign Dark Flake",
       "sources": [
-        "4noggins.com"
+        "4noggins.com",
+        "Speak-Easy.Club"
       ],
       "sizes": [
         {
@@ -48476,12 +51878,62 @@
           "sources": [
             "4noggins.com"
           ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Campaign Dark Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/selling-a-chunk-of-my-cellar.44637/",
+              "price": "$50.00",
+              "last_updated": "2026-06-27T20:55:22.733904+00:00",
+              "first_seen": "2026-06-13T00:39:45+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-13T00:39:45+00:00"
+                },
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-27T20:00:39.387042+00:00"
+                },
+                {
+                  "price": "$55.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                },
+                {
+                  "price": "$50.00",
+                  "date": "2026-06-27T20:55:22.733904+00:00"
+                }
+              ]
+            },
+            {
+              "name": "Brigade Campaign Dark Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
         }
       ],
       "years": [
         "2016"
       ],
-      "source": "4noggins.com"
+      "source": "Multiple sources"
     },
     {
       "id": "wessex|brigadesovereigncurlycut",
@@ -49079,6 +52531,21 @@
           "quantity": "",
           "members": [
             {
+              "name": "Gold Slice",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            },
+            {
               "name": "x Gold Slice",
               "source": "Speak-Easy.Club",
               "url": "https://speak-easy.club/threads/pre-spring-sprung-loaded-whale-of-a-sale-folks.44136/",
@@ -49256,6 +52723,42 @@
       "source": "Speak-Easy.Club"
     },
     {
+      "id": "wessex|redvirginiaflake",
+      "brand": "Wessex",
+      "blend": "Red Virginia Flake",
+      "display_name": "Wessex Red Virginia Flake",
+      "sources": [
+        "Speak-Easy.Club"
+      ],
+      "sizes": [
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Red Virginia Flake",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$30",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$30",
+                  "date": "2024-10-06T22:24:57+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        }
+      ],
+      "years": [],
+      "source": "Speak-Easy.Club"
+    },
+    {
       "id": "wessex|sovereigncurlycut",
       "brand": "Wessex",
       "blend": "Sovereign Curly Cut",
@@ -49279,6 +52782,29 @@
                 {
                   "price": "$15",
                   "date": "2024-11-11T20:54:27+00:00"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            "Speak-Easy.Club"
+          ]
+        },
+        {
+          "quantity": "",
+          "members": [
+            {
+              "name": "Brigade Sovereign",
+              "source": "Speak-Easy.Club",
+              "url": "https://speak-easy.club/threads/cellar-sale.41150/",
+              "price": "$20",
+              "last_updated": "2026-06-27T20:00:39.387042+00:00",
+              "first_seen": "2024-10-06T22:24:57+00:00",
+              "year": "",
+              "price_history": [
+                {
+                  "price": "$20",
+                  "date": "2024-10-06T22:24:57+00:00"
                 }
               ]
             }
@@ -49603,7 +53129,7 @@
     "Collectible Tobacco Sealed Tin Cornell & Diehl “From Beyond” Mixture 2 oz’s from 2025": "cornelldiehl|frombeyond",
     "Collectible Tobacco Sealed Tin Cornell & Diehl Sun Bear Navy Cask Mixture 2 oz’s from 2025": "cornelldiehl|sunbearnavycask",
     "Collectible Tobacco Sealed Tin Cornell & Diehl The Beast Mixture 2 oz’s from 2025": "cornelldiehl|thebeast",
-    "Collectible Tobacco Sealed Tin Cornell & Diehl Warped:The Haunting Mixture 2oz’s from 2025": "cornelldiehl|thehaunting",
+    "Collectible Tobacco Sealed Tin Cornell & Diehl Warped:The Haunting Mixture 2oz’s from 2025": "warped|thehaunting",
     "Esoterica- Penzance 7.94 oz": "esoterica|penzance",
     "Collectible John Cotton’s Creme 50g Pipe Tobacco Sealed Original Tin Out of Production": "johncottons|creme",
     "Peterson’s Dunhill Nightcap Sealed 50g Tin": "dunhill|nightcap",
@@ -49782,7 +53308,7 @@
     "Brebbia: CLASSIC ENGLISH MIX No. 80 2012 50g - C": "brebbia|classicenglishmixno80",
     "Bufflehead: BLUEBILL DRAKE DECOY 2oz 2005 - C": "bufflehead|bluebilldrakedecoy",
     "Bufflehead: CANVASBACK DECOY 4oz 2005 - C": "bufflehead|canvasbackdecoy",
-    "Bufflehead: GAWITH & HOGGARTH LA FLAKE 2oz 2005 - C": "gawithhoggarth|laflake",
+    "Bufflehead: GAWITH & HOGGARTH LA FLAKE 2oz 2005 - C": "gawithhoggarthco|laflake",
     "Bufflehead: GREATER SCAUP 100g 1997 - C": "bufflehead|greaterscaup",
     "Bufflehead: OLD WOODEN DUCK DECOY 2oz 2005 - C": "bufflehead|oldwoodenduckdecoy",
     "Butera: BLENDED FLAKE 1997 - C": "butera|blendedflake",
@@ -50008,6 +53534,149 @@
     "Acadian Gold": "hearthhome|acadiangold",
     "Firestorm": "samuelgawith|firestorm",
     "Presbyterian Ordained": "macbaren|presbyterianordained",
+    "And so to Bed": "esoterica|andsotobed",
+    "Frog Morton On the Bayou": "mcclelland|frogmortononthebayou",
+    "Frog Morton On the Town": "mcclelland|frogmortononthetown",
+    "Frog Morton’s Cellar": "mcclelland|frogmortonscellar",
+    "Skiff Mixture": "samuelgawith|skiffmixture",
+    "Squadron Leader": "samuelgawith|squadronleader",
+    "Vanilla Cream": "macbaren|vanillacreamflake",
+    "Hal O’ the Wynd": "rattrays|halothewynd",
+    "Old Gowrie": "rattrays|oldgowrie",
+    "Brunello Flake": "savinelli|brunelloflake",
+    "McClelland St. James Woods": "mcclelland|stjameswoods",
+    "Golden Extra": "macbaren|goldenextra",
+    "HH Mature Virginia": "macbaren|hhmaturevirginia",
+    "Brown Clunee": "rattrays|brownclunee",
+    "St. James Plug": "samuelgawith|stjamesplug",
+    "Granger": "granger|granger",
+    "Cringle Flake": "sutliff|cringleflake",
+    "Campaign Dark Flake": "wessex|brigadecampaigndarkflake",
+    "HH Acadian Perique": "macbaren|hhacadianperique",
+    "Royal Twist": "macbaren|royaltwist",
+    "Kringle Flake x1 (2024)Dencoan": "sutliff|cringleflake",
+    "Christmas Cheer x1Dencoan": "mcclelland|christmascheer",
+    "Holiday Spirit x1Wintercearig": "mcclelland|holidayspirit",
+    "Phantom Privateer x1Dencoan": "sutliff|no6phantom",
+    "Fusiliers Ration x1": "hearthhome|fusiliersration",
+    "Sun Bear x1 (2019)Drsmooth": "cornelldiehl|sunbear",
+    "XX Flake Dark x1Oil_Drum": "cornelldiehl|spcom20thanniversaryxxflakedark",
+    "No. 44 Dark Virginia Flake": "astleys|no44darkvirginiaflake",
+    "Carolina Red Flake 2020": "cornelldiehl|carolinaredflake",
+    "Carolina Red Flake w/ Perique": "cornelldiehl|carolinaredflakewithperique",
+    "Eight State Burley": "cornelldiehl|eightstateburley",
+    "Sansepolcro 2020": "cornelldiehl|sansepolcro",
+    "XX Flake": "cornelldiehl|spcom20thanniversaryxxflake",
+    "XX Flake Dark": "cornelldiehl|spcom20thanniversaryxxflakedark",
+    "Margate": "esoterica|margate",
+    "Pembroke": "esoterica|pembroke",
+    "Golden Mixture": "fribourgtreyer|goldenmixture",
+    "Special Brown Flake": "fribourgtreyer|specialbrownflake",
+    "B. K. Flake": "jfgermain|bkflake",
+    "Plum Cake Mixture": "jfgermain|plumcakemixture",
+    "Special Latakia Flake": "jfgermain|speciallatakiaflake",
+    "Balkan Beauty": "mcclelland|balkanbeauty",
+    "Butera’s Royal Vintage Latakia No. 1": "butera|royalvintagelatakiano1",
+    "Christmas Cheer 2001": "mcclelland|christmascheer",
+    "Christmas Cheer 2005": "mcclelland|christmascheer",
+    "Christmas Cheer 2011": "mcclelland|christmascheer",
+    "Christmas Cheer 2014": "mcclelland|christmascheer",
+    "Christmas Cheer 2017": "mcclelland|christmascheer",
+    "CPCC Scottish Woods": "mcclelland|cpccscottishwoods",
+    "Frog Morton": "mcclelland|frogmorton",
+    "Frog Morton Across the Pond": "mcclelland|frogmortonacrossthepond",
+    "No. 25 Virginia": "mcclelland|no25",
+    "Ringlow Syrian Reserve": "mcclelland|ringlowsyrianreserve",
+    "Royal Cajun Special": "mcclelland|royalcajunspecial",
+    "Balkan Flake": "samuelgawith|balkanflake",
+    "Best Brown Flake": "samuelgawith|bestbrownflake",
+    "Black Forest": "samuelgawith|blackforest",
+    "Black XX": "samuelgawith|blackxx",
+    "Bothy Flake": "samuelgawith|bothyflake",
+    "Cabbie’s Mixture": "samuelgawith|cabbiesmixture",
+    "Chocolate Flake": "samuelgawith|chocolateflake",
+    "Commonwealth Mixture": "samuelgawith|commonwealthmixture",
+    "Scottish Autumn Flake": "samuelgawith|scottishautumnflake",
+    "Crumble Kake Barrel Aged No. 2": "sutliff|crumblekakebarrelagedno2",
+    "Brigade Campaign Dark Flake": "wessex|brigadecampaigndarkflake",
+    "Brigade Sovereign": "wessex|sovereigncurlycut",
+    "Gold Slice": "wessex|goldslice",
+    "Red Virginia Flake": "wessex|redvirginiaflake",
+    "AshtonArtisan’s Blend": "ashton|artisansblend",
+    "Balkan Sasieni": "stg|balkansasieni",
+    "Gawith & HoggarthBob’s Chocolate Flake": "gawithhoggarthco|bobschocolateflake",
+    "Hearth & HomeMagnum Opus": "hearthhome|magnumopus",
+    "Seas Regular": "macbaren|7seasregular",
+    "HH Balkan Blend": "macbaren|hhbalkanblend",
+    "HH Bold Kentucky": "macbaren|hhboldkentucky",
+    "HH Burley Flake": "macbaren|hhburleyflake",
+    "HH Old Dark Fired": "macbaren|hholddarkfired",
+    "HH Pure Virginia": "macbaren|hhpurevirginia",
+    "HH Vintage Syrian": "macbaren|hhvintagesyrian",
+    "Peter Heinrich’sCurly Special": "peterheinrichs|curlyspecial",
+    "Noggins": "rattrays|3noggins",
+    "Bagpiper’s Dream": "rattrays|bagpipersdream",
+    "Jocks Mixture": "rattrays|jocksmixture",
+    "Professional Mixture": "rattrays|professionalmixture",
+    "Red Rapparee": "rattrays|redrapparee",
+    "Sir William": "rattrays|sirwilliam",
+    "140th Anniversary": "savinelli|140thanniversary",
+    "145th Anniversary": "savinelli|145thanniversary",
+    "Giubileo d’Oro": "savinelli|giubileodoro",
+    "Janus": "savinelli|janus",
+    "Jupiter": "savinelli|jupiter",
+    "Galloping Gertie": "seattlepipeclub|gallopinggertie",
+    "Club Hood Canal": "seattlepipeclub|hoodcanal",
+    "Mississippi River Rum Barrel Aged": "seattlepipeclub|mississippiriverrumbarrelaged",
+    "Mississippi River Special Reserve": "seattlepipeclub|mississippiriverspecialreserve",
+    "Plum Pudding Bourbon Barrel Aged": "seattlepipeclub|plumpuddingbourbonbarrelaged",
+    "Plum Pudding Special Reserve": "seattlepipeclub|plumpuddingspecialreserve",
+    "Plum Pudding Special Reserve Flake": "seattlepipeclub|plumpuddingspecialreserveflake",
+    "Potlatch": "seattlepipeclub|potlatch",
+    "Seattle Evening": "seattlepipeclub|seattleevening",
+    "Wild Man": "seattlepipeclub|wildman",
+    "Silver Flake 660": "solani|silverflake",
+    "Cloud Hopper": "warped|cloudhopper",
+    "Kings Stride": "warped|kingsstride",
+    "Sarto": "warped|sarto",
+    "The Red Hunt": "warped|theredhunt",
+    "McClelland Christmas Cheer": "mcclelland|christmascheer",
+    "Sir John's Flake": "johnaylesbury|sirjohnsflakevirginia",
+    "SmokingPipes 20th Anniversary XX Flake": "cornelldiehl|spcom20thanniversaryxxflake",
+    "Patriot Flake": "dantobacco|patriotflake",
+    "Salty Dogs": "dantobacco|saltydogs",
+    "Dark Twist Roll Cake": "macbaren|darktwistrollcake",
+    "Doblone D'Oro": "savinelli|doblonedoro",
+    "HH Latakia Flake": "macbaren|hhlatakiaflake",
+    "St. Bruno Flake": "macbaren|stbrunoflake",
+    "Vanilla Roll Cake": "macbaren|vanillarollcake",
+    "University Flake": "peterson|universityflake",
+    "Exotic Passion": "rattrays|exoticpassion",
+    "Wallace Flake": "rattrays|wallaceflake",
+    "Kendall Plug": "samuelgawith|kendalplug",
+    "Squadron Leader SE w/ Perique": "samuelgawith|squadronleaderspecialedition",
+    "Mississippi River": "seattlepipeclub|mississippiriver",
+    "Half and Half": "halfandhalf|halfandhalf",
+    "Velvet": "velvet|velvet",
+    "Cringle Flake (Sweated)": "sutliff|cringleflakesweated",
+    "Old Dominion": "watchcity|olddominion",
+    "Bell’s Three Nuns": "bells|threenuns",
+    "C&D XXV Dusk": "cornelldiehl|xxvdusk",
+    "C&D Sansepolcro": "cornelldiehl|sansepolcro",
+    "C&D Sun Bear Navy Cask": "cornelldiehl|sunbearnavycask",
+    "Fribourg & Treyer Vintage": "fribourgtreyer|vintageflake",
+    "Hamborger Veermaster": "dantobacco|hamborgerveermaster",
+    "Mac Baren HH Pure Virginia": "macbaren|hhpurevirginia",
+    "Rattrays Bagpiper’s Dream": "rattrays|bagpipersdream",
+    "SG Full Virginia Flake": "samuelgawith|fullvirginiaflake",
+    "SPC Plum Pudding (Sutliff)": "seattlepipeclub|plumpudding",
+    "Sutliff Ready Rubbed Match": "sutliff|matchreadyrubbed",
+    "WC Simply Orange": "watchcity|simplyorangevirginia",
+    "Mallard with Perique": "dantobacco|themallardflakeplusperique",
+    "Birds of a Feather Anomalous": "sutliff|birdsofafeatheranomalous",
+    "Birds of a Feather Whimsical": "sutliff|birdsofafeatherwhimsical",
+    "Pipe Force V": "sutliff|pipeforceepisodev",
+    "Pipe Force VI": "sutliff|pipeforceepisodevi",
     "Warped the Haunting 2 oz. tin (#1585 of 2000.)": "warped|thehaunting",
     "SG Brown #4 50 g tin": "samuelgawith|brownno4",
     "SG Black XX Kendal Twist 50g tin": "samuelgawith|finestkendaltwistblackxx",
@@ -50046,7 +53715,7 @@
     "Match Victorian 10/15/19 67g": "sutliff|matchvictorian",
     "Savinelli Brunello Flake 100g tin 01/2023": "savinelli|brunelloflake",
     "Hearth & Home White Knight 50g tin 08/2020": "hearthhome|whiteknight",
-    "Hearth & Home Black House 10 Year Anniversary 50g 2021": "hearthhome|blackhouse10yearanniversary",
+    "Hearth & Home Black House 10 Year Anniversary 50g 2021": "hearthhome|blackhouse10thanniversary",
     "F&K Lancer Slices 10/15/19 34g": "fk|lancerslices",
     "F&K Lancer Slices 10/15/19 75g": "fk|lancerslices",
     "Ashton Artisan's Blend 50g tin 01/2020": "ashton|artisansblend",
@@ -50244,7 +53913,7 @@
     "Mac Baren Pure Virginia 2019": "macbaren|hhpurevirginia",
     "Hamborger Veermaster, 250g, 2021,": "dantobacco|hamborgerveermaster",
     "Oaks original English": "mcclelland|3oaksoriginalblend",
-    "Smokers Haven Best Blend": "smokershaven|bestblend",
+    "Smokers Haven Best Blend": "smokershaven|ourbestblend",
     "Blackwoods 2016": "mcclelland|blackwoodsflake",
     "1lb sutliff 507c jarred 2/2023": "sutliff|507c",
     "C&D Bijou 2016 1 tin": "cornelldiehl|bijou",
@@ -50384,7 +54053,7 @@
     "GLP Caravan 2 oz – 2009": "glpease|caravan",
     "Vintage Syrian Bulk– 2017 – 7 oz jarred. (Discontinued obviously)  I got this quite a long time ago, probably on here.    It has been in the jar ever since, it has not been opened.    Not sure of pricing on this especially in bulk.   Starting at": "macbaren|hhvintagesyrian",
     "Macbaren Brunello Flake, 3.5oz round tin,": "macbaren|brunelloflake",
-    "Grainger, 12oz sealed tub,": "stg|granger",
+    "Grainger, 12oz sealed tub,": "granger|granger",
     "Velvet, 12oz sealed tub,": "velvet|velvet",
     "Amphora Black Cavendish, 7.5oz jar,": "amphora|blackcavendish",
     "Amphora English Blend, 8oz jar,": "amphora|englishblend",
@@ -50583,7 +54252,7 @@
     "Mixture 79 (2024) - 7.87oz": "sutliff|mixtureno79",
     "Fat Bastard (2024) - 14.5oz": "watchcity|fatbastard",
     "Old Black Magic (2024) - 13oz": "watchcity|oldblackmagic",
-    "Old Dominion (2024) - 13.7oz": "cornelldiehl|olddominion",
+    "Old Dominion (2024) - 13.7oz": "watchcity|olddominion",
     "Rouxgaroux (2024) - 7.7oz": "watchcity|rouxgaroux",
     "Rouxgaroux (2025) - 6.9oz": "watchcity|rouxgaroux",
     "Hansome Flake": "samuelgawith|hansomflake",

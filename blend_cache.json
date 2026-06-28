@@ -553,7 +553,7 @@
   },
   "Collectible Tobacco Sealed Tin Cornell & Diehl Warped:The Haunting Mixture 2oz's from 2025": {
     "blend": "The Haunting",
-    "brand": "Cornell & Diehl",
+    "brand": "Warped",
     "confidence": 0.9,
     "is_tin": true,
     "source": "llm"
@@ -5577,7 +5577,7 @@
     "confidence": 0.88
   },
   "Old Dominion (2024) - 13.7oz": {
-    "brand": "Cornell & Diehl",
+    "brand": "Watch City",
     "blend": "Old Dominion",
     "is_tin": true,
     "confidence": 0.85
@@ -12486,7 +12486,7 @@
     "confidence": 0.9
   },
   "Grainger, 12oz sealed tub,": {
-    "brand": "STG",
+    "brand": "Granger",
     "blend": "Granger",
     "is_tin": true,
     "confidence": 0.9
@@ -12619,7 +12619,7 @@
   },
   "Hearth & Home Black House 10 Year Anniversary 50g 2021": {
     "brand": "Hearth & Home",
-    "blend": "Black House 10 Year Anniversary",
+    "blend": "Black House 10th Anniversary",
     "is_tin": true,
     "confidence": 0.9
   },
@@ -14677,7 +14677,7 @@
   },
   "Smokers Haven Best Blend": {
     "brand": "Smokers' Haven",
-    "blend": "Best Blend",
+    "blend": "Our Best Blend",
     "is_tin": true,
     "confidence": 0.75
   },
@@ -17122,5 +17122,983 @@
     "blend": "Premier Mellow Aroma",
     "is_tin": true,
     "confidence": 0.8
+  },
+  "140th Anniversary": {
+    "brand": "Savinelli",
+    "blend": "140th Anniversary",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "145th Anniversary": {
+    "brand": "Savinelli",
+    "blend": "145th Anniversary",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "And so to Bed": {
+    "brand": "Esoterica",
+    "blend": "And So To Bed",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "AshtonArtisan's Blend": {
+    "brand": "Ashton",
+    "blend": "Artisan's Blend",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "B. K. Flake": {
+    "brand": "J.F. Germain",
+    "blend": "B.K. Flake",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Bagpiper's Dream": {
+    "brand": "Rattray's",
+    "blend": "Bagpiper's Dream",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Balkan Beauty": {
+    "brand": "McClelland",
+    "blend": "Balkan Beauty",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Balkan Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Balkan Flake",
+    "is_tin": true,
+    "confidence": 0.65
+  },
+  "Balkan Sasieni": {
+    "brand": "STG",
+    "blend": "Balkan Sasieni",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Bell's Three Nuns": {
+    "brand": "Bell's",
+    "blend": "Three Nuns",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Best Brown Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Best Brown Flake",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Birds of a Feather Anomalous": {
+    "brand": "Sutliff",
+    "blend": "Birds of a Feather Anomalous",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Birds of a Feather Whimsical": {
+    "brand": "Sutliff",
+    "blend": "Birds of a Feather Whimsical",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Black Cavendish": {
+    "brand": "",
+    "blend": "Black Cavendish",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "Black Forest": {
+    "brand": "Samuel Gawith",
+    "blend": "Black Forest",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Black XX": {
+    "brand": "Samuel Gawith",
+    "blend": "Black XX",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Bothy Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Bothy Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Brigade Campaign Dark Flake": {
+    "brand": "Wessex",
+    "blend": "Brigade Campaign Dark Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Brigade Sovereign": {
+    "brand": "Wessex",
+    "blend": "Sovereign Curly Cut",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Brown Clunee": {
+    "brand": "Rattray's",
+    "blend": "Brown Clunee",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Brunello Flake": {
+    "brand": "Savinelli",
+    "blend": "Brunello Flake",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Burley Blend": {
+    "brand": "",
+    "blend": "Burley Blend",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "Butera's Royal Vintage Latakia No. 1": {
+    "brand": "Butera",
+    "blend": "Royal Vintage Latakia No. 1",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "C&D Sansepolcro": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sansepolcro",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "C&D Sun Bear Navy Cask": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sun Bear Navy Cask",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "C&D XXV Dusk": {
+    "brand": "Cornell & Diehl",
+    "blend": "XXV Dusk",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "CPCC Scottish Woods": {
+    "brand": "McClelland",
+    "blend": "CPCC Scottish Woods",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Cabbie's Mixture": {
+    "brand": "Samuel Gawith",
+    "blend": "Cabbie's Mixture",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Campaign Dark Flake": {
+    "brand": "Wessex",
+    "blend": "Brigade Campaign Dark Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Carolina Red Flake 2020": {
+    "brand": "Cornell & Diehl",
+    "blend": "Carolina Red Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Carolina Red Flake w/ Perique": {
+    "brand": "Cornell & Diehl",
+    "blend": "Carolina Red Flake with Perique",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Carolina Red Flake x2 (2020)PalmettoBob |": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Castello Old Antiquari KKKK": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Chocolate Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Chocolate Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Christmas Cheer 2001": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Christmas Cheer 2005": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Christmas Cheer 2011": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Christmas Cheer 2014": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Christmas Cheer 2017": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Christmas Cheer x1Dencoan": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Cloud Hopper": {
+    "brand": "Warped",
+    "blend": "Cloud Hopper",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Club Hood Canal": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Hood Canal",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Commonwealth Mixture": {
+    "brand": "Samuel Gawith",
+    "blend": "Commonwealth Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Cringle Flake": {
+    "brand": "Sutliff",
+    "blend": "Cringle Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Cringle Flake (Sweated)": {
+    "brand": "Sutliff",
+    "blend": "Cringle Flake Sweated",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Crumble Kake Barrel Aged No. 2": {
+    "brand": "Sutliff",
+    "blend": "Crumble Kake Barrel Aged No. 2",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Dark Flake": {
+    "brand": "",
+    "blend": "Dark Flake",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "Dark Twist Roll Cake": {
+    "brand": "Mac Baren",
+    "blend": "Dark Twist Roll Cake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Doblone D'Oro": {
+    "brand": "Savinelli",
+    "blend": "Doblone d'Oro",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Eight State Burley": {
+    "brand": "Cornell & Diehl",
+    "blend": "Eight State Burley",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "English Blend": {
+    "brand": "",
+    "blend": "English Blend",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "Exotic Passion": {
+    "brand": "Rattray's",
+    "blend": "Exotic Passion",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Flake": {
+    "brand": "",
+    "blend": "Flake",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "Fribourg & Treyer Vintage": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Vintage Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Frog Morton": {
+    "brand": "McClelland",
+    "blend": "Frog Morton",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Frog Morton Across the Pond": {
+    "brand": "McClelland",
+    "blend": "Frog Morton Across the Pond",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Frog Morton On the Bayou": {
+    "brand": "McClelland",
+    "blend": "Frog Morton On the Bayou",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Frog Morton On the Town": {
+    "brand": "McClelland",
+    "blend": "Frog Morton on the Town",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Frog Morton's Cellar": {
+    "brand": "McClelland",
+    "blend": "Frog Morton's Cellar",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Fusiliers Ration x1": {
+    "brand": "Hearth & Home",
+    "blend": "Fusilier's Ration",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Galloping Gertie": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Galloping Gertie",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Gamboni": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.9
+  },
+  "Gawith & HoggarthBob's Chocolate Flake": {
+    "brand": "Gawith, Hoggarth & Co.",
+    "blend": "Bob's Chocolate Flake",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Gigliucci Bullax with Boxwood Accent": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.99
+  },
+  "Giubileo d'Oro": {
+    "brand": "Savinelli",
+    "blend": "Giubileo d'Oro",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Gold Slice": {
+    "brand": "Wessex",
+    "blend": "Gold Slice",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Golden Extra": {
+    "brand": "Mac Baren",
+    "blend": "Golden Extra",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Golden Mixture": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Golden Mixture",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "Granger": {
+    "brand": "Granger",
+    "blend": "Granger",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Green": {
+    "brand": "",
+    "blend": "Green",
+    "is_tin": true,
+    "confidence": 0.2
+  },
+  "HH Acadian Perique": {
+    "brand": "Mac Baren",
+    "blend": "HH Acadian Perique",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Balkan Blend": {
+    "brand": "Mac Baren",
+    "blend": "HH Balkan Blend",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "HH Bold Kentucky": {
+    "brand": "Mac Baren",
+    "blend": "HH Bold Kentucky",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Burley Flake": {
+    "brand": "Mac Baren",
+    "blend": "HH Burley Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Latakia Flake": {
+    "brand": "Mac Baren",
+    "blend": "HH Latakia Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Mature Virginia": {
+    "brand": "Mac Baren",
+    "blend": "HH Mature Virginia",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Old Dark Fired": {
+    "brand": "Mac Baren",
+    "blend": "HH Old Dark Fired",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "HH Pure Virginia": {
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "HH Vintage Syrian": {
+    "brand": "Mac Baren",
+    "blend": "HH Vintage Syrian",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Hal O' the Wynd": {
+    "brand": "Rattray's",
+    "blend": "Hal O' The Wynd",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Half and Half": {
+    "brand": "Half and Half",
+    "blend": "Half and Half",
+    "is_tin": true,
+    "confidence": 0.75
+  },
+  "Hamborger Veermaster": {
+    "brand": "Dan Tobacco",
+    "blend": "Hamborger Veermaster",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Hearth & HomeMagnum Opus": {
+    "brand": "Hearth & Home",
+    "blend": "Magnum Opus",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Holiday Spirit x1Wintercearig": {
+    "brand": "McClelland",
+    "blend": "Holiday Spirit",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Janus": {
+    "brand": "Savinelli",
+    "blend": "Janus",
+    "is_tin": true,
+    "confidence": 0.93
+  },
+  "Jocks Mixture": {
+    "brand": "Rattray's",
+    "blend": "Jock's Mixture",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Jupiter": {
+    "brand": "Savinelli",
+    "blend": "Jupiter",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Kagayaki": {
+    "brand": "",
+    "blend": "Kagayaki",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "Kendall Plug": {
+    "brand": "Samuel Gawith",
+    "blend": "Kendal Plug",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Kentucky Blend": {
+    "brand": "",
+    "blend": "Kentucky Blend",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "Kings Stride": {
+    "brand": "Warped",
+    "blend": "Kings Stride",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Kringle Flake x1 (2024)Dencoan": {
+    "brand": "Sutliff",
+    "blend": "Cringle Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mac Baren HH Pure Virginia": {
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Mallard with Perique": {
+    "brand": "Dan Tobacco",
+    "blend": "The Mallard Flake Plus Perique",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Margate": {
+    "brand": "Esoterica",
+    "blend": "Margate",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "McClelland Christmas Cheer": {
+    "brand": "McClelland",
+    "blend": "Christmas Cheer",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "McClelland St. James Woods": {
+    "brand": "McClelland",
+    "blend": "St. James Woods",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Mississippi River": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Mississippi River",
+    "is_tin": true,
+    "confidence": 0.97
+  },
+  "Mississippi River Rum Barrel Aged": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Mississippi River Rum Barrel Aged",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Mississippi River Special Reserve": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Mississippi River Special Reserve",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Moretti Smooth Chubby Billiard": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "No. 25 Virginia": {
+    "brand": "McClelland",
+    "blend": "No. 25",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "No. 44 Dark Virginia Flake": {
+    "brand": "Astley's",
+    "blend": "No. 44 Dark Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Noggins": {
+    "brand": "Rattray's",
+    "blend": "3 Noggins",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Old Dominion": {
+    "brand": "Watch City",
+    "blend": "Old Dominion",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Old Gowrie": {
+    "brand": "Rattray's",
+    "blend": "Old Gowrie",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Patriot Flake": {
+    "brand": "Dan Tobacco",
+    "blend": "Patriot Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Pembroke": {
+    "brand": "Esoterica",
+    "blend": "Pembroke",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Peter Heinrich’sCurly Special": {
+    "brand": "Peter Heinrichs",
+    "blend": "Curly Special",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Phantom Privateer x1Dencoan": {
+    "brand": "Sutliff",
+    "blend": "No. 6 Phantom",
+    "is_tin": true,
+    "confidence": 0.82
+  },
+  "Pipe Force V": {
+    "brand": "Sutliff",
+    "blend": "Pipe Force Episode V",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Pipe Force VI": {
+    "brand": "Sutliff",
+    "blend": "Pipe Force Episode VI",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Plum Cake Mixture": {
+    "brand": "J.F. Germain",
+    "blend": "Plum Cake Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Plum Pudding Bourbon Barrel Aged": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding Bourbon Barrel Aged",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Plum Pudding Special Reserve": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding Special Reserve",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Plum Pudding Special Reserve Flake": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding Special Reserve Flake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Potlatch": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Potlatch",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Professional Mixture": {
+    "brand": "Rattray's",
+    "blend": "Professional Mixture",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Rattrays Bagpiper’s Dream": {
+    "brand": "Rattray's",
+    "blend": "Bagpiper's Dream",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Red Rapparee": {
+    "brand": "Rattray's",
+    "blend": "Red Rapparee",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Red Virginia Flake": {
+    "brand": "Wessex",
+    "blend": "Red Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.8
+  },
+  "Reserve": {
+    "brand": "",
+    "blend": "",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "Ringlow Syrian Reserve": {
+    "brand": "McClelland",
+    "blend": "Ringlow Syrian Reserve",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "Royal Cajun Special": {
+    "brand": "McClelland",
+    "blend": "Royal Cajun Special",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Royal Twist": {
+    "brand": "Mac Baren",
+    "blend": "Royal Twist",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "SG Full Virginia Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Full Virginia Flake",
+    "is_tin": true,
+    "confidence": 0.95
+  },
+  "SPC Plum Pudding (Sutliff)": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Plum Pudding",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Salty Dogs": {
+    "brand": "Dan Tobacco",
+    "blend": "Salty Dogs",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sam Cui: Smooth Bent Dublin": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
+  },
+  "Sansepolcro 2020": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sansepolcro",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Sarto": {
+    "brand": "Warped",
+    "blend": "Sarto",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Scottish Autumn Flake": {
+    "brand": "Samuel Gawith",
+    "blend": "Scottish Autumn Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Seas Regular": {
+    "brand": "Mac Baren",
+    "blend": "7 Seas Regular",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Seattle Evening": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Seattle Evening",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Silver Flake 660": {
+    "brand": "Solani",
+    "blend": "Silver Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Sir John's Flake": {
+    "brand": "John Aylesbury",
+    "blend": "Sir John's Flake Virginia",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Sir William": {
+    "brand": "Rattray's",
+    "blend": "Sir William",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Skiff Mixture": {
+    "brand": "Samuel Gawith",
+    "blend": "Skiff Mixture",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "SmokingPipes 20th Anniversary XX Flake": {
+    "brand": "Cornell & Diehl",
+    "blend": "SP.com 20th Anniversary XX Flake",
+    "is_tin": true,
+    "confidence": 0.92
+  },
+  "Special Brown Flake": {
+    "brand": "Fribourg & Treyer",
+    "blend": "Special Brown Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Special Latakia Flake": {
+    "brand": "J.F. Germain",
+    "blend": "Special Latakia Flake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Squadron Leader": {
+    "brand": "Samuel Gawith",
+    "blend": "Squadron Leader",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Squadron Leader SE w/ Perique": {
+    "brand": "Samuel Gawith",
+    "blend": "Squadron Leader Special Edition",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "St. Bruno Flake": {
+    "brand": "Mac Baren",
+    "blend": "St. Bruno Flake",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "St. James Plug": {
+    "brand": "Samuel Gawith",
+    "blend": "St. James Plug",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Sun Bear x1 (2019)Drsmooth": {
+    "brand": "Cornell & Diehl",
+    "blend": "Sun Bear",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Sutliff Ready Rubbed Match": {
+    "brand": "Sutliff",
+    "blend": "Match Ready Rubbed",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "The Red Hunt": {
+    "brand": "Warped",
+    "blend": "The Red Hunt",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "University Flake": {
+    "brand": "Peterson",
+    "blend": "University Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Vanilla Cream": {
+    "brand": "Mac Baren",
+    "blend": "Vanilla Cream Flake",
+    "is_tin": true,
+    "confidence": 0.78
+  },
+  "Vanilla Roll Cake": {
+    "brand": "Mac Baren",
+    "blend": "Vanilla Roll Cake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "Velvet": {
+    "brand": "Velvet",
+    "blend": "Velvet",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Vintage": {
+    "brand": "",
+    "blend": "",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "Virginia": {
+    "brand": "",
+    "blend": "",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "Virginia Blend": {
+    "brand": "",
+    "blend": "",
+    "is_tin": true,
+    "confidence": 0.3
+  },
+  "W.Ø. Larsen": {
+    "brand": "",
+    "blend": "",
+    "is_tin": true,
+    "confidence": 0.4
+  },
+  "WC Simply Orange": {
+    "brand": "Watch City",
+    "blend": "Simply Orange Virginia",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Wallace Flake": {
+    "brand": "Rattray's",
+    "blend": "Wallace Flake",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "Wild Man": {
+    "brand": "Seattle Pipe Club",
+    "blend": "Wild Man",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "XX Flake": {
+    "brand": "Cornell & Diehl",
+    "blend": "SP.com 20th Anniversary XX Flake",
+    "is_tin": true,
+    "confidence": 0.88
+  },
+  "XX Flake Dark": {
+    "brand": "Cornell & Diehl",
+    "blend": "SP.com 20th Anniversary XX Flake Dark",
+    "is_tin": true,
+    "confidence": 0.9
+  },
+  "XX Flake Dark x1Oil_Drum": {
+    "brand": "Cornell & Diehl",
+    "blend": "SP.com 20th Anniversary XX Flake Dark",
+    "is_tin": true,
+    "confidence": 0.85
+  },
+  "Yuwei: Rusticated Cherrywood, with Bamboo and Spalted Maple": {
+    "brand": "",
+    "blend": "",
+    "is_tin": false,
+    "confidence": 0.95
   }
 }
