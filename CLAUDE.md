@@ -16,12 +16,13 @@ NEVER run `git push` without explicit user confirmation. Always stop after commi
 
 ## Brand / Blend / Alias Changes
 
-Before creating a new brand, creating a new blend, or adding any entry to brand or blend alias lists:
+**What needs approval:** Creating a brand or blend that does not yet exist in `docs/canonical.json`, or adding any entry to `brand_aliases.json` or `blend_aliases.json`.
 
-1. State exactly what you plan to add and why
-2. Wait for explicit user confirmation before writing anything
+**What does NOT need approval:** Writing `blend_cache.json` entries that match an already-existing brand/blend in `canonical.json`. These are routine lookups and can be written and reported without prior confirmation.
 
-No exceptions — this applies even when the addition seems obvious or low-risk.
+**Proactive check required:** Before writing any batch to `blend_cache.json`, check `canonical.json` and identify every entry whose brand/blend combo does not yet exist there. Present that list to the user and get explicit approval BEFORE writing those entries. Do not wait for the user to ask — flag them first, every time.
+
+No exceptions for the approval items — this applies even when the addition seems obvious or low-risk.
 
 ## Batch Work
 

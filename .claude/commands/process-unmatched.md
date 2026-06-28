@@ -99,18 +99,37 @@ or simply: `<blend name> pipe tobacco brand`
 
 This resolves most unknowns in one search. Do searches in parallel for efficiency.
 
-## Step 5 — Write to cache
+## Step 5 — Check canonical.json, get approval for new blends, then write
+
+Before writing anything, run this check:
 
 ```python
 import json
+with open('docs/canonical.json') as f:
+    tins = json.load(f)['tins']
+canonical = {(t['brand'], t['blend']) for t in tins}
+canonical_brands = {t['brand'] for t in tins}
+```
+
+For every tin entry in the batch (is_tin: true, brand not blank), check whether `(brand, blend)` is in `canonical`. Collect two lists:
+- **New brands** — brand not in `canonical_brands`
+- **New blends** — brand exists but `(brand, blend)` not in `canonical`
+
+**Present both lists to the user and wait for explicit approval before writing anything.** Do not proceed until the user confirms. If they correct a brand or blend name, update the batch dict first.
+
+Once approved, write to cache:
+
+```python
 with open('blend_cache.json') as f:
     cache = json.load(f)
-# add new entries (cache.update(batch_dict))
+cache.update(batch_dict)
 with open('blend_cache.json', 'w') as f:
     json.dump(cache, f, indent=2, ensure_ascii=False)
 ```
 
 Keys are the title text **without** the `[Speak-Easy.Club] ` prefix.
+
+Entries matching existing canonical brand/blend combos need no approval — only new ones do.
 
 ## Step 6 — Update progress memory
 
