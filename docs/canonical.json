@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T01:10:32.591296+00:00",
+  "generated": "2026-06-28T01:14:21.680405+00:00",
   "stats": {
     "total_listings": 3069,
     "excluded_multipacks": 1239,
@@ -8750,10 +8750,10 @@
       "source": "Speak-Easy.Club"
     },
     {
-      "id": "dantobacco|saltydog",
+      "id": "dantobacco|saltydogs",
       "brand": "Dan Tobacco",
-      "blend": "Salty Dog",
-      "display_name": "Dan Tobacco Salty Dog",
+      "blend": "Salty Dogs",
+      "display_name": "Dan Tobacco Salty Dogs",
       "sources": [
         "Speak-Easy.Club"
       ],
@@ -50152,7 +50152,7 @@
     "Sun Bear Black Locust - 1.65oz": "cornelldiehl|sunbearblacklocust",
     "Fribourg and Treyer Special Brown Flake 2025 - 1.64": "fribourgtreyer|specialbrownflake",
     "SG Perfection 2024 - 1.76 oz": "samuelgawith|perfection",
-    "Dan Tobacco Salty Dogs Plug - 1.72oz": "dantobacco|saltydog",
+    "Dan Tobacco Salty Dogs Plug - 1.72oz": "dantobacco|saltydogs",
     "River Town Crimson Shadow - 2oz": "rivertowntobaccoworks|crimsonshadow",
     "G.L. Pease Union Square 2025 - 1.37oz": "glpease|unionsquare",
     "Rattray’s Old Gowrie - 1oz": "rattrays|oldgowrie",
@@ -50673,7 +50673,7 @@
     "x 2021 GLP Stratford 8oz": "glpease|stratford",
     "x  2021 GLP Cumberlland": "glpease|cumberland",
     "x 2021 Windjammer": "glpease|windjammer",
-    "x 2019 Salty Dogs": "dantobacco|saltydog",
+    "x 2019 Salty Dogs": "dantobacco|saltydogs",
     "x 4th Gen 1989 (2023)": "erikstokkebye|4thgeneration1989",
     "x Dunhill BB1938 (15-19)": "dunhill|babysbottom1938",
     "x 100g Brunello Flake (2018)": "savinelli|brunelloflake",
@@ -50778,7 +50778,7 @@
     "x 2020 MacB Dark Twist 100g": "macbaren|darktwist",
     "x 2018 hh burley 100g": "macbaren|hhburleyflake",
     "x 2022(?)Sutliff Barrel Aged #2": "sutliff|barrelaged2",
-    "x  2018 Salty Dog": "dantobacco|saltydog",
+    "x  2018 Salty Dog": "dantobacco|saltydogs",
     "Holker": "samuelgawith|holker",
     "Revor": "gawithhoggarthco|revorplug",
     "Peterson Summertime Limited Edition - hinged lid opens; sealed never opened plastic bag & contents feel fresh": "peterson|summertime",

@@ -7346,7 +7346,7 @@
   },
   "x  2018 Salty Dog": {
     "brand": "Dan Tobacco",
-    "blend": "Salty Dog",
+    "blend": "Salty Dogs",
     "is_tin": true,
     "confidence": 0.92
   },
@@ -7520,7 +7520,7 @@
   },
   "x 2019 Salty Dogs": {
     "brand": "Dan Tobacco",
-    "blend": "Salty Dog",
+    "blend": "Salty Dogs",
     "is_tin": true,
     "confidence": 0.92
   },
