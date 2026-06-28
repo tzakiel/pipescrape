@@ -1,4 +1,10 @@
 {
+  "Captain Black": {
+    "Captain Black Grape": "Grape"
+  },
+  "Dan Tobacco": {
+    "Salty Dog Plug": "Salty Dog"
+  },
   "Dunhill": {
     "My Mixture 965": "My Mixture No. 965",
     "965": "My Mixture No. 965",
@@ -21,7 +27,9 @@
     "Bold Kentucky": "HH Bold Kentucky",
     "Mature Virginia": "HH Mature Virginia",
     "Pure Virginia": "HH Pure Virginia",
-    "Vintage Syrian": "HH Vintage Syrian"
+    "Vintage Syrian": "HH Vintage Syrian",
+    "Burley": "Burley London Blend",
+    "Burley Flake": "HH Burley Flake"
   },
   "McClelland": {
     "Grand Oriental Drama Reserve": "Grand Orientals Drama Reserve",
@@ -30,10 +38,21 @@
     "Grand Oriental Black Sea Sokhoum": "Grand Orientals Black Sea Sokhoum",
     "Grand Oriental Smyrna No. 1": "Grand Orientals Smyrna No. 1",
     "Yenidje Highlander": "Grand Orientals Yenidje Highlander",
-    "Frog Morton On the Cellar": "Frog Morton's Cellar"
+    "Frog Morton On the Cellar": "Frog Morton's Cellar",
+    "Frog Morton On the Log": "Frog Morton",
+    "3 Oaks English Blend": "3 Oaks Original Blend",
+    "5100": "5100 Red Cake",
+    "No. 24": "No. 24 Matured Virginia",
+    "No. 24 Virginia": "No. 24 Matured Virginia",
+    "No. 27": "No. 27 Matured Virginia",
+    "Stave Aged": "Stave Aged Virginia"
   },
   "Orlik": {
     "Mellow Mix": "Mellow Mixture"
+  },
+  "Robert McConnell": {
+    "Red Va": "Red Virginia",
+    "Original Red Virginia": "Red Virginia"
   },
   "Rattray's": {
     "Hall O' The Wynd": "Hal O' The Wynd"
@@ -59,7 +78,12 @@
   },
   "Solani": {
     "633 Virginia Flake": "633",
-    "633 Virginia Flake with Perique": "633"
+    "633 Virginia Flake with Perique": "633",
+    "Aged Burley Flake": "656",
+    "656 Aged Burley Flake": "656"
+  },
+  "St. Bruno": {
+    "St. Bruno Flake": "Flake"
   },
   "Sutliff": {
     "707 Sweet Virginia": "707S Sweet Virginia"

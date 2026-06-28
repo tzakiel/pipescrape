@@ -5601,7 +5601,7 @@
     "confidence": 0.85
   },
   "Patriot Flake 21 50g": {
-    "brand": "Samuel Gawith",
+    "brand": "Dan Tobacco",
     "blend": "Patriot Flake",
     "confidence": 0.9,
     "is_tin": true,
@@ -7369,8 +7369,8 @@
     "confidence": 0.92
   },
   "x 100g hh pure va 2018": {
-    "brand": "Hearth & Home",
-    "blend": "Pure Virginia",
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
     "is_tin": true,
     "confidence": 0.88
   },
@@ -7507,8 +7507,8 @@
     "confidence": 0.92
   },
   "x 2018 hh burley 100g": {
-    "brand": "Hearth & Home",
-    "blend": "Burley Flake",
+    "brand": "Mac Baren",
+    "blend": "HH Burley Flake",
     "is_tin": true,
     "confidence": 0.88
   },
@@ -7580,7 +7580,7 @@
   },
   "x 2020 HU Aus den krater #1": {
     "brand": "HU Tobacco",
-    "blend": "Aus den Krater #1",
+    "blend": "Aus dem Krater #1",
     "is_tin": true,
     "confidence": 0.88
   },
@@ -7747,8 +7747,8 @@
     "confidence": 0.95
   },
   "x 50g hh pure va 2018": {
-    "brand": "Hearth & Home",
-    "blend": "Pure Virginia",
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
     "is_tin": true,
     "confidence": 0.88
   },
@@ -12582,8 +12582,8 @@
     "confidence": 0.9
   },
   "HH Pure Virginia 2020": {
-    "brand": "Hearth & Home",
-    "blend": "Pure Virginia",
+    "brand": "Mac Baren",
+    "blend": "HH Pure Virginia",
     "is_tin": true,
     "confidence": 0.9
   },
@@ -15978,8 +15978,8 @@
     "confidence": 0.99
   },
   "1995 McClelland's Butera Latakia No.1 -  NR BIN $110": {
-    "brand": "McClelland",
-    "blend": "Butera Latakia No. 1",
+    "brand": "Butera",
+    "blend": "Latakia No. 1",
     "is_tin": true,
     "confidence": 0.9
   },

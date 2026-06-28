@@ -245,7 +245,8 @@
   },
   "Dunhill Shell 327 Opera 1963": {
     "brand": "Dunhill",
-    "blend": "Shell 327 Opera"
+    "blend": "Shell 327 Opera",
+    "is_tin": false
   },
   "Dunhill Ye Olde Signe": {
     "brand": "Dunhill",
@@ -326,5 +327,10 @@
   "Frog Morton Cellar 2013 (sealed new)": {
     "brand": "McClelland",
     "blend": "Frog Morton's Cellar"
+  },
+  "McClelland 2015 (2005) 135g": {
+    "brand": "McClelland",
+    "blend": "2015",
+    "is_tin": false
   }
 }
