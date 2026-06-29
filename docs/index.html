@@ -768,8 +768,8 @@
     const pts = known.concat(unknown);
     if (pts.length < 1) return "";
 
-    const W = 500, H = 107;
-    const PL = 54, PR = 12, PT = 8, PB = 26;
+    const W = 500, H = 88;
+    const PL = 46, PR = 12, PT = 6, PB = 20;
     const plotW = W - PL - PR, plotH = H - PT - PB;
 
     // ── x domain: vintage years (+ optional "Current?" column) ──
@@ -811,7 +811,7 @@
       if (v >= minPpo - yStep * 0.01) yTicks.push(v);
     }
 
-    // ── x ticks: one per distinct vintage (thinned to ~6), plus "Current?" ──
+    // ── x ticks: one per distinct tin year (thinned to ~6), plus "unknown" ──
     const distinctYears = [...new Set(known.map(p => p.yr))].sort((a, b) => a - b);
     let yearTicks = distinctYears;
     if (distinctYears.length > 6) {
@@ -826,12 +826,12 @@
     const grid = yTicks.map(v => {
       const y = toY(v).toFixed(1);
       return `<line x1="${PL}" y1="${y}" x2="${W - PR}" y2="${y}" stroke="#e8dcc8" stroke-width="1"/>
-        <text x="${PL - 5}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="#8a6a4a" font-size="6">$${v.toFixed(2)}</text>`;
+        <text x="${PL - 4}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="#8a6a4a" font-size="5">$${v.toFixed(2)}</text>`;
     }).join("");
 
     const xLabels = xTicks.map(tk => {
       const x = toX(tk.x).toFixed(1);
-      return `<text x="${x}" y="${(PT + plotH + 13).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="6">${esc(tk.label)}</text>`;
+      return `<text x="${x}" y="${(PT + plotH + 11).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="5">${esc(tk.label)}</text>`;
     }).join("");
 
     // ── median $/oz per column: short dash, no connecting line (a line would
@@ -845,12 +845,12 @@
         const mid = Math.floor(s.length / 2);
         const med = s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
         const cx = toX(Number(x));
-        return `<line x1="${(cx - 7).toFixed(1)}" y1="${toY(med).toFixed(1)}" x2="${(cx + 7).toFixed(1)}" y2="${toY(med).toFixed(1)}" stroke="#FF69AF" stroke-width="1" stroke-opacity=".55"/>`;
+        return `<line x1="${(cx - 5.5).toFixed(1)}" y1="${toY(med).toFixed(1)}" x2="${(cx + 5.5).toFixed(1)}" y2="${toY(med).toFixed(1)}" stroke="#FF69AF" stroke-width="0.9" stroke-opacity=".55"/>`;
       }).join("");
 
     // Individual dots — carry listing data for tooltip
     const dots = pts.map(p =>
-      `<circle cx="${toX(p.x).toFixed(1)}" cy="${toY(p.ppo).toFixed(1)}" r="3.5"
+      `<circle cx="${toX(p.x).toFixed(1)}" cy="${toY(p.ppo).toFixed(1)}" r="2.6"
         fill="#FF69AF" fill-opacity=".85" class="ppo-dot"
         data-ppo="${p.ppo.toFixed(2)}"
         data-price="${esc(p.price)}" data-source="${esc(p.source)}"
