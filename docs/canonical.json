@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-28T19:16:18.440143+00:00",
+  "generated": "2026-06-29T04:05:14.950755+00:00",
   "stats": {
-    "total_listings": 3147,
-    "excluded_multipacks": 1249,
+    "total_listings": 3175,
+    "excluded_multipacks": 1262,
     "total_tins": 883,
     "multi_member_tins": 350,
     "listings_in_groups": 1277,
@@ -12837,7 +12837,7 @@
             {
               "name": "Esoterica - Dorchester - 8oz",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/196915/",
+              "url": "https://tinbids.com/auction/197245/",
               "price": "$400.00",
               "last_updated": "2026-06-27T04:00:27.886236+00:00",
               "first_seen": "2026-06-26T23:03:36+00:00",
@@ -13541,7 +13541,7 @@
             {
               "name": "Esoterica - Pembroke - 8oz",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/196917/",
+              "url": "https://tinbids.com/auction/197247/",
               "price": "$350.00",
               "last_updated": "2026-06-27T04:00:27.886236+00:00",
               "first_seen": "2026-06-26T23:04:05+00:00",
@@ -21102,15 +21102,19 @@
             {
               "name": "50g Hearth & Home Ashcroft Estate From 2016!",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195069/",
-              "price": "$12.00",
-              "last_updated": "2026-06-22T13:53:20.063064+00:00",
+              "url": "https://tinbids.com/auction/197347/",
+              "price": "$13.00",
+              "last_updated": "2026-06-29T04:00:29.999801+00:00",
               "first_seen": "2026-06-22T13:53:20.063064+00:00",
               "year": "2016",
               "price_history": [
                 {
                   "price": "$12.00",
                   "date": "2026-06-22T13:53:20.063064+00:00"
+                },
+                {
+                  "price": "$13.00",
+                  "date": "2026-06-29T04:00:29.999801+00:00"
                 }
               ]
             }
@@ -21896,15 +21900,19 @@
             {
               "name": "50g Hearth & Home Virginia Memory From 2016!",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195072/",
-              "price": "$28.95",
-              "last_updated": "2026-06-22T13:53:20.063064+00:00",
+              "url": "https://tinbids.com/auction/199287/",
+              "price": "$20.50",
+              "last_updated": "2026-06-29T04:00:29.999801+00:00",
               "first_seen": "2026-06-22T13:53:20.063064+00:00",
               "year": "2016",
               "price_history": [
                 {
                   "price": "$28.95",
                   "date": "2026-06-22T13:53:20.063064+00:00"
+                },
+                {
+                  "price": "$20.50",
+                  "date": "2026-06-29T04:00:29.999801+00:00"
                 }
               ]
             }
@@ -53051,6 +53059,8 @@
     "Wessex Dark Flake 50g tins – Year 2012": "wessex|darkflake",
     "Lane Limited’s Original Crown Achievement 2oz tins – 1980’s era": "lanelimited|crownachievement",
     "Robert Lewis Tree Mixture 50g tins – Year 2005": "robertlewis|treemixture",
+    "50g Hearth & Home Ashcroft Estate From 2016!": "hearthhome|ashcroftestate",
+    "50g Hearth & Home Virginia Memory From 2016!": "hearthhome|virginiamemory",
     "McClelland Grand Orientals Classic Samsun 2007": "mcclelland|grandorientalsclassicsamsun",
     "Vintage 2016 - Balkan Sobranie": "jfgermain|balkansobranie",
     "Very Nice Sealed 2005 McClelland's Rose of Latakia 50g. Tin": "mcclelland|roseoflatakia",
@@ -53216,8 +53226,6 @@
     "50g Bengal Slices- A Sutliff Tobacco Blend From 2016!": "sutliff|bengalslices",
     "50g War Horse Ready Cut From 2016!": "sutliff|warhorsereadycut",
     "50g Tin Of C&D Buffalo Soldier From 2014!": "cornelldiehl|buffalosoldier",
-    "50g Hearth & Home Ashcroft Estate From 2016!": "hearthhome|ashcroftestate",
-    "50g Hearth & Home Virginia Memory From 2016!": "hearthhome|virginiamemory",
     "McClelland No. 24 VIRGINIA - Sealed 100g Tin": "mcclelland|no24maturedvirginia",
     "2019 MAC BAREN HH OLD DARK FIRED PLUG CUT": "macbaren|hholddarkfiredplugcut",
     "Excellent Sealed 2005 Captain Earle's Pressed Ten Russians 2oz. Tin": "captainearles|tenrussians",
