@@ -744,10 +744,10 @@
   }
 
   function ppoChartSVG(t) {
-    // Plot $/oz (y) against the tin's vintage year (x). Vintage is the real
+    // Plot $/oz (y) against the tin year (x). The tin year is the real
     // driver of price spread, so putting it on the axis turns the old
     // confound into the subject. Listings with no parseable year fall into a
-    // separate "Current?" bucket pinned to the right edge.
+    // separate "unknown" bucket pinned to the right edge.
     const known = [], unknown = [];
     for (const sz of (t.sizes || [])) {
       const grams = weightGrams(sz.quantity);
@@ -819,7 +819,7 @@
       yearTicks = [...new Set(yearTicks)];
     }
     const xTicks = yearTicks.map(yr => ({ x: yr, label: String(yr) }));
-    if (hasUnknown) xTicks.push({ x: hasKnown ? currentX : 0, label: "Current?" });
+    if (hasUnknown) xTicks.push({ x: hasKnown ? currentX : 0, label: hasKnown ? "Unknown" : "Tin Years Unknown" });
 
     // Build grid + y labels
     const grid = yTicks.map(v => {
@@ -950,7 +950,7 @@
           <span class="lbl">Listings</span><span class="val">${listingsLabel}${t.years && t.years.length ? " · " + t.years.join(", ") : ""}</span>
           <span class="lbl">Sources</span><span class="val">${activeSrcs.join(", ") || "—"}</span>
         </div>
-        ${chart ? `<div class="ppo-chart-section"><div class="ppo-chart-label">$/oz by tin vintage</div>${chart}<div class="ppo-tooltip" hidden></div></div>` : ""}
+        ${chart ? `<div class="ppo-chart-section"><div class="ppo-chart-label">$/oz by tin year</div>${chart}<div class="ppo-tooltip" hidden></div></div>` : ""}
         ${sizeSections || '<p class="detail-empty">No listings match the current source filters.</p>'}
       </div>`;
     attachChartListeners();
