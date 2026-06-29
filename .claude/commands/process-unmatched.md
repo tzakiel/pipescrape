@@ -12,6 +12,10 @@ Brand rules, abbreviations, and pipe signals live in **`docs/brand-rules.md`** (
 
 Progress is tracked in memory at `~/.claude/projects/-Users-jvandalen-Documents-tintracker-cloned/memory/blend_cache_progress.md`.
 
+## Step 0 — Sync
+
+Run `git pull --ff-only` before reading anything, so the batch is classified against current data (`unmatched.log`, `blend_cache.json`, `canonical.json`, `brand-rules.md`). If the working tree is dirty or the pull can't fast-forward, stop and report to the user rather than proceeding.
+
 ## Step 1 — Find current position
 
 Read `blend_cache_progress.md`. Find the "Next batch to process" entry, e.g. "batch 15" = entries 751–800.
