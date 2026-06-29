@@ -142,7 +142,7 @@
     .sort-ind { font-size: .7rem; opacity: .9; }
 
     /* sort control shown only on mobile (table headers are hidden there) */
-    #mobile-sort {
+    #mobile-sort, .detail-mobile-sort {
       display: none;
       font: inherit; font-size: .85rem;
       padding: .5rem .9rem; margin-bottom: 1rem;
@@ -331,7 +331,7 @@
       .history-table td.price { font-weight: 700; color: #2c2015; }
       .history-table .listing-name { max-width: none; margin-top: .2rem; }
 
-      #mobile-sort { display: block; }
+      #mobile-sort, .detail-mobile-sort { display: block; }
     }
 
 
@@ -653,11 +653,32 @@
 
     const n = rows.length;
     container.innerHTML = `
+      <select class="detail-mobile-sort" aria-label="Sort listings by">
+        <option value="year:desc">Sort: Year (newest first)</option>
+        <option value="year:asc">Sort: Year (oldest first)</option>
+        <option value="weight:desc">Sort: Weight (heavy first)</option>
+        <option value="weight:asc">Sort: Weight (light first)</option>
+        <option value="price:desc">Sort: Price (high first)</option>
+        <option value="price:asc">Sort: Price (low first)</option>
+        <option value="ppo:desc">Sort: $/oz (high first)</option>
+        <option value="ppo:asc">Sort: $/oz (low first)</option>
+        <option value="source:asc">Sort: Source (A–Z)</option>
+        <option value="date:desc">Sort: Date (newest first)</option>
+        <option value="date:asc">Sort: Date (oldest first)</option>
+      </select>
       <div class="detail-section-title">${n} listing${n !== 1 ? "s" : ""}</div>
       <table class="history-table">
         <thead><tr>${head}</tr></thead>
         <tbody>${body}</tbody>
       </table>`;
+
+    const detailSortSel = container.querySelector(".detail-mobile-sort");
+    detailSortSel.value = `${DETAIL_SORT.key}:${DETAIL_SORT.dir}`;
+    detailSortSel.addEventListener("change", () => {
+      const [k, d] = detailSortSel.value.split(":");
+      DETAIL_SORT.key = k; DETAIL_SORT.dir = d;
+      renderDetailTable(t, container);
+    });
 
     container.querySelectorAll("thead th").forEach(th => {
       th.addEventListener("click", () => {
