@@ -326,8 +326,8 @@
         letter-spacing: .04em;
         margin-bottom: .1rem;
       }
-      .history-table td:nth-child(3),
-      .history-table td:nth-child(4) { grid-column: 1 / -1; }
+      .history-table td:nth-child(5),
+      .history-table td:nth-child(6) { grid-column: 1 / -1; }
       .history-table td.price { font-weight: 700; color: #2c2015; }
       .history-table .listing-name { max-width: none; margin-top: .2rem; }
 
@@ -398,14 +398,9 @@
       border-top: 1px solid #e8dcc8;
       padding-top: 1rem;
     }
-    .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; table-layout: fixed; }
+    .history-table { box-shadow: none; border-radius: 6px; overflow: hidden; }
     .history-table thead { background: #5c3510; }
     .history-table td, .history-table th { padding: .5rem .85rem; font-size: .85rem; }
-    /* colgroup drives column widths — col widths + table-layout:fixed guarantee
-       identical proportions across every size-section table on the detail page */
-    .history-table col.ht-col-yr { width: 5rem; }
-    .history-table col.ht-col-pr { width: 7rem; }
-    .history-table col.ht-col-dt { width: 9rem; }
     .history-table td { overflow-wrap: break-word; }
 
     /* ── detail $/oz chart ── */
@@ -543,6 +538,7 @@
   let TINS = [];                    // consolidated tins
   let ENRICH = {};                  // raw name -> { weight, year } from canonical
   let SORT = { key: "updated", dir: "desc" };
+  let DETAIL_SORT = { key: "year", dir: "desc" };
   let ACTIVE_SOURCES = new Set();   // sources currently shown (empty = none)
   let lastListState = null; // remembers what was showing before detail
   let currentDetailTin = null;      // tin currently shown in detail view
@@ -600,6 +596,78 @@
   }
 
   /* ── detail page ── */
+
+  function renderDetailTable(t, container) {
+    const rows = [];
+    for (const sz of (t.sizes || [])) {
+      const grams = weightGrams(sz.quantity);
+      const oz = grams > 0 ? grams / 28.3495 : null;
+      for (const m of (sz.members || [])) {
+        if (!ACTIVE_SOURCES.has(m.source)) continue;
+        const price = parseMoney(m.price);
+        rows.push({ ...m, weight: sz.quantity || null, ppo: (oz && price != null) ? price / oz : null });
+      }
+    }
+
+    if (!rows.length) {
+      container.innerHTML = '<p class="detail-empty">No listings match the current source filters.</p>';
+      return;
+    }
+
+    const dir = DETAIL_SORT.dir === "desc" ? -1 : 1;
+    const sorted = rows.slice().sort((a, b) => {
+      switch (DETAIL_SORT.key) {
+        case "year":   return ((parseInt(a.year) || 0) - (parseInt(b.year) || 0)) * dir;
+        case "weight": return (weightGrams(a.weight) - weightGrams(b.weight)) * dir;
+        case "price":  return ((parseMoney(a.price) ?? -1) - (parseMoney(b.price) ?? -1)) * dir;
+        case "ppo":    return ((a.ppo ?? -1) - (b.ppo ?? -1)) * dir;
+        case "source": return String(a.source || "").localeCompare(String(b.source || ""), "en", { sensitivity: "base" }) * dir;
+        case "date":   return String(a.first_seen || "").localeCompare(String(b.first_seen || "")) * dir;
+        default:       return 0;
+      }
+    });
+
+    const arrow = k => DETAIL_SORT.key === k ? `<span class="sort-ind">${DETAIL_SORT.dir === "asc" ? "▲" : "▼"}</span>` : "";
+    const cols = [
+      { key: "year",   label: "Year"   },
+      { key: "weight", label: "Weight" },
+      { key: "price",  label: "Price"  },
+      { key: "ppo",    label: "$/oz"   },
+      { key: "source", label: "Source" },
+      { key: "date",   label: "Date"   },
+    ];
+    const head = cols.map(c => `<th data-key="${c.key}">${c.label} ${arrow(c.key)}</th>`).join("");
+    const body = sorted.map(m => {
+      const src = m.url
+        ? `<a href="${m.url}" target="_blank" rel="noopener">${esc(m.source || "link")}</a>`
+        : esc(m.source || "—");
+      return `<tr>
+        <td data-label="Year">${esc(m.year || "—")}</td>
+        <td data-label="Weight">${esc(m.weight || "—")}</td>
+        <td class="price" data-label="Price">${esc(m.price || "—")}</td>
+        <td data-label="$/oz">${m.ppo != null ? "$" + m.ppo.toFixed(2) + "/oz" : "—"}</td>
+        <td data-label="Source">${src}${m.name ? `<span class="listing-name">${esc(m.name)}</span>` : ""}</td>
+        <td data-label="Date">${fmt(m.first_seen)}</td>
+      </tr>`;
+    }).join("");
+
+    const n = rows.length;
+    container.innerHTML = `
+      <div class="detail-section-title">${n} listing${n !== 1 ? "s" : ""}</div>
+      <table class="history-table">
+        <thead><tr>${head}</tr></thead>
+        <tbody>${body}</tbody>
+      </table>`;
+
+    container.querySelectorAll("thead th").forEach(th => {
+      th.addEventListener("click", () => {
+        const k = th.dataset.key;
+        if (DETAIL_SORT.key === k) DETAIL_SORT.dir = DETAIL_SORT.dir === "asc" ? "desc" : "asc";
+        else { DETAIL_SORT.key = k; DETAIL_SORT.dir = "asc"; }
+        renderDetailTable(t, container);
+      });
+    });
+  }
 
   function showMain(pushState = true) {
     if (pushState) history.back();
@@ -722,7 +790,7 @@
   function tinColumns() {
     return [
       { key: "name",  label: "Tin",          cls: "col-name",
-        cell: t => { const n = totalMembers(t); return `${t.display_name}${n > 1 ? `<span class="tin-badge">${n} listings</span>` : ""}`; },
+        cell: t => { const n = activeMembers(t).length; return `${t.display_name}${n > 1 ? `<span class="tin-badge">${n} listings</span>` : ""}`; },
         sortVal: t => (t.display_name || "").toLowerCase() },
       { key: "price", label: "Price",        cls: "col-price",
         cell: t => tinPriceLabel(t),
@@ -910,33 +978,6 @@
       return;
     }
 
-    const sizeSections = (t.sizes || []).map(sz => {
-      const members = sz.members
-        .filter(m => ACTIVE_SOURCES.has(m.source))
-        .slice().sort((a, b) => (a.year || "").localeCompare(b.year || ""));
-      if (!members.length) return "";
-      const rows = members.map(m => {
-        const src = m.url
-          ? `<a href="${m.url}" target="_blank" rel="noopener">${m.source || "link"}</a>`
-          : (m.source || "—");
-        return `<tr>
-          <td data-label="Year">${m.year || "—"}</td>
-          <td class="price" data-label="Price">${m.price || "—"}</td>
-          <td data-label="Source">${src}${m.name ? `<span class="listing-name">${esc(m.name)}</span>` : ""}</td>
-          <td data-label="Date">${fmt(m.first_seen)}</td>
-        </tr>`;
-      }).join("");
-      const label = sz.quantity || "Unknown size";
-      const n = members.length;
-      return `
-        <div class="detail-section-title">${esc(label)} · ${n} listing${n !== 1 ? "s" : ""}</div>
-        <table class="history-table">
-          <colgroup><col class="ht-col-yr"><col class="ht-col-pr"><col><col class="ht-col-dt"></colgroup>
-          <thead><tr><th>Year</th><th>Price</th><th>Source</th><th>Date</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table>`;
-    }).join("");
-
     const activeCount = activeMembers(t).length;
     const totalCount = totalMembers(t);
     const listingsLabel = activeCount === totalCount
@@ -955,10 +996,9 @@
           <span class="lbl">Sources</span><span class="val">${activeSrcs.join(", ") || "—"}</span>
         </div>
         <div class="ppo-chart-section"><div class="ppo-chart-label">$/oz by tin year</div><div class="ppo-chart-host"></div><div class="ppo-tooltip" hidden></div></div>
-        ${sizeSections || '<p class="detail-empty">No listings match the current source filters.</p>'}
+        <div class="detail-table-host"></div>
       </div>`;
-    // Measure on the next frame, once the detail view is visible, so the chart
-    // can be drawn at its true pixel width (1 SVG unit = 1px → real 12px text).
+    renderDetailTable(t, detailContent.querySelector(".detail-table-host"));
     requestAnimationFrame(() => renderChartInto(t));
   }
 
@@ -1014,6 +1054,7 @@
 
   function showGroupDetail(t) {
     currentDetailTin = t;
+    DETAIL_SORT = { key: "year", dir: "desc" };
     history.pushState({ detail: t.id }, "", "");
     renderDetailContent(t);
     mainView.style.display = "none";
