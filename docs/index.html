@@ -744,42 +744,59 @@
   }
 
   function ppoChartSVG(t) {
-    // Gather all active listings that have a parseable weight + price + date
-    const pts = [];
+    // Plot $/oz (y) against the tin's vintage year (x). Vintage is the real
+    // driver of price spread, so putting it on the axis turns the old
+    // confound into the subject. Listings with no parseable year fall into a
+    // separate "Current?" bucket pinned to the right edge.
+    const known = [], unknown = [];
     for (const sz of (t.sizes || [])) {
       const grams = weightGrams(sz.quantity);
       if (grams <= 0) continue;
       const oz = grams / 28.3495;
       for (const m of (sz.members || [])) {
         if (!ACTIVE_SOURCES.has(m.source)) continue;
-        if (!m.first_seen) continue;
         const price = parseMoney(m.price);
         if (price == null) continue;
-        pts.push({ ms: new Date(m.first_seen).getTime(), ppo: price / oz,
-          price: m.price || "—", source: m.source || "—",
-          size: sz.quantity || "—", date: m.first_seen, year: m.year || "—" });
+        const yr = parseInt(m.year, 10);
+        const p = { ppo: price / oz, price: m.price || "—", source: m.source || "—",
+          size: sz.quantity || "—", date: m.first_seen, year: m.year || "—" };
+        if (Number.isFinite(yr)) { p.yr = yr; known.push(p); }
+        else unknown.push(p);
       }
     }
+    const pts = known.concat(unknown);
     if (pts.length < 1) return "";
-    pts.sort((a, b) => a.ms - b.ms);
 
     const W = 500, H = 107;
     const PL = 54, PR = 12, PT = 8, PB = 26;
     const plotW = W - PL - PR, plotH = H - PT - PB;
 
-    const minMs = pts[0].ms, maxMs = pts[pts.length - 1].ms;
-    const sameDateCluster = maxMs === minMs;
-    const msRange = sameDateCluster ? 1 : maxMs - minMs;
+    // ── x domain: vintage years (+ optional "Current?" column) ──
+    const hasKnown = known.length > 0, hasUnknown = unknown.length > 0;
+    let minY, maxY, currentX = null;
+    if (hasKnown) {
+      minY = Math.min(...known.map(p => p.yr));
+      maxY = Math.max(...known.map(p => p.yr));
+      if (hasUnknown) currentX = maxY + Math.max(1, Math.round((maxY - minY) * 0.12));
+    }
+    known.forEach(p => p.x = p.yr);
+    unknown.forEach(p => p.x = hasKnown ? currentX : 0);
+
+    let xMin, xMax;
+    if (hasKnown) { xMin = minY; xMax = hasUnknown ? currentX : maxY; }
+    else { xMin = -1; xMax = 1; }              // all unknown → single centered column
+    const sameX = xMin === xMax;               // one vintage only, no unknowns
+    const xRange = sameX ? 1 : xMax - xMin;
+    const toX = x => sameX ? PL + plotW / 2 : PL + ((x - xMin) / xRange) * plotW;
+
+    // ── y domain: $/oz ──
     const ppoVals = pts.map(p => p.ppo);
     const rawMin = Math.min(...ppoVals), rawMax = Math.max(...ppoVals);
     const pad = (rawMax - rawMin) * 0.15 || rawMax * 0.15 || 1;
     const minPpo = rawMin - pad, maxPpo = rawMax + pad;
     const ppoRange = maxPpo - minPpo;
-
-    const toX = ms  => PL + ((ms  - minMs)  / msRange)  * plotW;
     const toY = ppo => PT + plotH - ((ppo - minPpo) / ppoRange) * plotH;
 
-    // Nice y-axis ticks
     function niceStep(range, n) {
       const rough = range / n;
       const mag = Math.pow(10, Math.floor(Math.log10(rough || 1)));
@@ -793,17 +810,16 @@
       if (v >= minPpo - yStep * 0.01) yTicks.push(v);
     }
 
-    // x-axis ticks — single label when all points share one date
-    const xCount = sameDateCluster ? 1 : Math.min(5, pts.length);
-    const xTicks = Array.from({ length: xCount }, (_, i) =>
-      minMs + (msRange * i) / Math.max(xCount - 1, 1));
-
-    const useDay = msRange < 366 * 24 * 60 * 60 * 1000;
-    function fmtTick(ms) {
-      return useDay
-        ? new Date(ms).toLocaleDateString("en-US", { month: "short", day: "numeric" })
-        : new Date(ms).toLocaleDateString("en-US", { month: "short", year: "2-digit" });
+    // ── x ticks: one per distinct vintage (thinned to ~6), plus "Current?" ──
+    const distinctYears = [...new Set(known.map(p => p.yr))].sort((a, b) => a - b);
+    let yearTicks = distinctYears;
+    if (distinctYears.length > 6) {
+      yearTicks = Array.from({ length: 6 }, (_, i) =>
+        distinctYears[Math.round(i * (distinctYears.length - 1) / 5)]);
+      yearTicks = [...new Set(yearTicks)];
     }
+    const xTicks = yearTicks.map(yr => ({ x: yr, label: String(yr) }));
+    if (hasUnknown) xTicks.push({ x: hasKnown ? currentX : 0, label: "Current?" });
 
     // Build grid + y labels
     const grid = yTicks.map(v => {
@@ -812,30 +828,28 @@
         <text x="${PL - 5}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="#8a6a4a" font-size="7">$${v.toFixed(2)}</text>`;
     }).join("");
 
-    // x labels
-    const xLabels = xTicks.map(ms => {
-      const x = toX(ms).toFixed(1);
-      return `<text x="${x}" y="${(PT + plotH + 13).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="7">${fmtTick(ms)}</text>`;
+    const xLabels = xTicks.map(tk => {
+      const x = toX(tk.x).toFixed(1);
+      return `<text x="${x}" y="${(PT + plotH + 13).toFixed(1)}" text-anchor="middle" fill="#8a6a4a" font-size="7">${esc(tk.label)}</text>`;
     }).join("");
 
-    // Trend line: average $/oz per unique date
-    const byDate = {};
-    for (const p of pts) {
-      const key = new Date(p.ms).toISOString().slice(0, 10);
-      if (!byDate[key]) byDate[key] = { ms: p.ms, sum: 0, n: 0 };
-      byDate[key].sum += p.ppo; byDate[key].n++;
-    }
-    const avgPts = Object.values(byDate)
-      .map(g => ({ ms: g.ms, ppo: g.sum / g.n }))
-      .sort((a, b) => a.ms - b.ms);
-    const lineCoords = avgPts.map(p => `${toX(p.ms).toFixed(1)},${toY(p.ppo).toFixed(1)}`).join(" ");
-    const trendLine = avgPts.length > 1
-      ? `<polyline points="${lineCoords}" fill="none" stroke="#FF69AF" stroke-width="1.5" stroke-linejoin="round" stroke-opacity=".7"/>`
-      : "";
+    // ── median $/oz per column: short dash, no connecting line (a line would
+    //    imply a continuity the sparse vintage data doesn't support) ──
+    const byX = {};
+    for (const p of pts) { (byX[p.x] = byX[p.x] || []).push(p.ppo); }
+    const medians = Object.entries(byX)
+      .filter(([, vals]) => vals.length > 1)
+      .map(([x, vals]) => {
+        const s = vals.slice().sort((a, b) => a - b);
+        const mid = Math.floor(s.length / 2);
+        const med = s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
+        const cx = toX(Number(x));
+        return `<line x1="${(cx - 10).toFixed(1)}" y1="${toY(med).toFixed(1)}" x2="${(cx + 10).toFixed(1)}" y2="${toY(med).toFixed(1)}" stroke="#FF69AF" stroke-width="1.5" stroke-opacity=".55"/>`;
+      }).join("");
 
     // Individual dots — carry listing data for tooltip
     const dots = pts.map(p =>
-      `<circle cx="${toX(p.ms).toFixed(1)}" cy="${toY(p.ppo).toFixed(1)}" r="5"
+      `<circle cx="${toX(p.x).toFixed(1)}" cy="${toY(p.ppo).toFixed(1)}" r="5"
         fill="#FF69AF" fill-opacity=".85" class="ppo-dot"
         data-ppo="${p.ppo.toFixed(2)}"
         data-price="${esc(p.price)}" data-source="${esc(p.source)}"
@@ -844,7 +858,7 @@
 
     return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;overflow:visible">
       ${grid}
-      ${trendLine}
+      ${medians}
       ${dots}
       <line x1="${PL}" y1="${PT + plotH}" x2="${W - PR}" y2="${PT + plotH}" stroke="#d8b483" stroke-width="1"/>
       ${xLabels}
@@ -936,7 +950,7 @@
           <span class="lbl">Listings</span><span class="val">${listingsLabel}${t.years && t.years.length ? " · " + t.years.join(", ") : ""}</span>
           <span class="lbl">Sources</span><span class="val">${activeSrcs.join(", ") || "—"}</span>
         </div>
-        ${chart ? `<div class="ppo-chart-section"><div class="ppo-chart-label">$/oz over time</div>${chart}<div class="ppo-tooltip" hidden></div></div>` : ""}
+        ${chart ? `<div class="ppo-chart-section"><div class="ppo-chart-label">$/oz by tin vintage</div>${chart}<div class="ppo-tooltip" hidden></div></div>` : ""}
         ${sizeSections || '<p class="detail-empty">No listings match the current source filters.</p>'}
       </div>`;
     attachChartListeners();
