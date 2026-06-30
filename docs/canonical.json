@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-30T00:51:14.330991+00:00",
+  "generated": "2026-06-30T04:05:18.798381+00:00",
   "stats": {
-    "total_listings": 3248,
-    "excluded_multipacks": 1287,
+    "total_listings": 3272,
+    "excluded_multipacks": 1290,
     "total_tins": 919,
     "multi_member_tins": 382,
     "listings_in_groups": 1411,
@@ -14067,9 +14067,9 @@
             {
               "name": "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/196434/",
-              "price": "$800.00",
-              "last_updated": "2026-06-26T04:00:26.274584+00:00",
+              "url": "https://tinbids.com/auction/197939/",
+              "price": "$610.00",
+              "last_updated": "2026-06-30T04:00:36.030360+00:00",
               "first_seen": "2026-06-22T13:53:20.063064+00:00",
               "year": "",
               "price_history": [
@@ -14080,6 +14080,10 @@
                 {
                   "price": "$800.00",
                   "date": "2026-06-26T04:00:26.274584+00:00"
+                },
+                {
+                  "price": "$610.00",
+                  "date": "2026-06-30T04:00:36.030360+00:00"
                 }
               ]
             },
@@ -32373,15 +32377,19 @@
             {
               "name": "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/195478/",
-              "price": "$182.00",
-              "last_updated": "2026-06-21T05:37:17.147469+00:00",
+              "url": "https://tinbids.com/auction/198802/",
+              "price": "$186.77",
+              "last_updated": "2026-06-30T04:00:36.030360+00:00",
               "first_seen": "2026-06-21T05:37:17.147469+00:00",
               "year": "2018",
               "price_history": [
                 {
                   "price": "$182.00",
                   "date": "2026-06-21T05:37:17.147469+00:00"
+                },
+                {
+                  "price": "$186.77",
+                  "date": "2026-06-30T04:00:36.030360+00:00"
                 }
               ]
             }
@@ -57083,6 +57091,8 @@
     "Wessex Dark Flake 50g tins – Year 2012": "wessex|darkflake",
     "Lane Limited’s Original Crown Achievement 2oz tins – 1980’s era": "lanelimited|crownachievement",
     "Robert Lewis Tree Mixture 50g tins – Year 2005": "robertlewis|treemixture",
+    "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK": "esoterica|margate",
+    "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin": "mcclelland|40thanniversary",
     "Esoterica Dorchester 2oz Tin Released 2025": "esoterica|dorchester",
     "Esoterica Tilbury 2oz Tin Released 2025": "esoterica|tilbury",
     "2011 \"Butera Era\" Esoterica Pembroke": "esoterica|pembroke",
@@ -57195,7 +57205,6 @@
     "Bell’s Three Nuns 1.75oz tin by Mac Baren from Jul 2017 with 9 years of age on it": "bells|threenuns",
     "2017 Frog Morton on the log 50 gram": "mcclelland|frogmorton",
     "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003": "butera|pelican",
-    "Esoterica Tobacciana Butera’s Margate 8 oz. Sealed Pipe Tobacco Germain & Son, UK": "esoterica|margate",
     "McClelland Grand Orientals - Yenidje Highlander": "mcclelland|grandorientalsyenidjehighlander",
     "McClelland Grand Orientals - Yenidje Supreme": "mcclelland|grandorientalsyenidjesupreme",
     "McClelland - Rose of Latakia": "mcclelland|roseoflatakia",
@@ -57353,7 +57362,6 @@
     "Very Nice 2021 G. L. Pease Quiet Nights 2oz. Tin": "glpease|quietnights",
     "Excellent Sealed 2018 Dunhill Nightcap 50g. Tin": "dunhill|nightcap",
     "Very Nice Sealed 2018 Dunhill My Mixture BB1938 50g. Tin": "dunhill|mymixturebb1938",
-    "Very Nice Sealed 2018 McClelland's 40th Anniversary 100g. Tin": "mcclelland|40thanniversary",
     "Frog Morton Sealed Tin from 2017": "mcclelland|frogmorton",
     "Sutliff Pipe Force Episode V": "sutliff|pipeforceepisodev",
     "2013 Samuel Gawith St James Flake 8 oz-3day auction": "samuelgawith|stjamesflake",
