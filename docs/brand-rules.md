@@ -162,6 +162,7 @@ Note: "H&H Anniversary Flake" = Hearth & Home (not Mac Baren). "HH Anniversary K
 - **Davidoff Medallion** → is_tin: false (pipe); Davidoff Green Mixture = tobacco
 - **HU** → HU Tobacco (German brand), NOT Hermit Umbra
 - **"Escudo" bare** → always expand to brand: "STG", blend: "Escudo Navy Deluxe"; never leave as just "Escudo"
+- **"Paradoxical"** → always brand: "Sutliff", blend: "Paradoxical" — including titles that say "Birds of a Feather", "Bird Blends", or "Per Jensen"/"Per Georg Jensen" (that's the series/designer name, not the brand; Sutliff manufactures and sells it). NOT Cornell & Diehl, NOT "Per Jensen" as brand (user confirmed 2026-07-01, reversing an earlier attempt to split it into two brands).
 
 ---
 
