@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T15:41:52.056381+00:00",
+  "generated": "2026-07-01T16:08:37.545313+00:00",
   "stats": {
-    "total_listings": 3331,
-    "excluded_multipacks": 1311,
+    "total_listings": 3348,
+    "excluded_multipacks": 1314,
     "total_tins": 938,
     "multi_member_tins": 393,
     "listings_in_groups": 1472,
@@ -2904,15 +2904,19 @@
             {
               "name": "Butera’s Royal Vintage Latakia No.1 Sealed 50g Pipe Tobacco Tin 1996",
               "source": "Tinbids Auction (Sold)",
-              "url": "https://tinbids.com/auction/196452/",
-              "price": "$92.00",
-              "last_updated": "2026-06-26T04:00:26.274584+00:00",
+              "url": "https://tinbids.com/auction/198319/",
+              "price": "$72.00",
+              "last_updated": "2026-07-01T16:00:42.026199+00:00",
               "first_seen": "2026-06-25T20:08:25+00:00",
               "year": "1996",
               "price_history": [
                 {
                   "price": "$92.00",
                   "date": "2026-06-25T20:08:25+00:00"
+                },
+                {
+                  "price": "$72.00",
+                  "date": "2026-07-01T16:00:42.026199+00:00"
                 }
               ]
             }
@@ -59682,6 +59686,7 @@
     "Wessex Dark Flake 50g tins – Year 2012": "wessex|darkflake",
     "Lane Limited’s Original Crown Achievement 2oz tins – 1980’s era": "lanelimited|crownachievement",
     "Robert Lewis Tree Mixture 50g tins – Year 2005": "robertlewis|treemixture",
+    "Butera’s Royal Vintage Latakia No.1 Sealed 50g Pipe Tobacco Tin 1996": "butera|royalvintagelatakiano1",
     "Butera Pelican Smoking Mixture 2 oz’s Sealed Pipe Tobacco Tin 2003": "butera|pelican",
     "Tobacco Tin Mc Clelland Syrian Super Balkan 2004 Out of Production": "mcclelland|syriansuperbalkan",
     "McClelland’s 3 Oaks Original Syrian Latakia English Blend Sealed 50g Pipe Tobacco Tin 2012": "mcclelland|3oakssyrian",
@@ -59881,7 +59886,6 @@
     "2018 CORNELL & DIEHL BYZANTIUM approx. 2 ounces": "cornelldiehl|byzantium",
     "Balkan by Brebbia 50g Pipe Tobacco Sealed Tin Syrian Latakia": "brebbia|balkan",
     "Butera’s Royal Vintage Latakia No. 2 Sealed 50g Pipe Tobacco Tin 2016": "butera|royalvintagelatakiano2",
-    "Butera’s Royal Vintage Latakia No.1 Sealed 50g Pipe Tobacco Tin 1996": "butera|royalvintagelatakiano1",
     "Drew Estate Meat Pie English Mixture Sealed 50g Pipe Tobacco Tin": "drewestate|meatpieenglishmixture",
     "Dunhill My Mixture BB1938 1.76 oz’s Pipe Tobacco Sealed Tin Made in Denmark 2018": "dunhill|mymixturebb1938",
     "Collectible G.L. Pease Jack Knife Ready Rubbed 50g Sealed Pipe Tobacco Tin 2020": "glpease|jackknifereadyrubbed",
